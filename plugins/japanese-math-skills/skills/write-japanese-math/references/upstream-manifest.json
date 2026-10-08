@@ -1,0 +1,30 @@
+[
+  {
+    "source": "write-research-paper/SKILL.md",
+    "sha256": "e58f1ef021ccf3c5fe311378ab6a12f4f9a167be35a15436dd71b35af5af7912"
+  },
+  {
+    "source": "write-research-paper/references/paper-writing.md",
+    "sha256": "0bbdabe133b7ff61fcd11cee64eeb4e92e6f723b7936fe9eb713f827faef7c60"
+  },
+  {
+    "source": "write-research-paper/references/author-style.md",
+    "sha256": "0579c927c117db4f01e533d29d767d259d4e5d9190ff9d669de822140dbb888f"
+  },
+  {
+    "source": "write-research-paper/references/workflow.md",
+    "sha256": "ccf015a33461c1c8b5a2ce5e20aa5428c33e60d3f6dfff564dd4cd3f6d18acd6"
+  },
+  {
+    "source": "write-research-paper/references/owner-proof-decisions.md",
+    "sha256": "8fbe6ff419626e4d687aa1b0856c734e5ea98777baef11b82736ed9d92ad9b26"
+  },
+  {
+    "source": "read-research-paper/SKILL.md",
+    "sha256": "4c0b05e035872cd1fdaafd5b32f58d54c54e78c254269e247ce9ae86ac456234"
+  },
+  {
+    "source": "read-research-paper/references/delta-review.md",
+    "sha256": "718fd96b42c4b59c5da6c21cb402bb00b51eeb58d5ca304027155746241b30a6"
+  }
+]

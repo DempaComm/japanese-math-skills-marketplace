@@ -1,0 +1,4 @@
+interface:
+  display_name: "日本語数学文書の独立レビュー"
+  short_description: "明示的に委任された独立読者として日本語の数学文書を範囲を守って読む"
+  default_prompt: "$read-japanese-math を使って、指定された日本語の数学文書を依頼範囲に沿って扱ってください。"

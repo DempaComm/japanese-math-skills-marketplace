@@ -1,0 +1,6911 @@
+{
+  "schema_version": 2,
+  "documents": [
+    {
+      "id": "2015-08-28-01",
+      "title": "素数の無限性",
+      "tier": "historical",
+      "subjects": [
+        "number-theory"
+      ],
+      "source_lines": 213,
+      "units": 27,
+      "structural_roles": {
+        "prose": 2,
+        "definition": 5,
+        "theorem": 3,
+        "proof": 17
+      }
+    },
+    {
+      "id": "2015-09-01-01",
+      "title": "位相空間の事、正規性から正則性が導かれない事。",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 100,
+      "units": 40,
+      "structural_roles": {
+        "prose": 16,
+        "definition": 5,
+        "theorem": 2,
+        "proof": 5,
+        "example": 12
+      }
+    },
+    {
+      "id": "2015-09-10-01",
+      "title": "ワイエルストラスの多項式近似定理",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 154,
+      "units": 30,
+      "structural_roles": {
+        "prose": 21,
+        "theorem": 3,
+        "proof": 6
+      }
+    },
+    {
+      "id": "2015-09-11-01",
+      "title": "ウリゾーンの補題の証明。",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 269,
+      "units": 76,
+      "structural_roles": {
+        "prose": 21,
+        "theorem": 9,
+        "proof": 45,
+        "claim": 1
+      }
+    },
+    {
+      "id": "2015-09-12-01",
+      "title": "非可算個の可算離散空間の直積について",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 216,
+      "units": 103,
+      "structural_roles": {
+        "prose": 18,
+        "definition": 18,
+        "claim": 2,
+        "proof": 57,
+        "theorem": 8
+      }
+    },
+    {
+      "id": "2015-09-12-02",
+      "title": "始位相について",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 149,
+      "units": 43,
+      "structural_roles": {
+        "prose": 19,
+        "example": 9,
+        "theorem": 5,
+        "proof": 10
+      }
+    },
+    {
+      "id": "2015-09-12-03",
+      "title": "代数学の基本定理",
+      "tier": "historical",
+      "subjects": [
+        "algebra",
+        "analysis"
+      ],
+      "source_lines": 85,
+      "units": 22,
+      "structural_roles": {
+        "prose": 5,
+        "theorem": 3,
+        "proof": 14
+      }
+    },
+    {
+      "id": "2015-09-13-01",
+      "title": "ウリゾーンの距離化可能定理",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 170,
+      "units": 53,
+      "structural_roles": {
+        "prose": 23,
+        "theorem": 5,
+        "proof": 24,
+        "claim": 1
+      }
+    },
+    {
+      "id": "2015-09-15-01",
+      "title": "コーシーの積分定理",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 688,
+      "units": 111,
+      "structural_roles": {
+        "prose": 12,
+        "theorem": 14,
+        "definition": 16,
+        "proof": 69
+      }
+    },
+    {
+      "id": "2015-09-15-02",
+      "title": "代数学の基本定理２",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 85,
+      "units": 26,
+      "structural_roles": {
+        "prose": 13,
+        "theorem": 2,
+        "proof": 11
+      }
+    },
+    {
+      "id": "2015-10-02-01",
+      "title": "体の乗法群の有限部分群(10/03に修正)",
+      "tier": "historical",
+      "subjects": [
+        "algebra"
+      ],
+      "source_lines": 285,
+      "units": 41,
+      "structural_roles": {
+        "prose": 7,
+        "definition": 2,
+        "theorem": 7,
+        "proof": 23,
+        "remark": 2
+      }
+    },
+    {
+      "id": "2015-10-03-01",
+      "title": "可分距離空間の閉集合全体の濃度",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 201,
+      "units": 19,
+      "structural_roles": {
+        "theorem": 2,
+        "proof": 13,
+        "prose": 3,
+        "remark": 1
+      }
+    },
+    {
+      "id": "2015-10-13-01",
+      "title": "積分核を用いた多項式近似定理の証明",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 454,
+      "units": 113,
+      "structural_roles": {
+        "prose": 39,
+        "remark": 7,
+        "theorem": 10,
+        "proof": 57
+      }
+    },
+    {
+      "id": "2015-10-18-01",
+      "title": "コンパクトハウスドルフ空間と正規性と単位の分割など",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 434,
+      "units": 76,
+      "structural_roles": {
+        "prose": 4,
+        "theorem": 15,
+        "proof": 50,
+        "definition": 2,
+        "remark": 5
+      }
+    },
+    {
+      "id": "2015-10-21-01",
+      "title": "フィルターとコンパクト性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 468,
+      "units": 131,
+      "structural_roles": {
+        "definition": 33,
+        "prose": 20,
+        "theorem": 15,
+        "proof": 52,
+        "example": 6,
+        "remark": 5
+      }
+    },
+    {
+      "id": "2015-10-22-01",
+      "title": "有限次元ベクトル空間のノルムは全部同値",
+      "tier": "historical",
+      "subjects": [
+        "algebra",
+        "analysis"
+      ],
+      "source_lines": 232,
+      "units": 36,
+      "structural_roles": {
+        "definition": 4,
+        "example": 11,
+        "remark": 4,
+        "prose": 3,
+        "theorem": 2,
+        "proof": 12
+      }
+    },
+    {
+      "id": "2015-10-24-01",
+      "title": "入射角16.225°の測度論入門:-1",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 359,
+      "units": 76,
+      "structural_roles": {
+        "prose": 10,
+        "definition": 29,
+        "remark": 3,
+        "theorem": 11,
+        "proof": 23
+      }
+    },
+    {
+      "id": "2015-10-25-01",
+      "title": "入射角16.225°の測度論入門:0",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 589,
+      "units": 116,
+      "structural_roles": {
+        "prose": 21,
+        "definition": 18,
+        "remark": 11,
+        "theorem": 29,
+        "proof": 33,
+        "example": 4
+      }
+    },
+    {
+      "id": "2015-10-26-01",
+      "title": "入射角16.225°の測度論入門:1",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 882,
+      "units": 149,
+      "structural_roles": {
+        "prose": 24,
+        "definition": 14,
+        "remark": 10,
+        "theorem": 34,
+        "proof": 67
+      }
+    },
+    {
+      "id": "2015-10-27-01",
+      "title": "バナッハの不動点定理",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 188,
+      "units": 32,
+      "structural_roles": {
+        "prose": 2,
+        "definition": 1,
+        "theorem": 9,
+        "proof": 20
+      }
+    },
+    {
+      "id": "2015-10-28-01",
+      "title": "リース・マルコフ・角谷の表現定理の証明（入射角16.225°の測度論入門2）",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 1003,
+      "units": 242,
+      "structural_roles": {
+        "prose": 73,
+        "definition": 12,
+        "theorem": 20,
+        "proof": 128,
+        "remark": 9
+      }
+    },
+    {
+      "id": "2015-11-06-01",
+      "title": "コンパクト集合の共通部分",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 159,
+      "units": 15,
+      "structural_roles": {
+        "prose": 15
+      }
+    },
+    {
+      "id": "2015-11-06-02",
+      "title": "閉写像云々とか固有写像とか",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 499,
+      "units": 159,
+      "structural_roles": {
+        "prose": 22,
+        "theorem": 36,
+        "proof": 80,
+        "definition": 7,
+        "remark": 14
+      }
+    },
+    {
+      "id": "2015-11-14-01",
+      "title": "有限濃度の位相空間は連結なら弧状連結",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 183,
+      "units": 23,
+      "structural_roles": {
+        "theorem": 2,
+        "proof": 20,
+        "prose": 1
+      }
+    },
+    {
+      "id": "2015-11-25-01",
+      "title": "距離空間と位相群のルベーグの被覆補題",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 428,
+      "units": 74,
+      "structural_roles": {
+        "prose": 15,
+        "theorem": 18,
+        "proof": 40,
+        "definition": 1
+      }
+    },
+    {
+      "id": "2015-12-08-01",
+      "title": "ストーンチェックコンパクト化の構成",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 267,
+      "units": 44,
+      "structural_roles": {
+        "prose": 12,
+        "definition": 7,
+        "theorem": 18,
+        "proof": 7
+      }
+    },
+    {
+      "id": "2015-12-11-01",
+      "title": "パラコンパクト性など：アドベントカレンダー2015",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 637,
+      "units": 186,
+      "structural_roles": {
+        "prose": 27,
+        "definition": 4,
+        "theorem": 38,
+        "proof": 117
+      }
+    },
+    {
+      "id": "2015-12-21-01",
+      "title": "遺伝的正規とか完全正規",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 398,
+      "units": 106,
+      "structural_roles": {
+        "prose": 2,
+        "definition": 7,
+        "theorem": 7,
+        "proof": 52,
+        "example": 38
+      }
+    },
+    {
+      "id": "2015-12-21-02",
+      "title": "正規性の特徴付け",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 390,
+      "units": 88,
+      "structural_roles": {
+        "prose": 9,
+        "definition": 19,
+        "theorem": 13,
+        "proof": 47
+      }
+    },
+    {
+      "id": "2015-12-21-03",
+      "title": "The Horrible lemma",
+      "tier": "historical",
+      "subjects": [
+        "algebra",
+        "combinatorics-set-theory"
+      ],
+      "source_lines": 183,
+      "units": 19,
+      "structural_roles": {
+        "prose": 2,
+        "theorem": 2,
+        "proof": 15
+      }
+    },
+    {
+      "id": "2015-12-21-04",
+      "title": "順序数の位相的重み",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 203,
+      "units": 19,
+      "structural_roles": {
+        "prose": 8,
+        "theorem": 6,
+        "proof": 5
+      }
+    },
+    {
+      "id": "2015-12-21-05",
+      "title": "パラコンパクト性など２",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 616,
+      "units": 221,
+      "structural_roles": {
+        "prose": 7,
+        "definition": 19,
+        "theorem": 20,
+        "proof": 175
+      }
+    },
+    {
+      "id": "2015-12-21-06",
+      "title": "パラコンパクト性など３",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 491,
+      "units": 139,
+      "structural_roles": {
+        "definition": 11,
+        "theorem": 13,
+        "proof": 109,
+        "prose": 6
+      }
+    },
+    {
+      "id": "2015-12-23-01",
+      "title": "未完成（接着、帰納極限、CW複体）",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 679,
+      "units": 224,
+      "structural_roles": {
+        "definition": 18,
+        "prose": 24,
+        "theorem": 33,
+        "proof": 141,
+        "remark": 8
+      }
+    },
+    {
+      "id": "2016-01-09-01",
+      "title": "コンパクト性と全有界性と完備性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 306,
+      "units": 59,
+      "structural_roles": {
+        "prose": 17,
+        "theorem": 4,
+        "proof": 37,
+        "remark": 1
+      }
+    },
+    {
+      "id": "2016-01-16-01",
+      "title": "距離空間の距離の修正",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 289,
+      "units": 43,
+      "structural_roles": {
+        "theorem": 3,
+        "proof": 29,
+        "example": 5,
+        "prose": 6
+      }
+    },
+    {
+      "id": "2016-01-17-01",
+      "title": "点列コンパクト性とコンパクト性は無関係",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 277,
+      "units": 48,
+      "structural_roles": {
+        "prose": 1,
+        "definition": 11,
+        "theorem": 1,
+        "proof": 23,
+        "example": 12
+      }
+    },
+    {
+      "id": "2016-01-18-01",
+      "title": "距離化可能定理part0：破片",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 419,
+      "units": 124,
+      "structural_roles": {
+        "theorem": 10,
+        "proof": 102,
+        "prose": 9,
+        "remark": 3
+      }
+    },
+    {
+      "id": "2016-01-22-01",
+      "title": "距離化可能定理part1:Alexandroff-Urysohn-Tukey",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 513,
+      "units": 118,
+      "structural_roles": {
+        "prose": 5,
+        "definition": 9,
+        "theorem": 12,
+        "proof": 80,
+        "claim": 3,
+        "remark": 9
+      }
+    },
+    {
+      "id": "2016-01-22-02",
+      "title": "距離化可能定理part-1:BNS",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 526,
+      "units": 154,
+      "structural_roles": {
+        "prose": 9,
+        "definition": 15,
+        "theorem": 23,
+        "proof": 103,
+        "remark": 4
+      }
+    },
+    {
+      "id": "2016-01-25-01",
+      "title": "固有写像と完全写像に関係する反例",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 211,
+      "units": 29,
+      "structural_roles": {
+        "definition": 4,
+        "prose": 22,
+        "remark": 3
+      }
+    },
+    {
+      "id": "2016-01-25-02",
+      "title": "可算パラコンパクトではないメタコンパクトσコンパクトハウスドルフ空間そんでムーア空間でない展開可能空間",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 284,
+      "units": 37,
+      "structural_roles": {
+        "prose": 4,
+        "theorem": 9,
+        "proof": 18,
+        "definition": 5,
+        "remark": 1
+      }
+    },
+    {
+      "id": "2016-01-29-01",
+      "title": "距離化可能定理part2：近傍",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 377,
+      "units": 55,
+      "structural_roles": {
+        "prose": 11,
+        "theorem": 5,
+        "proof": 39
+      }
+    },
+    {
+      "id": "2016-01-31-01",
+      "title": "等高線と連続関数：ウリゾーンの補題とティーチェの拡張定理：正規空間その(-1)(修正あり)",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 904,
+      "units": 208,
+      "structural_roles": {
+        "prose": 20,
+        "definition": 37,
+        "theorem": 26,
+        "proof": 120,
+        "claim": 1,
+        "remark": 4
+      }
+    },
+    {
+      "id": "2016-04-29-01",
+      "title": "実数の閉部分群",
+      "tier": "historical",
+      "subjects": [
+        "algebra"
+      ],
+      "source_lines": 285,
+      "units": 51,
+      "structural_roles": {
+        "prose": 7,
+        "theorem": 7,
+        "proof": 37
+      }
+    },
+    {
+      "id": "2016-05-04-01",
+      "title": "入射角16.225°の測度論入門:ω_0",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 288,
+      "units": 43,
+      "structural_roles": {
+        "prose": 12,
+        "theorem": 25,
+        "proof": 6
+      }
+    },
+    {
+      "id": "2016-05-05-01",
+      "title": "L^1の畳込みに関する単位元が存在しないこと",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 264,
+      "units": 26,
+      "structural_roles": {
+        "prose": 5,
+        "theorem": 4,
+        "proof": 9,
+        "remark": 8
+      }
+    },
+    {
+      "id": "2016-06-11-01",
+      "title": "いわゆる志賀多様体における多様体の埋め込み定理のための次元論的な補題の証明",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 304,
+      "units": 59,
+      "structural_roles": {
+        "prose": 18,
+        "theorem": 7,
+        "proof": 27,
+        "definition": 6,
+        "remark": 1
+      }
+    },
+    {
+      "id": "2016-06-12-01",
+      "title": "ハウスドルフ空間の中の稠密な局所コンパクト部分集合が開集合であること",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 237,
+      "units": 30,
+      "structural_roles": {
+        "definition": 1,
+        "theorem": 6,
+        "proof": 23
+      }
+    },
+    {
+      "id": "2016-06-18-01",
+      "title": "一様空間/未完成",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 893,
+      "units": 251,
+      "structural_roles": {
+        "prose": 54,
+        "definition": 52,
+        "theorem": 38,
+        "proof": 97,
+        "example": 10
+      }
+    },
+    {
+      "id": "2016-06-19-01",
+      "title": "正規空間その0:単位の分割[未完成]",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 451,
+      "units": 52,
+      "structural_roles": {
+        "prose": 9,
+        "definition": 14,
+        "theorem": 9,
+        "proof": 20
+      }
+    },
+    {
+      "id": "2016-06-19-02",
+      "title": "可算コンパクトとメタコンパクト",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 278,
+      "units": 33,
+      "structural_roles": {
+        "prose": 3,
+        "definition": 6,
+        "theorem": 2,
+        "proof": 22
+      }
+    },
+    {
+      "id": "2016-06-23-01",
+      "title": "コンパクト性と閉射影:Kuratowski－Mrówka's Thoerem",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 470,
+      "units": 85,
+      "structural_roles": {
+        "theorem": 2,
+        "prose": 16,
+        "proof": 62,
+        "claim": 2,
+        "definition": 3
+      }
+    },
+    {
+      "id": "2016-07-01-01",
+      "title": "有理数と無理数の稠密性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 241,
+      "units": 17,
+      "structural_roles": {
+        "prose": 10,
+        "theorem": 2,
+        "proof": 5
+      }
+    },
+    {
+      "id": "2016-07-06-02",
+      "title": "Nobleの定理",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 322,
+      "units": 56,
+      "structural_roles": {
+        "prose": 20,
+        "definition": 8,
+        "theorem": 6,
+        "proof": 20,
+        "remark": 2
+      }
+    },
+    {
+      "id": "2016-07-07-01",
+      "title": "単位閉区間が可算個の非空なる閉集合族の直和で描けないこと",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 267,
+      "units": 28,
+      "structural_roles": {
+        "prose": 4,
+        "theorem": 2,
+        "proof": 22
+      }
+    },
+    {
+      "id": "2016-07-21-01--0de83c9634",
+      "title": "廃棄物投棄 — sources/ハイポコンパクトって言いたいだけ.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 211,
+      "units": 0,
+      "structural_roles": {}
+    },
+    {
+      "id": "2016-07-21-01--71feff1e15",
+      "title": "廃棄物投棄 — sources/マヌアルフォービギナーズ.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 462,
+      "units": 100,
+      "structural_roles": {
+        "prose": 45,
+        "theorem": 21,
+        "proof": 22,
+        "definition": 8,
+        "example": 4
+      }
+    },
+    {
+      "id": "2016-07-21-01--766d38af76",
+      "title": "廃棄物投棄 — sources/パラコンパクト性：ルートX.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 794,
+      "units": 191,
+      "structural_roles": {
+        "prose": 8,
+        "theorem": 25,
+        "definition": 23,
+        "proof": 123,
+        "claim": 3,
+        "remark": 9
+      }
+    },
+    {
+      "id": "2016-07-21-01--9d830c3d6c",
+      "title": "廃棄物投棄 — sources/森田の定理・可算パラコンパクト.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 156,
+      "units": 0,
+      "structural_roles": {}
+    },
+    {
+      "id": "2016-07-21-01--c959ca26d8",
+      "title": "廃棄物投棄 — sources/距離化可能性と閉像：Hanai-Morita-Stone.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 272,
+      "units": 20,
+      "structural_roles": {
+        "definition": 1,
+        "theorem": 7,
+        "proof": 12
+      }
+    },
+    {
+      "id": "2016-07-21-01--d0670c5c77",
+      "title": "廃棄物投棄 — sources/線型写像とセミノルム空間.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 365,
+      "units": 62,
+      "structural_roles": {
+        "definition": 9,
+        "remark": 9,
+        "prose": 8,
+        "theorem": 10,
+        "proof": 26
+      }
+    },
+    {
+      "id": "2016-07-21-01--dcb4efe007",
+      "title": "廃棄物投棄 — sources/関数空間.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 181,
+      "units": 23,
+      "structural_roles": {
+        "prose": 23
+      }
+    },
+    {
+      "id": "2016-07-21-01--f67098301b",
+      "title": "廃棄物投棄 — main.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 193,
+      "units": 34,
+      "structural_roles": {
+        "prose": 3,
+        "theorem": 23,
+        "proof": 8
+      }
+    },
+    {
+      "id": "2016-07-21-01--f8f2b9d8c1",
+      "title": "廃棄物投棄 — sources/上半連続位相と下半連速位相.tex",
+      "tier": "historical",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 213,
+      "units": 39,
+      "structural_roles": {
+        "prose": 30,
+        "definition": 5,
+        "remark": 4
+      }
+    },
+    {
+      "id": "2016-11-30-01",
+      "title": "カントールの区間縮小法と反例",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 286,
+      "units": 26,
+      "structural_roles": {
+        "prose": 10,
+        "example": 16
+      }
+    },
+    {
+      "id": "2016-12-29-01",
+      "title": "点可算被覆と可算コンパクト性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 279,
+      "units": 41,
+      "structural_roles": {
+        "prose": 1,
+        "definition": 3,
+        "theorem": 8,
+        "proof": 29
+      }
+    },
+    {
+      "id": "2016-12-30-01",
+      "title": "線形順序位相空間",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 350,
+      "units": 72,
+      "structural_roles": {
+        "prose": 6,
+        "definition": 25,
+        "remark": 5,
+        "theorem": 8,
+        "proof": 28
+      }
+    },
+    {
+      "id": "2016-12-31-01",
+      "title": "オメガ1の位相的性質。",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 527,
+      "units": 190,
+      "structural_roles": {
+        "prose": 30,
+        "definition": 7,
+        "theorem": 31,
+        "proof": 116,
+        "remark": 6
+      }
+    },
+    {
+      "id": "2017-01-18-01",
+      "title": "ダガンディーとハウスドルフの拡張定理",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 422,
+      "units": 112,
+      "structural_roles": {
+        "prose": 9,
+        "theorem": 14,
+        "proof": 79,
+        "remark": 10
+      }
+    },
+    {
+      "id": "2017-05-07-01",
+      "title": "有理数の順序集合としての特徴づけ",
+      "tier": "historical",
+      "subjects": [
+        "combinatorics-set-theory"
+      ],
+      "source_lines": 278,
+      "units": 55,
+      "structural_roles": {
+        "prose": 6,
+        "theorem": 5,
+        "definition": 5,
+        "proof": 34,
+        "remark": 2,
+        "example": 3
+      }
+    },
+    {
+      "id": "2017-06-25-01",
+      "title": "コンパクト空間の距離付け可能性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 418,
+      "units": 96,
+      "structural_roles": {
+        "prose": 13,
+        "theorem": 17,
+        "example": 9,
+        "proof": 54,
+        "definition": 3
+      }
+    },
+    {
+      "id": "2017-08-01-01",
+      "title": "正則同型の同定",
+      "tier": "historical",
+      "subjects": [
+        "analysis"
+      ],
+      "source_lines": 396,
+      "units": 82,
+      "structural_roles": {
+        "prose": 12,
+        "definition": 2,
+        "remark": 14,
+        "theorem": 15,
+        "proof": 39
+      }
+    },
+    {
+      "id": "2017-08-04-01",
+      "title": "ルベーグ測度正の集合",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 309,
+      "units": 49,
+      "structural_roles": {
+        "prose": 13,
+        "remark": 15,
+        "theorem": 3,
+        "proof": 18
+      }
+    },
+    {
+      "id": "2017-08-27-01",
+      "title": "不動点定理",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 349,
+      "units": 81,
+      "structural_roles": {
+        "prose": 4,
+        "definition": 2,
+        "theorem": 6,
+        "proof": 69
+      }
+    },
+    {
+      "id": "2017-10-20-01",
+      "title": "群作用による商空間のハウスドルフ性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 524,
+      "units": 129,
+      "structural_roles": {
+        "prose": 38,
+        "theorem": 26,
+        "proof": 40,
+        "definition": 17,
+        "remark": 8
+      }
+    },
+    {
+      "id": "2017-11-16-01",
+      "title": "極限集合の基本的性質の証明",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 547,
+      "units": 159,
+      "structural_roles": {
+        "prose": 34,
+        "definition": 15,
+        "theorem": 27,
+        "remark": 16,
+        "proof": 67
+      }
+    },
+    {
+      "id": "2018-03-29-01",
+      "title": "アスコリアルツェラの定理",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 397,
+      "units": 114,
+      "structural_roles": {
+        "prose": 22,
+        "definition": 15,
+        "theorem": 11,
+        "proof": 66
+      }
+    },
+    {
+      "id": "2018-10-12-01",
+      "title": "ホイットニーの拡張定理（未完成）",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 1312,
+      "units": 281,
+      "structural_roles": {
+        "prose": 68,
+        "theorem": 47,
+        "proof": 151,
+        "definition": 13,
+        "remark": 2
+      }
+    },
+    {
+      "id": "2018-10-14-01",
+      "title": "Urysohn universal spaces",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 10626,
+      "units": 1382,
+      "structural_roles": {
+        "prose": 219,
+        "definition": 126,
+        "remark": 46,
+        "theorem": 191,
+        "proof": 791,
+        "example": 9
+      }
+    },
+    {
+      "id": "2018-10-14-02",
+      "title": "サードの定理（未完成）",
+      "tier": "historical",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 1061,
+      "units": 297,
+      "structural_roles": {
+        "definition": 16,
+        "prose": 16,
+        "theorem": 51,
+        "proof": 208,
+        "remark": 6
+      }
+    },
+    {
+      "id": "2019-11-29-01",
+      "title": "可算パラコンパクト空間の特徴付けおよびDowker空間の存在性",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 6538,
+      "units": 1039,
+      "structural_roles": {
+        "prose": 66,
+        "definition": 75,
+        "theorem": 141,
+        "proof": 688,
+        "remark": 16,
+        "example": 53
+      }
+    },
+    {
+      "id": "2020-01-30-01",
+      "title": "van der Waerdenの定理とRamseyの定理",
+      "tier": "primary",
+      "subjects": [
+        "combinatorics-set-theory"
+      ],
+      "source_lines": 692,
+      "units": 179,
+      "structural_roles": {
+        "prose": 28,
+        "theorem": 23,
+        "proof": 125,
+        "definition": 3
+      }
+    },
+    {
+      "id": "2020-02-02-01",
+      "title": "Riesz-Markov-Kakutaniの表現定理II",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 510,
+      "units": 113,
+      "structural_roles": {
+        "prose": 28,
+        "theorem": 19,
+        "definition": 29,
+        "proof": 30,
+        "remark": 7
+      }
+    },
+    {
+      "id": "2020-09-02-01",
+      "title": "バナッハ空間を関数空間に埋め込むことと，関数空間の可分距離空間に対する普遍性",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 593,
+      "units": 137,
+      "structural_roles": {
+        "prose": 53,
+        "theorem": 36,
+        "definition": 10,
+        "proof": 34,
+        "remark": 4
+      }
+    },
+    {
+      "id": "2021-01-28-01",
+      "title": "The Tonelli-Shanks algorithm",
+      "tier": "primary",
+      "subjects": [
+        "number-theory"
+      ],
+      "source_lines": 859,
+      "units": 181,
+      "structural_roles": {
+        "prose": 96,
+        "theorem": 30,
+        "proof": 52,
+        "remark": 3
+      }
+    },
+    {
+      "id": "2021-02-28-01",
+      "title": "実解析関数に対する逆関数定理",
+      "tier": "primary",
+      "subjects": [
+        "analysis"
+      ],
+      "source_lines": 1855,
+      "units": 274,
+      "structural_roles": {
+        "prose": 33,
+        "theorem": 67,
+        "definition": 13,
+        "proof": 160,
+        "remark": 1
+      }
+    },
+    {
+      "id": "2021-03-25-01",
+      "title": "特殊な積分を求めること",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 677,
+      "units": 77,
+      "structural_roles": {
+        "prose": 40,
+        "proof": 30,
+        "theorem": 7
+      }
+    },
+    {
+      "id": "2021-03-25-02",
+      "title": "Helly空間とHellyの選出定理",
+      "tier": "primary",
+      "subjects": [
+        "analysis"
+      ],
+      "source_lines": 353,
+      "units": 43,
+      "structural_roles": {
+        "prose": 5,
+        "definition": 6,
+        "remark": 4,
+        "theorem": 9,
+        "proof": 19
+      }
+    },
+    {
+      "id": "2021-05-22-01",
+      "title": "対角的交叉とFodorの補題",
+      "tier": "primary",
+      "subjects": [
+        "combinatorics-set-theory"
+      ],
+      "source_lines": 341,
+      "units": 55,
+      "structural_roles": {
+        "prose": 1,
+        "definition": 10,
+        "theorem": 11,
+        "proof": 33
+      }
+    },
+    {
+      "id": "2022-01-03-01",
+      "title": "直積測度の構成について:確率論その0",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 2366,
+      "units": 418,
+      "structural_roles": {
+        "prose": 21,
+        "definition": 64,
+        "theorem": 57,
+        "remark": 10,
+        "proof": 266
+      }
+    },
+    {
+      "id": "2022-01-16-01",
+      "title": "大数の法則について:確率論その1",
+      "tier": "primary",
+      "subjects": [
+        "probability-measure"
+      ],
+      "source_lines": 1422,
+      "units": 274,
+      "structural_roles": {
+        "prose": 18,
+        "definition": 70,
+        "theorem": 68,
+        "proof": 118
+      }
+    },
+    {
+      "id": "2022-03-12-01",
+      "title": "陰関数定理と逆関数定理",
+      "tier": "primary",
+      "subjects": [
+        "analysis"
+      ],
+      "source_lines": 1080,
+      "units": 218,
+      "structural_roles": {
+        "prose": 20,
+        "definition": 20,
+        "theorem": 45,
+        "proof": 129,
+        "remark": 4
+      }
+    },
+    {
+      "id": "2022-03-12-02",
+      "title": "多項式に関する一致の定理",
+      "tier": "primary",
+      "subjects": [
+        "algebra"
+      ],
+      "source_lines": 508,
+      "units": 84,
+      "structural_roles": {
+        "prose": 3,
+        "theorem": 7,
+        "proof": 74
+      }
+    },
+    {
+      "id": "2022-03-12-03",
+      "title": "次元論ショートコース：0次元から始める位相次元",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1156,
+      "units": 270,
+      "structural_roles": {
+        "prose": 21,
+        "definition": 25,
+        "theorem": 45,
+        "proof": 174,
+        "remark": 5
+      }
+    },
+    {
+      "id": "2022-03-12-04",
+      "title": "ラドンニコディムの定理",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 541,
+      "units": 68,
+      "structural_roles": {
+        "prose": 2,
+        "definition": 10,
+        "theorem": 15,
+        "proof": 41
+      }
+    },
+    {
+      "id": "2022-03-12-05",
+      "title": "ルベーグの微分定理と積分の変数変換公式",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 723,
+      "units": 117,
+      "structural_roles": {
+        "prose": 1,
+        "definition": 9,
+        "theorem": 25,
+        "proof": 82
+      }
+    },
+    {
+      "id": "2022-03-13-01",
+      "title": "ユークリッド空間の可算稠密推移性",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 529,
+      "units": 102,
+      "structural_roles": {
+        "prose": 6,
+        "theorem": 21,
+        "proof": 71,
+        "definition": 4
+      }
+    },
+    {
+      "id": "2022-05-21-01",
+      "title": "コラム?：中間値の定理，有限増分の定理，平均値の定理，テイラーの定理",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 2754,
+      "units": 574,
+      "structural_roles": {
+        "prose": 47,
+        "theorem": 111,
+        "proof": 364,
+        "definition": 28,
+        "remark": 24
+      }
+    },
+    {
+      "id": "2022-09-06-01",
+      "title": "対角化可能な行列は稠密",
+      "tier": "primary",
+      "subjects": [
+        "algebra"
+      ],
+      "source_lines": 467,
+      "units": 84,
+      "structural_roles": {
+        "prose": 8,
+        "theorem": 21,
+        "proof": 36,
+        "definition": 16,
+        "remark": 3
+      }
+    },
+    {
+      "id": "2022-09-10-01",
+      "title": "滑らかな関数の鏡像拡張と，境界付き多様体の座標変換",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 969,
+      "units": 188,
+      "structural_roles": {
+        "definition": 23,
+        "prose": 3,
+        "theorem": 61,
+        "proof": 100,
+        "remark": 1
+      }
+    },
+    {
+      "id": "2023-06-20-01",
+      "title": "距離空間の上の測度：確率論その２",
+      "tier": "primary",
+      "subjects": [
+        "probability-measure"
+      ],
+      "source_lines": 1255,
+      "units": 276,
+      "structural_roles": {
+        "prose": 15,
+        "definition": 55,
+        "remark": 4,
+        "theorem": 26,
+        "proof": 176
+      }
+    },
+    {
+      "id": "2023-06-20-02",
+      "title": "中心極限定理：確率論その３",
+      "tier": "primary",
+      "subjects": [
+        "probability-measure"
+      ],
+      "source_lines": 1658,
+      "units": 295,
+      "structural_roles": {
+        "prose": 74,
+        "definition": 27,
+        "theorem": 58,
+        "proof": 132,
+        "remark": 4
+      }
+    },
+    {
+      "id": "2023-06-20-03",
+      "title": "ルベーグスティルチェス積分について",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 760,
+      "units": 152,
+      "structural_roles": {
+        "prose": 10,
+        "theorem": 27,
+        "definition": 26,
+        "proof": 89
+      }
+    },
+    {
+      "id": "2023-06-21-01",
+      "title": "平方剰余の相互法則",
+      "tier": "primary",
+      "subjects": [
+        "number-theory"
+      ],
+      "source_lines": 587,
+      "units": 79,
+      "structural_roles": {
+        "prose": 31,
+        "theorem": 6,
+        "proof": 42
+      }
+    },
+    {
+      "id": "2023-07-02-01",
+      "title": "ボレル同型と確率空間の同型：確率論その4",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 2092,
+      "units": 532,
+      "structural_roles": {
+        "prose": 98,
+        "theorem": 83,
+        "proof": 338,
+        "remark": 11,
+        "definition": 2
+      }
+    },
+    {
+      "id": "2023-07-08-01",
+      "title": "\"independent family\"の構成",
+      "tier": "primary",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 446,
+      "units": 102,
+      "structural_roles": {
+        "prose": 22,
+        "definition": 5,
+        "remark": 2,
+        "theorem": 15,
+        "proof": 58
+      }
+    },
+    {
+      "id": "2023-07-12-01",
+      "title": "Baire 空間の話",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1286,
+      "units": 204,
+      "structural_roles": {
+        "prose": 5,
+        "definition": 51,
+        "theorem": 33,
+        "proof": 108,
+        "remark": 2,
+        "example": 5
+      }
+    },
+    {
+      "id": "2023-12-01-01",
+      "title": "平方数ではない整数の平方根が無理数であることのニュートン法を用いた証明",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 458,
+      "units": 77,
+      "structural_roles": {
+        "prose": 26,
+        "theorem": 21,
+        "proof": 30
+      }
+    },
+    {
+      "id": "2023-12-01-02",
+      "title": "エブリシング・エブリウェア・オール・アット・ワンス・関数",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 2171,
+      "units": 359,
+      "structural_roles": {
+        "prose": 226,
+        "theorem": 31,
+        "proof": 90,
+        "definition": 12
+      }
+    },
+    {
+      "id": "2023-12-17-01",
+      "title": "論文メモ：連結ハウスドルフ可算空間",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 194,
+      "units": 54,
+      "structural_roles": {
+        "prose": 54
+      }
+    },
+    {
+      "id": "2023-12-24-01",
+      "title": "論文メモ：連続だが至る所微分不可能な関数",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 966,
+      "units": 154,
+      "structural_roles": {
+        "prose": 57,
+        "theorem": 16,
+        "proof": 64,
+        "remark": 17
+      }
+    },
+    {
+      "id": "2023-12-28-01--795f12e2ce",
+      "title": "数学的失敗とその教訓：ファイバーバンドル — Origin/bundles.tex",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 994,
+      "units": 233,
+      "structural_roles": {
+        "prose": 94,
+        "theorem": 31,
+        "proof": 47,
+        "definition": 42,
+        "remark": 8,
+        "example": 11
+      }
+    },
+    {
+      "id": "2023-12-28-01--96113c52c1",
+      "title": "数学的失敗とその教訓：ファイバーバンドル — pppp/bundleshippai.tex",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 107,
+      "units": 2,
+      "structural_roles": {
+        "prose": 2
+      }
+    },
+    {
+      "id": "2023-12-28-01--e99e6d0dfd",
+      "title": "数学的失敗とその教訓：ファイバーバンドル — copy/bundles.tex",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 493,
+      "units": 111,
+      "structural_roles": {
+        "prose": 67,
+        "definition": 19,
+        "remark": 5,
+        "example": 6,
+        "theorem": 6,
+        "proof": 8
+      }
+    },
+    {
+      "id": "2023-12-30-01",
+      "title": "論文メモ：関数が肩身の狭い思いをする空間",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 432,
+      "units": 100,
+      "structural_roles": {
+        "prose": 96,
+        "theorem": 4
+      }
+    },
+    {
+      "id": "2023-12-30-02",
+      "title": "論文メモ：テイラー級数の収束と円周上の部分集合について",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 245,
+      "units": 43,
+      "structural_roles": {
+        "prose": 25,
+        "theorem": 18
+      }
+    },
+    {
+      "id": "2023-12-31-01",
+      "title": "論文メモ：ウリゾーンの論文",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 129,
+      "units": 28,
+      "structural_roles": {
+        "prose": 28
+      }
+    },
+    {
+      "id": "2023-12-31-02",
+      "title": "論文メモ：領域不変性定理",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 83,
+      "units": 8,
+      "structural_roles": {
+        "prose": 8
+      }
+    },
+    {
+      "id": "2023-12-31-03",
+      "title": "論文メモ：集合論？",
+      "tier": "primary",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 70,
+      "units": 3,
+      "structural_roles": {
+        "prose": 3
+      }
+    },
+    {
+      "id": "2024-01-03-01",
+      "title": "論文メモ：Power Series",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 92,
+      "units": 9,
+      "structural_roles": {
+        "prose": 9
+      }
+    },
+    {
+      "id": "2024-01-03-02",
+      "title": "論文メモ：Symmetric Product",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 92,
+      "units": 9,
+      "structural_roles": {
+        "prose": 9
+      }
+    },
+    {
+      "id": "2024-01-03-03",
+      "title": "論文メモ：位相的特徴付け",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 378,
+      "units": 81,
+      "structural_roles": {
+        "prose": 80,
+        "theorem": 1
+      }
+    },
+    {
+      "id": "2024-01-03-04",
+      "title": "論文メモ：カントール関数",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 85,
+      "units": 8,
+      "structural_roles": {
+        "prose": 8
+      }
+    },
+    {
+      "id": "2024-01-03-05",
+      "title": "論文メモ：群の固有作用",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 133,
+      "units": 22,
+      "structural_roles": {
+        "prose": 22
+      }
+    },
+    {
+      "id": "2024-01-03-06",
+      "title": "論文メモ：固有写像",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 165,
+      "units": 31,
+      "structural_roles": {
+        "prose": 22,
+        "theorem": 2,
+        "proof": 7
+      }
+    },
+    {
+      "id": "2024-01-03-07",
+      "title": "論文メモ：多項式近似",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 127,
+      "units": 22,
+      "structural_roles": {
+        "prose": 22
+      }
+    },
+    {
+      "id": "2024-01-03-08",
+      "title": "論文メモ：ボレルの定理・微分係数の逆問題",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 81,
+      "units": 5,
+      "structural_roles": {
+        "prose": 4,
+        "theorem": 1
+      }
+    },
+    {
+      "id": "2024-01-03-09",
+      "title": "論文メモ：Countable Dense Homogeneity",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 162,
+      "units": 23,
+      "structural_roles": {
+        "prose": 21,
+        "theorem": 2
+      }
+    },
+    {
+      "id": "2024-01-03-10",
+      "title": "論文メモ：Banach--Mazurの反対側",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 72,
+      "units": 5,
+      "structural_roles": {
+        "prose": 5
+      }
+    },
+    {
+      "id": "2024-01-03-11",
+      "title": "論文メモ：ボレル階層とか",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 150,
+      "units": 28,
+      "structural_roles": {
+        "prose": 25,
+        "theorem": 3
+      }
+    },
+    {
+      "id": "2024-01-03-12",
+      "title": "論文メモ：Bing",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 142,
+      "units": 25,
+      "structural_roles": {
+        "prose": 25
+      }
+    },
+    {
+      "id": "2024-01-03-13",
+      "title": "論文メモ：位相的フォドアの補題",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 86,
+      "units": 10,
+      "structural_roles": {
+        "prose": 7,
+        "theorem": 3
+      }
+    },
+    {
+      "id": "2024-01-03-14",
+      "title": "論文メモ：不動点定理，主にCaristiの",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 141,
+      "units": 15,
+      "structural_roles": {
+        "prose": 11,
+        "theorem": 4
+      }
+    },
+    {
+      "id": "2024-01-03-15",
+      "title": "論文メモ：カントール集合？",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 164,
+      "units": 31,
+      "structural_roles": {
+        "prose": 31
+      }
+    },
+    {
+      "id": "2024-01-03-16",
+      "title": "論文メモ：simple proof",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 90,
+      "units": 8,
+      "structural_roles": {
+        "prose": 8
+      }
+    },
+    {
+      "id": "2024-01-03-17",
+      "title": "論文メモ：不動点定理とゲーム理論？",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 106,
+      "units": 5,
+      "structural_roles": {
+        "prose": 5
+      }
+    },
+    {
+      "id": "2024-01-03-18",
+      "title": "論文メモ：可分性と直積",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 108,
+      "units": 11,
+      "structural_roles": {
+        "prose": 8,
+        "theorem": 3
+      }
+    },
+    {
+      "id": "2024-01-03-19",
+      "title": "論文メモ：ペアノ微分",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 258,
+      "units": 58,
+      "structural_roles": {
+        "prose": 55,
+        "theorem": 3
+      }
+    },
+    {
+      "id": "2024-01-03-20",
+      "title": "論文メモ：なにこれ？",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 110,
+      "units": 13,
+      "structural_roles": {
+        "prose": 13
+      }
+    },
+    {
+      "id": "2024-01-03-21",
+      "title": "論文メモ：その他もろもろ，層とか位相群の帰納極限とか",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 133,
+      "units": 7,
+      "structural_roles": {
+        "prose": 7
+      }
+    },
+    {
+      "id": "2024-01-03-22",
+      "title": "論文メモ：ハール測度",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 76,
+      "units": 5,
+      "structural_roles": {
+        "prose": 5
+      }
+    },
+    {
+      "id": "2024-01-04-01",
+      "title": "論文メモ：変数変換公式とか？",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 94,
+      "units": 9,
+      "structural_roles": {
+        "prose": 9
+      }
+    },
+    {
+      "id": "2024-01-04-02",
+      "title": "論文メモ：ティーチェ・ウリゾーン?",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 86,
+      "units": 7,
+      "structural_roles": {
+        "prose": 7
+      }
+    },
+    {
+      "id": "2024-01-04-03",
+      "title": "論文メモ：同相写像の構成",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 113,
+      "units": 13,
+      "structural_roles": {
+        "prose": 13
+      }
+    },
+    {
+      "id": "2024-01-04-04",
+      "title": "論文メモ：同相写像の拡張",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 109,
+      "units": 14,
+      "structural_roles": {
+        "prose": 14
+      }
+    },
+    {
+      "id": "2024-01-04-05",
+      "title": "論文メモ：ノンジャンル",
+      "tier": "primary",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 628,
+      "units": 106,
+      "structural_roles": {
+        "prose": 106
+      }
+    },
+    {
+      "id": "2024-01-04-06",
+      "title": "論文メモ：大きい帰納次元",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 67,
+      "units": 3,
+      "structural_roles": {
+        "prose": 3
+      }
+    },
+    {
+      "id": "2024-01-04-07",
+      "title": "論文メモ：エルデシュ的な話：代数？",
+      "tier": "primary",
+      "subjects": [
+        "algebra",
+        "combinatorics-set-theory"
+      ],
+      "source_lines": 167,
+      "units": 27,
+      "structural_roles": {
+        "prose": 27
+      }
+    },
+    {
+      "id": "2024-01-04-08",
+      "title": "論文メモ：エルデシュ的な話：分割?",
+      "tier": "primary",
+      "subjects": [
+        "algebra",
+        "combinatorics-set-theory"
+      ],
+      "source_lines": 167,
+      "units": 30,
+      "structural_roles": {
+        "prose": 30
+      }
+    },
+    {
+      "id": "2024-01-04-09",
+      "title": "論文メモ：エルデシュ的な話：普遍空間？",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 121,
+      "units": 16,
+      "structural_roles": {
+        "prose": 16
+      }
+    },
+    {
+      "id": "2024-01-04-10",
+      "title": "論文メモ：ガチガチ空間",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 78,
+      "units": 5,
+      "structural_roles": {
+        "prose": 5
+      }
+    },
+    {
+      "id": "2024-01-04-11",
+      "title": "論文メモ：n-cardinality",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 198,
+      "units": 45,
+      "structural_roles": {
+        "prose": 24,
+        "theorem": 21
+      }
+    },
+    {
+      "id": "2024-01-04-12",
+      "title": "論文メモ：複素関数論基礎論発展編",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 498,
+      "units": 105,
+      "structural_roles": {
+        "prose": 97,
+        "theorem": 8
+      }
+    },
+    {
+      "id": "2024-01-08-01",
+      "title": "二次元以上の球面の基本群",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1022,
+      "units": 153,
+      "structural_roles": {
+        "prose": 150,
+        "theorem": 3
+      }
+    },
+    {
+      "id": "2024-01-13-01",
+      "title": "CW複体のパラコンパクト性",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 936,
+      "units": 169,
+      "structural_roles": {
+        "prose": 70,
+        "theorem": 20,
+        "proof": 63,
+        "definition": 5,
+        "remark": 11
+      }
+    },
+    {
+      "id": "2024-01-20-01",
+      "title": "論文メモ：Noble",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 160,
+      "units": 24,
+      "structural_roles": {
+        "prose": 24
+      }
+    },
+    {
+      "id": "2024-01-20-02",
+      "title": "論文メモ：連結空間",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 72,
+      "units": 4,
+      "structural_roles": {
+        "prose": 4
+      }
+    },
+    {
+      "id": "2024-01-20-03",
+      "title": "論文メモ：アルハンゲルスキー",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 83,
+      "units": 9,
+      "structural_roles": {
+        "prose": 9
+      }
+    },
+    {
+      "id": "2024-01-20-04",
+      "title": "論文メモ：サードの定理",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 551,
+      "units": 102,
+      "structural_roles": {
+        "prose": 102
+      }
+    },
+    {
+      "id": "2024-01-23-01",
+      "title": "距離化可能定理part3:花井--森田・ストーンの定理",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 3310,
+      "units": 544,
+      "structural_roles": {
+        "prose": 58,
+        "definition": 19,
+        "theorem": 65,
+        "proof": 383,
+        "remark": 19
+      }
+    },
+    {
+      "id": "2024-01-27-01",
+      "title": "ベールの範疇定理",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1042,
+      "units": 158,
+      "structural_roles": {
+        "prose": 8,
+        "definition": 8,
+        "theorem": 15,
+        "proof": 115,
+        "remark": 12
+      }
+    },
+    {
+      "id": "2024-01-30-01",
+      "title": "論文メモ：不連続関数",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 119,
+      "units": 20,
+      "structural_roles": {
+        "prose": 20
+      }
+    },
+    {
+      "id": "2024-07-21-01",
+      "title": "ユークリッド空間内の星型領域はその全体に微分同相である．",
+      "tier": "primary",
+      "subjects": [
+        "analysis"
+      ],
+      "source_lines": 951,
+      "units": 158,
+      "structural_roles": {
+        "prose": 59,
+        "definition": 6,
+        "theorem": 24,
+        "proof": 69
+      }
+    },
+    {
+      "id": "2024-12-01-01",
+      "title": "クラークソンの不等式(未完成)",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 742,
+      "units": 105,
+      "structural_roles": {
+        "prose": 17,
+        "theorem": 28,
+        "proof": 60
+      }
+    },
+    {
+      "id": "2025-12-28-01",
+      "title": "児玉永見のゼロ集合に関する演習問題について",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 177,
+      "units": 31,
+      "structural_roles": {
+        "prose": 9,
+        "theorem": 8,
+        "proof": 11,
+        "remark": 3
+      }
+    },
+    {
+      "id": "2026-03-09-01",
+      "title": "族正規と写像の拡張",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 797,
+      "units": 199,
+      "structural_roles": {
+        "prose": 32,
+        "theorem": 21,
+        "proof": 146
+      }
+    },
+    {
+      "id": "2026-03-11-01",
+      "title": "完全写像をpullbackで記述する，圏を知らぬ私が．",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1372,
+      "units": 388,
+      "structural_roles": {
+        "prose": 37,
+        "theorem": 115,
+        "proof": 226,
+        "definition": 1,
+        "remark": 9
+      }
+    },
+    {
+      "id": "2026-03-18-01",
+      "title": "バナッハ・ストーンの定理: おまけ",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "source_lines": 869,
+      "units": 203,
+      "structural_roles": {
+        "prose": 7,
+        "definition": 33,
+        "remark": 11,
+        "theorem": 28,
+        "proof": 124
+      }
+    },
+    {
+      "id": "2026-03-23-01",
+      "title": "クレイン・ミルマンの定理：関数解析その0",
+      "tier": "primary",
+      "subjects": [
+        "analysis"
+      ],
+      "source_lines": 742,
+      "units": 200,
+      "structural_roles": {
+        "prose": 18,
+        "theorem": 59,
+        "proof": 106,
+        "definition": 10,
+        "remark": 7
+      }
+    },
+    {
+      "id": "2026-03-26-01",
+      "title": "Goursat's lemma",
+      "tier": "primary",
+      "subjects": [
+        "algebra"
+      ],
+      "source_lines": 770,
+      "units": 141,
+      "structural_roles": {
+        "prose": 10,
+        "definition": 28,
+        "remark": 2,
+        "theorem": 26,
+        "proof": 75
+      }
+    },
+    {
+      "id": "2026-04-05-01",
+      "title": "不動点定理と同値な命題",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 574,
+      "units": 99,
+      "structural_roles": {
+        "prose": 9,
+        "definition": 13,
+        "theorem": 11,
+        "proof": 64,
+        "remark": 2
+      }
+    },
+    {
+      "id": "2026-04-15-01",
+      "title": "次元論からの領域不変性定理の証明",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1735,
+      "units": 367,
+      "structural_roles": {
+        "prose": 18,
+        "definition": 46,
+        "theorem": 73,
+        "proof": 216,
+        "remark": 14
+      }
+    },
+    {
+      "id": "2026-04-17-01",
+      "title": "善良超フィルターの存在証明",
+      "tier": "primary",
+      "subjects": [
+        "other"
+      ],
+      "source_lines": 1003,
+      "units": 196,
+      "structural_roles": {
+        "prose": 13,
+        "theorem": 19,
+        "proof": 136,
+        "definition": 10,
+        "remark": 18
+      }
+    },
+    {
+      "id": "2026-04-21-01",
+      "title": "廉価版領域不変性定理の証明",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 809,
+      "units": 126,
+      "structural_roles": {
+        "prose": 14,
+        "theorem": 22,
+        "proof": 85,
+        "remark": 5
+      }
+    },
+    {
+      "id": "2026-06-09-01",
+      "title": "Limitation topologyとBing's shrinking criterion",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 3470,
+      "units": 514,
+      "structural_roles": {
+        "prose": 92,
+        "definition": 16,
+        "theorem": 76,
+        "proof": 318,
+        "remark": 12
+      }
+    },
+    {
+      "id": "2026-06-27-01",
+      "title": "正規空間の被覆次元",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1517,
+      "units": 208,
+      "structural_roles": {
+        "prose": 15,
+        "theorem": 41,
+        "proof": 152
+      }
+    },
+    {
+      "id": "2026-06-28-01",
+      "title": "被覆次元と埋め込み",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 1178,
+      "units": 163,
+      "structural_roles": {
+        "definition": 18,
+        "theorem": 49,
+        "proof": 83,
+        "prose": 13
+      }
+    },
+    {
+      "id": "2026-07-02-01",
+      "title": "可分距離化可能空間における次元論",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "source_lines": 9661,
+      "units": 1282,
+      "structural_roles": {
+        "prose": 121,
+        "theorem": 210,
+        "proof": 849,
+        "definition": 89,
+        "remark": 10,
+        "example": 3
+      }
+    }
+  ],
+  "subjects": {
+    "number-theory": 3,
+    "topology-metric-geometry": 99,
+    "analysis": 50,
+    "probability-measure": 45,
+    "algebra": 10,
+    "combinatorics-set-theory": 6,
+    "other": 13
+  },
+  "tiers": {
+    "historical": 82,
+    "primary": 97
+  },
+  "function_count": 34,
+  "curated_examples": 34,
+  "automatic_candidates": 408,
+  "shared_units": [
+    {
+      "text_sha256": "007cb9a891caaecda1e1583579a0e9f94e3ecbe64ec50c5bd260288c217bd083",
+      "documents": [
+        "2015-12-21-05",
+        "2016-06-19-02"
+      ],
+      "characters": 66
+    },
+    {
+      "text_sha256": "0088b340657956bdc645ed2e7365326a63ebf95acb0d7d6f003db991974cf836",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "00bf64ad5837512186d412334bf2de027a8ed259abdd3bba2aa58595e7758d03",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 148
+    },
+    {
+      "text_sha256": "0155c316014297f5a615ec3787e65f58010dcc324683c6d66071e200610fa26f",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 76
+    },
+    {
+      "text_sha256": "02f1e0ceb5c61c02d2e6f7a01a72766a10625da0b2bf354735ac387dfc8239d7",
+      "documents": [
+        "2015-12-21-02",
+        "2016-01-31-01"
+      ],
+      "characters": 109
+    },
+    {
+      "text_sha256": "03096411d0ebe56904f6701b6c0e4d4d24a177181301fd27e86b51085a56d659",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01",
+        "2026-07-02-01"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "033dd19e3ae62c50e8e2ef7e0cfcdcd33bd27e6485d33c1287971529f7538d68",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 123
+    },
+    {
+      "text_sha256": "03463941680fa97ab7120a7f75a36fc5027d9a23e967bad45a8fa3667d89437a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "03f5bab8fbc18be809af6e7937e8bfda054fa4b87494a95a5ae8afe8b9438d5d",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 94
+    },
+    {
+      "text_sha256": "043dacd09d4df6383172104d3c5d107e3a7ba473e1962ab73d4893dc25f9a40e",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 156
+    },
+    {
+      "text_sha256": "046a7a05ea2a05c19daa2efc03f0f7e65f66675570ca953718f5480653bf95da",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 94
+    },
+    {
+      "text_sha256": "04f20ccce59a6bc3666d02198c3ae6b4098139d2b57c8eedb0d49c3673844c2c",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "06045a7fef4cd918b8d96caf6524baeb971b4ea970c8cba7c25d50f7f65358f1",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "0624db535f6d35d5d7b31190dc7cd053dad9d732598628460ab2d8a8679fa777",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 116
+    },
+    {
+      "text_sha256": "064bbbdc188256c9e3f53ee506f573d3363036b1698d980a906d068b8bf55ed5",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 129
+    },
+    {
+      "text_sha256": "06b475380a60a435f92c8220f8533f9f3997df81f66d31bb507cc501b3d8c6cd",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 90
+    },
+    {
+      "text_sha256": "07c696473fc2d43efd015f9ad205bc7ac17b7e0ff1efd142066c1fda36ebe96a",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 179
+    },
+    {
+      "text_sha256": "07f8334c25da42e80034550c613cbe982f871b845176a617c20d42b30639406b",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "080aa71d00048f6bd496504769fdeebdcf8a357a7427cff08d18c88849e843ad",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 100
+    },
+    {
+      "text_sha256": "086380ecb83a02e7e2f24ea6e0d0b5b3dc3519853fc6b8243e969ac5e0a7734e",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "0869fa81c1053327f2e46a6c004362afc19226ce784f101e582873ad1c824971",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 233
+    },
+    {
+      "text_sha256": "08aa513b270d488717b949d6da2986594d793c6ad67ec9ffbbaafc6900717dc8",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "09203542a4224a25a5bb96001996db6c11cf104039a7c008e404f4e4adf906d8",
+      "documents": [
+        "2015-10-21-01",
+        "2016-06-18-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "0b0c0d30ced479d692bd31f9d0934a928e8154aa58952f2358877b61b08b8199",
+      "documents": [
+        "2015-12-21-02",
+        "2016-01-31-01"
+      ],
+      "characters": 103
+    },
+    {
+      "text_sha256": "0c1278f3f8ecc28f8dee912ec246ab6c63132348bd4e0ea007433e08fa1b70bf",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "0ccd2280ad6f0d10aecc5909b651de3257907aff541de9886ddfc3f6886ace7e",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "0cd81b01218956586f7977ce451fd50f25b4f42e3ef49dbe3969aa8f59e716f8",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "0d5fd33a9d5e620e15eb20038dc124b1610b12484d2aa3e49d097a76fdeb3830",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 101
+    },
+    {
+      "text_sha256": "0db3c7917d42c39c8adf00625271f58ce87839c24be4e7db15eca0232a6c8c60",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 144
+    },
+    {
+      "text_sha256": "0e44808704ee191eceed00a4e92e19ca8d6c94f9e0801db61a011417f1059444",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "0edc8b59ea9bd85483369cec721500e85f9e60282e2c3b0cda095c12a57ea561",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 96
+    },
+    {
+      "text_sha256": "0f1e21878fb9d39a85555ba02e10396c7aa1273518755fd74f5f07d70601ba50",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "104fbf3752b53d85aafb1f789d9164ed1f6421a9af9085e17b22620af0cd8ef3",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 77
+    },
+    {
+      "text_sha256": "108397ff11deed1c4198adcc849a083c3e4b54fd909a377cd9805127b590c642",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 79
+    },
+    {
+      "text_sha256": "10f06344a540ae279086ebd5fbc97d40d87a5b42f20d1e45984cc4a9649a81b9",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "112e4a64899fe9f5ae69ad9d19b5e178afe2a99869bb1bad4b40e75fcdbafe98",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 100
+    },
+    {
+      "text_sha256": "11e2f90818c18e2ddcbcc9b7c98645a6537240db731085d0f2deb86d6b442651",
+      "documents": [
+        "2015-09-12-02",
+        "2015-09-13-01"
+      ],
+      "characters": 110
+    },
+    {
+      "text_sha256": "1271a9b7f464837efc8d77c795c3fadf352bbb2c99b694287a3190d26cbefd56",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "1324dcf871c55dc3eea8e8467cb68d068778fcbf72fd40bda868e30aa6a721f4",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "14ab5da63f8cad810764a3581ac4366ae8562b32083673fd8bd12e6abfb4485f",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "15d71863870deeb467ca2533b7eefa332c0b063b7a385482f17ad5e4f41a5b68",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "161960ced4b2109fece52a454a5be3626d1bda9fa9a27209cd84e1191eb169de",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 139
+    },
+    {
+      "text_sha256": "16ad26810d88e7a5af7f730c921f4f0d5a7849e09df0c7e1723460183dce046a",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "16c0a5c28ce4918f3af7632e166975dcf6abafb783592a969616577fb5f7d05a",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 120
+    },
+    {
+      "text_sha256": "17028bfe04f49bc0470478d38aa6604f6d2530769961119dee61444bcd6dfeb7",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 102
+    },
+    {
+      "text_sha256": "17dd04b5288f58f28309fc73903f5b2bc54e09232987fe0e0b167d3491a727ae",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 82
+    },
+    {
+      "text_sha256": "180136ee198b298e57c3d786ed546d7864c56050b8635b5e7e43cd7156fcd06a",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "18536dd15d15de9180e8897afb8039741e1cb30d797b76ddc0d71eab3f18f0ed",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 139
+    },
+    {
+      "text_sha256": "18d9aa42f57a89d4cd17b2b31222c31f461955785267339a77df91e0d10174ec",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01",
+        "2026-07-02-01"
+      ],
+      "characters": 76
+    },
+    {
+      "text_sha256": "18facd77f4eb7e1ae7484017f063908f29c226ebce20b8adfcb3a8bb118a0dbb",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "1921190957c241544f13ccda5c78a4010fc90c756c40913a9c7391d1ce5eefb4",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 85
+    },
+    {
+      "text_sha256": "1932fa35f649c1019a07d811b6172ad8436a60180270be91957e62efc36061bd",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 119
+    },
+    {
+      "text_sha256": "199787fe0b596340600c90c9798ba07ead25db5976317e22fcc01b7ba3de3d20",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01",
+        "2022-09-10-01"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "1a3a0f8269dcbc2439551fdb4a6861560731616c73a7b7f0379fa74c92724d7a",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 95
+    },
+    {
+      "text_sha256": "1a704ac911c27f32236be2231b8709dd34612b16ab3e3819458ef8381612a95d",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "1bed48021788b445cc467e3cf0c682ddd7ae35239d4d635498e23de95594becc",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "1ce50c9f40d865deb72cbe2123eadae7a518e9e386ac9d4cd5d47aead7627321",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "1d67db5d501f3964a8940d71d8b69735833b02b22bfc83fde31e8a07c0afb337",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01"
+      ],
+      "characters": 307
+    },
+    {
+      "text_sha256": "1dd1df05508968558e93dd29d7d989a7e8996a8feb24e8f3f38ec5b83afd97e7",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 139
+    },
+    {
+      "text_sha256": "1e4ab57aba2bd89d3f25527ef1ba2a03e599d94a048a00b703a4e3f6b4e177ce",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01",
+        "2022-09-10-01"
+      ],
+      "characters": 101
+    },
+    {
+      "text_sha256": "1e706773243ece06a25c86e167928fb1f3f2205ed73d904fc74173875ddb6921",
+      "documents": [
+        "2015-10-18-01",
+        "2015-10-28-01"
+      ],
+      "characters": 130
+    },
+    {
+      "text_sha256": "1f0e6d551263863c2fc6b05ef8f9f15253b91dba19f62ff5d448c29ab4bd7606",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "1f6141bbc27b7da732b2d1a959fa90f54f313ac44ff981e3f2622e4924e9b563",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 96
+    },
+    {
+      "text_sha256": "20b27460e74c29b255726db35b15c5156c8d8f2ea00c1e87bd6332ad9e0145a0",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 100
+    },
+    {
+      "text_sha256": "21167234945286a0e87af058e08868da6da1825daa2fd6e6628f6c66b1a1e178",
+      "documents": [
+        "2026-04-05-01",
+        "2026-07-02-01"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "21e090266100ae22009534303b27b274a6af195bc0d92eb74e186ed4795276d9",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76",
+        "2022-03-12-03"
+      ],
+      "characters": 169
+    },
+    {
+      "text_sha256": "238a30d3fdcae7562b3572ba600081eaed45682c40f93a8c26e9d2153005bd4c",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 168
+    },
+    {
+      "text_sha256": "23abb41142d8e761088c024698f86762b8560ca51f1af70755342d22cec81556",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "25c0ee4f1f7bf9aa7e3e5c323dbbc1ec5a64291fadfc69958cd7cd41dc9b41e9",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 174
+    },
+    {
+      "text_sha256": "2642f009c103c3c30783de9c760ede5f515acd2c4b21ec1a53948392439caf2a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 145
+    },
+    {
+      "text_sha256": "272a8593cceeacad7b8da5b524a9d6de64ccb79b6fa034eb774370eab0fbe026",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "27b3008d2b2b98c2858a97f0049d16d2bab22837590f2f926c448fa47d7286e9",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "27c56e550267be823b3770164cbb476492d0c603f57e5525f94d5f5f2826c256",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 76
+    },
+    {
+      "text_sha256": "289874eb00b8ffccc02187471c7839a8fccb43d60c9063093866e3f5e09fbac9",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 223
+    },
+    {
+      "text_sha256": "2993ba7d504b916b046d1fc7d6b08a722733269c61295fc87b42af55a7a7b972",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 256
+    },
+    {
+      "text_sha256": "2aab1a807146c0d056818cd143a61bedc66c9837f75dd9c5704cb7b399bb0069",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 199
+    },
+    {
+      "text_sha256": "2b6e81a5ca52e95ac5c95567b575fddce3a419bbcb3c2a929edb1552bb3cc69b",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "2beeb41bb4b7f85f7ac270f638fb56392f9c4790c4310af230f4eacbb0cf077f",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 203
+    },
+    {
+      "text_sha256": "2c2dcbc49602f8b727716f5daa373ad532fa54d1dd33a738634c57042ee4d4ab",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 144
+    },
+    {
+      "text_sha256": "2c7707c1bc5fa9c2771bfe52ecbde844411d4b1672cb4e814770b97f6de2f0d6",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 177
+    },
+    {
+      "text_sha256": "2d8ffd56eb336f176f62f278f0838118c73409c9e3afad9696cc0b93015594b4",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "2deede0bfdfef82289ec74705db2e7e4b4a1c8de6a9afd8810f54514d331a01a",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "2f481649a6a0d0c8e14cb4181481ed6810c55d83f4315fedec5be7ed61c883e8",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 472
+    },
+    {
+      "text_sha256": "3041009d9ed2abc17881c0e27b93fbe54cef2479307b3649da890540f83ad4ce",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "317c67299d58e14caf8e9b42fab7a150c93b96de6cafe84f049903ad72167882",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "317feea7e3075afe3c1386e90cd0729faabe954ed33a98b33456ef7d34fd431a",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01"
+      ],
+      "characters": 319
+    },
+    {
+      "text_sha256": "32126a9f6206d6a3e5e8b37170f760605ae11e96d02138c285f09c6e8a8e8127",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 236
+    },
+    {
+      "text_sha256": "324a8f4fb0c34d8e176cd25c95c6d69d23ff58a4fae7696bee5d6301fa8dc0e1",
+      "documents": [
+        "2026-04-05-01",
+        "2026-07-02-01"
+      ],
+      "characters": 115
+    },
+    {
+      "text_sha256": "3254330814adac3b2718c232a24a2c665c3adb7764f6b90412de94b922f21aa7",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 136
+    },
+    {
+      "text_sha256": "3265f617561c485587f11ad1970a4f98eaa64281a2a91687a6fc47d5de7f1986",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 66
+    },
+    {
+      "text_sha256": "3299e50ea864b1d0bb47a9159cd321d1f713a1fb5b0235131b74913293bf72cf",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "3382255f6f3edeea62c2eca72d0b72a9014124797dc0ea8f931728ee1dfaf1e8",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 138
+    },
+    {
+      "text_sha256": "341eda6fa13b601c51dd3dcda7f28c8ba0e026a0f2b5610fba5b0c16405d6cc8",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "3439ff8bbb4671d5e632553a0df9500fea7ab1681671a1019492c22b2b9612bd",
+      "documents": [
+        "2015-11-06-02",
+        "2016-01-25-01"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "3479141c90c3b9aba832919e23d194888c70c4f7fd5b93362d5784384b957dc3",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 99
+    },
+    {
+      "text_sha256": "35394a62cea5ff7ea873969d326f6ce248a14f8622c4ef4d3242602e32ad479b",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "354ce86ed17b2a942f6246dc6d4a1ca451756e33aaca7777bc96a8a8ec81dbb3",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 151
+    },
+    {
+      "text_sha256": "355c5a0864a3cea09a41a860c556b9bc21132be81c68537b14f4395b5024bfd8",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 159
+    },
+    {
+      "text_sha256": "35af2446473371b8f690acafbf85d3a0f23416a621aec0c444dbc0c619caf515",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 317
+    },
+    {
+      "text_sha256": "35f60e7262e836fb25006cf1f19ea00c4f08d374aa92cdf9f724d5472afe2aef",
+      "documents": [
+        "2015-10-18-01",
+        "2015-10-28-01"
+      ],
+      "characters": 115
+    },
+    {
+      "text_sha256": "3649bd4256f95fe98302f0cea5ceddc1cc3168e6221c20fc00c63debd7d03229",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 367
+    },
+    {
+      "text_sha256": "36c661c83642586fc14ed6552bb8d214fcbc08990fef54f8a5bb9d0dc7b55804",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 93
+    },
+    {
+      "text_sha256": "36e92f25e32287ca6ede314960fdbeb2b4d8501c50305121d3fa029dd4e2fe69",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "382112c3c89821e4e7422e0bc22c12bd2416349445967e7275051a477d05afd1",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 103
+    },
+    {
+      "text_sha256": "38aed0e9f2ecd2029236de739b9b2808229d7a7eabe608f33b8181ca0605cdd7",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01",
+        "2026-07-02-01"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "39a9c29a9f30ea04e476052f0655fb7fb327f7af4e88e3dceaa0cbce972f97e8",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 105
+    },
+    {
+      "text_sha256": "3a890af3d47c25fd097d226677542786537926ec2a5dcd67a10ea879ccd55b12",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 659
+    },
+    {
+      "text_sha256": "3afa74ec408e5f4c3575c5b09156e523ec1732fe1c4caedc5a07653707fdaeca",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 145
+    },
+    {
+      "text_sha256": "3b1d1956fe9babab3f451df63d6b2b579d836d8d46f1bf8414c8e985eb4713ee",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 145
+    },
+    {
+      "text_sha256": "3b3b608f573f9c46e59971c9ba3676ffe2a70eee4d1406e6fe689bbac3e6c597",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01"
+      ],
+      "characters": 193
+    },
+    {
+      "text_sha256": "3b4b4a7be150b1d5b71203a3719f35e4404aba48e8e326e663e6a419d1d9d6b2",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 150
+    },
+    {
+      "text_sha256": "3b5dd1fefa918954e0fd7c222edb419b93b25fc75c91959aa95dd1cc5eaf01d8",
+      "documents": [
+        "2015-09-11-01",
+        "2015-09-13-01"
+      ],
+      "characters": 133
+    },
+    {
+      "text_sha256": "3b68847b03d8ccfc2f785e936d7a80a2e7749af4fa5ad5383b87618314a64e6a",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 224
+    },
+    {
+      "text_sha256": "3bcce0c5f8b2f2c253f60114328a075fe8a9273e204e84ae47c3cb0fe1961191",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 89
+    },
+    {
+      "text_sha256": "3c6947268ad49dc1a4ba60ea12b6a0b2f38d05a71e6f4110bc0e7188d11068f3",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 97
+    },
+    {
+      "text_sha256": "3c7406cf64b66801584408cb490eb081a754b9945cae3262d209da334364bc93",
+      "documents": [
+        "2022-03-13-01",
+        "2026-07-02-01"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "3d93dc483b97b39aca290b0c3ac4fe25ec16600c3469d942a95963486fec4e72",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "3e355770e2cd76b16f57fb61e51ae800a633a3007f8515a47e4e2102c062d846",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "3eac2c583078056935dcc22bb1d4ca85ce1c2095d9fe886a302b38d8f36a4adf",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "3ee13036ca5c0ddb1ea4d01b2f3c076fbc2d33de1dbc5e1881b8399a1f684bf8",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 84
+    },
+    {
+      "text_sha256": "3f57b5ee837fe8c960f55204f4e458f460835bfc8629c1515866cdf83692c0ec",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 85
+    },
+    {
+      "text_sha256": "3f70305a7e5490eac79247bb6f5340b1e556befd7ac442a462acf42a06c163b6",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 104
+    },
+    {
+      "text_sha256": "3f9df5ca45c2e53073516c316a427732b5d22efc8cf5167013bdadf2818a358f",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "3fe8c94f0db245f586e2c0ec14fb0c9431ed84f0a686f62abbfa29a8a4389de7",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 89
+    },
+    {
+      "text_sha256": "3ffd8bf6b5839bcf765bb12cf0b30862d143167f2ca60dd21c1acd2099f204fc",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 149
+    },
+    {
+      "text_sha256": "400fb9c9434d68500a147180d7955dd1a38f628a80edf3bf64325028b2c115df",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 76
+    },
+    {
+      "text_sha256": "40a630f187db9171dc09ba925ada26a2e4cc9197e12d44940f5174955c2c6c05",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "40d50b1d67c5d7abb6d01e29be696e2329f95d0205d0ec14744f697027312b94",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 106
+    },
+    {
+      "text_sha256": "4105cc281ab6fd4d3d17ee37af3b78476aeb233da52d2ac162dd6789aa529648",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "427998143a3a338bef69ce6dfa700dc05d4ab40202bc217192ef5ad674988b05",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "4360da4f7d70d9f8192f1576e5115fd2170537c3fc71f0131b77ae4143f427b1",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "43755f0fd7abdbd0fc30de9f4dd68811dead28bb5be77ef0c771e5602b93387c",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 213
+    },
+    {
+      "text_sha256": "44052f9366bbcd2f0dadf280555d582544c6462bb1eae4f68674c41cb40b83e2",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 165
+    },
+    {
+      "text_sha256": "4431df1c90abda0146caa1e7a8b1bd0b11c5439f89701017e45c25e7a68cd357",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 112
+    },
+    {
+      "text_sha256": "44af65bd00e01983dac05036e48732da9dd51534f71e1f6ba4d66ccdef558347",
+      "documents": [
+        "2020-02-02-01",
+        "2026-03-18-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "4513ea1356d1e54719332e3657dfe43aa379da661169d4b0729de6b61b89332b",
+      "documents": [
+        "2015-11-25-01",
+        "2016-06-18-01"
+      ],
+      "characters": 184
+    },
+    {
+      "text_sha256": "45b099bcbff083e32301c70f45225542b0168d1d47eeb6a8da6c73396464e618",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "46775ac779eabcb0aca8cce88fa437952e7c1f1afe4fb9409b7a8f598d5be94a",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 150
+    },
+    {
+      "text_sha256": "46ee066e28e5caee6b701c19e25413f248f88ba05f8411d53ead2000a2cd1932",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 118
+    },
+    {
+      "text_sha256": "474ea410df585308011d35bff64f4f13fa64683ea00597928e0e00e0f7fc9edf",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 148
+    },
+    {
+      "text_sha256": "47d23d69967fa0dee3a1daa15719dfa41dab4b028cee17ac72747e3d6908bf4e",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 147
+    },
+    {
+      "text_sha256": "48974348a730318070b2f065c2c547b1bb71ff08c31968f0131041c53e89d276",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 123
+    },
+    {
+      "text_sha256": "4929cdc7597a7f850e370e1010cc43aa0ddbdbda67b2603cc992815e1a4a5a18",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 106
+    },
+    {
+      "text_sha256": "49476ecb581d454a42a9ad13a4b8705750cfac39132d827991414da89195d4c7",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "49fefa61ebb1fdd95fd167d2650519a07e70ecc51c1836118c4c9a4dedf9ba94",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 77
+    },
+    {
+      "text_sha256": "4a453f32fb6ebec2ec6c6c0b922b23750c2d1e46fcffb8da7b1978cc23adbe9d",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "4b34d4c5bbc4bcb0c4eb97ca47a6f09452d178e86f1125ce44620fe7fb963d9f",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 196
+    },
+    {
+      "text_sha256": "4c158eb06a5afa2771c0e24ccdd8e677655d63ea6f9978761217b313c867e2a5",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "4c2c8b92a75bc1c3d4141ed00c3e008fddc1da1480664419732499e95e277dbd",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "4c608688b831d54a7ed5b58aad54b3dbf37e4027ba0f8bfb2655f1a40a896724",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "4d09da56e133834ba587a8f4b3a560e21a239d7a0890770a37579b1df2fae737",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 82
+    },
+    {
+      "text_sha256": "4d60a1df64f196a7dcde38cac1df5102f015660762368d84de991da92db2b98b",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "4daaa8a6e467f95aba817e585d0fe7920e8ac385bc99560b54ad9d0d9fdcbf74",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 179
+    },
+    {
+      "text_sha256": "4db7c326dfa2c02d98636150f80645b6c1629f1f9c5bb9c61479fd7afd3c4cd7",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 66
+    },
+    {
+      "text_sha256": "4e0ef1a0d80ca482cd7748b296addb3ea573544b45a014c5a09dacce6afc5d38",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 79
+    },
+    {
+      "text_sha256": "4f03d86c9e83b41e0b13b3dff1522ac856a7898fefbe40389f2cfb1daf1bbb66",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 148
+    },
+    {
+      "text_sha256": "506d407ea6ddb599389c02fbee0e796498f32b6d74b4daac7566c4d493208cab",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 159
+    },
+    {
+      "text_sha256": "5112f9b97e55fc93055f8ce5f39035862496f38612f51cd599d812bfa015a2a1",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 146
+    },
+    {
+      "text_sha256": "51589efbc13d2f2bcbed5d26b034a5dd8090bb3f2f95100bc2ad886a6100ce2e",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "51cc5d78083483703673bac1453e68e3d7ac2814754a0eaac2f6d872e30a3721",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 110
+    },
+    {
+      "text_sha256": "51ee4c93a54089f21be1f53a0a1990769670238805d2340a36a51366c425bdbe",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 102
+    },
+    {
+      "text_sha256": "51f8afdef42cfbe40cd70541c7a4acc2ce5b7016bed81ac3518a7c44401c02c9",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01",
+        "2026-07-02-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "526141896f5df524e65f56943d8bffa09abafb07f56590ba2a39e28fb97d4296",
+      "documents": [
+        "2016-01-22-02",
+        "2016-07-21-01--71feff1e15",
+        "2023-12-28-01--795f12e2ce"
+      ],
+      "characters": 115
+    },
+    {
+      "text_sha256": "52c513fcde94942092dad79be5eca6b3839d5d417465cb6ffd14ef7f311dac9c",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "52f962ba8ef6f8ea80a4fcc02b5ee19679bb836daa8324e89748f2f5a4f2171a",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 106
+    },
+    {
+      "text_sha256": "538de3afaf67ac3ae5c32d32a19f5ac377eb7fa2615f285dabfcbbf9f6236785",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 151
+    },
+    {
+      "text_sha256": "55ca50c1c6a7adf3d994133440a116588b4ff9102382e6d3cfbf62f941c1d4c4",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "55cd7c94ac7abbf6236a656fcdeb810e9606fbee74b89b53b682db56a977fb10",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 120
+    },
+    {
+      "text_sha256": "56364398b8f1c83846eff7599279d2c13292831d423fc0f635fef164c132fd6d",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 125
+    },
+    {
+      "text_sha256": "5687952d4474d440e6420b3c527fc8ad526229ce3138c99356945a39d2b1da23",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "57e660f485d5d1948032115e91b239b8ceb1a20b5dc7e324e44ea5873ae64c84",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "5830abd00b41db6826eb9b69cd251e86d81bf8c9eb0bd2b99d9f9aa46f9acacd",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 82
+    },
+    {
+      "text_sha256": "59091841e97dc1ae8799860f6683ccc167fe53fa0a4c7ebcc286983427762b3d",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 73
+    },
+    {
+      "text_sha256": "5aafa54ee2591d21f93dc6981d02adca449d466a90618e9d46db0350fc5c9e5c",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 110
+    },
+    {
+      "text_sha256": "5af79b7e8be49e422f2256656211a2129572d208904c426f50fe5ce51319c93c",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 94
+    },
+    {
+      "text_sha256": "5b47ac23e95be3cb2a16f654f6fb57b3d649aeff49fe410f722cdd3aa51b668e",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "5b8d8da7d60fb1900cfb16dddefbc0e6b0860a3a29c07e4d7f28c66d5453c830",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 88
+    },
+    {
+      "text_sha256": "5b993257a8b3cfdef9ef24548006992cb355406c1ebe8633e8862e9056ed74e6",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "5bbf705e8c3daeb0bdaf67cd168051485598569ee820d186a242fd6a752f267c",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 108
+    },
+    {
+      "text_sha256": "5ce5d5ff1d1fdf90ca8806d9d7da5e39ee77b01756909e12bb872fdaf919928d",
+      "documents": [
+        "2015-11-06-02",
+        "2016-07-06-02"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "5d39222d3da8d1a814eebf9aad709050a6cdb269ad242e3f3a8b78d75984cf83",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "5da36b6ebf3a14956f634b8a11386ac7aa44a16bb5f17d7b0ed63ee0dbc0da37",
+      "documents": [
+        "2015-09-11-01",
+        "2016-01-31-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "5e095bbff5cab611a4bc20dc373a5577f2bfaec948c063c977772a3d8ab15707",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "5e292e997c5357517d1f19bf92d49cbae47096dea1235216a5d29245940f7b8a",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "5e9d0e153c1310ed7a258c3e164a60249cbed2eb7c5968cb9d73a17b1d292185",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 151
+    },
+    {
+      "text_sha256": "5fc7277117dd42c90b5d227d5a53ebbb8b89ff0761df3cecfcfdebc1d57ea043",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "5fd4bc90d7e10d4454a4d48dc6742998b7592da56dbd648341943177aceef0bc",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 139
+    },
+    {
+      "text_sha256": "5fecf31949ffeff0dbe0d1120941635e41f5888fcfe22a8349b391497e1902f9",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "603f2963c032eb25f1840e914404388169485c8bb46258718595b907e9ceb0ec",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 136
+    },
+    {
+      "text_sha256": "608d9b9b620927e8d4bc2517f4b7c3afb279a5e426ad48decaad5ef0059f8ca0",
+      "documents": [
+        "2021-03-25-01",
+        "2023-06-20-02"
+      ],
+      "characters": 104
+    },
+    {
+      "text_sha256": "62b20ec148c5a936afb970a28b836a5469d136a6059713777f6f5f3feaea7447",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "62e419038e5395d18eb6b0ad44b13adc127a1488f36de4d6a4126c790a6ad874",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 204
+    },
+    {
+      "text_sha256": "62e8ab762ae343d1853ffa86edff6be77d971698652a1cf9d4bd0a9df051b395",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 88
+    },
+    {
+      "text_sha256": "6398efa6dd31320f155d2f8c3205b7547aa67f49f973baf2a027384559b45f92",
+      "documents": [
+        "2016-01-22-02",
+        "2016-07-21-01--71feff1e15"
+      ],
+      "characters": 130
+    },
+    {
+      "text_sha256": "6455e2c72a6c5b843e2663d08e5c57e91e00a23acda9f329acd41bd333ed46dd",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 103
+    },
+    {
+      "text_sha256": "64cd58db4a44f9b3c01bfd63a3ac2e02c6e730515f6f687a46f8734d15d53121",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 66
+    },
+    {
+      "text_sha256": "65e0adf7b9236c9c8ea2928571a5a5b3c2db45c8b83ca2c3409ae5f0aed8d912",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 155
+    },
+    {
+      "text_sha256": "66e7923d29761e8ff1799c6d282c7f4e523dccaba1978fc6eead521666c0f5d1",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 207
+    },
+    {
+      "text_sha256": "678ae596fe1af9fe8d825bf94e0b3a86fd1be578b16a6b01759dca27a1dd2ca8",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 66
+    },
+    {
+      "text_sha256": "678ef52f8d5d49574c07ae3f23269b9ef9e0c729413572912c160683181b0299",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "6880a285c9d86c5b7bfe7cb3fb8e4714ec6a40205033484567086be466c99726",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "68d1f841665b26d8404dde6a0c39b403db2bc238b67609a505212d4ce7bd6f6c",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "68d33839fd9ffa56a904cbc6fd3127fd3e4ee536a00ef70e9a683fbad6402fbd",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "694816627c0b7e889489e0efb929ae2a68ac9764af88f5191b19a5162398995a",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "6a055efcb17aa122707ec891bbe831803137e2a64785ea56741ef082ffba55f6",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "6a2b2cc6a27ce03da8fdbdc0f7252a0083d592509b3461011278e86e251b2a30",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 93
+    },
+    {
+      "text_sha256": "6acc8d8f96f91b244e9d5c3d975884c2b9b283a036ac19546118bdf3040d02a7",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "6bb83579490d3367689d718a0c105bd6e644f91b23de5dcf3e7df6c3fb781dcf",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "6bd043b1729c120f55aba4ffc71247880b64f380cf1e3de64c377ec8be8e86f5",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "6d491abbbf147d37d493ba637e85876022ad37d4ab5ed69e5e2ea231346a8c04",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "6d781db313bb3ff353de60af01827bc4e36fba866d3a7d6fbe11f1fa3b8fb683",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "6dc2b32dfcf77a237ef858b6b7d2f8f73d3614e067e051b9d198026b155be1b7",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 137
+    },
+    {
+      "text_sha256": "6dfe80955d9b99355e842a4e5074e7cfa7f1eed98c1844ba87ee3fc2fb3c4938",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 94
+    },
+    {
+      "text_sha256": "6e1bdca29f9aee919c5b620a5ec6b7ff953fb0660273b68818efba49e1737fad",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 181
+    },
+    {
+      "text_sha256": "6e315387e1a4de19b0bf3cc9bf464433cf5cd478d2f85c662bd1228b35805419",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 82
+    },
+    {
+      "text_sha256": "6e7c3c4332798fa0afb3aa1b419ecc48c5a20d2e533c7b1e8015d776ac67184c",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 220
+    },
+    {
+      "text_sha256": "6f49ac23ae435e1bb00a1e5c3dc94f4a9191224e5376b4a851aad6e61cbc0003",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 156
+    },
+    {
+      "text_sha256": "70c1ed191c02afc608ae4db2e223bd94bef718e3c7a5d92de2162b64624b4d2c",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 117
+    },
+    {
+      "text_sha256": "70fa8c5480f6a67dbd79df1b2e27ec6072e4877344acec486d63ed689b5ed43d",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 116
+    },
+    {
+      "text_sha256": "71931c2708e1f92fa7b33a44006b84964ecd4ee3d38b61549dd0ec0452ccd611",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 257
+    },
+    {
+      "text_sha256": "71982f105cc5302c7b05ee490c767b3c59296e111d645bf2ba20f4b86c79b455",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 75
+    },
+    {
+      "text_sha256": "71ab27f7689e07531e1f4bff46f676df062fb1f74f21b6d472328cfc4e4b915b",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "71c3e85333f686adf00b6131dc59f4f92bfd9336340f598bdfe949e98eced96c",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "72a1759bf868a863573dadc4ab872f7599dd8cee44b8f3ebd4d08b6e4783cf58",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 194
+    },
+    {
+      "text_sha256": "72cfd9cd2ec66b31a1b5164378f54ebb91b8d78da299996fa209d69801b47f7a",
+      "documents": [
+        "2026-03-18-01",
+        "2026-03-23-01"
+      ],
+      "characters": 140
+    },
+    {
+      "text_sha256": "730171897aa001bf2d0a90c094a387cc318822e5e19fb5116b056967ae192d9d",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 99
+    },
+    {
+      "text_sha256": "73d3583fb0f6ded4e7a1b7cae72a9c2ee5cdc9da79e5e71145e8f60e899169c8",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 85
+    },
+    {
+      "text_sha256": "741c132daa4a1cf2a3d112ebf19647db9b8716dfbdda1f6e38f026d2b9e6cf41",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 217
+    },
+    {
+      "text_sha256": "74676d970c28041854cb330a24276ae6819375b28e13c79c83760079fa22c81d",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 102
+    },
+    {
+      "text_sha256": "74862083b3e09cf0af44067df828fba45204012f5c94d3e835b23aac59de697f",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "75ad2b30e1e9eafa4bf286d91eb1ef56153f7992deaa9453b7cfa5b9dcc947d6",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 163
+    },
+    {
+      "text_sha256": "75bf4323e0bf3dae5d4a2aa0442a344f9d12772d424f7895bb641d154ef6aa57",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01",
+        "2022-09-10-01"
+      ],
+      "characters": 132
+    },
+    {
+      "text_sha256": "75c993cd50178c1c210e2f155e43a54b1b2b1c22aad4682b17cc54e9fb3d63f8",
+      "documents": [
+        "2015-10-21-01",
+        "2016-06-18-01"
+      ],
+      "characters": 89
+    },
+    {
+      "text_sha256": "75deeae9f37d4d808f3e91f70c7748ae9cf5327d2b7ffba59b713fa464b58a88",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "7679eb536be9a3cf894a7bfd760ff26cd02f168441e6024764121a5a3a512f19",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "7694b6e562bb6958d6371f4f026b949bfe75445dee9c3735016cd74675869139",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 90
+    },
+    {
+      "text_sha256": "778b01ab6a04972505c7d6c9a80d7e7b069b320d408981a51f975b59b3fd1578",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "77c2e8743b8618e0412eb602ac5d982a6b0cbecd34e707b637518e66244c83b6",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 79
+    },
+    {
+      "text_sha256": "77ec5dd61c05e87199986fef3326dea7709b7f39e719401c4f5b7d31d6722b2c",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 104
+    },
+    {
+      "text_sha256": "7adf73a6e5adcb962689ad844fb74e9d253b475fa3e955885e657e6f1f36c0f2",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 73
+    },
+    {
+      "text_sha256": "7b48fd0f4a56ea98923a12e60791515d6524b5cc0923b509896e764746e88110",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "7b5607d978c05ab8cdb1789d90110418615b2c1112f07719b9fa8203a4e8387e",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "7b9f699e47b255c5920c9eb13fa3b3393bc519b34b650ea2a10270f351cf83e4",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 142
+    },
+    {
+      "text_sha256": "7ca08d883e6e77e26fc49c190cac93d2c588c333896ff2c12317eb6fd6bb3797",
+      "documents": [
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "7d1d7a3c615fe32f6e9b5381f1a290ba285ff5609282c9e02a12a280cf303f7a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 161
+    },
+    {
+      "text_sha256": "7e2f00df6798f33cf34412f3e9d9d2f6cf6ad6e3fe15de389822ac4898c0305d",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 114
+    },
+    {
+      "text_sha256": "7ebdc976af298217a6bf7e7f73fe83941364f383cde6d9f55672c7aea8f36c88",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 136
+    },
+    {
+      "text_sha256": "7ffc15da4c81a7b9ff5d85eab691c3a605dba7e7157f90b60927150b01f84fee",
+      "documents": [
+        "2015-09-12-02",
+        "2015-09-13-01",
+        "2016-07-21-01--71feff1e15"
+      ],
+      "characters": 227
+    },
+    {
+      "text_sha256": "800302413a7895cc6996bead07f6a36f425ae450991513aefa06343f7d87a669",
+      "documents": [
+        "2015-10-21-01",
+        "2016-06-18-01"
+      ],
+      "characters": 97
+    },
+    {
+      "text_sha256": "80195e41a10f9ec49e083cd08a302364ddd0577c2e5c641fc98259f5b264ab26",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-02"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "8049cedead1737985d8ab523bd73ee3dcb8a4004d14937ba4d5c8b641853ea99",
+      "documents": [
+        "2026-04-05-01",
+        "2026-07-02-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "80d6eb1b897a14d48236980c2b0045dc3683aae89c2e1d7d3936a722ba020317",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "811f277f38853e21d493152c93c17081faf02cbaba66519e23ffa5f7fa62de2e",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "8120fdfdd13d5bea4962314fa7833329fb166aab8d4b20aa997c66f26b483222",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 77
+    },
+    {
+      "text_sha256": "83579e2ce9c75cb9a8f053961e907d075f85a9cefeeada25ddf2fcd925f1f1fe",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "83cb11ad46c1a8ab54c0720bf2db2a3e95a48b4fec423ea08e0a1dd43443daa2",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 120
+    },
+    {
+      "text_sha256": "8427286d0c5c255211b056a5e544c27ed9d27ab6bd7697142e38aef74a92f1f6",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 85
+    },
+    {
+      "text_sha256": "846f39a6414aa2bf1ca5881b7a40f8a098992dccce731558021f781478f32162",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 118
+    },
+    {
+      "text_sha256": "84cc9a704f8b7c4da553020e9453e56917e00e322c8719884047af554f940c38",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 176
+    },
+    {
+      "text_sha256": "85281f3ec06324fd0513a8def5c4c3776fd94ccfc6c99e1ae0feb6e0c20e9d3d",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 253
+    },
+    {
+      "text_sha256": "852c2b5e220c358bc7465f1487572162f83c5ac52ee0c888d1b180b27042470a",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 100
+    },
+    {
+      "text_sha256": "85774d43f8ce419db6a6c6418823f538c0672ea960fa88af9d190b4d38b8efee",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 132
+    },
+    {
+      "text_sha256": "85c1497f57912aa495dfe78b6dc0108f2154531dca94f80fb13a860047963d99",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "85c66d57a54d70d223dd099135b5482e976a1b1b1544f335b80aecdda63471a4",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 292
+    },
+    {
+      "text_sha256": "86160aa8f32535c015353c6b2c4fadd3feae5635cf1ffa714ea1dceb31d83464",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 67
+    },
+    {
+      "text_sha256": "8657fcd8ee4efce7fbc4e127c5a56446efbfd314a8dfd125f6f5bd52b22bc5d6",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 67
+    },
+    {
+      "text_sha256": "8661c88ffecd1f614f296d0a9638b262fc7b6070fb71719c9be396e60baeafc9",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "88080551781991198bbaf189a274496c7c99f96db8f9a7bbb79e75c3141c29fc",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 133
+    },
+    {
+      "text_sha256": "88112cbd476e45a55dc5b1dc484d688f908fff42f1df172330a4adb06ae74008",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "8ac9f98a1c032141bb78dd614a9bfe2179170d793b473d252fe42741d77b9c76",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 122
+    },
+    {
+      "text_sha256": "8b8dec8ed80b1f76724dfdad648bb1a7bac892a1b20755a091a8e6b8ae043d86",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "8bb1933ce3b554f83e712e951fb615547df0e4dbaf1ab79df1dfbaed786c8bba",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 78
+    },
+    {
+      "text_sha256": "8c16d3f008ffb6f3e3b63c6331121b3674a023bdf4b9babf779f44cf5ede27b7",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "8c4dc07f44832b5453f7bfe119f13b395003118b42c68f6a968f8d564462be75",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 154
+    },
+    {
+      "text_sha256": "8c8f64b8a359f84354b96811ba2b5227f2e9f247e2f0aeaa32d9e788f28e711a",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "8d1597b8b2f111db7d75174a499a2710712a5e6838e7875e7c1ce28e9e225ff8",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 135
+    },
+    {
+      "text_sha256": "8e41c8a5bde9b5335ff70f34e924f82ae0819759bb464b6197084c7a7d539069",
+      "documents": [
+        "2015-09-11-01",
+        "2015-09-12-01",
+        "2015-09-13-01"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "8f44ef25cf846f1c8a967cb40b5c7d0b74acf94c95f19b2daaaf5be57b1222ba",
+      "documents": [
+        "2016-06-18-01",
+        "2017-10-20-01"
+      ],
+      "characters": 154
+    },
+    {
+      "text_sha256": "8f6611c2fba663fe268a99c45feda588ff4e78d27551bf8c686dd2b5b3f94165",
+      "documents": [
+        "2015-09-12-02",
+        "2015-09-13-01",
+        "2015-12-08-01"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "8fea116485f0cc3a87d45a7e3f4b3a8f0734cd3e7ae309b053225a1d823183e4",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "9006012ccd7fea75ffeb51a2dc99b47749d2f0caabeb204cf582facd167c534a",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "90a14874e8e7cbcd6e703766b2d160e44d5f2232b2738d7552ecf82171dd660f",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 110
+    },
+    {
+      "text_sha256": "90bc71a711c91bad877c966017ca068fc81cbfb442bf8ac73236e4bbb9ce2a10",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "910948d8997a84db5b159b3a182b8004f5aa60957b5d31f0e58ea2be6178d326",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 176
+    },
+    {
+      "text_sha256": "911a8dce1b7a5b335ee37aa6c1fc26c8ad647809f79027d12c0f107cf7f03eb2",
+      "documents": [
+        "2020-02-02-01",
+        "2026-03-18-01"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "91270d656d31b09282553371e7a752c8bc1ccea59242cd6c1fcc0735960ac82a",
+      "documents": [
+        "2026-04-05-01",
+        "2026-07-02-01"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "9293dcd99f2120fb3abf0917b6c40c2a597867282ba592b127fb4ddc10282cf1",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 80
+    },
+    {
+      "text_sha256": "92c94059d5f3ea2f5354e7cfedd0cdf3a235056a5cb7a6f71d77ec2f04a91030",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 266
+    },
+    {
+      "text_sha256": "93071871fc979a8346f4a7233623dc5cc5963fccc45104aa3d0da8b7fef02680",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 153
+    },
+    {
+      "text_sha256": "933752cda5205ba31533ceec273ecc259bf60f78815b3e909ebce213bc1cee6f",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "9378503d42fb44410193c551cfecd121524bc2dac7bd8174f6e5ccfa47ace7b3",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 89
+    },
+    {
+      "text_sha256": "941711648c67c39545074b0f74a800735617bb536e4b11784567cd8fa94aa921",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 151
+    },
+    {
+      "text_sha256": "94e110159757bb913d31a20c25174729a4a724824794d37d582f925f92813f70",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "95c926acbcb448e876aba1cc0d57c00370b9cc4debbb3cf7ebd25dcbe29252ce",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 75
+    },
+    {
+      "text_sha256": "978bd74ee11c6cf0a3c16d17cf3f81307591d10d33930f262ed1796575926a68",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 185
+    },
+    {
+      "text_sha256": "97f3836c1ea5b94c8fb53997240b9c3466e8cca53c4d735ad09d9dc6d791966e",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 241
+    },
+    {
+      "text_sha256": "9852ce8a546ee3fdfc6ee902e7d0fdb73183f99e67e47a7eae9f2e7e7c53792d",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 82
+    },
+    {
+      "text_sha256": "9a15ced62a4c9ae29dd1db42deb5d6856e9c5680fa975e2b0800349e3573f0fb",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 104
+    },
+    {
+      "text_sha256": "9a7c768cc986bde76902209952f200c291d7c0f0d902762c458a8c65b09431d4",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "9a9c7613650ba7212edacb54b9513ef7fdd5a361aacc4cb593417bba2b121f2f",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 227
+    },
+    {
+      "text_sha256": "9aa0628781496c41559f2bbb89ae5420e8517d3fa9709355d8c7fd6dfdc33527",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 121
+    },
+    {
+      "text_sha256": "9b859fdd2869613999564ae7f6df4b759b281fd89685270928ec3eb9696fd98f",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "9bc68f7e0f5afe0d97e7f1bb1e45633bb95f0cb5fa16ce5216621ba868c3eaec",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01",
+        "2026-07-02-01"
+      ],
+      "characters": 132
+    },
+    {
+      "text_sha256": "9c9c0f23b4805813186b98d4d156865e5c99ec7054d8dc4dd8a9b8f7bd6671f9",
+      "documents": [
+        "2015-09-12-01",
+        "2016-01-17-01"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "9cf9a3dee4bf4f30ceb276dd57f323fb2cf1dbc367b8519ccb9fe32d6053cce4",
+      "documents": [
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "9dbc870a7fc00f8f4d9fee85991f3379e75ecb5eacac22a35b73a6433e65027e",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "9ec77d4b70167f264c79eef2b55f59689759f1132334e379c300a7af27066e2e",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 210
+    },
+    {
+      "text_sha256": "9fb6f2a8c2cbe2a54fb199c94a1f06a95df101d49f9e413133f6a6c547c70638",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 95
+    },
+    {
+      "text_sha256": "a1425528b29c6b0f7a14b234f67ac9779bb12c6cc78e11f05139e7e14ff44b37",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "a2972739fe1c890d4ac1ce2a3108c5c8bf6622ba85fa2889bbf0300877ca9eca",
+      "documents": [
+        "2016-01-17-01",
+        "2017-11-16-01"
+      ],
+      "characters": 99
+    },
+    {
+      "text_sha256": "a3a05541a73de79dbc0fbc1c9966a386ca8de7c1f857953646149ea5d938c4b1",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 126
+    },
+    {
+      "text_sha256": "a3a4cbc73f3d454d49b2883657bd8a54e742588de513afe5bbcd25a72d4d0800",
+      "documents": [
+        "2026-04-15-01",
+        "2026-06-27-01"
+      ],
+      "characters": 67
+    },
+    {
+      "text_sha256": "a3aa9d29d0e893ae1c627929c5cf81ac4d6be9b08293d628dc6c4be3a6c3a8f7",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "a46eb566024a26ddeefea5659f3e1a094136d13914e1aa4964de44baca5e1158",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "a4aa07b76d4eac6377f6e98e0f92ba9fad3165c180612b96a29d163fe293edbd",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 179
+    },
+    {
+      "text_sha256": "a721358bdb19a0ef798dc5b421f556136c49599d4a7bd57ccd08eb181ed6ce6d",
+      "documents": [
+        "2022-03-12-02",
+        "2022-09-06-01",
+        "2026-07-02-01"
+      ],
+      "characters": 75
+    },
+    {
+      "text_sha256": "a8183825d65f14f3f9b5b9d8b6beaa2cdecf3864d20682f21065e425e1602e55",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "a87703c7cb30f45bed643a042c0bb4166ac1eb7567dfde09c934e2399efed5ac",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 108
+    },
+    {
+      "text_sha256": "a9cc41d35c6d41ee677f1b8ff0d86d8269260d41e8e44d0516d3bd3cabd6dee1",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 100
+    },
+    {
+      "text_sha256": "a9dbdf25ea344f6f3b948f68d1b10d341e80ef1390eec8f5330f09b8019c381b",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 89
+    },
+    {
+      "text_sha256": "a9ff7d7229bfc430c795b7764f3cb5d0e325860a70c1aae8cbd4807648b2073f",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 104
+    },
+    {
+      "text_sha256": "aadca75b4a2cbfdd52ff25c3af95bcee72c98bfe83f71becf4dd663f289bafa3",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "abafcc504bb6c8bea6bde577d5bc4c163be4b35da564c1b65f10f33af3ad8790",
+      "documents": [
+        "2015-10-18-01",
+        "2015-10-28-01"
+      ],
+      "characters": 86
+    },
+    {
+      "text_sha256": "ac1930c60bffd2bb6b84a50088a66b62f05609afbd6192d7076a8cb9241a32c7",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 73
+    },
+    {
+      "text_sha256": "ac4fee424c64e39642b175c159dd5f386d548999b352bad269d023dfd1107c54",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 115
+    },
+    {
+      "text_sha256": "ac58b3eef459b8cd9151d6a401337b8a56323cc68e3477bcc376b6acb6845b6d",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "ad0c64355bc80aace7ff1ca851e261ac4c620890200d688f634aaacc0204833c",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 97
+    },
+    {
+      "text_sha256": "ad97efdeadb6ab9c72dd08c39eab5589009a095e24982d06ea2e321569f1dc7f",
+      "documents": [
+        "2021-03-25-01",
+        "2023-06-20-02"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "add013e48c3d9f70a3595b9bd4f5c7d941fd79b230a8957a9d3595d40c3db282",
+      "documents": [
+        "2022-03-12-01",
+        "2022-09-10-01"
+      ],
+      "characters": 99
+    },
+    {
+      "text_sha256": "adf26189245e614b0ac68615f949d6c9f4498f2da086b11755d0cc2346f78f31",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 181
+    },
+    {
+      "text_sha256": "aebe3dd726c3cde1233d4f12411a5f86581374d0a1dbdaf67f060db057a724d1",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 152
+    },
+    {
+      "text_sha256": "af7456050bd5d338e19831676f680549cff3cb2584b921ee43b7762fa2ffc56c",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "af8aaa12868ecd75f4ca7b0c84ade0d71af5ab80f8f7020433109f7991e9ad43",
+      "documents": [
+        "2020-02-02-01",
+        "2026-03-18-01"
+      ],
+      "characters": 139
+    },
+    {
+      "text_sha256": "afb0ab6830057e9292332b2f63b91530bd4c9763c12ce36ffd012607922d6444",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 117
+    },
+    {
+      "text_sha256": "b058759bf3196902a987faca20ebdab3b771a004f135bd9f7f1b525ed1f62863",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 152
+    },
+    {
+      "text_sha256": "b09b0ac5e21e586eddb48853dd4f9cc18c094a81b8683ac3c519a8c4e0701abe",
+      "documents": [
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "b0b03aca48a7e5318481dec37e5c146c304e635adce8e1fb623314eeaad9d38a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "b0daf7df5a7e9fd9e502c959efdf9908e396fba60e4d882fccd466f2120264f7",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 97
+    },
+    {
+      "text_sha256": "b1749bdb35c8165daec2022e53ed117448380749a60b8ca984ba0bf9070e93fe",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 181
+    },
+    {
+      "text_sha256": "b1fcf09107a136cc66d01c2d109efd20d6e2663079bbdaae08f6f7c39b48070a",
+      "documents": [
+        "2015-09-12-02",
+        "2016-07-21-01--71feff1e15"
+      ],
+      "characters": 283
+    },
+    {
+      "text_sha256": "b2cdfc0b8cd5c0f3975818ba9defa86d5581fcd20eb1dc2a369ceaa81f2d2cca",
+      "documents": [
+        "2022-03-12-01",
+        "2022-09-10-01"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "b2e7f5060a3fce1a09d1ebd3969b035ed74edde78ae06bfb57c8d1c3e7459fd8",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 87
+    },
+    {
+      "text_sha256": "b377ca652ab230dcca1c24c06fafa2bb728ea0f7e7f44fc756a7d042625e51c2",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 227
+    },
+    {
+      "text_sha256": "b4ec571b39a99d95691155225f6876a1f2a93b01e80de0a4b1dbf3c3644566ad",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "b5148366cfa8823a568953612e6bc03653e4f52ca8a4580cb258247624369abe",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 203
+    },
+    {
+      "text_sha256": "b763f134462ca6a86c800b625220ac69faf0bd6209fc0b25dff11e0b648ff2d9",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "b77cd7006b2cc9d0053cc80db28aa76caac16714de9ce1b78998f34a0b1f1bce",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 144
+    },
+    {
+      "text_sha256": "b7b088e24ea25295c8f91ff5b938fedc04ce7c2aad434b1cd82dc78d285ef314",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 149
+    },
+    {
+      "text_sha256": "b83f5e68e93d0b138b077b7422443d965f738e422105929d96232408b438b572",
+      "documents": [
+        "2020-02-02-01",
+        "2023-06-20-01",
+        "2023-06-20-03",
+        "2026-03-18-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "b8dc86b48b1cc6527b494553aa10adb246703b154c18b6e3c5355d5498162fe9",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 101
+    },
+    {
+      "text_sha256": "b98bed107fb970dd200a410912736ec2864254ce9e32ee7a67f17acc344b0fdf",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 105
+    },
+    {
+      "text_sha256": "b9942054db5adb45470dd2cf8d7c7894b276d44b15e5fcb0e29064abe58b8bbe",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 169
+    },
+    {
+      "text_sha256": "ba9b0c1488fd4c1369be52ec0f97cdff82c2bff7f2a872461a1e78aa7d1bc7db",
+      "documents": [
+        "2015-10-18-01",
+        "2015-10-28-01"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "babeedf9d2fe3ea9ed6d6aa9d074f3f67fa2baeb478db1510751998dc3308bed",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 95
+    },
+    {
+      "text_sha256": "bb8c7c3e60ee9d6b61220933d38db68c7ea130d486a0a667b98c8c7e73140579",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "bbe7cb6fbd33ae0dd36fa4f78c517c691f3e540906233d8ca01ede0a3e38fffd",
+      "documents": [
+        "2026-04-05-01",
+        "2026-07-02-01"
+      ],
+      "characters": 91
+    },
+    {
+      "text_sha256": "bbec2f103a4fadbd3a1dac7c4c0ee53aa01fa441356909ab24e24c5fab4a775e",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 123
+    },
+    {
+      "text_sha256": "bccb44645ed015da0ddd19a767eb92ba6feaa9adf4034f2367b79aff4189aa78",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 95
+    },
+    {
+      "text_sha256": "bcf1f28d8f8cc3368b81eddb6ae6ebd29ce67969885c03fa7c8e70b6cf65ddf8",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 271
+    },
+    {
+      "text_sha256": "be3a1f3d688ab270aba97c7c1e2fdc991812f82dd79088c41b3502baa2b35818",
+      "documents": [
+        "2023-06-20-01",
+        "2023-06-20-03"
+      ],
+      "characters": 67
+    },
+    {
+      "text_sha256": "be665367e8ee72b8afad53f925cd279a5ef82f2c41484d97757589bc7c6d102e",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 156
+    },
+    {
+      "text_sha256": "bf3d284887265e5abda06efb7f2b5a97726886892564f65e9ccfd1606f8aeed2",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 73
+    },
+    {
+      "text_sha256": "bfc9d26c1c5c8c2a1e65150b9ea3d007bed1a6cbd399378ff71c3ac3a0d53d14",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 130
+    },
+    {
+      "text_sha256": "c0cdb817a8a6c5fc9c935462759d250260d9b5d8d69623a68a5a295ee2d7d11b",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 117
+    },
+    {
+      "text_sha256": "c1e3444aefa04cbaddd9ed274413d4ace96c8cbf19fb42b8878d7420e463bf90",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 90
+    },
+    {
+      "text_sha256": "c26f3bedec50681c2aa1074676768fe19d3b0939d1215f4e30582b21f0c2fc78",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 135
+    },
+    {
+      "text_sha256": "c302b2d8a852b5b49461dcf5ebd2fe821708253f56203e35bcc7ae4818faf4cf",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 88
+    },
+    {
+      "text_sha256": "c36d8030512463a61d5ed1bcad0a3f713d36d5f563cc17f7031a70bd394673bc",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 102
+    },
+    {
+      "text_sha256": "c38da9c5c707816f98af6cc09f83d0343ff18f3648395bdf7a73f828b7d1cc9a",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 142
+    },
+    {
+      "text_sha256": "c3a607fb300e68fb42dc371c5685eae174b3f963b5ff01e63da82b413edc110c",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 133
+    },
+    {
+      "text_sha256": "c3df47da2713c27e2c7cd2868a73941d76269f4a5671b08e333e812e2ad0a9d4",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "c517116c7dd65fd97da5ac1b7005b0e20eaaf3de347be6362d97159dc433dcd0",
+      "documents": [
+        "2023-06-20-01",
+        "2023-06-20-03"
+      ],
+      "characters": 95
+    },
+    {
+      "text_sha256": "c5174bc6ea9eded3ac09da99ec2b5161847a6e76a41613464333b2d61b212ef0",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "c53b58f312617475830272e84ee0a067fc057bdd6e33bdebf4474eac39deac71",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 88
+    },
+    {
+      "text_sha256": "c59f45543a9839bbcd2321955fcad6a32096718c238182c0b9bb09b054554d59",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "c644837911dc47c18ff9f23458499d432cd424e616b08524fcfb2979fe315ebf",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "c69068512e62481e4af1deb07c54649311f5ab0259879bb0029b9399cef6d907",
+      "documents": [
+        "2017-11-16-01",
+        "2022-03-12-03"
+      ],
+      "characters": 104
+    },
+    {
+      "text_sha256": "c6db47d885fddc4366e61450f5da99f3c38406c2722bb816df9da64cbc284d3e",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "c6f9c599e1684d17367300c48e12d808ec7ffc37e335241f3c13bb118f9ad778",
+      "documents": [
+        "2026-04-05-01",
+        "2026-07-02-01"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "c7640bd7467fb9a16bba5135481e416558aa27cc520761e2dc26ebbba6b6eb41",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 67
+    },
+    {
+      "text_sha256": "c7f380cd49e5e7bdf07096a5c2b79956b878926913292a184e9be3652d415993",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 263
+    },
+    {
+      "text_sha256": "c827084fb2fbaef9c48c9d8229e246171346008ada58e27423179dafb4853af4",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "c883a0e7e0283782540cbb0b1a06e0b374873fe8c01cf27ee0917dbbff7f43e3",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 75
+    },
+    {
+      "text_sha256": "c8993b6a389e25812517f2713fd64be7dda6ee1bcfe0ab25daf1e74f8d8cab32",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 80
+    },
+    {
+      "text_sha256": "c98cf12127bf00a6086dd6ad4637722f86875cdfc466214dc98c89cb406df320",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "ca1abcc2611422a28813e7d686133c961fec75d3fbe2983b982ea8e75b4c63e2",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "ca1e37d4d60c86bff675ed92421464b45890cf925a13fabe10e31ad2328f1b7f",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01"
+      ],
+      "characters": 93
+    },
+    {
+      "text_sha256": "ca3d28986ec4b098ccbafc6f4df477feeea4ebac5bbab98ed71e068ca45fc5e6",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 140
+    },
+    {
+      "text_sha256": "ca64d2668847f4ae5385caf5f2badb174a73ff1351c57aad62409de97123ac76",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "cace1f642fc27dfcfb51d5580cf157f97ac2cc9f0c41b73c142a7799fc60b77f",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 99
+    },
+    {
+      "text_sha256": "cae0badd66250acb62ec19d7138a035f237d63afbe179806484ced70ae409b8f",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "cb0defd70d236ad4c47b509223177b7d382a70861f5a92fd80672456a304ffad",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 73
+    },
+    {
+      "text_sha256": "cb4343d9a0cccbaba1e7d1bff74d1928209f13f4071653d4c528ccf7bf4fe623",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 186
+    },
+    {
+      "text_sha256": "cbc24762bec07d80191c2c69ee0bed64be559aaf1f91d3b2905b7c3973ce0b26",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 110
+    },
+    {
+      "text_sha256": "cca60e17e45b2092eae65301ce62e2b337e489a482993ffca7438311f5fafd64",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "ccaed33938d4cfc2b1d571c1b608461c50beddd70aa9186089bf94c2cd1858a7",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "ccd4cb8e2bfb318dfe9adb33a49da02a1c9ce518706a840c552f46cae5450b90",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 126
+    },
+    {
+      "text_sha256": "ccfc42b7c99332866240349b82e662a3d5f36e1b93153292641923cc6eab7980",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 149
+    },
+    {
+      "text_sha256": "cd03ee3c06634d2dff5e2a718c22a628e8e700c8c0b88ce53e9a4aaff7c08149",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 138
+    },
+    {
+      "text_sha256": "cd6910ee10d7e45ce5419d09e41911ca2fbc205df5987a48adb8a9b6712360e5",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 77
+    },
+    {
+      "text_sha256": "ce3eb6de9d1c38887ac5d6a989e4ddd2c39799773cff0e38b361bbf53cd2e57e",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "cea91a2608d101a0aa3b200f339e09a577875aa748328ff9daf131d1e471339f",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 109
+    },
+    {
+      "text_sha256": "cebd501cc0e35d9ad490fa074095e42b5756c9db92a74d18d32f02c0edc61b7f",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 123
+    },
+    {
+      "text_sha256": "cefc588c0de984764d8f4f6ce08c47b6b1e8057d94385113f255b005c3fdd27c",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 125
+    },
+    {
+      "text_sha256": "cf1b70bb835c561c7812dfa68333a7f65b26251b3217633d4728869279ab7674",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "cf9006c5b5f2c351f9add10ea1bb6cc457241bc1aa28629577b8f264b105a76e",
+      "documents": [
+        "2020-02-02-01",
+        "2026-03-18-01"
+      ],
+      "characters": 97
+    },
+    {
+      "text_sha256": "cff36168a1847c28292026eb420104f23ecb1f6882ac93be2ca43880f70d14ea",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 79
+    },
+    {
+      "text_sha256": "d0d67d2a8bfd3956a5491941d07cdd454365db005080dffd3a4957011441b394",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 69
+    },
+    {
+      "text_sha256": "d15290a6617719d2a468de99029404cc7c5be8c4582a187b2ca881d669bf20dc",
+      "documents": [
+        "2021-03-25-02",
+        "2023-06-20-03"
+      ],
+      "characters": 111
+    },
+    {
+      "text_sha256": "d1972537a529a3eb3f0ae30e92e8fd463124931b2ba18ac89bd2753675597ecf",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "d2445f17655aa2dd129eceff964375e6aa53bf2b7eeaa3c2bc3e7297732892a7",
+      "documents": [
+        "2015-12-21-05",
+        "2015-12-21-06"
+      ],
+      "characters": 112
+    },
+    {
+      "text_sha256": "d24e15e664b599903d80364129e02f777fd67c908c7c47143f21e86f41f03e38",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 102
+    },
+    {
+      "text_sha256": "d25f50a093348d0e76965ebdd3dcef3cb3539d61f4b0434ca5e03d0950363b2c",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 128
+    },
+    {
+      "text_sha256": "d334be946851a41bcb46595f4f932a704940746a3500091da098722b85f1d255",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "d42a542f62c1073f8c8ee7573f4e157541cfa6877149e241739a18406fbdd838",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 158
+    },
+    {
+      "text_sha256": "d5230493f208cc38a4a99d6a44c773a4aabfb6f3fd8f5b933527b8894b38332e",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 112
+    },
+    {
+      "text_sha256": "d58842a18bf20a44671567eca18bccaacfc352b1dfb1901ea40502a179246baa",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 76
+    },
+    {
+      "text_sha256": "d6b0e318cbfc8a919dac86dc99e972be56f78dbe7930b787fc9ef343c0266cd0",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "d72b71b2646ae26250c8d058a2e1b540903858b7a157755f41ffcf4cd49afd58",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "d737cda4ecc0284c713b45a16806c48f907994968625c1aaeded440c1117031a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 92
+    },
+    {
+      "text_sha256": "d7900fabaaeb3c6bf57136648af1c8cb95da6a6358418d2c47ea2f1363340005",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 202
+    },
+    {
+      "text_sha256": "d7bd67e695fc26c3f0bf37e910e0f1526a48edd724795d9e87c340e9e0f95ac3",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "d85e172b854401b0cc46d835b28b9b6bc26ee0c103607fb9c8bed75347405e1c",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 61
+    },
+    {
+      "text_sha256": "d872d0a33896536ba41a0d3e69d7117c7f542c6dd6ebca77c2b715016ab879ae",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "d891b8a85ebcbd152d98e8bd9d74b6a3fe0b425f5cb266eee8a51140b953af43",
+      "documents": [
+        "2022-03-12-01",
+        "2022-05-21-01",
+        "2022-09-10-01"
+      ],
+      "characters": 141
+    },
+    {
+      "text_sha256": "d9e154f0685e2c0580eb180c520d1fd1ecea577578638d42049df2e20f9335d8",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 106
+    },
+    {
+      "text_sha256": "da42d38bfe4908148b6d146b3d0aae9c62a5a93be1a3ab37f6c34a46d587551b",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 129
+    },
+    {
+      "text_sha256": "dbb1fb3d71ff8dda8826c9d891d9c62f94e347aae42393e5ae8ea6695617b0d9",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 96
+    },
+    {
+      "text_sha256": "dc22357e934c1d8fc05dc86854d3a5b49f154759c545d65c58212b1019869761",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 75
+    },
+    {
+      "text_sha256": "dd07bdde63de1a5e918e1acd45df732674f771ab58e68c00550d709759022bd4",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "dd08baed01b72662ee896d467c47666ff20e32eaba946f94e5605815fb81b101",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "dd846d8ba92e352f5a54d2599fd4938cdeca1ee17342745397b7e7b3b5dead4a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 95
+    },
+    {
+      "text_sha256": "dde8cdacb6bc3d45f4726b73d7bd32f50034582fb67cc10531783624131b7a35",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "de4d25a72019b811ed0cd2343d6f0ae977629e1c5dafd3ac739e08c1a89980ed",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 233
+    },
+    {
+      "text_sha256": "dff09109a0bc3a6bac8a8b20c32585e7da17d69c35edad7ef12b1d54cd15a815",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "e12aa29174c464f26d80488abf6eaeff7c75c12eba6f1d56a626a7e107a182d9",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-09-01",
+        "2016-01-22-02"
+      ],
+      "characters": 77
+    },
+    {
+      "text_sha256": "e17f95d54113c4e19e32465311108e26995fbe88c7d5cc5ad56b251e68d858f3",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 87
+    },
+    {
+      "text_sha256": "e289260a9a35deb278decb478db46fbf369e6836554c630f41672eab418138b6",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 76
+    },
+    {
+      "text_sha256": "e2da7034e4a50075e5d4689ea91292c11a171a6cdd559d38b7327f097366928e",
+      "documents": [
+        "2020-02-02-01",
+        "2023-06-20-01",
+        "2023-06-20-03",
+        "2026-03-18-01"
+      ],
+      "characters": 70
+    },
+    {
+      "text_sha256": "e3a6033ba2e6ef7892cf80d54d0953c724cc927273d2b70bd92378503613c76a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 110
+    },
+    {
+      "text_sha256": "e3d0aa2448cf46839809aa90d6a8dcc583141f6253cb0edf91a4228f0b1bbab3",
+      "documents": [
+        "2023-06-20-01",
+        "2023-06-20-03"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "e434f1593ece5484880b893f00ab6730c44e062c7a6d535352d1925a90d725e8",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 73
+    },
+    {
+      "text_sha256": "e6d830112b48377d0a303b69c9c384cc962ae6ef559145967cfc82a66a845023",
+      "documents": [
+        "2023-06-20-01",
+        "2023-06-20-03"
+      ],
+      "characters": 74
+    },
+    {
+      "text_sha256": "e7510b987027bd51fa09247643fa3218e2354787db8e4f36d4805d65fe5b4abb",
+      "documents": [
+        "2018-10-12-01",
+        "2021-02-28-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "e8074f97ea5f2d9323c42cd287dd167148446288dfa3e3976e909ca72fa894ed",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 64
+    },
+    {
+      "text_sha256": "e82aa187dbf174bddb674e7c0b64d32c5321fd615928ae518f8205e2186db8da",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "e8621c5affaa92ceac084813bb34ffa25fd47da465af3a54f3b5196abd30b162",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 105
+    },
+    {
+      "text_sha256": "ea0958504271f3bccb4eedc064d5ab746d77bb0ff356d923addd9597f613e4d8",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "ea8c90bb7b40efb38147c3de5b763881617ca10b5aa357caee8e44fa1afff756",
+      "documents": [
+        "2021-03-25-01",
+        "2023-06-20-02"
+      ],
+      "characters": 115
+    },
+    {
+      "text_sha256": "eb00fac070ea2a575db16210a1ca01446cacb23a0e2e7ba7b9ac2e2d740b18ef",
+      "documents": [
+        "2023-06-20-01",
+        "2023-06-20-03"
+      ],
+      "characters": 155
+    },
+    {
+      "text_sha256": "ebed9e3939882b67983bd8310170ee2f3960806bdae9f2366c179bdd8b4caaa2",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 158
+    },
+    {
+      "text_sha256": "ec720f6ac249449d280e024f4895c2532fd57078fc28404a1e82cf602b572345",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 72
+    },
+    {
+      "text_sha256": "ece960890886ef71cb8cdcba56e18218997bb4fe734389b0e952fa8cdda7f41c",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 65
+    },
+    {
+      "text_sha256": "ed98dcaab920d1b1eef788b47287c0dbcbe3e8dcfe9012ab7a77006d9876232c",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 194
+    },
+    {
+      "text_sha256": "ede86e87f2c0ce3234c1365a25eb86b8913011c7a6a48372e04c87638d645753",
+      "documents": [
+        "2026-04-05-01",
+        "2026-04-15-01"
+      ],
+      "characters": 89
+    },
+    {
+      "text_sha256": "ee056ff36327f6255478f7f243bfffb61c25a7c9a1359bada58b97da68cbbd0f",
+      "documents": [
+        "2015-10-21-01",
+        "2016-06-18-01"
+      ],
+      "characters": 90
+    },
+    {
+      "text_sha256": "ee134f78c7dd003c815daff8aedaa9c1991321547464487ca6c1b619edf3a735",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 138
+    },
+    {
+      "text_sha256": "ee8a8f45ce7f28c982a598043ebb53bd0c73fa5e1ec5a3a5d58f19f281b7d5bc",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 97
+    },
+    {
+      "text_sha256": "ee98388f85e6c94d326ec7195b8fa15e37f6dfb2793902ef188b931fbf2ba7d9",
+      "documents": [
+        "2016-01-22-02",
+        "2016-07-21-01--71feff1e15",
+        "2023-12-28-01--795f12e2ce"
+      ],
+      "characters": 102
+    },
+    {
+      "text_sha256": "efd832449427488254c1d419da6fb07015bdee25f79025e1c37920f17d5decef",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 157
+    },
+    {
+      "text_sha256": "f043a237756dad3a73f0eadc31e3cdd66f43444cadac6400b1a7f6ccb55c948e",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 109
+    },
+    {
+      "text_sha256": "f07b440bbd341e46930126fe36c9797498cc3cdb3977c54a47ef166cbf8f5d9e",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 158
+    },
+    {
+      "text_sha256": "f112a1a72e999441d57ed954252d7c747defc7aa5da1ce05ebf5022183e2929a",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 172
+    },
+    {
+      "text_sha256": "f174982f602c90926a015222937affed82a16cd918ad9ad6ba50a8db0118a962",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 189
+    },
+    {
+      "text_sha256": "f1c592efb7d65c4bb97225212ee1ef26e2dfea446b5c2bf5f5c10f8654ff7658",
+      "documents": [
+        "2015-09-11-01",
+        "2016-01-31-01"
+      ],
+      "characters": 185
+    },
+    {
+      "text_sha256": "f1d17340d7566f622ecb98f502eaf191943bc948d51e3cbca5eabf804d123bca",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 150
+    },
+    {
+      "text_sha256": "f1da84cc38eca68d5c14b501a5760c29c2cb77f7c73ea06f19f9da1a14f63a74",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 82
+    },
+    {
+      "text_sha256": "f21a23ce4a1b250753c75bb40aec488a1d32e05fac77f21be32c8a57ed205450",
+      "documents": [
+        "2015-12-11-01",
+        "2017-06-25-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "f2bb021fbcc6477eb3cfc563f411d359faf9377653aca327f4a4c2563dd12650",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-02"
+      ],
+      "characters": 77
+    },
+    {
+      "text_sha256": "f2e53857ca090282b9dbf057c42f1c46adcaa4eef42e261533f882749e9f0e2c",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 63
+    },
+    {
+      "text_sha256": "f2e6e79db4a1be9618414d99770a42bb29fdf48d9a6eb35ac33a855a2bb709d4",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 94
+    },
+    {
+      "text_sha256": "f3b57e7156d9b40cd64b021f1cab8ba2b98002d28be8c112bef9d8da0a99c7a8",
+      "documents": [
+        "2026-06-28-01",
+        "2026-07-02-01"
+      ],
+      "characters": 98
+    },
+    {
+      "text_sha256": "f3cec09cbe274aef26d9f6742222661522e46a56f5656cd5520927344c3789f6",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 273
+    },
+    {
+      "text_sha256": "f3e928863b715fa634abe1242ae005f39537cf7ace784109331505cb7673b20e",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 93
+    },
+    {
+      "text_sha256": "f40988cc0c22b2ad389559f544a1174cddcb8812ffe9978bd1ca2cc0327c4c37",
+      "documents": [
+        "2020-02-02-01",
+        "2023-06-20-01",
+        "2023-06-20-03",
+        "2026-03-18-01"
+      ],
+      "characters": 68
+    },
+    {
+      "text_sha256": "f4818e6a1cf1efcc33dc27fc5e2af630b72eac8230bbb7152afefeb40f553f3a",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "f48d9b3191cdf04e47c03868714c546e89035c90cfd4c87b65d9533b1e7b3aeb",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-18-01"
+      ],
+      "characters": 347
+    },
+    {
+      "text_sha256": "f4bdf4c67e8d370e423f6d588c8b787cb6f87cab2d751d58e1c598d92b6d201e",
+      "documents": [
+        "2015-12-11-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 116
+    },
+    {
+      "text_sha256": "f4cdefa1e5e2b92ac7702800d1304b5dcf3dcdab508334a1da8b08f0f025b2ce",
+      "documents": [
+        "2016-01-22-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 116
+    },
+    {
+      "text_sha256": "f4dc290b3dcc708ae9e907f65595b82b5bf91b0b64a935050694684068f8ad8e",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 190
+    },
+    {
+      "text_sha256": "f5371774b3eff3a55d7d8327ea94817ed09d68e46f3b591f23ea6b3388c3f81e",
+      "documents": [
+        "2015-12-21-02",
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 167
+    },
+    {
+      "text_sha256": "f55fdbb7b10aff74da425d69740a7767c100ea129fc7457518416934a1d0be1a",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01"
+      ],
+      "characters": 127
+    },
+    {
+      "text_sha256": "f5c9ffb49357f913827d21191892354c98217f50bed295fea9d2f8d73fbae0a3",
+      "documents": [
+        "2015-12-21-02",
+        "2016-01-31-01"
+      ],
+      "characters": 113
+    },
+    {
+      "text_sha256": "f650aa4315d687ca76d430b31f05cd38ee1838bf51e7ff7b3eab73685aa90f08",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 124
+    },
+    {
+      "text_sha256": "f6d26cdab3f0217d18ea0366bf0709968a1ae964b022f34524bff89b0fcb7275",
+      "documents": [
+        "2026-04-15-01",
+        "2026-04-21-01"
+      ],
+      "characters": 60
+    },
+    {
+      "text_sha256": "f8191c16a341816e71c69fc840ff3e7d9eadb68b2ad12db259d88bb08dc0a753",
+      "documents": [
+        "2015-12-21-02",
+        "2016-01-31-01"
+      ],
+      "characters": 197
+    },
+    {
+      "text_sha256": "f8c0f41acef331986813582b28b2886b6eebe6fcbe397d05b8e91fea1ef8e0aa",
+      "documents": [
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "f9282d999406838845ca83f7bb4b1d242ab64eb4b2d54f78ad10f27898f20bac",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 71
+    },
+    {
+      "text_sha256": "f9321869350b9658f12806548dc4897ae7ba495564ca43d419967493c43696b9",
+      "documents": [
+        "2018-10-12-01",
+        "2018-10-14-02"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "fb27d4294a7c7c0e9fcd7b9774f751966953f422cacb4c72c2eab0c11cd9df02",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 107
+    },
+    {
+      "text_sha256": "fb76164ca35434ce82c5a8d58329d4e1affd7a47c0a1135ba718d727bb46ef24",
+      "documents": [
+        "2022-03-12-03",
+        "2026-04-15-01",
+        "2026-07-02-01"
+      ],
+      "characters": 114
+    },
+    {
+      "text_sha256": "fc0315d2384fd14b93f3839f9a0b5de5a8ac155aa9f69f1546df9e2529c55af5",
+      "documents": [
+        "2026-06-27-01",
+        "2026-07-02-01"
+      ],
+      "characters": 81
+    },
+    {
+      "text_sha256": "fcf2fc7d444d59dc4eda47718078064514e08b14754511eb66d6a0706040e0b8",
+      "documents": [
+        "2016-06-11-01",
+        "2022-03-12-03"
+      ],
+      "characters": 80
+    },
+    {
+      "text_sha256": "fd928c3206bb940bf52ad3d5678f1f5ed8f526c35ab001f0e0cf916a2b4168f3",
+      "documents": [
+        "2016-06-19-01",
+        "2016-07-21-01--766d38af76"
+      ],
+      "characters": 117
+    },
+    {
+      "text_sha256": "fe6c633cec3703b17a871528714b9922cecc51a7f81725b0f3bd426cd9c94309",
+      "documents": [
+        "2015-09-11-01",
+        "2016-01-31-01",
+        "2016-07-21-01--f8f2b9d8c1"
+      ],
+      "characters": 62
+    },
+    {
+      "text_sha256": "fe76984cbfa729d011ecd68f339e5f4e2b2144cba7dac3473eb46c13fe5a6ac6",
+      "documents": [
+        "2023-12-28-01--795f12e2ce",
+        "2023-12-28-01--e99e6d0dfd"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "feca5ef15ae4c5ad4d3fb156ca2f8342920ea067ca2c3c5546c3a418d84cff61",
+      "documents": [
+        "2022-01-03-01",
+        "2022-01-16-01"
+      ],
+      "characters": 186
+    },
+    {
+      "text_sha256": "ff35922d067b0473c23774fc0c74bf96617475ada0fb5db893a0f34f915999a6",
+      "documents": [
+        "2021-03-25-01",
+        "2023-06-20-02"
+      ],
+      "characters": 83
+    },
+    {
+      "text_sha256": "ff71d581e531469ff762727000fe0af6347738df3270e26669f3aab1295c9c16",
+      "documents": [
+        "2015-12-21-05",
+        "2016-01-22-02"
+      ],
+      "characters": 93
+    },
+    {
+      "text_sha256": "ff9d6fce0754c52efb6974c1df9c3d781dbf75f88aba1fd099b23b8b36033216",
+      "documents": [
+        "2022-01-16-01",
+        "2023-06-20-01",
+        "2023-06-20-02"
+      ],
+      "characters": 60
+    }
+  ],
+  "limitations": [
+    "All pinned public TeX; non-TeX sources excluded; two empty bodies",
+    "Repeated text is not independent style evidence",
+    "Structural roles and sentence splits are approximate",
+    "No TeX macro/conditional expansion or mathematical verification"
+  ]
+}

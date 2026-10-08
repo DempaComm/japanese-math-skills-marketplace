@@ -1,0 +1,20 @@
+{
+  "name": "dempacomm",
+  "interface": {
+    "displayName": "DempaComm"
+  },
+  "plugins": [
+    {
+      "name": "japanese-math-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/japanese-math-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

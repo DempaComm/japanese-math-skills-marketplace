@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本語数学文書のコーパス検索</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<header><h1>日本語数学文書のコーパス検索</h1><p class="muted">語句や数学的な役割から、原文と使い分けを探せます。</p></header>
+<div class="banner">この端末内で使う検索画面です。<small>原文はTeXで表示します。用法の確認と、数学の正しさの確認は別です。</small></div>
+<div id="stats" class="muted" aria-live="polite">コーパスを読み込み中…</div>
+<section class="panel" aria-label="検索条件">
+<form id="form">
+<div class="main"><input id="q" name="q" aria-label="検索する語句" placeholder="例：示せばよい ／ コンパクト ／ \emptyset"><button class="primary" id="submit" disabled>検索</button></div>
+<div class="filters">
+<label>表記揺れ<select id="variants"><option value="expand">登録された別表記も探す</option><option value="literal">入力どおりに探す</option></select></label>
+<label>検索方法<select id="mode"><option value="phrase">語句の連続一致</option><option value="all">同じ文にすべての語を含む</option></select></label>
+<label>探す対象<select id="evidence"><option value="body">本文全体</option><option value="curated">用法確認済みの例</option><option value="passages">証明のまとまり</option></select></label>
+<label>文章の役割<select id="function"><option value="">指定しない</option></select></label>
+<label>証明の目的<select id="kind"><option value="">すべての目的</option></select></label>
+<label>年代<select id="tier"><option value="all">すべて</option><option value="primary">2020年以降</option><option value="historical">2019年以前</option></select></label>
+<label>分野<select id="subject"><option value="">すべて</option></select></label>
+<label>位置<select id="role"><option value="">すべて</option><option value="definition">定義</option><option value="theorem">定理・命題・補題・系</option><option value="proof">証明</option><option value="claim">主張</option><option value="example">例</option><option value="remark">注意</option><option value="prose">通常の本文</option></select></label>
+<label>文書<select id="document"><option value="">すべての文書</option></select></label>
+</div>
+</form>
+<div class="examples" aria-label="検索例"><button data-q="示せばよい">示せばよい</button><button data-function="contradiction">背理法の表現</button><button data-q="コンパクト">コンパクト</button><button data-q="\emptyset">\emptyset</button><button id="proofs">証明の運びを読む</button><button id="dictionary">表現の使い分けを見る</button><button id="reset">条件をリセット</button></div>
+<p class="hint">改行をまたいで検索できます。同じ文章はまとめて表示します。年代・分野は原稿を選ぶための区分です。</p>
+</section>
+<section id="argument-guide" class="panel" hidden></section>
+<section id="guide" class="panel" hidden></section>
+<p id="alias-notice" class="hint" aria-live="polite"></p>
+<div id="notice" role="status" aria-live="polite"></div>
+<main id="results"></main>
+<nav class="pager" id="pager" aria-label="検索結果のページ" hidden><button id="prev">前へ</button><span id="position"></span><button id="next">次へ</button></nav>
+<footer><details><summary>収録範囲と用例について</summary><p>公開登録された169記事・179のTeXを保存し、本文のある177ファイルを検索できます。TeXがない22記事は未収録です。「用法確認済み」は、執筆エージェントが周辺の文章で表現の使い方を確認した例です。著者による承認や証明の検証を意味しません。</p><p>本文の区切りと定理環境の分類は近似です。TeXのマクロ・条件分岐は展開しません。複数の原稿に再利用された文章もあるため、出現文書数を独立した根拠の数として扱わないでください。</p></details></footer>
+<footer><p>原文：ナンブキトラ（旧名：一色三良）、<a href="https://dempacomm.github.io/">数識電収</a>。<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。原文と編集注を区別しています。検索データは改行正規化・分割・分類を行っています。</p></footer>
+</body></html>

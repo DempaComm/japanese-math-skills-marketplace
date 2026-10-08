@@ -1,0 +1,932 @@
+{
+  "primary": {
+    "document_count": 97,
+    "terms": {
+      "とする": {
+        "occurrences": 1708,
+        "documents": 96,
+        "document_fraction": 0.9897
+      },
+      "とし，": {
+        "occurrences": 322,
+        "documents": 48,
+        "document_fraction": 0.4948
+      },
+      "仮定する": {
+        "occurrences": 85,
+        "documents": 35,
+        "document_fraction": 0.3608
+      },
+      "仮定しよう": {
+        "occurrences": 21,
+        "documents": 11,
+        "document_fraction": 0.1134
+      },
+      "と仮定": {
+        "occurrences": 140,
+        "documents": 40,
+        "document_fraction": 0.4124
+      },
+      "このとき": {
+        "occurrences": 1103,
+        "documents": 58,
+        "document_fraction": 0.5979
+      },
+      "ならば": {
+        "occurrences": 423,
+        "documents": 60,
+        "document_fraction": 0.6186
+      },
+      "とおく": {
+        "occurrences": 136,
+        "documents": 39,
+        "document_fraction": 0.4021
+      },
+      "と置く": {
+        "occurrences": 19,
+        "documents": 13,
+        "document_fraction": 0.134
+      },
+      "と定める": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "により定める": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "で定める": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "で定義する": {
+        "occurrences": 27,
+        "documents": 12,
+        "document_fraction": 0.1237
+      },
+      "と呼ぶ": {
+        "occurrences": 67,
+        "documents": 27,
+        "document_fraction": 0.2784
+      },
+      "という．": {
+        "occurrences": 20,
+        "documents": 10,
+        "document_fraction": 0.1031
+      },
+      "と呼ばれる": {
+        "occurrences": 22,
+        "documents": 19,
+        "document_fraction": 0.1959
+      },
+      "で表す": {
+        "occurrences": 30,
+        "documents": 19,
+        "document_fraction": 0.1959
+      },
+      "を表す": {
+        "occurrences": 92,
+        "documents": 32,
+        "document_fraction": 0.3299
+      },
+      "と書く": {
+        "occurrences": 94,
+        "documents": 30,
+        "document_fraction": 0.3093
+      },
+      "を示す": {
+        "occurrences": 74,
+        "documents": 32,
+        "document_fraction": 0.3299
+      },
+      "を証明する": {
+        "occurrences": 122,
+        "documents": 45,
+        "document_fraction": 0.4639
+      },
+      "を示そう": {
+        "occurrences": 156,
+        "documents": 34,
+        "document_fraction": 0.3505
+      },
+      "示せばよい": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "証明すればよい": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "十分である": {
+        "occurrences": 8,
+        "documents": 5,
+        "document_fraction": 0.0515
+      },
+      "あとは": {
+        "occurrences": 3,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "後は": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "残りの条件": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "残る": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "背理法": {
+        "occurrences": 33,
+        "documents": 19,
+        "document_fraction": 0.1959
+      },
+      "矛盾を導く": {
+        "occurrences": 4,
+        "documents": 3,
+        "document_fraction": 0.0309
+      },
+      "矛盾する": {
+        "occurrences": 53,
+        "documents": 21,
+        "document_fraction": 0.2165
+      },
+      "矛盾である": {
+        "occurrences": 6,
+        "documents": 4,
+        "document_fraction": 0.0412
+      },
+      "よって": {
+        "occurrences": 688,
+        "documents": 58,
+        "document_fraction": 0.5979
+      },
+      "したがって": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "従って": {
+        "occurrences": 3,
+        "documents": 3,
+        "document_fraction": 0.0309
+      },
+      "すなわち": {
+        "occurrences": 12,
+        "documents": 8,
+        "document_fraction": 0.0825
+      },
+      "つまり": {
+        "occurrences": 401,
+        "documents": 67,
+        "document_fraction": 0.6907
+      },
+      "なぜなら": {
+        "occurrences": 21,
+        "documents": 17,
+        "document_fraction": 0.1753
+      },
+      "からである": {
+        "occurrences": 46,
+        "documents": 26,
+        "document_fraction": 0.268
+      },
+      "による": {
+        "occurrences": 94,
+        "documents": 40,
+        "document_fraction": 0.4124
+      },
+      "定理より": {
+        "occurrences": 12,
+        "documents": 8,
+        "document_fraction": 0.0825
+      },
+      "補題より": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "命題より": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "を用いる": {
+        "occurrences": 60,
+        "documents": 32,
+        "document_fraction": 0.3299
+      },
+      "を使う": {
+        "occurrences": 40,
+        "documents": 24,
+        "document_fraction": 0.2474
+      },
+      "任意の": {
+        "occurrences": 1083,
+        "documents": 71,
+        "document_fraction": 0.732
+      },
+      "任意に": {
+        "occurrences": 161,
+        "documents": 40,
+        "document_fraction": 0.4124
+      },
+      "存在して": {
+        "occurrences": 533,
+        "documents": 62,
+        "document_fraction": 0.6392
+      },
+      "存在する": {
+        "occurrences": 500,
+        "documents": 64,
+        "document_fraction": 0.6598
+      },
+      "が取れる": {
+        "occurrences": 17,
+        "documents": 12,
+        "document_fraction": 0.1237
+      },
+      "を取る": {
+        "occurrences": 91,
+        "documents": 22,
+        "document_fraction": 0.2268
+      },
+      "をとる": {
+        "occurrences": 158,
+        "documents": 43,
+        "document_fraction": 0.4433
+      },
+      "を選ぶ": {
+        "occurrences": 5,
+        "documents": 4,
+        "document_fraction": 0.0412
+      },
+      "を固定": {
+        "occurrences": 32,
+        "documents": 20,
+        "document_fraction": 0.2062
+      },
+      "固定する": {
+        "occurrences": 21,
+        "documents": 16,
+        "document_fraction": 0.1649
+      },
+      "の場合": {
+        "occurrences": 127,
+        "documents": 36,
+        "document_fraction": 0.3711
+      },
+      "場合には": {
+        "occurrences": 60,
+        "documents": 26,
+        "document_fraction": 0.268
+      },
+      "逆に": {
+        "occurrences": 39,
+        "documents": 26,
+        "document_fraction": 0.268
+      },
+      "逆も": {
+        "occurrences": 2,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "帰納法": {
+        "occurrences": 56,
+        "documents": 18,
+        "document_fraction": 0.1856
+      },
+      "帰納的に": {
+        "occurrences": 47,
+        "documents": 18,
+        "document_fraction": 0.1856
+      },
+      "まず": {
+        "occurrences": 284,
+        "documents": 52,
+        "document_fraction": 0.5361
+      },
+      "次に": {
+        "occurrences": 144,
+        "documents": 42,
+        "document_fraction": 0.433
+      },
+      "最後に": {
+        "occurrences": 13,
+        "documents": 8,
+        "document_fraction": 0.0825
+      },
+      "特に": {
+        "occurrences": 203,
+        "documents": 50,
+        "document_fraction": 0.5155
+      },
+      "同値である": {
+        "occurrences": 146,
+        "documents": 43,
+        "document_fraction": 0.4433
+      },
+      "同値になる": {
+        "occurrences": 18,
+        "documents": 10,
+        "document_fraction": 0.1031
+      },
+      "well-defined": {
+        "occurrences": 16,
+        "documents": 11,
+        "document_fraction": 0.1134
+      },
+      "矛盾なく": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "依存しない": {
+        "occurrences": 9,
+        "documents": 6,
+        "document_fraction": 0.0619
+      },
+      "一般性を失わない": {
+        "occurrences": 23,
+        "documents": 15,
+        "document_fraction": 0.1546
+      },
+      "としてよい": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "不等式": {
+        "occurrences": 67,
+        "documents": 19,
+        "document_fraction": 0.1959
+      },
+      "評価する": {
+        "occurrences": 10,
+        "documents": 5,
+        "document_fraction": 0.0515
+      },
+      "評価が": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "収束する": {
+        "occurrences": 92,
+        "documents": 17,
+        "document_fraction": 0.1753
+      },
+      "極限を": {
+        "occurrences": 3,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "極限と": {
+        "occurrences": 3,
+        "documents": 2,
+        "document_fraction": 0.0206
+      },
+      "この文章では": {
+        "occurrences": 65,
+        "documents": 42,
+        "document_fraction": 0.433
+      },
+      "ここでは": {
+        "occurrences": 13,
+        "documents": 9,
+        "document_fraction": 0.0928
+      },
+      "目的": {
+        "occurrences": 10,
+        "documents": 5,
+        "document_fraction": 0.0515
+      },
+      "例えば": {
+        "occurrences": 40,
+        "documents": 21,
+        "document_fraction": 0.2165
+      },
+      "反例": {
+        "occurrences": 15,
+        "documents": 9,
+        "document_fraction": 0.0928
+      },
+      "例として": {
+        "occurrences": 4,
+        "documents": 4,
+        "document_fraction": 0.0412
+      },
+      "注意しよう": {
+        "occurrences": 174,
+        "documents": 52,
+        "document_fraction": 0.5361
+      },
+      "注意する": {
+        "occurrences": 10,
+        "documents": 7,
+        "document_fraction": 0.0722
+      },
+      "ただし": {
+        "occurrences": 32,
+        "documents": 19,
+        "document_fraction": 0.1959
+      },
+      "以上より": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "以上から": {
+        "occurrences": 33,
+        "documents": 20,
+        "document_fraction": 0.2062
+      },
+      "証明が完了": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0103
+      },
+      "証明できた": {
+        "occurrences": 4,
+        "documents": 4,
+        "document_fraction": 0.0412
+      }
+    }
+  },
+  "historical": {
+    "document_count": 82,
+    "terms": {
+      "とする": {
+        "occurrences": 978,
+        "documents": 76,
+        "document_fraction": 0.9268
+      },
+      "とし，": {
+        "occurrences": 82,
+        "documents": 3,
+        "document_fraction": 0.0366
+      },
+      "仮定する": {
+        "occurrences": 47,
+        "documents": 29,
+        "document_fraction": 0.3537
+      },
+      "仮定しよう": {
+        "occurrences": 7,
+        "documents": 6,
+        "document_fraction": 0.0732
+      },
+      "と仮定": {
+        "occurrences": 70,
+        "documents": 36,
+        "document_fraction": 0.439
+      },
+      "このとき": {
+        "occurrences": 491,
+        "documents": 66,
+        "document_fraction": 0.8049
+      },
+      "ならば": {
+        "occurrences": 333,
+        "documents": 61,
+        "document_fraction": 0.7439
+      },
+      "とおく": {
+        "occurrences": 60,
+        "documents": 13,
+        "document_fraction": 0.1585
+      },
+      "と置く": {
+        "occurrences": 126,
+        "documents": 47,
+        "document_fraction": 0.5732
+      },
+      "と定める": {
+        "occurrences": 11,
+        "documents": 4,
+        "document_fraction": 0.0488
+      },
+      "により定める": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "で定める": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "で定義する": {
+        "occurrences": 9,
+        "documents": 6,
+        "document_fraction": 0.0732
+      },
+      "と呼ぶ": {
+        "occurrences": 56,
+        "documents": 29,
+        "document_fraction": 0.3537
+      },
+      "という．": {
+        "occurrences": 12,
+        "documents": 3,
+        "document_fraction": 0.0366
+      },
+      "と呼ばれる": {
+        "occurrences": 18,
+        "documents": 11,
+        "document_fraction": 0.1341
+      },
+      "で表す": {
+        "occurrences": 30,
+        "documents": 17,
+        "document_fraction": 0.2073
+      },
+      "を表す": {
+        "occurrences": 40,
+        "documents": 20,
+        "document_fraction": 0.2439
+      },
+      "と書く": {
+        "occurrences": 56,
+        "documents": 35,
+        "document_fraction": 0.4268
+      },
+      "を示す": {
+        "occurrences": 69,
+        "documents": 32,
+        "document_fraction": 0.3902
+      },
+      "を証明する": {
+        "occurrences": 64,
+        "documents": 40,
+        "document_fraction": 0.4878
+      },
+      "を示そう": {
+        "occurrences": 160,
+        "documents": 46,
+        "document_fraction": 0.561
+      },
+      "示せばよい": {
+        "occurrences": 21,
+        "documents": 15,
+        "document_fraction": 0.1829
+      },
+      "証明すればよい": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0122
+      },
+      "十分である": {
+        "occurrences": 7,
+        "documents": 5,
+        "document_fraction": 0.061
+      },
+      "あとは": {
+        "occurrences": 7,
+        "documents": 7,
+        "document_fraction": 0.0854
+      },
+      "後は": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "残りの条件": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "残る": {
+        "occurrences": 3,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "背理法": {
+        "occurrences": 6,
+        "documents": 4,
+        "document_fraction": 0.0488
+      },
+      "矛盾を導く": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0122
+      },
+      "矛盾する": {
+        "occurrences": 28,
+        "documents": 19,
+        "document_fraction": 0.2317
+      },
+      "矛盾である": {
+        "occurrences": 5,
+        "documents": 3,
+        "document_fraction": 0.0366
+      },
+      "よって": {
+        "occurrences": 477,
+        "documents": 72,
+        "document_fraction": 0.878
+      },
+      "したがって": {
+        "occurrences": 98,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "従って": {
+        "occurrences": 8,
+        "documents": 6,
+        "document_fraction": 0.0732
+      },
+      "すなわち": {
+        "occurrences": 31,
+        "documents": 15,
+        "document_fraction": 0.1829
+      },
+      "つまり": {
+        "occurrences": 308,
+        "documents": 67,
+        "document_fraction": 0.8171
+      },
+      "なぜなら": {
+        "occurrences": 27,
+        "documents": 19,
+        "document_fraction": 0.2317
+      },
+      "からである": {
+        "occurrences": 45,
+        "documents": 26,
+        "document_fraction": 0.3171
+      },
+      "による": {
+        "occurrences": 101,
+        "documents": 28,
+        "document_fraction": 0.3415
+      },
+      "定理より": {
+        "occurrences": 10,
+        "documents": 7,
+        "document_fraction": 0.0854
+      },
+      "補題より": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "命題より": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0122
+      },
+      "を用いる": {
+        "occurrences": 51,
+        "documents": 23,
+        "document_fraction": 0.2805
+      },
+      "を使う": {
+        "occurrences": 17,
+        "documents": 10,
+        "document_fraction": 0.122
+      },
+      "任意の": {
+        "occurrences": 841,
+        "documents": 73,
+        "document_fraction": 0.8902
+      },
+      "任意に": {
+        "occurrences": 122,
+        "documents": 44,
+        "document_fraction": 0.5366
+      },
+      "存在して": {
+        "occurrences": 371,
+        "documents": 61,
+        "document_fraction": 0.7439
+      },
+      "存在する": {
+        "occurrences": 559,
+        "documents": 68,
+        "document_fraction": 0.8293
+      },
+      "が取れる": {
+        "occurrences": 2,
+        "documents": 1,
+        "document_fraction": 0.0122
+      },
+      "を取る": {
+        "occurrences": 78,
+        "documents": 29,
+        "document_fraction": 0.3537
+      },
+      "をとる": {
+        "occurrences": 48,
+        "documents": 12,
+        "document_fraction": 0.1463
+      },
+      "を選ぶ": {
+        "occurrences": 2,
+        "documents": 1,
+        "document_fraction": 0.0122
+      },
+      "を固定": {
+        "occurrences": 23,
+        "documents": 15,
+        "document_fraction": 0.1829
+      },
+      "固定する": {
+        "occurrences": 21,
+        "documents": 13,
+        "document_fraction": 0.1585
+      },
+      "の場合": {
+        "occurrences": 127,
+        "documents": 29,
+        "document_fraction": 0.3537
+      },
+      "場合には": {
+        "occurrences": 25,
+        "documents": 7,
+        "document_fraction": 0.0854
+      },
+      "逆に": {
+        "occurrences": 21,
+        "documents": 13,
+        "document_fraction": 0.1585
+      },
+      "逆も": {
+        "occurrences": 3,
+        "documents": 3,
+        "document_fraction": 0.0366
+      },
+      "帰納法": {
+        "occurrences": 41,
+        "documents": 12,
+        "document_fraction": 0.1463
+      },
+      "帰納的に": {
+        "occurrences": 51,
+        "documents": 25,
+        "document_fraction": 0.3049
+      },
+      "まず": {
+        "occurrences": 196,
+        "documents": 57,
+        "document_fraction": 0.6951
+      },
+      "次に": {
+        "occurrences": 83,
+        "documents": 32,
+        "document_fraction": 0.3902
+      },
+      "最後に": {
+        "occurrences": 35,
+        "documents": 17,
+        "document_fraction": 0.2073
+      },
+      "特に": {
+        "occurrences": 104,
+        "documents": 42,
+        "document_fraction": 0.5122
+      },
+      "同値である": {
+        "occurrences": 94,
+        "documents": 32,
+        "document_fraction": 0.3902
+      },
+      "同値になる": {
+        "occurrences": 5,
+        "documents": 4,
+        "document_fraction": 0.0488
+      },
+      "well-defined": {
+        "occurrences": 20,
+        "documents": 5,
+        "document_fraction": 0.061
+      },
+      "矛盾なく": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "依存しない": {
+        "occurrences": 4,
+        "documents": 4,
+        "document_fraction": 0.0488
+      },
+      "一般性を失わない": {
+        "occurrences": 23,
+        "documents": 19,
+        "document_fraction": 0.2317
+      },
+      "としてよい": {
+        "occurrences": 5,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "不等式": {
+        "occurrences": 76,
+        "documents": 19,
+        "document_fraction": 0.2317
+      },
+      "評価する": {
+        "occurrences": 2,
+        "documents": 2,
+        "document_fraction": 0.0244
+      },
+      "評価が": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "収束する": {
+        "occurrences": 56,
+        "documents": 17,
+        "document_fraction": 0.2073
+      },
+      "極限を": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "極限と": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0122
+      },
+      "この文章では": {
+        "occurrences": 70,
+        "documents": 45,
+        "document_fraction": 0.5488
+      },
+      "ここでは": {
+        "occurrences": 23,
+        "documents": 17,
+        "document_fraction": 0.2073
+      },
+      "目的": {
+        "occurrences": 13,
+        "documents": 5,
+        "document_fraction": 0.061
+      },
+      "例えば": {
+        "occurrences": 40,
+        "documents": 20,
+        "document_fraction": 0.2439
+      },
+      "反例": {
+        "occurrences": 14,
+        "documents": 8,
+        "document_fraction": 0.0976
+      },
+      "例として": {
+        "occurrences": 4,
+        "documents": 4,
+        "document_fraction": 0.0488
+      },
+      "注意しよう": {
+        "occurrences": 73,
+        "documents": 33,
+        "document_fraction": 0.4024
+      },
+      "注意する": {
+        "occurrences": 8,
+        "documents": 6,
+        "document_fraction": 0.0732
+      },
+      "ただし": {
+        "occurrences": 21,
+        "documents": 13,
+        "document_fraction": 0.1585
+      },
+      "以上より": {
+        "occurrences": 3,
+        "documents": 3,
+        "document_fraction": 0.0366
+      },
+      "以上から": {
+        "occurrences": 45,
+        "documents": 28,
+        "document_fraction": 0.3415
+      },
+      "証明が完了": {
+        "occurrences": 0,
+        "documents": 0,
+        "document_fraction": 0.0
+      },
+      "証明できた": {
+        "occurrences": 1,
+        "documents": 1,
+        "document_fraction": 0.0122
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "japanese-math-skills",
+  "version": "0.1.0",
+  "description": "日本語数学文書の執筆・改稿、明示的に委任された独立した文章レビュー、出典付き用例コーパスの検索。",
+  "author": {
+    "name": "DempaComm",
+    "url": "https://github.com/DempaComm"
+  },
+  "homepage": "https://github.com/DempaComm/japanese-math-skills-marketplace",
+  "repository": "https://github.com/DempaComm/japanese-math-skills-marketplace",
+  "license": "CC-BY-4.0 AND MIT",
+  "keywords": ["mathematics", "japanese", "latex", "writing", "review", "corpus"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Japanese Math Skills",
+        "shortDescription": "日本語の数学文書を執筆・レビュー",
+        "longDescription": "日本語の数学論文・解説・講義ノートを執筆、改稿、推敲するスキルと、明示的に委任された独立した文章レビュー用スキルを一緒に導入します。公開版の179 TeXファイル、出典とハッシュ、文脈付き用例、検索ツールを同梱します。用例検索にはPython 3.10以上が必要で、追加Pythonパッケージは不要です。実際の原稿の組版には、そのプロジェクトのTeX環境を使います。文章レビュー、用例の確認、ソフトウェア検査は数学的証明の正しさを認定しません。収録内容はCC BY 4.0と継承したMITライセンスに従います。",
+        "developerName": "DempaComm",
+        "category": "Productivity",
+        "capabilities": ["Writing", "Exposition review", "Corpus search"],
+        "websiteURL": "https://github.com/DempaComm/japanese-math-skills-marketplace",
+        "supportURL": "https://github.com/DempaComm/japanese-math-skills-marketplace/issues",
+        "defaultPrompt": [
+          "執筆スキルを使って、この日本語の数学原稿を推敲してください。数学的な内容と既存の著者判断を保ってください。",
+          "独立したレビュアーに、凍結した日本語数学原稿を editorial 方式で文章レビューさせてください。",
+          "日本語数学文書の用例コーパスから、「1の分割」の説明に使える文脈付きの例を探してください。"
+        ],
+        "brandColor": "#126B5B",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

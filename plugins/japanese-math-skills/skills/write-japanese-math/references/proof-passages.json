@@ -1,0 +1,2243 @@
+{
+  "schema_version": 1,
+  "annotation_policy": "原文を無改変で保存し、段階の要約は編集注として区別する。四段階は読解の整理であり執筆テンプレートの強制ではない。",
+  "passages": [
+    {
+      "id": "JP-P01",
+      "document": "2015-08-28-01",
+      "title": "反例集合を定義し、最小元から矛盾を導く",
+      "source_title": "素数の無限性",
+      "url": "https://dempacomm.github.io/papers/2015-08-28-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2015-08-28-01/",
+      "file": "corpus/2015-08-28-01.tex",
+      "sha256": "6817750e92a071435d07eda177c45d47c6e8aef87bff6fe92ce43bff3a90b0cc",
+      "tier": "historical",
+      "subjects": [
+        "number-theory"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "contradiction",
+        "local-notation",
+        "reduction"
+      ],
+      "summary": "素因数を持たない数を集合としてまとめ、最小の反例より小さい因子に議論を戻す。",
+      "start": 99,
+      "end": 152,
+      "raw": "\\begin{prop}\\label{soinsuu}\n$n\\in \\zz_{\\ge 1}$\nが\n$n\\neq 1$\nを満たすならば\n$n$\nは素因数を持つ．\n\\end{prop}\n\\begin{proof}\nまず\n$A =\\{\\,  n\\in \\mathbb{N}\n\\mid\n\\text{\n $n\\neq1$\n かつ\n $n$\n は素因数を持たない}\n \\, \\}$\nとおく．\n命題は\n$A= \\emptyset$\nと同値である.\n今\n$A\\neq \\emptyset$\nと仮定すると\n$A$\nの最小元が存在する．\n$a=\\min A$と置く．\n$a\\in A$\nなので\n$a\\neq 1$\nであり，\n$a$\nは素数ではない．\nよって命題\n\\ref{nab}\nより\n$a$\nは合成数である．\nゆえに\n$a=xy\\ (1<x,y<a)$\nと書ける．\n数\n$a$\nの最小性から\n$x,y\\not\\in A$\nである．\nこのことから\n$x,y$\nは素因数を持つ．\nすると\n$a$\nも素因数を持つことになり矛盾する．\n\\end{proof}",
+      "excerpt_sha256": "8d305147613b981aaf2c2dbff47ebdda56a249416a8812f65fc72bcbdbd627b2",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "1でない正の整数を対象とする。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 100,
+              "end": 105,
+              "raw": "$n\\in \\zz_{\\ge 1}$\nが\n$n\\neq 1$\nを満たすならば\n$n$\nは素因数を持つ．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "反例集合 A が空であることへ、元の命題を言い換える。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 108,
+              "end": 120,
+              "raw": "まず\n$A =\\{\\,  n\\in \\mathbb{N}\n\\mid\n\\text{\n $n\\neq1$\n かつ\n $n$\n は素因数を持たない}\n \\, \\}$\nとおく．\n命題は\n$A= \\emptyset$\nと同値である."
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "A が空でないと仮定して最小元 a を取り、合成数として分解する。a より小さい因子が反例ではないことを使う。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 121,
+              "end": 140,
+              "raw": "今\n$A\\neq \\emptyset$\nと仮定すると\n$A$\nの最小元が存在する．\n$a=\\min A$と置く．\n$a\\in A$\nなので\n$a\\neq 1$\nであり，\n$a$\nは素数ではない．\nよって命題\n\\ref{nab}\nより\n$a$\nは合成数である．\nゆえに\n$a=xy\\ (1<x,y<a)$\nと書ける．"
+            },
+            {
+              "start": 141,
+              "end": 148,
+              "raw": "数\n$a$\nの最小性から\n$x,y\\not\\in A$\nである．\nこのことから\n$x,y$\nは素因数を持つ．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "a 自身にも素因数があると分かり、反例として選んだことに矛盾する。A が空であるという結論の再記述はない。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 149,
+              "end": 152,
+              "raw": "すると\n$a$\nも素因数を持つことになり矛盾する．\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "最小性を使う前に、反例の集合と「元の主張との同値」を示している。",
+        "矛盾の相手は新しく作った条件ではなく、最初の集合への所属である。"
+      ],
+      "cautions": [
+        "背理法という語ではなく「A≠空集合と仮定する」で開始している。新稿の背理法の明示規則は別に適用する。",
+        "自然数の始点と、合成数に関する先行命題の規約を確認して使う。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "命題 nab は、1でない正の整数について素数でなければ合成数であることを使う箇所。採録内の引用位置。",
+          "start": 133,
+          "end": 140,
+          "raw": "よって命題\n\\ref{nab}\nより\n$a$\nは合成数である．\nゆえに\n$a=xy\\ (1<x,y<a)$\nと書ける．"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "最小反例を使うとき",
+      "prerequisites": "反例集合が空でないなら最小元を持つこと。",
+      "explain": "より小さい因子が反例でない理由と、最初の否定への矛盾。",
+      "argument_kinds": [
+        "contradiction"
+      ]
+    },
+    {
+      "id": "JP-P02",
+      "document": "2015-08-28-01",
+      "title": "無限性を「任意の上限を越える構成」へ帰着する",
+      "source_title": "素数の無限性",
+      "url": "https://dempacomm.github.io/papers/2015-08-28-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2015-08-28-01/",
+      "file": "corpus/2015-08-28-01.tex",
+      "sha256": "6817750e92a071435d07eda177c45d47c6e8aef87bff6fe92ce43bff3a90b0cc",
+      "tier": "historical",
+      "subjects": [
+        "number-theory"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "reduction",
+        "construction",
+        "contradiction",
+        "finish"
+      ],
+      "summary": "素数の無限性を、大きさ n を越える素数を作る問題へ移す。",
+      "start": 155,
+      "end": 201,
+      "raw": "\\begin{thm}\n素数は無限に存在する．\n\\end{thm}\n\\begin{proof}\n任意の\n$n>1$\nに対してそれよりも大きい素数が存在することを言えば良い．\n$n!$\nを\n$1$\nから\n$n$\nまでの間の自然数の積とする．\nこのとき\n$n!+1$\nは命題\n\\ref{soinsuu}\nより素因数を持つ．\nその素因数の一つを\n$p$\nとする．\n$(n!+1)-n!=1$\nなので，\nもしも\n$p$\nが\n$n!$\nの約数だとすると\n$p$\nは\n$1$\nを割り切ることになり\n$p=1$\nとなる．\nこれは\n$p$が素数であることに矛盾する．\nよって\n$p$\nは\n$n!$\nの約数ではない．\nゆえに\n$n!$\nの定義から\n$n<p$\nである.\n\\end{proof}",
+      "excerpt_sha256": "51a732177c0dff47fdeb56b1028eac2295f220d4f464e302ccddbd6b314c813a",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "任意の n>1 を取り、以後の構成で固定する。自然数であることは階乗を定義する文脈に委ねられている。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 159,
+              "end": 167,
+              "raw": "任意の\n$n>1$\nに対してそれよりも大きい素数が存在することを言えば良い．\n$n!$\nを\n$1$\nから\n$n$\nまでの間の自然数の積とする．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "n より大きい素数の存在を示せばよいと冒頭で宣言する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 159,
+              "end": 161,
+              "raw": "任意の\n$n>1$\nに対してそれよりも大きい素数が存在することを言えば良い．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "n!+1 の素因数 p を選ぶ。p が n! も割れば1を割るという矛盾から、p は n! を割らないと示す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 168,
+              "end": 175,
+              "raw": "このとき\n$n!+1$\nは命題\n\\ref{soinsuu}\nより素因数を持つ．\nその素因数の一つを\n$p$\nとする．"
+            },
+            {
+              "start": 176,
+              "end": 195,
+              "raw": "$(n!+1)-n!=1$\nなので，\nもしも\n$p$\nが\n$n!$\nの約数だとすると\n$p$\nは\n$1$\nを割り切ることになり\n$p=1$\nとなる．\nこれは\n$p$が素数であることに矛盾する．\nよって\n$p$\nは\n$n!$\nの約数ではない．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "階乗の定義へ戻って n<p を得る。素数が無限という結論への接続は冒頭の帰着が担う。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 196,
+              "end": 200,
+              "raw": "ゆえに\n$n!$\nの定義から\n$n<p$\nである."
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "最終的に示す不等式を構成より先に伝えるため、補助的な数 n!+1 の役割を追いやすい。",
+        "引用による存在、対象の選択、その対象の性質の証明を順に分けている。"
+      ],
+      "cautions": [
+        "新稿では n を自然数として束縛する。原文の n>1 だけを一般の実数に拡張して読まない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "素因数の存在は直前の命題 soinsuu に依存する。",
+          "start": 99,
+          "end": 106,
+          "raw": "\\begin{prop}\\label{soinsuu}\n$n\\in \\zz_{\\ge 1}$\nが\n$n\\neq 1$\nを満たすならば\n$n$\nは素因数を持つ．\n\\end{prop}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "無限性を構成で示すとき",
+      "prerequisites": "任意に与えた上限と、構成した数の素因数の存在。",
+      "explain": "任意の上限を越えることから無限性が従う理由。",
+      "argument_kinds": [
+        "reduction",
+        "existence"
+      ]
+    },
+    {
+      "id": "JP-P03",
+      "document": "2016-04-29-01",
+      "title": "近似点を選び、評価から所属を結論する",
+      "source_title": "実数の閉部分群",
+      "url": "https://dempacomm.github.io/papers/2016-04-29-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2016-04-29-01/",
+      "file": "corpus/2016-04-29-01.tex",
+      "sha256": "843bad6f5af023938bb4ace5a8a2f7ec78100dd0933df1d7b7f98d85437bcc40",
+      "tier": "historical",
+      "subjects": [
+        "algebra"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "choice",
+        "estimate",
+        "consequence"
+      ],
+      "summary": "実数を格子点で近似し、距離の評価を開球との交わりへ戻す。",
+      "start": 73,
+      "end": 94,
+      "raw": "\\begin{lem}\\label{1}\n実数$\\delta>0$について$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$と定義する。このとき$0<\\delta<\\ep$となる$\\ep$と任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nが成立する。\n\\end{lem}\n\\begin{proof}\nまず\n\\[\n\\rr=\\bigcup_{n\\in \\zz}[n\\delta,(n+1)\\delta]\n\\]\nが成り立つことに注意しよう（なぜ成り立つか？）。このとき$x\\in [k\\delta,(k+1)\\delta]$となる$k\\in \\zz$が存在する。そしてこのとき\n\\[\n0\\le x-k\\delta\\le(k+1)\\delta-k\\delta=\\delta<\\ep\n\\]\nなので$k\\delta\\in B(x,\\ep)$である。$k\\delta\\in A_{\\delta}$なので\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nがわかる。\n\\end{proof}",
+      "excerpt_sha256": "c71612240ad460f5d6c2d3515924a44396d18eaca6888fcea3641f24fef6e666",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "0<δ<ε と実数 x を置き、格子 Aδ を定義する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 74,
+              "end": 78,
+              "raw": "実数$\\delta>0$について$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$と定義する。このとき$0<\\delta<\\ep$となる$\\ep$と任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nが成立する。"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "B(x,ε) と Aδ の共通部分が空でないこと。独立した目標文はなく、補題の結論として示されている。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 75,
+              "end": 78,
+              "raw": "\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nが成立する。"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "x を含む格子区間を取り、その左端 kδ との距離を ε 未満に評価する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 81,
+              "end": 88,
+              "raw": "まず\n\\[\n\\rr=\\bigcup_{n\\in \\zz}[n\\delta,(n+1)\\delta]\n\\]\nが成り立つことに注意しよう（なぜ成り立つか？）。このとき$x\\in [k\\delta,(k+1)\\delta]$となる$k\\in \\zz$が存在する。そしてこのとき\n\\[\n0\\le x-k\\delta\\le(k+1)\\delta-k\\delta=\\delta<\\ep\n\\]"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "kδ が両方の集合に属することを述べ、共通部分の非空性を明記する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 89,
+              "end": 93,
+              "raw": "なので$k\\delta\\in B(x,\\ep)$である。$k\\delta\\in A_{\\delta}$なので\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nがわかる。"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "点の選択→不等式→集合への所属という論理の変換が一続きになっている。",
+        "式の後で元の集合論的な目標へ戻る短い結びがある。"
+      ],
+      "cautions": [
+        "区間による実数全体の被覆の理由は読者への問いとして省略されている。",
+        "空集合の旧記号や集合内包表記は現在の新稿の規約に合わせる。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "この文書の開球 B(a,ε) の規約。",
+          "start": 72,
+          "end": 72,
+          "raw": "また以下の文章では$B(a,\\ep)=\\{x\\in \\rr\\ |\\ |a-x|<\\ep\\}=(a-\\ep,a+\\ep)$である。"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "近似点が所望の近傍に入ると示すとき",
+      "prerequisites": "距離の評価、格子幅、近傍の半径の関係。",
+      "explain": "評価で得た数値条件を集合への所属へ読み替える箇所。",
+      "argument_kinds": [
+        "estimates"
+      ]
+    },
+    {
+      "id": "JP-P04",
+      "document": "2016-04-29-01",
+      "title": "補題の近似を包含関係で移し、任意性を回収する",
+      "source_title": "実数の閉部分群",
+      "url": "https://dempacomm.github.io/papers/2016-04-29-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2016-04-29-01/",
+      "file": "corpus/2016-04-29-01.tex",
+      "sha256": "843bad6f5af023938bb4ace5a8a2f7ec78100dd0933df1d7b7f98d85437bcc40",
+      "tier": "historical",
+      "subjects": [
+        "algebra"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "citation",
+        "arbitrary",
+        "choice",
+        "finish"
+      ],
+      "summary": "小さい群の元から格子を作り、格子の近似性を群全体の稠密性へ移す。",
+      "start": 106,
+      "end": 120,
+      "raw": "\\begin{prop}\\label{dense}\n$\\rr$の部分群$G$について$G^d\\neq\\O$ならば$G$は$\\rr$で稠密である。\n\\end{prop}\n\\begin{proof}\n先の補題\\ref{2}より$0\\in G^d$であるから任意の$\\ep>0$に対して$\\delta\\neq0$かつ$|\\delta-0|<\\ep$となる$\\delta\\in G$が存在する。$G$は$\\rr$の部分加法群なので適当に符合を変えて$\\delta>0$としてもよい。すると$0<\\delta<\\ep$である。\\par\nさて補題\\ref{1}から$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$とすると任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq\\O\n\\]\nであるが、$G$が加法群であることから$A_{\\delta}\\subset G$となり、結局\n\\[\nB(x,\\ep)\\cap G\\neq\\O\n\\]\nが成立し、$\\ep>0$と$x\\in \\rr$は任意であったから$G$は$\\rr$で稠密であることが分かる。\n\\end{proof}",
+      "excerpt_sha256": "dc91aa8058ab1a10961694106eaaf7c3d6218535725c5e3281e25bb69f4b70da",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "G は実数の加法部分群であり、集積点を持つ。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 107,
+              "end": 107,
+              "raw": "$\\rr$の部分群$G$について$G^d\\neq\\O$ならば$G$は$\\rr$で稠密である。"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "G が実数全体に稠密であることを示す。証明内では任意の開球との交わりへ移るが、その帰着を別の目標文にはしていない。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 107,
+              "end": 107,
+              "raw": "$\\rr$の部分群$G$について$G^d\\neq\\O$ならば$G$は$\\rr$で稠密である。"
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "raw": "さて補題\\ref{1}から$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$とすると任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq\\O\n\\]"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "先行補題で0が集積点と分かるので、小さい正の群の元 δ を選ぶ。格子 Aδ が G に含まれることを使う。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 110,
+              "end": 115,
+              "raw": "先の補題\\ref{2}より$0\\in G^d$であるから任意の$\\ep>0$に対して$\\delta\\neq0$かつ$|\\delta-0|<\\ep$となる$\\delta\\in G$が存在する。$G$は$\\rr$の部分加法群なので適当に符合を変えて$\\delta>0$としてもよい。すると$0<\\delta<\\ep$である。\\par\nさて補題\\ref{1}から$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$とすると任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq\\O\n\\]\nであるが、$G$が加法群であることから$A_{\\delta}\\subset G$となり、結局"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "任意の ε と x に対する開球との交わりを得て、その任意性から稠密性を結論する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 116,
+              "end": 119,
+              "raw": "\\[\nB(x,\\ep)\\cap G\\neq\\O\n\\]\nが成立し、$\\ep>0$と$x\\in \\rr$は任意であったから$G$は$\\rr$で稠密であることが分かる。"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "前の補題の出力を、新しい対象の選択にどう使うかが示されている。",
+        "局所的な不等式・所属条件の後、変数の任意性を回収して全体の性質を結論している。"
+      ],
+      "cautions": [
+        "δ は ε に依存して選ばれる。全ての ε に共通の δ が存在するという文へ変更しない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "集積点・孤立点・開球の記法。",
+          "start": 67,
+          "end": 72,
+          "raw": "この文書では集合$A$の集積点全体を$A^d$で表し、$A$の孤立点全体を$A^s$で表す。$\\cl(A)=A^s\\cup A^d$が成り立つことは位相空間論の初歩であろう。\\par\nこの文書では実数の部分集合しか出てこないので集積点、孤立点の定義をその限られた状況下で改めて述べておくと便利であろう。\\par\n$A\\subset\\rr$について、$x\\in \\rr$が$A$の集積点であるとは、任意の$\\ep>0$に対してある$a\\in A$が存在して$a\\in (x-\\ep,x+\\ep)$かつ$a\\neq x$を充たすことである。\\par\nまた$x\\in \\rr$が$A$の孤立点であるとはある$\\ep>0$が存在して$(x-\\ep,x+\\ep)\\cap A=\\{x\\}$を充たすこと。\\par\n定義から明らかに$A^s\\subset A$となることに注意せよ。\\par\nまた以下の文章では$B(a,\\ep)=\\{x\\in \\rr\\ |\\ |a-x|<\\ep\\}=(a-\\ep,a+\\ep)$である。"
+        },
+        {
+          "commentary": "格子が任意の開球と交わる補題。",
+          "start": 73,
+          "end": 94,
+          "raw": "\\begin{lem}\\label{1}\n実数$\\delta>0$について$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$と定義する。このとき$0<\\delta<\\ep$となる$\\ep$と任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nが成立する。\n\\end{lem}\n\\begin{proof}\nまず\n\\[\n\\rr=\\bigcup_{n\\in \\zz}[n\\delta,(n+1)\\delta]\n\\]\nが成り立つことに注意しよう（なぜ成り立つか？）。このとき$x\\in [k\\delta,(k+1)\\delta]$となる$k\\in \\zz$が存在する。そしてこのとき\n\\[\n0\\le x-k\\delta\\le(k+1)\\delta-k\\delta=\\delta<\\ep\n\\]\nなので$k\\delta\\in B(x,\\ep)$である。$k\\delta\\in A_{\\delta}$なので\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq \\O\n\\]\nがわかる。\n\\end{proof}"
+        },
+        {
+          "commentary": "集積点を持つ加法群では0も集積点となる補題。",
+          "start": 96,
+          "end": 104,
+          "raw": "\\begin{lem}\\label{2}\n$\\rr$の部分群$G$について$G^{d}\\neq \\O$ならば$0\\in G^d$である。\n\\end{lem}\n\\begin{proof}\n$a\\in G^d$とすると任意の$\\ep>0$に対して$s,t\\in G$が存在して$s\\neq t$かつ$|a-s|<\\frac{\\ep}{2},\\ |a-t|<\\frac{\\ep}{2}$\nを充たす。\n\nすると$G$が加法群であることから$s-t\\in G$であり$s-t\\neq0$及び$|(s-t)-0|=|s-t|<\\ep$となる。$\\ep>0$は任意であったので$0$は$G$の集積点であることが分かる。\n\\end{proof}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "補題の近似を稠密性へ使うとき",
+      "prerequisites": "近似補題の条件と、任意の点・半径。",
+      "explain": "補題が与える点の所属と、点・半径の任意性。",
+      "argument_kinds": [
+        "local-global"
+      ]
+    },
+    {
+      "id": "JP-P05",
+      "document": "2016-04-29-01",
+      "title": "場合分けごとに既存の結果を適用して分類を閉じる",
+      "source_title": "実数の閉部分群",
+      "url": "https://dempacomm.github.io/papers/2016-04-29-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2016-04-29-01/",
+      "file": "corpus/2016-04-29-01.tex",
+      "sha256": "843bad6f5af023938bb4ace5a8a2f7ec78100dd0933df1d7b7f98d85437bcc40",
+      "tier": "historical",
+      "subjects": [
+        "algebra"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "case",
+        "citation",
+        "consequence"
+      ],
+      "summary": "閉部分群を集積点の有無で二分し、それぞれの分岐を準備済みの命題へつなぐ。",
+      "start": 151,
+      "end": 162,
+      "raw": "\\begin{thm}\n$\\rr$の閉部分群は\n\\[\n\\rr,\\ h\\zz\\ (h>0),\\ {0}\n\\]\nの形のものしかない。\n\\end{thm}\n\\begin{proof}\n$G$を$\\rr$の閉部分群とする。\\par\n\\textbf{case1：$G^d\\neq\\O$のとき；}\\ 命題\\ref{dense}より$G$は$\\rr$の稠密集合となるが、$G$は閉なので$G=\\rr$である。\\par\n\\textbf{case2：$G^d=\\O$のとき；}\\ 命題\\ref{disc}から$G$は$h\\in\\rr$を用いて$G=h\\zz$と書ける。$h=0$の場合が$G=\\{0\\}$であり、それ以外の場合には$G=h\\zz\\ (h>0)$と書けることは明らかである。\n\\end{proof}",
+      "excerpt_sha256": "6a1a3b72b0ef6255917adafa0e19350821c71ab2408f5b3adbafb3cd1acd288e",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "G を実数の閉部分群とする。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 152,
+              "end": 156,
+              "raw": "$\\rr$の閉部分群は\n\\[\n\\rr,\\ h\\zz\\ (h>0),\\ {0}\n\\]\nの形のものしかない。"
+            },
+            {
+              "start": 159,
+              "end": 159,
+              "raw": "$G$を$\\rr$の閉部分群とする。\\par"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "実数全体、正の数が生成する巡回群、零部分群の三形に分類する。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 152,
+              "end": 156,
+              "raw": "$\\rr$の閉部分群は\n\\[\n\\rr,\\ h\\zz\\ (h>0),\\ {0}\n\\]\nの形のものしかない。"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "集積点がある場合は稠密性と閉性から実数全体となる。集積点がない場合は G=hZ を得る。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 160,
+              "end": 161,
+              "raw": "\\textbf{case1：$G^d\\neq\\O$のとき；}\\ 命題\\ref{dense}より$G$は$\\rr$の稠密集合となるが、$G$は閉なので$G=\\rr$である。\\par\n\\textbf{case2：$G^d=\\O$のとき；}\\ 命題\\ref{disc}から$G$は$h\\in\\rr$を用いて$G=h\\zz$と書ける。$h=0$の場合が$G=\\{0\\}$であり、それ以外の場合には$G=h\\zz\\ (h>0)$と書けることは明らかである。"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "後者で h=0 と h≠0 を分け、冒頭の分類の形へ戻す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 161,
+              "end": 161,
+              "raw": "\\textbf{case2：$G^d=\\O$のとき；}\\ 命題\\ref{disc}から$G$は$h\\in\\rr$を用いて$G=h\\zz$と書ける。$h=0$の場合が$G=\\{0\\}$であり、それ以外の場合には$G=h\\zz\\ (h>0)$と書けることは明らかである。"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "短い証明でも分岐条件と引用先が対になっている。",
+        "引用の結論をそのまま置くのでなく、分類の表記に合わせて整理して終える。"
+      ],
+      "cautions": [
+        "証明の主要部分は命題 dense と disc にある。短さだけを模範にして前提の説明を省かない。",
+        "段階と結論が同じ行に同居している。四段階を四段落に分ける規則ではない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "稠密性を得る命題。",
+          "start": 106,
+          "end": 120,
+          "raw": "\\begin{prop}\\label{dense}\n$\\rr$の部分群$G$について$G^d\\neq\\O$ならば$G$は$\\rr$で稠密である。\n\\end{prop}\n\\begin{proof}\n先の補題\\ref{2}より$0\\in G^d$であるから任意の$\\ep>0$に対して$\\delta\\neq0$かつ$|\\delta-0|<\\ep$となる$\\delta\\in G$が存在する。$G$は$\\rr$の部分加法群なので適当に符合を変えて$\\delta>0$としてもよい。すると$0<\\delta<\\ep$である。\\par\nさて補題\\ref{1}から$A_{\\delta}=\\{n\\delta\\ |\\ n\\in \\zz\\}$とすると任意の$x\\in \\rr$に対して\n\\[\nB(x,\\ep)\\cap A_{\\delta}\\neq\\O\n\\]\nであるが、$G$が加法群であることから$A_{\\delta}\\subset G$となり、結局\n\\[\nB(x,\\ep)\\cap G\\neq\\O\n\\]\nが成立し、$\\ep>0$と$x\\in \\rr$は任意であったから$G$は$\\rr$で稠密であることが分かる。\n\\end{proof}"
+        },
+        {
+          "commentary": "離散な部分群を hZ と表す命題。",
+          "start": 123,
+          "end": 148,
+          "raw": "\\begin{prop}\\label{disc}\n$\\rr$の部分群$G$について$G^{d}=\\O$ならば、ある$h\\in \\rr$を用いて$G=h\\zz$と書ける。\n\\end{prop}\n\\begin{proof}\n$\\cl (G)=G^s\\cup G^d$であるが、今$G^d=\\O$であり、$G^{s}\\subset G$なので$\\cl (G)=G$となる。つまり$G$は$\\rr$の閉部分群となる。\\par\n$G$の点はすべて孤立点なので十分小さい$\\ep>0$をとれば\n\\[\nB(0,\\ep)\\cap G=\\{0\\}\n\\]\nである。\\par\n\\textbf{case1:$[\\ep,\\mgn)\\cap G=\\O$のとき;}\\ このとき$G=\\{0\\}=0\\zz$である。(なぜか？)\\par\n\\textbf{case 2;$[\\ep,\\mgn)\\cap G\\neq\\O$のとき;}\\ このとき実数の公理から\n\\[\nh:=\\inf [\\ep,\\mgn)\\cap G\n\\]\nが存在するが、$G$が閉であることから$h\\in G$となる。以下$G=h\\zz$となることを示そう。\\par\n$x\\in G$とし、$x\\neq0$とする。適当に符合を変えて$x>0$としても一般性を失わない。$B(0,\\ep)\\cap G=\\{0\\}$なので\n\\[\nx\\in [\\ep,\\mgn)\\cap G\n\\]\nである。つまり$h\\le x$である。ここで$n\\in\\zz$を$hn\\le x$となる最大の整数とする。(このような整数は確かに存在する。なぜか？)すると$x-hn\\ge 0$であり\n\\[\nx-hn\\in G\n\\]\nである。もしここで$x-hn\\neq 0$ならば$x-hn\\in [\\ep,\\mgn)\\cap G$である。よって$h \\le x-hn$つまり$h(n+1)\\le x$となるが、これは$n$の最大性に反する。従って$x-hn=0$つまり$x=hn$である。$x\\in G$は任意であったので結局$G=h\\zz$が示された。\n\\end{proof}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "既知の結果を場合ごとに適用するとき",
+      "prerequisites": "対象が分類の場合のいずれかに入ること。",
+      "explain": "各場合の適用結果と、漏れのない結論。",
+      "argument_kinds": [
+        "cases"
+      ]
+    },
+    {
+      "id": "JP-P06",
+      "document": "2017-05-07-01",
+      "title": "交互に定義域と値域を広げて写像を組み立てる",
+      "source_title": "有理数の順序集合としての特徴づけ",
+      "url": "https://dempacomm.github.io/papers/2017-05-07-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2017-05-07-01/",
+      "file": "corpus/2017-05-07-01.tex",
+      "sha256": "f165ff227cc5e93a6b36035cd5ce7de4c7fd76bad59f616903fc41e410820e34",
+      "tier": "historical",
+      "subjects": [
+        "combinatorics-set-theory"
+      ],
+      "scope_kind": "construction-excerpt",
+      "functions": [
+        "induction",
+        "construction"
+      ],
+      "summary": "back-and-forth の構成部分。有限段階の条件を先に列挙し、両方向を交互に拡張して全体写像を定義する。",
+      "start": 127,
+      "end": 147,
+      "raw": "\\begin{proof}[\\textbf{定理\\ref{thm}の証明}]\n所謂back-and-forth argument により帰納法によって証明する。\\par\n$(A,\\le_A), (B,\\le_B)$を最大値及び最小値を持たない可算で自己稠密な二つの順序集合とする。そして\n$A=\\{a_i\\}_{i\\in \\nn}, B=\\{b_i\\}_{i\\in \\nn}$と番号付けされていると仮定する。\nこの番号付けを用いて関数の拡張列$\\{f_n\\}_{n\\in \\nn}$を以下の条件を満たすように帰納的に定義する。\n\\begin{enumerate}\n\\item $f_n$は順序を保つ全単射\n\\item $\\dom f_n$は有限集合で$\\{\\,a_0,\\dots, a_{n}\\,\\}$を含む.\n\\item $\\cod f_n$は有限集合で$\\{\\,b_0,\\dots,b_{n}\\,\\}$を含む.\n\\end{enumerate}\\par\nStep0:（$f_0$を定義する）\n$f_0$は$f_0:\\{a_0\\}\\to \\{b_0\\}$で$f_0(a_0)=b_0$という写像として定義する。\\par\nStep1:（$f_n$が構成されたとして$f_{n+1}$を構成する)補助的に$g_n$という順序同型写像を以下のように定義する。\\par\nもし$a_{n+1}\\in \\dom(f_n)$ならば、$g_n=f_n$とし、\n$a_{n+1}\\not\\in \\dom(f_n)$ならば$f_n$と$a_{n+1}$、および$\\cod(f_n), \\dom(f_n)$に\n補題\\ref{lem}を用いて$f_n$を$\\dom(f_n)\\cup \\{a_{n+1}\\}$まで拡張した順序同型写像を$g_n$とする。\\par\nまた更に補助的に$h_n$という順序同型写像を以下のように$g_n^{-1}$を拡張して定義する。\\par\nもし$b_{n+1}\\in \\dom(g_n^{-1})=\\cod(g_n)$ならば$h_n=g_n^{-1}$とする。\nもし$b_{n+1}\\not\\in \\dom(g_n^{-1})=\\cod(g_n)$の時には、$g_n^{-1}$, $b_{n+1}$に補題\\ref{lem}を用いて$g_n^{-1}$を$\\dom(g_n^{-1})\\cup\\{b_{n+1}\\}$まで拡張した写像を$h_n$とする。\\par\n最後に$f_{n+1}=h_n^{-1}$と定義すれば帰納法の仮定をすべて充たす。\\par\nStep3: 以上で得られた順序同型写像の列$\\{f_n\\}_{n\\in \\nn}$を用いて、写像$F:A\\to B$を$F(a_n)=f_n(a_n)$と定義する。$\\{f_n\\}_{n\\in \\nn}$が写像の拡張列になっているので、この定義はwell-definedである。\\par",
+      "excerpt_sha256": "26ab44eb9ed004126268a8345d0c8a4ebf66938d26c64a9cefb9123d8ffb49e7",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "端点を持たない可算自己稠密順序集合 A,B と番号付けを固定する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 129,
+              "end": 130,
+              "raw": "$(A,\\le_A), (B,\\le_B)$を最大値及び最小値を持たない可算で自己稠密な二つの順序集合とする。そして\n$A=\\{a_i\\}_{i\\in \\nn}, B=\\{b_i\\}_{i\\in \\nn}$と番号付けされていると仮定する。"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "有限の順序同型の拡張列に、AとB双方の最初の n 個の元を取り込む条件を課す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 131,
+              "end": 136,
+              "raw": "この番号付けを用いて関数の拡張列$\\{f_n\\}_{n\\in \\nn}$を以下の条件を満たすように帰納的に定義する。\n\\begin{enumerate}\n\\item $f_n$は順序を保つ全単射\n\\item $\\dom f_n$は有限集合で$\\{\\,a_0,\\dots, a_{n}\\,\\}$を含む.\n\\item $\\cod f_n$は有限集合で$\\{\\,b_0,\\dots,b_{n}\\,\\}$を含む.\n\\end{enumerate}\\par"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "初期写像を作り、次の A の元を含むように拡張する。次に逆写像を拡張して B の元を取り込み、再び逆にする。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 137,
+              "end": 146,
+              "raw": "Step0:（$f_0$を定義する）\n$f_0$は$f_0:\\{a_0\\}\\to \\{b_0\\}$で$f_0(a_0)=b_0$という写像として定義する。\\par\nStep1:（$f_n$が構成されたとして$f_{n+1}$を構成する)補助的に$g_n$という順序同型写像を以下のように定義する。\\par\nもし$a_{n+1}\\in \\dom(f_n)$ならば、$g_n=f_n$とし、\n$a_{n+1}\\not\\in \\dom(f_n)$ならば$f_n$と$a_{n+1}$、および$\\cod(f_n), \\dom(f_n)$に\n補題\\ref{lem}を用いて$f_n$を$\\dom(f_n)\\cup \\{a_{n+1}\\}$まで拡張した順序同型写像を$g_n$とする。\\par\nまた更に補助的に$h_n$という順序同型写像を以下のように$g_n^{-1}$を拡張して定義する。\\par\nもし$b_{n+1}\\in \\dom(g_n^{-1})=\\cod(g_n)$ならば$h_n=g_n^{-1}$とする。\nもし$b_{n+1}\\not\\in \\dom(g_n^{-1})=\\cod(g_n)$の時には、$g_n^{-1}$, $b_{n+1}$に補題\\ref{lem}を用いて$g_n^{-1}$を$\\dom(g_n^{-1})\\cup\\{b_{n+1}\\}$まで拡張した写像を$h_n$とする。\\par\n最後に$f_{n+1}=h_n^{-1}$と定義すれば帰納法の仮定をすべて充たす。\\par"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "拡張列から全体写像 F を定義し、拡張の整合性によって定義が矛盾しないと述べる。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 147,
+              "end": 147,
+              "raw": "Step3: 以上で得られた順序同型写像の列$\\{f_n\\}_{n\\in \\nn}$を用いて、写像$F:A\\to B$を$F(a_n)=f_n(a_n)$と定義する。$\\{f_n\\}_{n\\in \\nn}$が写像の拡張列になっているので、この定義はwell-definedである。\\par"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "構成が満たす条件を先に提示すると、二方向を交互に扱う理由が明確になる。",
+        "補助写像を二つ導入するが、その入力と拡張の役割が順に示されている。"
+      ],
+      "cautions": [
+        "採録は F の定義までであり、順序保存性・全射性の証明を含まない。完成した証明として引用しない。",
+        "原文の後続153行には定義域と値域の記号の確認を要する箇所があるため、この採録の構成部分と区別する。",
+        "段階番号の飛びや古いソース整形は模倣しない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "有限順序同型を一つの元について拡張する補題。",
+          "start": 101,
+          "end": 125,
+          "raw": "\\begin{lem}\\label{lem}\n$(X,\\le_X), (Y,\\le_Y)$を最大値及び最小値を持たない可算で自己稠密な二つの線形順序集合とする。さらに\n$S\\subset X, T\\subset Y$はその有限部分集合とし、順序同型写像$h:S\\to T$により$S$と$T$は順序同型であるとする。このとき任意の$x\\in X\\setminus S$について、ある$y\\in Y\\setminus T$が存在して$h$は順序同型写像\n\\[\nH:S\\cup\\{x\\}\\to T\\cup \\{y\\}\n\\]\nへと拡張できる。\n\\end{lem}\n\\begin{proof}\n$S,T$の元の番号付け$S=\\{s_i\\}_{i=1}^n,\\ T=\\{t_j\\}_{j=1}^n$は以下の条件を充たすとしても一般性を失わない。\n\\begin{align}\n&s_1<s_2<\\cdots <s_n \\\\\n&h(s_i)=t_i\n\\end{align}\nそして三つに場合分けする。\n\\begin{description}\n\\item[場合分け(1)（$\\exists i\\  s_i<x<s_{i+1}$のとき。）]\\mbox{}\\\\\nこのときには$Y$の自己稠密性から$t_i<y<t_{i+1}$となるyが存在するので、これを用いて$H(x)=y, H(s_i)=t_i$と$H$を定義すれば、$H$は求めるものになっている。\n\\item[場合分け(2)（$s_n<x$のとき。）]\\mbox{}\\\\\nこのときやはり$Y$の自己稠密性から$t_n<y$となる$y\\in Y$が存在するので$H(x)=y, H(s_i)=t_i$と定義すればよい。\\footnote{ここで最大値を持たないという仮定を用いている。}\n\\item[場合分け(3)（$x<s_1$のとき。）]\\mbox{}\\\\\n上と同様\\footnote{最小値を持たないという仮定を用いる}。\n\\end{description}\n以上で補題は証明された。\n\\end{proof}"
+        },
+        {
+          "commentary": "採録の後では順序保存性と全射性が扱われている。",
+          "start": 148,
+          "end": 155,
+          "raw": "Step4: 写像$F$が順序同型写像になっていることを示す。\nまず最初に$x,y\\in A$について\n\\[\nx<y\\To F(x)<F(y)\n\\]\nが成り立つことを示す。これが分かれば、単射性と順序保存性がわかる。十分大きい$n$を取れば$x,y\\in \\cod(f_n)$となるものが見つかる。$F$の定義と$\\{f_n\\}_{n\\in \\nn}$が写像の拡張列であることから$F(x)=f_n(x),\\ F(y)=f_n(y)$がわかる。さて$f_n$は順序同型であるから直ちに$F(x)<F(y)$を得る。\\par\n最後に$F$が全射であることを示す。任意の$y\\in B$に対して十分大きい$n$を取れば$y\\in \\cod(f_n)$となる。写像$f_n$は順序同型なので、ある$x\\in \\dom(f_n)$が存在して$f_n(x)=y$となる。つまり$F(x)=y$なので$F$は全射である。\n\\end{proof}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "写像を交互に拡張するとき",
+      "prerequisites": "既定義の値を保てる拡張と、対象の列挙。",
+      "explain": "定義域・値域を広げる役割の違いと、完成後の確認。",
+      "argument_kinds": [
+        "construction",
+        "induction"
+      ]
+    },
+    {
+      "id": "JP-P07",
+      "document": "2024-01-27-01",
+      "title": "縮小する開被覆を構成し、既知の原理で閉じる",
+      "source_title": "ベールの範疇定理",
+      "url": "https://dempacomm.github.io/papers/2024-01-27-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2024-01-27-01/",
+      "file": "corpus/2024-01-27-01.tex",
+      "sha256": "a08e4c0ec208be753fe2e65093d49ee2c2b19d11fd8a1e00b3347ddc9a0c2644",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "fix",
+        "construction",
+        "citation"
+      ],
+      "summary": "使う距離を固定し、各段階の尺度を指定した開被覆列を作る短い構成証明。",
+      "start": 613,
+      "end": 639,
+      "raw": "\\begin{thm}\\label{thm:cechcomp}\n完備距離化可能空間\n$X$\nはチェック完備である．\n\\end{thm}\n\\begin{proof}\n空間$X$\n上の距離関数\n$d$\nであって\n完備であり\nなおかつ\n$X$と同じ位相を誘導するものを固定する．\nこのとき\n各\n$n\\in \\zz_{\\ge 0}$\nについて\n$\\mathcal{U}_{n}$\nを\n($d$に関して)\n直径が$2^{-n}$以下の\n開集合全体とする．\nこのとき\n$\\mathbf{U}=\\{\\mathcal{U}_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nが完備列になるのは，\n完備距離空間の区間縮小法からわかる．\n\\end{proof}",
+      "excerpt_sha256": "a379548f2ee10fd70c98258f397c2310cdc90fd0e0f27adecac8b0356afe692c",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "X は完備距離化可能空間。Xの位相と整合する完備距離 d を固定する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 614,
+              "end": 616,
+              "raw": "完備距離化可能空間\n$X$\nはチェック完備である．"
+            },
+            {
+              "start": 619,
+              "end": 625,
+              "raw": "空間$X$\n上の距離関数\n$d$\nであって\n完備であり\nなおかつ\n$X$と同じ位相を誘導するものを固定する．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "X がチェック完備であること。完備列を作る帰着は先行定理に委ねられ、ここでは再説明されない。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 614,
+              "end": 616,
+              "raw": "完備距離化可能空間\n$X$\nはチェック完備である．"
+            },
+            {
+              "start": 635,
+              "end": 638,
+              "raw": "このとき\n$\\mathbf{U}=\\{\\mathcal{U}_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nが完備列になるのは，\n完備距離空間の区間縮小法からわかる．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "各 n について、d に関する直径が 2の−n乗以下の開集合全体を選ぶ。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 626,
+              "end": 634,
+              "raw": "このとき\n各\n$n\\in \\zz_{\\ge 0}$\nについて\n$\\mathcal{U}_{n}$\nを\n($d$に関して)\n直径が$2^{-n}$以下の\n開集合全体とする．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "その列が完備列であることを区間縮小法に帰し、証明を閉じる。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 635,
+              "end": 638,
+              "raw": "このとき\n$\\mathbf{U}=\\{\\mathcal{U}_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nが完備列になるのは，\n完備距離空間の区間縮小法からわかる．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "位相だけでなく、構成に使う具体的な距離を先に固定している。",
+        "同じ構成を各添字で行う規則を簡潔に示している。"
+      ],
+      "cautions": [
+        "区間縮小法をフィルターの条件へ適用する詳細は省略されている。この短さが適切かは対象読者と承認された詳しさによる。",
+        "先行する完備列の定義・特徴付けを読まず、単独で完結した証明とは扱わない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "完備列はフィルターの集積条件として定義されている。",
+          "start": 307,
+          "end": 325,
+          "raw": "\\begin{df}\n位相空間\n$X$について\nその開被覆の可算族\n$\\mathbf{U}=\\{\\mathcal{U}_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nが\n\\textbf{完備列}\nであるとは，\n$X$の任意のフィルター\n$\\mathfrak{F}$\nについて\nもしも任意の$n\\in \\zz_{\\ge 0}$\nに対して\n$\\mathcal{U}_{n}\\cap \\mathfrak{F}\\neq \\emptyset$\nであるならば，\n$\\bigcap_{F\\in \\mathfrak{F}}\\cl_{X}(F)\\neq \\emptyset$\nが成り立つ\nときにいう．\n\\end{df}"
+        },
+        {
+          "commentary": "先行定理で完備列の存在とコンパクト化内のGδ条件を対応付けている。",
+          "start": 328,
+          "end": 349,
+          "raw": "\\begin{thm}\\label{thm:frolik}\n$X$\nを完全正則空間とする．\nこのとき以下の条件は同値である．\n\\begin{enumerate}[label=\\textup{(\\arabic*)}]\n\\item\\label{item:cptg}\n$X$\nはその任意のコンパクト化の中で\n$G_{\\delta}$集合になっている．\n\n\\item\\label{item:aaa}\n$X$\nはある\nコンパクト化の中で\n$G_{\\delta}$\n集合になっている．\n\n\\item\\label{item:compseq}\n$X$\nは完備列を持つ．\n\\end{enumerate}\n\\end{thm}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "被覆を整えて既知の完全性原理を使うとき",
+      "prerequisites": "距離、縮小被覆、依存する定義と定理。",
+      "explain": "定理の各仮定にどの構成条件が対応するか。",
+      "argument_kinds": [
+        "application"
+      ]
+    },
+    {
+      "id": "JP-P08",
+      "document": "2026-04-21-01",
+      "title": "全体の開性を点ごとの内点性へ帰着する",
+      "source_title": "廉価版領域不変性定理の証明",
+      "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+      "page_url": "https://dempacomm.github.io/papers/2026-04-21-01/",
+      "file": "corpus/2026-04-21-01.tex",
+      "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "reduction",
+        "choice",
+        "citation",
+        "finish"
+      ],
+      "summary": "領域不変性の最終段階。コンパクトな近傍へ制限して準備定理を適用し、元の像へ戻す。",
+      "start": 654,
+      "end": 678,
+      "raw": "いよいよ領域不変性定理を証明する．\n\\begin{thm}[領域不変性定理]\\label{thm:maininvdomain}\n$n\\in \\zz_{\\ge 1}$\nとし\n$U$は$\\rr^{n}$\nの開集合とする．\nそして\n$f\\colon U\\to \\rr^{n}$\nを連続単射とする．\nこのとき$f(U)$\nは$\\rr^{n}$の開集合である．\n\\end{thm}\n\\begin{proof}\n任意の$p\\in U$について\n$f(p)$が$f(U)$の内点であることを証明すれば良い．\n$p$の十分小さい近傍$N$で$\\cl N$がコンパクトで\n$\\cl N \\subset U$であるものをとる．\nこのとき$f|_{\\cl N}$を考えると\n$f$はコンパクト集合からハウスドルフ空間への\n連続単射なので位相的埋め込みになる．\n定理\\ref{thm:26junbidaiji}より\n点$p$が境界点かどうかは$\\cl N$の内在的な位相的条件で特徴づけられる．つまり$p$は$\\cl N$の内点であるから\n$f(p)$は$f(\\cl N)$の内点になる．\nよって特に$f(p)$は$f(U)$の内点である．\n\\end{proof}",
+      "excerpt_sha256": "6e3273277edab2288078497d153020550813ea962d73378319551ebc3ba644a7",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "U は実数 n 次元空間の開集合、f は同じ次元の空間への連続単射。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 656,
+              "end": 662,
+              "raw": "$n\\in \\zz_{\\ge 1}$\nとし\n$U$は$\\rr^{n}$\nの開集合とする．\nそして\n$f\\colon U\\to \\rr^{n}$\nを連続単射とする．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "各 p に対して f(p) が f(U) の内点であることへ帰着する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 667,
+              "end": 668,
+              "raw": "任意の$p\\in U$について\n$f(p)$が$f(U)$の内点であることを証明すれば良い．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "コンパクトな閉包を持つ小さい近傍 N を取り、f の制限を埋め込みとして扱う。境界点の内在的特徴付けを使って内点性を移す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 669,
+              "end": 676,
+              "raw": "$p$の十分小さい近傍$N$で$\\cl N$がコンパクトで\n$\\cl N \\subset U$であるものをとる．\nこのとき$f|_{\\cl N}$を考えると\n$f$はコンパクト集合からハウスドルフ空間への\n連続単射なので位相的埋め込みになる．\n定理\\ref{thm:26junbidaiji}より\n点$p$が境界点かどうかは$\\cl N$の内在的な位相的条件で特徴づけられる．つまり$p$は$\\cl N$の内点であるから\n$f(p)$は$f(\\cl N)$の内点になる．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "f(p) が f(U) の内点であることを述べる。全体の開性への接続は冒頭の帰着が担う。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 677,
+              "end": 678,
+              "raw": "よって特に$f(p)$は$f(U)$の内点である．\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "全体の主張→点ごとの目標→扱いやすい局所対象→元の空間という往復が見える。",
+        "コンパクト性とハウスドルフ性が埋め込みを得る場所で明示されている。"
+      ],
+      "cautions": [
+        "境界点の特徴付けを準備定理に依存する。領域不変性の独立した初等証明としてこの断片だけを提示しない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "境界点を拡張性で特徴付ける準備定理の結論部。",
+          "start": 550,
+          "end": 562,
+          "raw": "のコンパクト部分集合とする．\nこのとき$p\\in \\partial_{\\rr^{n}} K$\nとなるための必要十分条件は\n$p$の$K$内の任意の近傍\n$N$について\n$p$\nの$K$内の開近傍$U$\nであって$U\\subset N$を満たしかつ\n任意の連続写像\n$f\\colon K\\setminus U\\to \\mysphere{n-1}$\nは連続な拡張$g\\colon K\\to \\mysphere{n-1}$\nを持つようなものが存在することである．\n\\end{thm}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "全体の開性を各点で示すとき",
+      "prerequisites": "任意の点で選ぶコンパクト近傍と境界の特徴づけ。",
+      "explain": "像のどの点の内点性が得られ、なぜ全体が開くか。",
+      "argument_kinds": [
+        "reduction",
+        "local-global"
+      ]
+    },
+    {
+      "id": "JP-P09",
+      "document": "2015-10-27-01",
+      "title": "存在を示した後、一意性の目標へ切り替える",
+      "source_title": "バナッハの不動点定理",
+      "url": "https://dempacomm.github.io/papers/2015-10-27-01/banach_fixpt.tex",
+      "page_url": "https://dempacomm.github.io/papers/2015-10-27-01/",
+      "file": "corpus/2015-10-27-01.tex",
+      "sha256": "64df830f9e1b1deac9daf5719797f533a29d44740bef7ef2e1f9e63145cc8a1c",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "uniqueness-excerpt",
+      "functions": [
+        "goal",
+        "estimate",
+        "consequence"
+      ],
+      "summary": "不動点の存在を示し終えた箇所から、一意性だけを二点間の距離で示す部分。",
+      "start": 108,
+      "end": 113,
+      "raw": "がわかる。これで不動点の存在は示された。一意性は$x,y$を$f$の不動点とするともちろん$f(x)=x,f(y)=y$であるから\n\\[\nd(x,y)=d(f(x),f(y))\\le qd(x,y)\n\\]\nで$0\\le q<1$より$d(x,y)\\le0$となり、$x=y$がわかるので$f$の不動点は唯一である。\n\\end{proof}",
+      "excerpt_sha256": "e11d6a19c642f1516c0ab16736784f26b7d213f96fcde61b584959863990baab",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "縮小率 q は0以上1未満。存在の証明は済んでおり、x,y を任意の不動点として取る。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 108,
+              "end": 108,
+              "raw": "がわかる。これで不動点の存在は示された。一意性は$x,y$を$f$の不動点とするともちろん$f(x)=x,f(y)=y$であるから"
+            },
+            {
+              "start": 112,
+              "end": 112,
+              "raw": "で$0\\le q<1$より$d(x,y)\\le0$となり、$x=y$がわかるので$f$の不動点は唯一である。"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "「これで存在は示された。一意性は」と、証明する性質の切替えを明示する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 108,
+              "end": 108,
+              "raw": "がわかる。これで不動点の存在は示された。一意性は$x,y$を$f$の不動点とするともちろん$f(x)=x,f(y)=y$であるから"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "不動点の等式を縮小条件に代入し、二点間の距離を自身の q 倍以下に抑える。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 109,
+              "end": 111,
+              "raw": "\\[\nd(x,y)=d(f(x),f(y))\\le qd(x,y)\n\\]"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "q<1 から距離が0であるとし、x=y と一意性を結論する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 112,
+              "end": 112,
+              "raw": "で$0\\le q<1$より$d(x,y)\\le0$となり、$x=y$がわかるので$f$の不動点は唯一である。"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "存在の構成を繰り返さず、証明済みの範囲と次の目標を短く切り分けている。",
+        "性質の定義を式に代入することで、短い評価が直接結論を支えている。"
+      ],
+      "cautions": [
+        "これは一意性部分だけで、存在証明を採録していない。",
+        "原文の定理は非空性を明記していない。存在を含む新稿の主張では空空間の場合を確認する。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "元の縮小条件と不動点の存在・一意性の主張。",
+          "start": 72,
+          "end": 77,
+          "raw": "\\begin{thm}[Banachの不動点定理]$(X,d)$を完備距離空間とし、写像$f:(X,d)\\to (X,d)$が\n\\[\n\\exists q\\in [0,1)\\ \\forall x,y \\in X\\ d(f(x),f(y))\\le qd(x,y)\n\\]\nを充たすとする。（これを充たす写像を縮小写像と言う）このとき。$f$には不動点が唯一存在する。\n\\end{thm}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "二つの解の一致だけを示すとき",
+      "prerequisites": "縮小率が1未満で、二つの点がともに不動点であること。",
+      "explain": "距離の不等式から零距離になる理由。",
+      "argument_kinds": [
+        "uniqueness"
+      ]
+    },
+    {
+      "id": "JP-P10",
+      "document": "2024-01-27-01",
+      "title": "コンパクト性の出力を包含式で元の目標へ戻す",
+      "source_title": "ベールの範疇定理",
+      "url": "https://dempacomm.github.io/papers/2024-01-27-01/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2024-01-27-01/",
+      "file": "corpus/2024-01-27-01.tex",
+      "sha256": "a08e4c0ec208be753fe2e65093d49ee2c2b19d11fd8a1e00b3347ddc9a0c2644",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "closing-excerpt",
+      "functions": [
+        "consequence",
+        "arbitrary",
+        "finish"
+      ],
+      "summary": "ベール性の証明の終盤。既に作った閉集合列の共通部分から、目的の開集合との交わりを得る。",
+      "start": 183,
+      "end": 204,
+      "raw": "さて以上を踏まえて族\n$\\{\\cl(P_{i})\\}_{i\\in \\zz_{\\ge 0}}$\nを考えるとこれはnested\nなので特に\n有限交差性を持つ．\nよって\n$X$のコンパクト性から\n$\\bigcap_{i\\in \\zz_{\\ge 0}}\\cl(P_{i})$\nは空でなない．\nさてこのとき\n\\[\n\\bigcap_{i\\in \\zz_{\\ge 0}}\\cl(P_{i})\\subset\n\\left( O\\cap \\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}\\right)\n\\]\nなので\n$O\\cap \\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nは空ではない．\nよって\n$O$の任意性から\n$\\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nが$X$の中で稠密であることがわかった．\n\\end{proof}",
+      "excerpt_sha256": "0b9fd225ea7da3b164aa975613823fd6f082b8e2d9e611581389c06287d9e94a",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "閉包の族が入れ子で、空でない集合として構成済みである。これは前段の構成に依存する。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 183,
+              "end": 187,
+              "raw": "さて以上を踏まえて族\n$\\{\\cl(P_{i})\\}_{i\\in \\zz_{\\ge 0}}$\nを考えるとこれはnested\nなので特に\n有限交差性を持つ．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "任意の非空開集合 O と稠密開集合族の共通部分が交わること。その目標を閉じる部分として採録する。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 194,
+              "end": 203,
+              "raw": "\\bigcap_{i\\in \\zz_{\\ge 0}}\\cl(P_{i})\\subset\n\\left( O\\cap \\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}\\right)\n\\]\nなので\n$O\\cap \\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nは空ではない．\nよって\n$O$の任意性から\n$\\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nが$X$の中で稠密であることがわかった．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "有限交差性とコンパクト性で非空な共通部分を得て、それが目的の集合に含まれるという式を示す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 183,
+              "end": 196,
+              "raw": "さて以上を踏まえて族\n$\\{\\cl(P_{i})\\}_{i\\in \\zz_{\\ge 0}}$\nを考えるとこれはnested\nなので特に\n有限交差性を持つ．\nよって\n$X$のコンパクト性から\n$\\bigcap_{i\\in \\zz_{\\ge 0}}\\cl(P_{i})$\nは空でなない．\nさてこのとき\n\\[\n\\bigcap_{i\\in \\zz_{\\ge 0}}\\cl(P_{i})\\subset\n\\left( O\\cap \\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}\\right)\n\\]"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "目的の交わりが空でないと述べ、O の任意性から稠密性を結論する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 197,
+              "end": 203,
+              "raw": "なので\n$O\\cap \\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nは空ではない．\nよって\n$O$の任意性から\n$\\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nが$X$の中で稠密であることがわかった．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "抽象的な原理の出力を、包含式で証明目標へ接続している。",
+        "最後にどの変数の任意性を使うかを明記している。"
+      ],
+      "cautions": [
+        "採録は構成後の結びだけであり、前段の構成を正しいと認定するものではない。",
+        "前段151–155行の P0=O∩U0 という選択は、列挙した閉包の包含条件をそのまま保証しないため、全文を模範証明として採用しない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "元の目標の提示。",
+          "start": 108,
+          "end": 125,
+          "raw": "\\begin{thm}\\label{thm:cptbaire}\n任意の空ではないコンパクトハウスドルフ空間\n$X$\nはベール空間である．\n\\end{thm}\n\\begin{proof}\n$X$の稠密開集合の可算族\n$\\{U_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nを任意に与える．\n空間$X$がベールであることを証明するには\n$\\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nが$X$\nの中で稠密であることを示せば良い．\n空間$X$の空でない開集合$O$\nを与える．\n今から$\\bigcap_{i\\in \\zz_{\\ge 0}}U_{i}$\nと$O$が\n交わりを持つことを証明する．"
+        },
+        {
+          "commentary": "構成に課された非空性・入れ子・閉包の包含条件。",
+          "start": 126,
+          "end": 150,
+          "raw": "帰納的に以下の条件を満たす可算族\n$\\{P_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nを構成する．\n\\begin{enumerate}[label=\\textup{(\\arabic*)}]\n\\item \n任意の\n$i\\in \\zz_{\\ge 0}$\nについて\n$P_{i}$\nは\n空でない\n開集合\nである．\n\\item \n任意の\n$i\\in \\zz_{\\ge 0}$\nについて\n$\\cl(P_{i+1})\\subset P_{i}$\nを満たす．\n\\item \n任意の$i$\nについて\n$\\cl(P_{i})\\subset O\\cap U_{i}$\nを満たす．\n\\end{enumerate}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition-structure",
+      "review_scope": "原文と前後の記述に基づく文章構造の点検。独立レビュー、著者承認、証明の正しさの認定ではない。",
+      "use_when": "共通点の存在を密度へ戻すとき",
+      "prerequisites": "閉集合族の有限交叉性とコンパクト性。",
+      "explain": "共通点が任意に選んだ開集合に入る包含関係。",
+      "argument_kinds": [
+        "compactness"
+      ]
+    },
+    {
+      "id": "JP-P11",
+      "document": "2025-12-28-01",
+      "title": "二種類の集合族の個数を比べ、存在を導く",
+      "source_title": "児玉永見のゼロ集合に関する演習問題について",
+      "url": "https://dempacomm.github.io/papers/2025-12-28-01/zerozero.tex",
+      "page_url": "https://dempacomm.github.io/papers/2025-12-28-01/",
+      "file": "corpus/2025-12-28-01.tex",
+      "sha256": "f5705a12e11b81f8af2a6e786d26317a03bf034c79b39e9aae9518f4a97f209f",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "existence",
+        "reason",
+        "consequence",
+        "sequence"
+      ],
+      "summary": "可分な空間のゼロ集合の個数と、離散部分空間のゼロ集合の個数を別々に評価し、具体的に選ばず存在を導く。",
+      "start": 97,
+      "end": 123,
+      "raw": "\\begin{thm}\n上の命題の位相空間$X$とそのゼロ集合\n$F$について、\n$F$のゼロ集合$H$\nであって、$X$のゼロ集合ではないものが存在する。\n\\end{thm}\n\\begin{proof}\n$X$と\n$F$を\n命題\n\\ref{prop111}\nのものと同じとする。\nこのとき\n上記の注意書きと同様の論法で$H$の存在を証明できる。\n今からそれを説明しよう。\n\n$X$の可分性から$X$のゼロ集合の個数は高々連続体濃度である。なぜならそれは実連続関数の引き戻しで表され、\n実連続関数の個数は高々連続体濃度だからである。\n\n$F$上のゼロ集合の個数について考えてみよう。\n$F$は\n離散空間なので、任意の部分集合が$F$のゼロ集合となる。\nそして$F$は連続体濃度を持つので、\n$F$上のゼロ集合の個数はちょうど連続体濃度の冪と同じ濃度になる。\nよって、濃度の大小関係から、\n$X$のゼロ集合ではないような$F$のゼロ集合$H$が存在する。\n\\end{proof}",
+      "excerpt_sha256": "274aa1ce30e45de557a90366a44afe2040941bcb2d93b7e1c075c355ea905c54",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "直前の命題で用意した可分空間Xと、連続体濃度の離散的なゼロ集合Fを再指定する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 104,
+              "end": 108,
+              "raw": "$X$と\n$F$を\n命題\n\\ref{prop111}\nのものと同じとする。"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "Fのゼロ集合でありながらXのゼロ集合ではないHの存在が定理の目標である。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 97,
+              "end": 102,
+              "raw": "\\begin{thm}\n上の命題の位相空間$X$とそのゼロ集合\n$F$について、\n$F$のゼロ集合$H$\nであって、$X$のゼロ集合ではないものが存在する。\n\\end{thm}"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "まずX側を実連続関数の個数で上から抑え、次にF側では任意の部分集合がゼロ集合となることから個数を求める。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 113,
+              "end": 120,
+              "raw": "$X$の可分性から$X$のゼロ集合の個数は高々連続体濃度である。なぜならそれは実連続関数の引き戻しで表され、\n実連続関数の個数は高々連続体濃度だからである。\n\n$F$上のゼロ集合の個数について考えてみよう。\n$F$は\n離散空間なので、任意の部分集合が$F$のゼロ集合となる。\nそして$F$は連続体濃度を持つので、\n$F$上のゼロ集合の個数はちょうど連続体濃度の冪と同じ濃度になる。"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "二つの個数の隔たりを根拠に、X側に含まれないHが存在すると結ぶ。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 121,
+              "end": 123,
+              "raw": "よって、濃度の大小関係から、\n$X$のゼロ集合ではないような$F$のゼロ集合$H$が存在する。\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "比較する集合族を段落ごとに分け、何を数えているかを保つ。",
+        "「なぜなら」で上界の理由を補い、「よって」で存在の結論へ戻る。"
+      ],
+      "cautions": [
+        "「連続体濃度の冪」は本文の表現。編集時には2の連続体濃度乗を明示すると比較が読み取りやすい。",
+        "Hの具体的な構成を与える証明ではない。",
+        "依存する反例空間は文献を参照して挙げられている。外部文献の内容は今回検証していない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "ゼロ集合の定義。",
+          "start": 51,
+          "end": 54,
+          "raw": "位相空間$X$の部分集合$S$が\\textbf{ゼロ集合}\nであるとは連続関数$f\\colon X\\to \\rr$\nが存在して$S=f^{-1}(0)$\nとなることである。"
+        },
+        {
+          "commentary": "XとFの性質、および参照文献に基づく実例。",
+          "start": 64,
+          "end": 84,
+          "raw": "\\begin{prop}\\label{prop111}\n次の条件を満たす位相空間$X$が存在する。\n\\begin{enumerate}\n\\item\\label{item111}\n$X$は完全正則空間である。\n\\item\\label{item222}\n$X$\nは可分である。\n\\item\\label{item333}\n$X$のゼロ集合$F$であって、連続体濃度の離散空間と同相なものが存在する。\n\n\\end{enumerate}\n\\end{prop}\n\\begin{proof}\n\\cite{cex}[p.103, 反例番号84]\nゾルゲンフライ平面$S\\times S$と\nその部分集合$F=\\{(x, y)\\mid x+y=0\\}$\nが該当する。\nまた、\n\\cite{cex}[p.100, 反例番号82]Niemytzkiの半平面とその部分集合の$x$軸$F=\\{(x, y)\\mid y=0\\}$も該当する。\n\\end{proof}"
+        },
+        {
+          "commentary": "同様の個数比較を使う直前の注意。91行の「写像」は文脈上、連続写像に限定して読む必要がある。",
+          "start": 86,
+          "end": 95,
+          "raw": "\\begin{rmk}\n上記の命題\\ref{prop111}の条件\\ref{item222}と\\ref{item333}を同時に満たす正規空間\n$X$\nは存在しない。\nというのも、可分性から\n$X$から$\\rr$への写像は高々連続体濃度しかないが、\n閉集合$F$上の連続関数全体は連続体濃度の冪と同じ濃度を持つからである。\nこのときもしも\n$X$が正規だとティーチェの拡張定理から連続関数の個数が連続体濃度の冪と等しくなり、可分性と矛盾する。\n\\end{rmk}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが原文と前後の文脈を読んで論述の運びを整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "具体的な反例を選ばず存在を得るとき",
+      "prerequisites": "可分なX、連続体濃度の離散的F、ゼロ集合の定義。",
+      "explain": "二つの集合族を混同せず、大小関係から欠ける元を得る段階。",
+      "argument_kinds": [
+        "existence"
+      ]
+    },
+    {
+      "id": "JP-P12",
+      "document": "2015-11-06-01",
+      "title": "失敗させたい性質を先に掲げ、空間を構成する",
+      "source_title": "コンパクト集合の共通部分",
+      "url": "https://dempacomm.github.io/papers/2015-11-06-01/Intsct_of_cpt_sp.tex",
+      "page_url": "https://dempacomm.github.io/papers/2015-11-06-01/",
+      "file": "corpus/2015-11-06-01.tex",
+      "sha256": "d9a90fe64ebfbd212432e1c62121d587a612523e191f5d0e6f5e7d679d9d25d0",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "motivation",
+        "construction",
+        "example",
+        "reason",
+        "finish"
+      ],
+      "summary": "二つのコンパクト集合の共通部分が非コンパクトになるという目標を冒頭に置き、点の追加と開集合系の設計で実現する。",
+      "start": 48,
+      "end": 63,
+      "raw": "この文書では２つのコンパクト部分集合の共通部分がコンパクトでないようなものが存在する位相空間を構成する。案外簡単にできるので、この文書を読む前に自分で頑張って構成しようと試みることを推奨する。\n\n以下そのような位相空間を構成する。\n\n$(A,\\mathfrak{A})$をノンコンパクトな位相空間とする。$\\mathfrak{A}$はこの位相空間の開集合系である。このとき$A$に属さない異なる二元$\\al,\\o$を与え\n\\[\nX=A\\cup \\{\\al,\\o\\},\\ K=A\\cup \\{\\al\\},\\ L=A\\cup\\{\\o\\}\n\\]\nと置く。さて$X$の部分集合族$\\mathfrak{O}$を\n\\[\n\\mathfrak{O}=\\mathfrak{A}\\cup \\{X,K,L\\}\n\\]\nとする。\nこのとき$\\mathfrak{O}$は開集合系の公理を充たすことは簡単にわかる。更にこの$(X,\\mathfrak{O})$の部分空間としての$A$は$(A,\\mathfrak{A})$である。さて$K,L$はこの空間$(X,\\mathfrak{O})$のコンパクト集合である。なぜなら$K$について言うと$\\al$を元に持つ開集合は$X,K$のみだからである。$L$についても同様。そして\n$K\\cap L=A$\nであり、$A$はノンコンパクトであるから、２つのコンパクト集合の共通部分がコンパクトでない空間が得られた。",
+      "excerpt_sha256": "4cd689cee6033b19da6f9d9291f94c3910bdce501111989a8451f1c3152c41c8",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "非コンパクトな位相空間Aと、その外の異なる二点を出発点にする。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 52,
+              "end": 55,
+              "raw": "$(A,\\mathfrak{A})$をノンコンパクトな位相空間とする。$\\mathfrak{A}$はこの位相空間の開集合系である。このとき$A$に属さない異なる二元$\\al,\\o$を与え\n\\[\nX=A\\cup \\{\\al,\\o\\},\\ K=A\\cup \\{\\al\\},\\ L=A\\cup\\{\\o\\}\n\\]"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "二つのコンパクト部分集合の共通部分がコンパクトでない空間を作ると先に述べる。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 48,
+              "end": 50,
+              "raw": "この文書では２つのコンパクト部分集合の共通部分がコンパクトでないようなものが存在する位相空間を構成する。案外簡単にできるので、この文書を読む前に自分で頑張って構成しようと試みることを推奨する。\n\n以下そのような位相空間を構成する。"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "X、K、Lと開集合系を定め、追加点を含む開集合の形からKとLのコンパクト性を説明する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 56,
+              "end": 61,
+              "raw": "と置く。さて$X$の部分集合族$\\mathfrak{O}$を\n\\[\n\\mathfrak{O}=\\mathfrak{A}\\cup \\{X,K,L\\}\n\\]\nとする。\nこのとき$\\mathfrak{O}$は開集合系の公理を充たすことは簡単にわかる。更にこの$(X,\\mathfrak{O})$の部分空間としての$A$は$(A,\\mathfrak{A})$である。さて$K,L$はこの空間$(X,\\mathfrak{O})$のコンパクト集合である。なぜなら$K$について言うと$\\al$を元に持つ開集合は$X,K$のみだからである。$L$についても同様。そして"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "KとLの共通部分が出発点Aであることを使い、冒頭の構成目標を満たしたと閉じる。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 62,
+              "end": 63,
+              "raw": "$K\\cap L=A$\nであり、$A$はノンコンパクトであるから、２つのコンパクト集合の共通部分がコンパクトでない空間が得られた。"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "反例に要求する性質を構成前に言語化する。",
+        "最後に構成した対象を当初の目標に代入して確認する。"
+      ],
+      "cautions": [
+        "開集合系の公理と相対位相の一致は原文では短く済ませている。読者に応じて確認を補う。",
+        "Kのコンパクト性の説明はXの開集合を使っている。相対開被覆からの対応は暗黙である。",
+        "直後に図があるが、この採録は本文の論証のみ。図版はTeXコーパスに同梱していない。"
+      ],
+      "dependencies": [],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが原文と前後の文脈を読んで論述の運びを整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "要求する性質から反例空間を設計するとき",
+      "prerequisites": "非コンパクトなAと、その外の異なる二点。",
+      "explain": "開集合系の公理、相対位相、KとLのコンパクト性。",
+      "argument_kinds": [
+        "construction"
+      ]
+    },
+    {
+      "id": "JP-P13",
+      "document": "2015-09-12-02",
+      "title": "埋め込みから濃度評価へ移り、最小の開基を選ぶ",
+      "source_title": "始位相について",
+      "url": "https://dempacomm.github.io/papers/2015-09-12-02/main.tex",
+      "page_url": "https://dempacomm.github.io/papers/2015-09-12-02/",
+      "file": "corpus/2015-09-12-02.tex",
+      "sha256": "0f51493da1c547ccbaebc9784bd3d1d8b4b99710996fe5d3fb0f2fd53fb690d6",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "citation",
+        "choice",
+        "estimate",
+        "consequence"
+      ],
+      "summary": "重みの定義を導入してから、直前の埋め込み結果を濃度の不等式に使い、開基の大きさを最小にする。",
+      "start": 106,
+      "end": 126,
+      "raw": "\\begin{defnition}[位相空間の重み]位相空間$X$の開基の最小濃度を位相空間$X$の重みと言い、$w(X)$で表す。つまり\n\\[\nw(X)=\\min\\{\\card(\\mathfrak{B})\\ |\\ \\mathfrak{B}はXの開基\\}\n\\]\nである。\n\\end{defnition}\nこの位相空間の重みを用いて、位相空間それ自体の濃度が評価出来る。\n\\begin{corollary}$T_0$空間に対して\n\\[\n\\text{\\card$(X)$}\\le2^{w(X)}\n\\]\n\\end{corollary}\n\\begin{proof}\n$X$はシェルピンスキー空間の直積$\\prod_{U\\in \\mathfrak{B}}\\{0,1\\}$に埋め込まれ、\n\\[\n\\text{card$(\\prod_{U\\in \\mathfrak{B}}\\{0,1\\})$}=2^{\\text{card$(\\mathfrak{B})$}}\n\\]となるので、$\\mathfrak{B}$を$\\text{card$(\\mathfrak{B})$}=w(X)$となるものとして選べば\n\\[\n\\text{card$(X)$}\\le2^{w(X)}\n\\]が成り立つ。\n\\end{proof}",
+      "excerpt_sha256": "b1522d58059067d41f477325c1c27e05c2f3620c38b2aa361395ab485f2ded2b",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "重みw(X)を開基の最小濃度として定義する。系の対象はT0空間である。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 106,
+              "end": 117,
+              "raw": "\\begin{defnition}[位相空間の重み]位相空間$X$の開基の最小濃度を位相空間$X$の重みと言い、$w(X)$で表す。つまり\n\\[\nw(X)=\\min\\{\\card(\\mathfrak{B})\\ |\\ \\mathfrak{B}はXの開基\\}\n\\]\nである。\n\\end{defnition}\nこの位相空間の重みを用いて、位相空間それ自体の濃度が評価出来る。\n\\begin{corollary}$T_0$空間に対して\n\\[\n\\text{\\card$(X)$}\\le2^{w(X)}\n\\]\n\\end{corollary}"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "Xの濃度を2のw(X)乗で上から抑える。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 113,
+              "end": 117,
+              "raw": "\\begin{corollary}$T_0$空間に対して\n\\[\n\\text{\\card$(X)$}\\le2^{w(X)}\n\\]\n\\end{corollary}"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "シェルピンスキー空間の開基で添字づけた直積への埋め込みを使い、その直積の濃度を数える。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 118,
+              "end": 122,
+              "raw": "\\begin{proof}\n$X$はシェルピンスキー空間の直積$\\prod_{U\\in \\mathfrak{B}}\\{0,1\\}$に埋め込まれ、\n\\[\n\\text{card$(\\prod_{U\\in \\mathfrak{B}}\\{0,1\\})$}=2^{\\text{card$(\\mathfrak{B})$}}\n\\]となるので、$\\mathfrak{B}$を$\\text{card$(\\mathfrak{B})$}=w(X)$となるものとして選べば"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "濃度がw(X)に等しい開基を選び、目的の不等式を得る。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 122,
+              "end": 126,
+              "raw": "\\]となるので、$\\mathfrak{B}$を$\\text{card$(\\mathfrak{B})$}=w(X)$となるものとして選べば\n\\[\n\\text{card$(X)$}\\le2^{w(X)}\n\\]が成り立つ。\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "定義を示した直後にその量を使う系を置く。",
+        "一般の開基で得た評価を、最小濃度を達成する開基の選択で結論に合わせる。"
+      ],
+      "cautions": [
+        "直前の埋め込み結果に依存するため、この抜粋だけを独立した証明とは扱わない。",
+        "原文の定義環境名defnitionは綴りが通常と異なる。原TeXでは保持する。",
+        "依存先94行にはnとxの表記の不一致がある。今回の用例は直前の証明全体を認証するものではない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "T0空間をシェルピンスキー空間の直積へ埋め込むという直前の結果と説明。",
+          "start": 87,
+          "end": 104,
+          "raw": "\\begin{example}[$T_{0}$空間]$T_{0}$空間はシェルピンスキー空間の直積に埋め込み可能である。これは開基$\\mathfrak{B}に対して$\\\\\n\\[\n\\prod_{U\\in \\mathfrak{B}}\\chi_{U}が単射\\Leftrightarrow (X,\\mathfrak{O})がT_{0}\n\\]が成立するからである。\n\\end{example}\n[$\\displaystyle{\\prod_{U\\in \\mathfrak{B}}\\chi_{U}が単射\\Leftrightarrow (X,\\mathfrak{O})がT_{0}}$]の証明.\\\\ \nまず$T_0$とは\\\\ $(T_0)$\\  異なる２点$x,y$について$x$の近傍で$y$を含まないようなものが存在するか、もしくは$y$の近傍で$x$を含まないようなものが存在する\\\\ \nであることを思い出そう。この定義の「近傍」を開基$\\mathfrak{B}$の元としても良い。（開基なので）\\\\ 今、$n\\neq y$と仮定すると$T_0$から($x$と$y$を適宜入れ替えて)$B\\in \\mathfrak{B}$が存在して$x\\in B,\\ y\\not\\in B$としても一般性を失わない。このとき\n\\[\n\\chi_B(x)=1,\\ \\chi_B(y)=0\n\\]なので\n\\[\n\\prod_{U\\in \\mathfrak{B}}\\chi_{U}(x)\\neq \\prod_{U\\in \\mathfrak{B}}\\chi_{U}(y)\n\\]よって\n\\[\nx\\neq y\\Rightarrow \\prod_{U\\in \\mathfrak{B}}\\chi_{U}(x)\\neq \\prod_{U\\in \\mathfrak{B}}\\chi_{U}(y)\n\\]なので$\\prod_{U\\in \\mathfrak{B}}\\chi_{U}$は単射。逆はこの証明を下から読めばわかる。\n$\\square$"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが原文と前後の文脈を読んで論述の運びを整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "埋め込みを濃度評価へ使うとき",
+      "prerequisites": "T0性、開基、直前の埋め込み結果。",
+      "explain": "最小の開基を選ぶ段階と、単射性からの濃度不等式。",
+      "argument_kinds": [
+        "estimates",
+        "application"
+      ]
+    },
+    {
+      "id": "JP-P14",
+      "document": "2023-12-01-01",
+      "title": "帰納法の仮定を漸化式へ代入し、次の添字の形へ戻す",
+      "source_title": "平方数ではない整数の平方根が無理数であることのニュートン法を用いた証明",
+      "url": "https://dempacomm.github.io/papers/2023-12-01-01/irr.tex",
+      "page_url": "https://dempacomm.github.io/papers/2023-12-01-01/",
+      "file": "corpus/2023-12-01-01.tex",
+      "sha256": "bf2c79133a8dab762c6419bc25255f8b007bd4f6a6371348e3e707ec15ea6d22",
+      "tier": "primary",
+      "subjects": [
+        "analysis",
+        "probability-measure"
+      ],
+      "scope_kind": "induction-excerpt",
+      "functions": [
+        "induction",
+        "assumption",
+        "restatement",
+        "finish"
+      ],
+      "summary": "ニュートン法の近似列を分子・分母の列で表す等式について、nでの仮定を漸化式に代入し、n+1での主張を得る帰納段階。",
+      "start": 256,
+      "end": 274,
+      "raw": "\\ref{item:33}\nを示す．\n今$n$について\n\\[\nx_{n}=\\frac{P_{n}}{Q_{n}}\n\\]\nが成り立つと仮定する．\nこの時\n\\[\nx_{n+1}=\\frac{1}{2}\\left(x_{n}+\\frac{a}{x_{n}}\\right)\n\\]\nに\n$x_{n}=P_{n}/Q_{n}$を代入すると\n\\[\nx_{n+1}=\\frac{1}{2}\\left(\\frac{P_{n}}{Q_{n}}+\\frac{aQ_{n}}{P_{n}}\\right)\n=\\frac{aQ_{n}^{2}+P_{n}^{2}}{2P_{n}Q_{n}}\n=\\frac{P_{n+1}}{Q_{n+1}}\n\\]\nなので成り立つ．",
+      "excerpt_sha256": "97f998fb9749ae47657d7fe5bfdab70b53e25aeb3c49ed57383c52dafe31de30",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "nでx_n=P_n/Q_nが成り立つと仮定する。列の定義と正の初期値は前の命題に置かれている。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 258,
+              "end": 262,
+              "raw": "今$n$について\n\\[\nx_{n}=\\frac{P_{n}}{Q_{n}}\n\\]\nが成り立つと仮定する．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "参照している項目(3)の等式を次の添字n+1で示す。原文では項目番号で目標を指す。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 256,
+              "end": 257,
+              "raw": "\\ref{item:33}\nを示す．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "xの漸化式に帰納法の仮定を代入し、通分後の分子と分母をP、Qの漸化式で読み替える。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 263,
+              "end": 273,
+              "raw": "この時\n\\[\nx_{n+1}=\\frac{1}{2}\\left(x_{n}+\\frac{a}{x_{n}}\\right)\n\\]\nに\n$x_{n}=P_{n}/Q_{n}$を代入すると\n\\[\nx_{n+1}=\\frac{1}{2}\\left(\\frac{P_{n}}{Q_{n}}+\\frac{aQ_{n}}{P_{n}}\\right)\n=\\frac{aQ_{n}^{2}+P_{n}^{2}}{2P_{n}Q_{n}}\n=\\frac{P_{n+1}}{Q_{n+1}}\n\\]"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "得られた式がP_{n+1}/Q_{n+1}であることを確認して、この段階を閉じる。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 272,
+              "end": 274,
+              "raw": "=\\frac{P_{n+1}}{Q_{n+1}}\n\\]\nなので成り立つ．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "仮定を述べてから、代入先の式を再掲する。",
+        "計算を目的の添字の形で終えると、帰納法のどこを示したかが明確になる。"
+      ],
+      "cautions": [
+        "帰納段階のみの採録。初期段階は195–198行の定義にあり、証明中では繰り返していない。",
+        "依存先200行はn>0と書く一方でn+1を定義しており、n=0から最初の更新を行う条件に不一致がある。原文を直さず注記する。",
+        "商を使うため分母の非零性が必要。初期値の取り方と漸化式からの維持はこの短い段落では別に示していない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "xの漸化式と正値性の条件。",
+          "start": 162,
+          "end": 176,
+          "raw": "\\begin{prop}\\label{prop:kkk}\n$a\\in \\rr_{>0}$とする．\nそして，$x_{0}$を適当に選んで\n数列$\\{x_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nを\n\\[\nx_{n+1}=x_{n}-\\frac{x_{n}^{2}-a}{2x_{n}}\n=\\frac{1}{2}\\left(x_{n}+\\frac{a}{x_{n}}\\right)\n\\]\nと定義する．このとき以下が成り立つ．\n\\begin{enumerate}[label=\\textup{(\\arabic*)}]\n\\item\\label{item:11}\nもしも\n$x_{0}>0$ならば任意の$n\\in \\zz_{\\ge 0}$について$x_{n}>0$\nが成り立つ．"
+        },
+        {
+          "commentary": "P、Qの定義および項目(3)の主張。",
+          "start": 186,
+          "end": 216,
+          "raw": "\\item\\label{item:33}\n$x_{0}>0$とする．\n数列\n$\\{P_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nと\n$\\{Q_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nを以下のように定義する．\n\\begin{enumerate}\n\\item \n$n=0$の時は適当に以下を満たすものとする．\n\\[\nx_{0}=\\frac{P_{0}}{Q_{0}}\n\\]\n\\item \n$n>0$の時は\n\\[\nP_{n+1}=aQ_{n}^{2}+P_{n}^{2}\n\\]\nでなおかつ\n\\item \n\\[\nQ_{n+1}=2P_{n}Q_{n}\n\\]\n\\end{enumerate}\nと定義する．\nこのとき\n任意の$n\\in \\zz_{\\ge 0}$について\n\\[\nx_{n}=\\frac{P_{n}}{Q_{n}}\n\\]\nが成り立つ．"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "漸化式の等式を帰納的に示すとき",
+      "prerequisites": "初期値と分母の非零性、最初の更新も含む添字範囲。",
+      "explain": "初期段階と、代入した式が次の主張に一致すること。",
+      "argument_kinds": [
+        "induction"
+      ]
+    },
+    {
+      "id": "JP-P15",
+      "document": "2024-01-23-01",
+      "title": "点が開集合族に入るかどうかで場合を分ける",
+      "source_title": "距離化可能定理part3:花井--森田・ストーンの定理",
+      "url": "https://dempacomm.github.io/papers/2024-01-23-01/MHS.tex",
+      "page_url": "https://dempacomm.github.io/papers/2024-01-23-01/",
+      "file": "corpus/2024-01-23-01.tex",
+      "sha256": "8350b3db5d9f7bb9449d7c29292428b907a2e83afd9360293f06a757e3dfff14",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "closing-excerpt",
+      "functions": [
+        "case",
+        "arbitrary",
+        "goal",
+        "finish"
+      ],
+      "summary": "構成済みの集合族U_iが疎であることを、任意の点に対して二通りの近傍を与えて確認する。",
+      "start": 640,
+      "end": 700,
+      "raw": "そして\n各\n$i\\in \\zz_{\\ge 0}$\nについて\n\\[\nU_{i}=W\\cap Q_{i}\n\\]\nと定義する．\n今から\n$\\{U_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nが疎な族\nであることを証明しよう．\n点\n$x\\in X$\nを任意にとる．\n場合分けを行う．\n\n\n\n\n場合分けその1. \n$x\\in Q_{i}$\nとなる\n$i\\in \\zz_{\\ge 0}$\nが存在する場合．\nこのとき\n族$\\{Q_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nが互いに素であることから\n族\n$\\{U_{i}\\}$も互いに素である．\nよって\n$Q_{i}$\nは\n$U_{i}$のみとしか交わらない．\n\n\n\n場合分けその２．\nどんな\n$i\\in \\zz_{\\ge 0}$\nについても\n$x\\not\\in Q_{i}$\nであるとき．\nこのとき\n$x\\not \\in \\bigcup_{i\\in \\zz_{\\ge 0}} Q_{i}$\nなので，\n特に\n$x\\not\\in \\cl(W)$\nである．よって開集合\n$X\\setminus \\cl(W)$\nは\n$x$\nの近傍であると同時に\nいかなる\n$U_{i}$とも交わりを持たない．\n\n\n\n以上のことから\n$\\{U_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nが疎な族であることがわかった．",
+      "excerpt_sha256": "e09fefac7db0591e3b77a1d8f73b609cdffcfa77f0eca3a533d9fe8b1c82c233",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "互いに素な開集合Q_iと、閉包がそれらの和に含まれる開集合WからU_i=W∩Q_iを定める。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 640,
+              "end": 647,
+              "raw": "そして\n各\n$i\\in \\zz_{\\ge 0}$\nについて\n\\[\nU_{i}=W\\cap Q_{i}\n\\]\nと定義する．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "U_iの族が疎であることを示すため、任意の点xを固定して近傍を探す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 648,
+              "end": 655,
+              "raw": "今から\n$\\{U_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nが疎な族\nであることを証明しよう．\n点\n$x\\in X$\nを任意にとる．\n場合分けを行う．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "xがあるQ_iに入る場合はQ_iを使う。それ以外の場合はXからWの閉包を除いた開集合を使う。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 660,
+              "end": 694,
+              "raw": "場合分けその1. \n$x\\in Q_{i}$\nとなる\n$i\\in \\zz_{\\ge 0}$\nが存在する場合．\nこのとき\n族$\\{Q_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nが互いに素であることから\n族\n$\\{U_{i}\\}$も互いに素である．\nよって\n$Q_{i}$\nは\n$U_{i}$のみとしか交わらない．\n\n\n\n場合分けその２．\nどんな\n$i\\in \\zz_{\\ge 0}$\nについても\n$x\\not\\in Q_{i}$\nであるとき．\nこのとき\n$x\\not \\in \\bigcup_{i\\in \\zz_{\\ge 0}} Q_{i}$\nなので，\n特に\n$x\\not\\in \\cl(W)$\nである．よって開集合\n$X\\setminus \\cl(W)$\nは\n$x$\nの近傍であると同時に\nいかなる\n$U_{i}$とも交わりを持たない．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "どちらの場合にも高々一つのU_iとしか交わらない近傍を得たので、疎な族であると結ぶ。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 698,
+              "end": 700,
+              "raw": "以上のことから\n$\\{U_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nが疎な族であることがわかった．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "場合分けの基準を、ある添字が存在するか・一つも存在しないかという尽くされた二つの条件にする。",
+        "各場合で同じ目標である近傍の構成を行い、最後に族の性質へ戻る。"
+      ],
+      "cautions": [
+        "前半の構成を含まない結びの抜粋。Q_iが互いに素であることとWの閉包の包含を前提とする。",
+        "直前622行は互いに素であるという論述に反して共通部分が空でないと記されている。この採録はその前半の証明を認証しない。",
+        "「疎」は各点に族の高々一つの元と交わる近傍があるという意味で読む。用語だけを別の定義の文書へ移さない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "互いに素であるという前段の議論と表記の不一致。",
+          "start": 610,
+          "end": 623,
+          "raw": "今から\n$\\{Q_{i}\\}$\nが互いに素であることを証明しよう．\n$i\\neq k$\nと仮定する．\nこのとき\n$i<k$\nと仮定しても良い．\nこのとき\n$Q_{i}\\subset P_{i}$\nと\n$Q_{k}$の定義から\n$Q_{i}\\cap Q_{k}\\neq \\emptyset$\nとなる．"
+        },
+        {
+          "commentary": "正規性を使ったWの選択と閉包の包含。",
+          "start": 624,
+          "end": 639,
+          "raw": "ここでさらに\n$X$\nの正規性を用いて\n\\[\n\\bigcup_{i\\in \\zz_{\\ge 0}}A_{i}\\subset W\n\\subset \\cl(W)\n\\subset \\bigcup_{i\\in \\zz_{\\ge 0}}Q_{i}\n\\]\nとなる開集合\n$W$\nをとる．\nここで\n$\\mathcal{A}$\nが疎であることを使って\n$\\bigcup_{i\\in \\zz_{\\ge 0}}A_{i}$\nが閉集合であるということを用いていることに注意しよう．"
+        },
+        {
+          "commentary": "疎性の確認から族正規性へ戻る直後の結び。",
+          "start": 701,
+          "end": 706,
+          "raw": "$\\mathcal{A}$\nは任意であったので，\n結局\n$X$が\n$\\aleph_{0}$-族正規であることが証明された．\n\\end{proof}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "任意の点で二通りの近傍を選ぶとき",
+      "prerequisites": "Q_iの互いに素な性質と、Wの閉包の包含。",
+      "explain": "二つの場合の網羅性と、近傍が高々一つのU_iと交わること。",
+      "argument_kinds": [
+        "cases"
+      ]
+    },
+    {
+      "id": "JP-P16",
+      "document": "2026-07-02-01",
+      "title": "補助関数の零点を選び、一様収束と部分列で極限へ渡す",
+      "source_title": "可分距離化可能空間における次元論",
+      "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+      "page_url": "https://dempacomm.github.io/papers/2026-07-02-01/",
+      "file": "corpus/2026-07-02-01.tex",
+      "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "implication-excerpt",
+      "functions": [
+        "construction",
+        "choice",
+        "limit",
+        "consequence"
+      ],
+      "summary": "境界での符号を厳密にする補助関数を加え、各段階で共通零点を選んでから、コンパクト性と一様収束によって元の関数の共通零点を得る。",
+      "start": 5107,
+      "end": 5167,
+      "raw": "[$\\ref{item:ccc}\\To \\ref{item:pm}$]\nの証明：\n各\n$i\\in \\{1, \\dots, n\\}$\nと\n$k\\in\\zz_{\\ge 0}$\nについて以下のように置く．\n\\begin{align}\nL_{i, k}=\\{\\, x\\in \\yocube{n}\\mid |x_{i}|\\le 1-2^{-k}\\, \\}\n\\end{align}\nそして\n写像\n$w_{i, k}\\colon\\yocube{n}\\to \\rr$\nを次の式で定義する．\n\\begin{align}\nw_{i, k}(x)=\nx_{i}\\cdot d(x, L_{i, k}). \n\\end{align}\nそして\n$g_{i, k}\\colon \\yocube{n}\\to \\rr$\nを\n$g_{i, k}(x)=f_{i}(x)+w_{i, k}(x)$\nと定義する．\nこの時常に\n$g_{i, k}(\\yocubesidep{n}{i})\\subset (0, \\infty)$\nで\n$g_{i, k}(\\yocubesidem{n}{i})\\subset (-\\infty, 0)$\nである．\nよって\n$C_{i, k}=g_{i, k}^{-1}(\\{0\\})$\nは\n$\\yocubesidep{n}{i}$と\n$\\yocubesidem{n}{i}$\nを分離する閉集合である．\n故に\n\\ref{item:ccc}から\n$\\bigcap_{i=1}^{n}C_{i, k}\\neq \\emptyset$\nである．この集合から点\n$p_{k}$\nをとる．\nこのとき\n$\\yocube{n}$\nのコンパクト性から収束する部分列\n$\\{p_{\\phi(k)}\\}_{k\\in \\zz_{\\ge 0}}$\nが存在する．\nその収束先を$p$とする．\nさて\n$g_{i, k}$\nは\n$f_{i}$\nに一様収束するので，\n$k\\to \\infty$のとき\n$g_{i, \\phi(k)}(p_{\\phi(k)})\\to f_{i}(p)$\nである．\nよって任意の\n$i\\in \\{1, \\dots, n\\}$\nについて\n$f_{i}(p)=0$となる．\nつまり\n\\ref{item:pm}\nが成り立つ．",
+      "excerpt_sha256": "9fabbc20936c75913d53d94e19a47d8192e82d35ee145ff1df402ec33c2f8bb7",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "閉集合の交わりに関する条件から共通零点の条件を導く方向を固定する。f_iの符号条件は定理の項目にある。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 5107,
+              "end": 5113,
+              "raw": "[$\\ref{item:ccc}\\To \\ref{item:pm}$]\nの証明：\n各\n$i\\in \\{1, \\dots, n\\}$\nと\n$k\\in\\zz_{\\ge 0}$\nについて以下のように置く．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "項目pm、すなわち元のf_iに共通零点があることを示す。本文の方向表示は項目番号を使っている。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 5107,
+              "end": 5108,
+              "raw": "[$\\ref{item:ccc}\\To \\ref{item:pm}$]\nの証明："
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "補正項を加えたg_{i,k}の零点集合に既知の交わり条件を適用し、得たp_kから収束部分列を取り、一様収束で値を極限へ渡す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 5114,
+              "end": 5160,
+              "raw": "\\begin{align}\nL_{i, k}=\\{\\, x\\in \\yocube{n}\\mid |x_{i}|\\le 1-2^{-k}\\, \\}\n\\end{align}\nそして\n写像\n$w_{i, k}\\colon\\yocube{n}\\to \\rr$\nを次の式で定義する．\n\\begin{align}\nw_{i, k}(x)=\nx_{i}\\cdot d(x, L_{i, k}). \n\\end{align}\nそして\n$g_{i, k}\\colon \\yocube{n}\\to \\rr$\nを\n$g_{i, k}(x)=f_{i}(x)+w_{i, k}(x)$\nと定義する．\nこの時常に\n$g_{i, k}(\\yocubesidep{n}{i})\\subset (0, \\infty)$\nで\n$g_{i, k}(\\yocubesidem{n}{i})\\subset (-\\infty, 0)$\nである．\nよって\n$C_{i, k}=g_{i, k}^{-1}(\\{0\\})$\nは\n$\\yocubesidep{n}{i}$と\n$\\yocubesidem{n}{i}$\nを分離する閉集合である．\n故に\n\\ref{item:ccc}から\n$\\bigcap_{i=1}^{n}C_{i, k}\\neq \\emptyset$\nである．この集合から点\n$p_{k}$\nをとる．\nこのとき\n$\\yocube{n}$\nのコンパクト性から収束する部分列\n$\\{p_{\\phi(k)}\\}_{k\\in \\zz_{\\ge 0}}$\nが存在する．\nその収束先を$p$とする．\nさて\n$g_{i, k}$\nは\n$f_{i}$\nに一様収束するので，\n$k\\to \\infty$のとき\n$g_{i, \\phi(k)}(p_{\\phi(k)})\\to f_{i}(p)$\nである．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "選んだ点では各補助関数が零であることから、極限点で全てのf_iが零になると閉じる。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 5161,
+              "end": 5167,
+              "raw": "よって任意の\n$i\\in \\{1, \\dots, n\\}$\nについて\n$f_{i}(p)=0$となる．\nつまり\n\\ref{item:pm}\nが成り立つ．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "補助対象の構成、各段階の解の選択、極限の順に記述する。",
+        "点と関数の両方が変わる極限では、一様収束を使う箇所を明示する。"
+      ],
+      "cautions": [
+        "複数の条件の同値性を証明するうちの一方向のみ。",
+        "一様収束の誤差評価とf_iの連続性による極限移行は原文では短く済ませている。読み手に応じて二つの誤差に分けて説明する。",
+        "例えば編集上の補足として、|g_{i,φ(k)}(p_{φ(k)})−f_i(p)|を、一様誤差と|f_i(p_{φ(k)})−f_i(p)|の和で抑える形にすると使う仮定が見える。この説明は原文引用ではない。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "用いる閉集合の交わり条件と、目標の共通零点条件。",
+          "start": 4807,
+          "end": 4837,
+          "raw": "\\item\\label{item:ccc}\n$i\\in \\{1, \\dots, n\\}$\nを添字とする\n閉集合\n$C_{i}\\subset \\yocube{n}$\nの族が\n$\\yocubesidep{n}{i}$\nと\n$\\yocubesidem{n}{i}$\nを分離するならば\n$\\bigcap_{i=1}^{n}C_{i}\\neq \\emptyset$\nが成り立つ．\n\n\n\\item\\label{item:pm}(the Poincar\\'{e}-Miranda theorem)\n$i\\in \\{1, \\dots, n\\}$\nを添字とする連続写像の族\n$f_{i}\\colon \\yocube{n}\\to \\rr$\nが\n$f_{i}(\\yocubesidep{n}{i})\\subset [0, \\infty)$\nと\n$f_{i}(\\yocubesidem{n}{i})\\subset (-\\infty, 0]$\nを満たすならば，\nある点\n$p\\in \\yocube{n}$\nが存在して\n$f_{i}(p)=0$\nが成り立つ．\nつまり共通零点が存在する．\n\\end{enumerate}\n\\end{thm}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "近似解の収束部分列から共通零点を得るとき",
+      "prerequisites": "コンパクト性、一様収束、各f_iの連続性。",
+      "explain": "関数の一様誤差と動く点による誤差を分ける。",
+      "argument_kinds": [
+        "limits",
+        "equivalence"
+      ]
+    },
+    {
+      "id": "JP-P17",
+      "document": "2015-10-22-01",
+      "title": "上からの評価で連続性を得て、コンパクト性で下からも抑える",
+      "source_title": "有限次元ベクトル空間のノルムは全部同値",
+      "url": "https://dempacomm.github.io/papers/2015-10-22-01/norm.tex",
+      "page_url": "https://dempacomm.github.io/papers/2015-10-22-01/",
+      "file": "corpus/2015-10-22-01.tex",
+      "sha256": "42a34eb2ddb3922810389104348119010690cc172508f5d7fa20a30893caff9a",
+      "tier": "historical",
+      "subjects": [
+        "algebra",
+        "analysis"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "estimate",
+        "construction",
+        "reason",
+        "equivalence"
+      ],
+      "summary": "任意のノルムを標準基底で上から評価し、その評価で連続性を示す。単位球面上の最小値を使い、両側の評価へつなげる。",
+      "start": 119,
+      "end": 165,
+      "raw": "\\begin{thm}$\\rr^N$上の任意のノルム$\\nor$は$\\mgn$-ノルムと同値。\n\n\\end{thm}\n\n\\begin{proof}\n$\\rr^N$の標準的な基底を$e_i$と書くことにする。そして\n\\[\nC=\\max_{i=1, \\dots, N} \\nor (e_i)\n\\]\nと定義すると$C>0$である．\nここで$\\nor$がノルムであることから\n任意の$x\\in \\rr^{N}$について\n\\[\n\\nor(x)\\le \\nor\\left(\\sum_{i=1}^Nx_i e_{i}\\right)\n\\le \\sum_{i=1}^{N}\\nor(x_{i} e_{i})\n＝ \\sum_{i=1}^{N}|x_{i}|\\cdot \\nor(e_{i})\n\\le C\\sum_{i=1}^N|x_i|\\le NC\\mrn{x}\n\\]\nとなる。\nここで$x=\\sum_{i=1}^{N}x_{i}e_{i}$であることを使った．\nさてノルムの三角不等式から\n$|\\nor(x)-\\nor(y)|\\le \\nor(x-y)$がわかり、\n\\[\n|\\nor(x)-\\nor(y)|\\le \\nor(x-y)\\le NC\\mrn{x-y}\n\\]\nを得る。このことからノルム$\\nor$はノルム空間\n$(\\rr^N,\\mrn{\\bullet})$上で連続であることがわかる。\nさて$\\rr^N$の部分集合$K$を\n\\[\nK=\\{x\\in \\rr^N\\ |\\ \\mrn{x}=1\\}\n\\]\nと置くと$2$-ノルムと$\\mgn$-ノルムが同値であることから集合$K$は$\\rr^N$の通常の距離における有界閉集合であることがわかる。よって$K$はコンパクトである。\nノルム$\\nor$はもちろん$K$上でも連続なので$K$のコンパクト性から$\\nor$は$K$上で最小値と最大値を取る。これらをそれぞれ$m, M$とおくことにしよう.\n$0\\not\\in K$なので$M$, $m$は両方とも正の実数となる。任意の$x\\in\\rr^N$について\n\\[\n\\frac{x}{\\ \\mrn{x}}\\in K\n\\]\nなので，$M, m$の定義から\n\\[\nm\\le \\nor\\left(\\frac{x}{\\ \\mrn{x}}\\right)\\le M\n\\]\nが成り立つ．ゆえに\n\\[\nm\\mrn{x}\\le \\nor(x)\\le M\\mrn{x}\n\\]\nとなるので$\\nor$と$\\mrn{\\bullet}$は同値である。\n\\end{proof}",
+      "excerpt_sha256": "c826830992450efd86dab8f5d4b2709ecda00bf082a24ae029902dd685cc31df",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "有限次元実線型空間上のノルムを対象とし、標準基底とそのノルムの最大値Cを設定する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 119,
+              "end": 128,
+              "raw": "\\begin{thm}$\\rr^N$上の任意のノルム$\\nor$は$\\mgn$-ノルムと同値。\n\n\\end{thm}\n\n\\begin{proof}\n$\\rr^N$の標準的な基底を$e_i$と書くことにする。そして\n\\[\nC=\\max_{i=1, \\dots, N} \\nor (e_i)\n\\]\nと定義すると$C>0$である．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "任意のノルムと最大値ノルムとの同値性、すなわち正の定数による両側の評価を示す。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 119,
+              "end": 121,
+              "raw": "\\begin{thm}$\\rr^N$上の任意のノルム$\\nor$は$\\mgn$-ノルムと同値。\n\n\\end{thm}"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "基底展開で上界を得て、三角不等式から連続性を導く。最大値ノルムの単位球面のコンパクト性により正の最小値と最大値を得る。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 129,
+              "end": 152,
+              "raw": "ここで$\\nor$がノルムであることから\n任意の$x\\in \\rr^{N}$について\n\\[\n\\nor(x)\\le \\nor\\left(\\sum_{i=1}^Nx_i e_{i}\\right)\n\\le \\sum_{i=1}^{N}\\nor(x_{i} e_{i})\n＝ \\sum_{i=1}^{N}|x_{i}|\\cdot \\nor(e_{i})\n\\le C\\sum_{i=1}^N|x_i|\\le NC\\mrn{x}\n\\]\nとなる。\nここで$x=\\sum_{i=1}^{N}x_{i}e_{i}$であることを使った．\nさてノルムの三角不等式から\n$|\\nor(x)-\\nor(y)|\\le \\nor(x-y)$がわかり、\n\\[\n|\\nor(x)-\\nor(y)|\\le \\nor(x-y)\\le NC\\mrn{x-y}\n\\]\nを得る。このことからノルム$\\nor$はノルム空間\n$(\\rr^N,\\mrn{\\bullet})$上で連続であることがわかる。\nさて$\\rr^N$の部分集合$K$を\n\\[\nK=\\{x\\in \\rr^N\\ |\\ \\mrn{x}=1\\}\n\\]\nと置くと$2$-ノルムと$\\mgn$-ノルムが同値であることから集合$K$は$\\rr^N$の通常の距離における有界閉集合であることがわかる。よって$K$はコンパクトである。\nノルム$\\nor$はもちろん$K$上でも連続なので$K$のコンパクト性から$\\nor$は$K$上で最小値と最大値を取る。これらをそれぞれ$m, M$とおくことにしよう.\n$0\\not\\in K$なので$M$, $m$は両方とも正の実数となる。任意の$x\\in\\rr^N$について"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "非零ベクトルを単位球面に正規化し、最小値・最大値の評価を斉次性で元へ戻して両側の不等式を得る。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 152,
+              "end": 165,
+              "raw": "$0\\not\\in K$なので$M$, $m$は両方とも正の実数となる。任意の$x\\in\\rr^N$について\n\\[\n\\frac{x}{\\ \\mrn{x}}\\in K\n\\]\nなので，$M, m$の定義から\n\\[\nm\\le \\nor\\left(\\frac{x}{\\ \\mrn{x}}\\right)\\le M\n\\]\nが成り立つ．ゆえに\n\\[\nm\\mrn{x}\\le \\nor(x)\\le M\\mrn{x}\n\\]\nとなるので$\\nor$と$\\mrn{\\bullet}$は同値である。\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "最初に得た評価を、連続性を示す次の段階でも再利用する。",
+        "局所的な計算、コンパクト性の適用、任意のベクトルへの拡張を順に分ける。"
+      ],
+      "cautions": [
+        "152行では任意のxとするが154行でそのノルムで割る。x=0のときは別に確認する必要がある。",
+        "N≥1を前提とする議論。零次元の場合は最大値を取る添字や単位球面が空になる。",
+        "134行には全角の等号がある。数学的な式とTeXとしての組版可否は区別し、原文は保持する。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "ノルムの同値性の定義。",
+          "start": 80,
+          "end": 91,
+          "raw": "%ノルムの同値性\n\\begin{df}線型空間$X$上の2つのノルム$\\nor_{1},\\nor_{2}$\nが同値であるとはある正の実数$A.B>0$が存在して\n\\[\n\\forall x\\in X\\ A\\nor_{1}(x)\\le \\nor_{2}(x)\\le B\\nor_{1}(x)\n\\]\nとなることである。\n\\end{df}\n\\begin{cau}\n$\\nor_{1},\\nor_{2}$が同値であると言う関係を\n$\\nor_{1}\\sim \\nor_{2}$で書くと$\\sim$は同値関係になっている。確かめるのは容易いことである。\\\\ \nまた、$X$上の2つのノルム$\\nor_{1},\\nor_{2}$が同値であるとき、その$2$つのノルムが定める位相は同じ位相となる。"
+        },
+        {
+          "commentary": "最大値ノルムとユークリッドノルムが同じ位相を定めるという直前の説明。",
+          "start": 97,
+          "end": 115,
+          "raw": "\\begin{exam}\n任意の$p\\in[1,+\\mgn)$に対して$p$-ノルムと$\\mgn$-ノルムは同値となる。実際\n\\[\n|x_i|\\le\\mrn{x}\n\\]\nより\n\\[\n\\prn{x}\\le \\left(\\sum_{i=1}^N\\mrn{x}^p\\right)^{\\frac{1}{p}}\\le \\sqrt[p]{N}\\mrn{x}\n\\]\nであり、また明らかに\n\\[\n|x_i|\\le\\left(\\sum_{i=1}^N|x_{i}|^p\\right)^{\\frac{1}{p}}=\\prn{x}\n\\]\nなので\n\\[\n\\mrn{x}\\le\\prn{x}\\le \\sqrt[p]{N}\\mrn{x}\n\\]となり、同値であることがわかる。\\\\ \nノルムの同値性は同値関係になるので$p$-ノルム同士は同値であり、更に同じ同値類に$\\mgn$-ノルムが入っている。特に$2$-ノルムと$\\mgn$-ノルムは同値なので$\\mgn$-ノルムと$2$-ノルムが定める$\\rr^N$の位相は同じ位相である。つまり位相空間としての$(\\rr^N,\\mrn{\\bullet})$は通常のユークリッド位相空間である。\n\\end{exam}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "連続性とコンパクト性で両側の定数を得るとき",
+      "prerequisites": "正の次元、基底展開、単位球面のコンパクト性。",
+      "explain": "x=0を分け、非零ベクトルの正規化と斉次性を説明する。",
+      "argument_kinds": [
+        "estimates"
+      ]
+    },
+    {
+      "id": "JP-P18",
+      "document": "2016-12-29-01",
+      "title": "二つの対偶を方向別に示して同値性を閉じる",
+      "source_title": "点可算被覆と可算コンパクト性",
+      "url": "https://dempacomm.github.io/papers/2016-12-29-01/aaa.tex",
+      "page_url": "https://dempacomm.github.io/papers/2016-12-29-01/",
+      "file": "corpus/2016-12-29-01.tex",
+      "sha256": "8621dee0d76b27c1e64f03450fc2d7bd9ab2207c3ec81d306e7e77e5de8a24f5",
+      "tier": "historical",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "equivalence-excerpt",
+      "functions": [
+        "equivalence",
+        "converse",
+        "construction",
+        "contradiction"
+      ],
+      "summary": "可算コンパクト性と可算無限集合の完全集積点の関係について、否定した二つの条件を互いに導く形で論証を整理する。",
+      "start": 97,
+      "end": 113,
+      "raw": "\\begin{proof}\n$(2)$と$(3)$が同値であることはよくわかる。$(1)$と$(2)$が同値であることを示そう。対偶を証明する。\\par\n[$\\lnot (2)\\To \\lnot(1)$の証明]\\par\n$\\lnot(2)$より、完全集積点を持たない可算無限集合$A$が存在する。完全集積点を持たないので各点$x\\in X$について$x$の近傍$U_x$が存在して$\\card(U_x\\cap A)<\\aleph_0$となる。さて$A$の有限部分集合$S$について\n\\[\nO_S=\\bigcup\\{U_x\\mid U_x\\cap A=S\\}\n\\]\nと定義しよう。$A$の有限部分集合全体$\\mathcal{F}$は可算集合であるから、$\\{O_S\\}_{S\\in \\mathcal{F}}$は可算な族であり、$X$の開被覆である。しかし構成の仕方からわかるように$\\{O_S\\}_{S\\in \\mathcal{F}}$の有限部分被覆$\\mathcal{U}$の和集合$\\bigcup\\mathcal{U}$と$A$について$(\\bigcup\\mathcal{U})\\cap A$は有限集合である。よって$X\\neq \\bigcup\\mathcal{U}$。つまり$\\{O_S\\}_{S\\in \\mathcal{F}}$は有限部分被覆を持たない$X$の可算開被覆である。ゆえに$X$は可算コンパクトでない。\\par\n[$\\lnot (2)\\To \\lnot(1)$終わり]\\par\n[$\\lnot (1)\\To \\lnot (2)$の証明]\\par\n$X$は可算コンパクトでないから有限部分被覆を持たない可算開被覆$\\mathcal{U}=\\{U_i\\}_{i\\in \\nn}$が存在する。そこで$\\{a_i\\}_{i\\in \\nn}$を\n\\[\na_n\\not\\in \\bigcup_{i=0}^nU_i\n\\]\nでかつ$n\\neq m\\To a_n\\neq a_m$となるように選ぶ（これはちゃんと実行できる）。そして$A=\\{a_n\\}_{n\\in \\nn}$とすると$A$は可算無限集合である。これが完全集積点を持たないことを示そう。任意の$x\\in X$について$x\\in U_m$となる$\\mathcal{U}$の元をとると、構成の仕方から$U_m$は高々$m+1$個の$A$の元としか交わらない。よって$x$は任意であったから$A$は完全集積点を持たない$X$の可算部分集合である。\\par\n[$\\lnot (1)\\To \\lnot (2)$終わり]\n\\end{proof}",
+      "excerpt_sha256": "41ebcf733ad4436ade75f72a1ff76fbb32aef72c5a44bed5e2178eed107989e5",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "条件(1)と(2)を比較し、対偶を証明する方針を宣言する。各方向では対応する条件の否定を仮定する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 98,
+              "end": 100,
+              "raw": "$(2)$と$(3)$が同値であることはよくわかる。$(1)$と$(2)$が同値であることを示そう。対偶を証明する。\\par\n[$\\lnot (2)\\To \\lnot(1)$の証明]\\par\n$\\lnot(2)$より、完全集積点を持たない可算無限集合$A$が存在する。完全集積点を持たないので各点$x\\in X$について$x$の近傍$U_x$が存在して$\\card(U_x\\cap A)<\\aleph_0$となる。さて$A$の有限部分集合$S$について"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "条件(1)と(2)の同値性を、否定された条件の二方向の含意で示す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 98,
+              "end": 99,
+              "raw": "$(2)$と$(3)$が同値であることはよくわかる。$(1)$と$(2)$が同値であることを示そう。対偶を証明する。\\par\n[$\\lnot (2)\\To \\lnot(1)$の証明]\\par"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "一方向では完全集積点のない集合から有限部分被覆のない可算開被覆を作る。逆方向では被覆から点列を選び、完全集積点がないことを示す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 100,
+              "end": 111,
+              "raw": "$\\lnot(2)$より、完全集積点を持たない可算無限集合$A$が存在する。完全集積点を持たないので各点$x\\in X$について$x$の近傍$U_x$が存在して$\\card(U_x\\cap A)<\\aleph_0$となる。さて$A$の有限部分集合$S$について\n\\[\nO_S=\\bigcup\\{U_x\\mid U_x\\cap A=S\\}\n\\]\nと定義しよう。$A$の有限部分集合全体$\\mathcal{F}$は可算集合であるから、$\\{O_S\\}_{S\\in \\mathcal{F}}$は可算な族であり、$X$の開被覆である。しかし構成の仕方からわかるように$\\{O_S\\}_{S\\in \\mathcal{F}}$の有限部分被覆$\\mathcal{U}$の和集合$\\bigcup\\mathcal{U}$と$A$について$(\\bigcup\\mathcal{U})\\cap A$は有限集合である。よって$X\\neq \\bigcup\\mathcal{U}$。つまり$\\{O_S\\}_{S\\in \\mathcal{F}}$は有限部分被覆を持たない$X$の可算開被覆である。ゆえに$X$は可算コンパクトでない。\\par\n[$\\lnot (2)\\To \\lnot(1)$終わり]\\par\n[$\\lnot (1)\\To \\lnot (2)$の証明]\\par\n$X$は可算コンパクトでないから有限部分被覆を持たない可算開被覆$\\mathcal{U}=\\{U_i\\}_{i\\in \\nn}$が存在する。そこで$\\{a_i\\}_{i\\in \\nn}$を\n\\[\na_n\\not\\in \\bigcup_{i=0}^nU_i\n\\]\nでかつ$n\\neq m\\To a_n\\neq a_m$となるように選ぶ（これはちゃんと実行できる）。そして$A=\\{a_n\\}_{n\\in \\nn}$とすると$A$は可算無限集合である。これが完全集積点を持たないことを示そう。任意の$x\\in X$について$x\\in U_m$となる$\\mathcal{U}$の元をとると、構成の仕方から$U_m$は高々$m+1$個の$A$の元としか交わらない。よって$x$は任意であったから$A$は完全集積点を持たない$X$の可算部分集合である。\\par"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "方向別の終了表示により両方の含意が完了したと示す。最後に同値性を言い直す文は置かない。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 112,
+              "end": 113,
+              "raw": "[$\\lnot (1)\\To \\lnot (2)$終わり]\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "どちらの条件を仮定してどちらを導くかを小見出しに出す。",
+        "逆方向では前の構成を漫然と逆にせず、必要な対象を新たに選ぶ。"
+      ],
+      "cautions": [
+        "原文の条件(2)は「可算部分集合」とだけ記しているが、証明は可算無限集合を扱う。有限集合まで含めた主張をそのまま推奨しない。",
+        "点列を相異なるように選べる理由は「ちゃんと実行できる」と省略されている。有限個の既選択点を覆う被覆要素を加えても有限部分被覆にならないことを使う説明が考えられる。",
+        "条件(2)と(3)の同値性は98行で短く済ませており、この採録の二方向の詳しい議論は(1)と(2)に限られる。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "分離公理を課さないという前提と完全集積点の定義。",
+          "start": 68,
+          "end": 83,
+          "raw": "この文書では位相空間に如何なる分離公理も課さない。\n\\begin{df}[星型集合]\n集合$X$とその部分集合族$\\mathcal{A}$、及び$x\\in X$について\n\\[\n\\s(x,\\mathcal{A})=\\bigcup\\{A\\ |\\ A\\in \\mathcal{A},\\ x\\in A\\}\n\\]\nを$\\mathcal{A}$による$x$を中心とする星型集合という。\n\\end{df}\n\n\\begin{df}[完全集積点]\n位相空間$X$の部分集合$A$について、$x\\in X$が$A$の完全集積点であるとは、$x$の任意の開近傍$U$について\n\\[\n\\card(A)=\\card(U\\cap A)\n\\]\nとなること。\n\\end{df}"
+        },
+        {
+          "commentary": "番号付きの三条件。条件(2)の有限集合の扱いに注意する。",
+          "start": 85,
+          "end": 96,
+          "raw": "\\begin{thm}\\label{aa}\n位相空間$X$について以下は同値である。\n\\begin{enumerate}\n\\item $X$は可算コンパクト\n\\item $X$の可算部分集合$A$に完全集積点が存在する。\n\\item $X$の無限部分集合$A$について点$a\\in X$が存在して$a$の任意の近傍$N$について\n\\[\n\\card(A\\cap N)\\ge \\aleph_0\n\\]\nを充たす。\n\\end{enumerate}\n\\end{thm}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "二つの対偶で同値性を示すとき",
+      "prerequisites": "条件(2)を証明の対象である可算無限集合に限定して読むこと。",
+      "explain": "点列を相異なるよう選ぶ理由と、方向ごとの結論。",
+      "argument_kinds": [
+        "equivalence"
+      ]
+    },
+    {
+      "id": "JP-P19",
+      "document": "2026-06-09-01",
+      "title": "局所有限性によって和を定義し、連続性へつなげる",
+      "source_title": "Limitation topologyとBing's shrinking criterion",
+      "url": "https://dempacomm.github.io/papers/2026-06-09-01/funcspbairefine111.tex",
+      "page_url": "https://dempacomm.github.io/papers/2026-06-09-01/",
+      "file": "corpus/2026-06-09-01.tex",
+      "sha256": "c1d6f9fbb8b8826955123d93a7ffba5e7b703ac4d49fc50607e7a2dbc1a655f5",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "construction-excerpt",
+      "functions": [
+        "well-defined",
+        "construction",
+        "reason"
+      ],
+      "summary": "関数族を座標とする写像を作り、局所有限性から値が定まることと連続性を説明して、距離型の関数の構成へ進む。",
+      "start": 585,
+      "end": 634,
+      "raw": "さて\n$\\yoellsp{A}$\nという記号で\n写像\n$w\\colon A\\to \\rr$\nであって\n $\\sum_{a\\in A}|w(a)|<\\infty$\n となるもの全体を表すことにする．\n そして\n $\\yoelldis{*}$\n で\n $\\yoellsp{A}$\n 上の\n $\\ell^{1}$\n ノルムを表すことにする．\n各\n$a\\in A$\nについて\n  $\\yobasis_{a}$\n   という記号で\n  $\\yoellsp{A}$\n  の元で\n   $\\yobasis_{a}(p)=1$\n   ($p=a$のとき); \n   上記以外のとき\n    $\\yobasis_{a}(p)=0$\n    となるものを表すことにする．\n    写像 \n    $\\psi\\colon X\\to \\yoellsp{A}$\n    を\n      $\\psi(x)=\\sum_{a\\in A}f_{a}(x)\\cdot \\yobasis_{a}$\n      と定義する．\n      \\ref{item:p1}\n      より\n      $f_{a}$\n      のサポート全体が局所有限なので\n      $\\psi$\n      はwell-definedで尚且つ連続であることがわかる．\n      そして\n      $d\\colon X\\times X\\to [0, \\infty)$\nを\n  $d(x, y)=\\yoelldis{\\psi(x)-\\psi(y)}$\n  と定義すれば\n  $\\psi$の\n  連続性から\n  $d$\n  も\n  $X\\times X$\n  上で \n  連続であることがわかる．",
+      "excerpt_sha256": "10e14241b91e601c326976afeb40c64a07548e07fce61e46012fc6e6de7ef537",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "値を置くℓ1空間と座標ベクトルを定める。関数族の連続性と局所有限性は直前に確認されている。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 585,
+              "end": 611,
+              "raw": "さて\n$\\yoellsp{A}$\nという記号で\n写像\n$w\\colon A\\to \\rr$\nであって\n $\\sum_{a\\in A}|w(a)|<\\infty$\n となるもの全体を表すことにする．\n そして\n $\\yoelldis{*}$\n で\n $\\yoellsp{A}$\n 上の\n $\\ell^{1}$\n ノルムを表すことにする．\n各\n$a\\in A$\nについて\n  $\\yobasis_{a}$\n   という記号で\n  $\\yoellsp{A}$\n  の元で\n   $\\yobasis_{a}(p)=1$\n   ($p=a$のとき); \n   上記以外のとき\n    $\\yobasis_{a}(p)=0$\n    となるものを表すことにする．"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "関数族の和で写像ψを定義し、その値と連続性を確保する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 612,
+              "end": 622,
+              "raw": "    写像 \n    $\\psi\\colon X\\to \\yoellsp{A}$\n    を\n      $\\psi(x)=\\sum_{a\\in A}f_{a}(x)\\cdot \\yobasis_{a}$\n      と定義する．\n      \\ref{item:p1}\n      より\n      $f_{a}$\n      のサポート全体が局所有限なので\n      $\\psi$\n      はwell-definedで尚且つ連続であることがわかる．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "非零となる関数の族が局所有限であることを使い、各点の近傍では有限和として扱う。有限和への帰着は編集注による説明。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 617,
+              "end": 622,
+              "raw": "      \\ref{item:p1}\n      より\n      $f_{a}$\n      のサポート全体が局所有限なので\n      $\\psi$\n      はwell-definedで尚且つ連続であることがわかる．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "ψからノルム差で定義したdも連続になるとして、次の構成へ渡す。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 623,
+              "end": 634,
+              "raw": "      そして\n      $d\\colon X\\times X\\to [0, \\infty)$\nを\n  $d(x, y)=\\yoelldis{\\psi(x)-\\psi(y)}$\n  と定義すれば\n  $\\psi$の\n  連続性から\n  $d$\n  も\n  $X\\times X$\n  上で \n  連続であることがわかる．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "和の式を書いた直後に、その和を扱える根拠を示す。",
+        "同じ局所有限性から、値が定まることと連続性をそれぞれ説明する。"
+      ],
+      "cautions": [
+        "局所有限性による構成部分の採録。dが目的の距離になるための他の性質は含まない。",
+        "単に各点で非零項が有限なだけでは、この連続性の説明には足りない。近傍で共通の有限集合に絞れる点を補う。",
+        "原文では非零集合をサポートと呼ぶ。通常の閉包を取る定義と区別して読む。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "連続関数族の局所有限性と被覆の条件、およびその確認。",
+          "start": 543,
+          "end": 584,
+          "raw": " すると\n $f_{a}$\n は連続であり，以下の性質を満たす．\n \\begin{enumerate}[label=\\textup{(A\\arabic*)}]\n\n\n%1\n\\item\\label{item:p1}\n$f_{a}$\nのサポート全体の族\n$\\{f_{a}^{-1}((0, 1])\\}_{a\\in A}$\nは\n$X$\nの局所有限な開集合族で被覆でありさらに \n$\\yocovfont{U}$\nの細分となっている．\n\n%3\n\\item\\label{item:p2}\n族\n$\\{f_{a}^{-1}(\\{1\\})\\}_{a\\in A}$\nは\n$X$\nの被覆になっている．\n \\end{enumerate}\n上記の性質が成り立つのを少し確認しよう．\nまず定義から\n$f_{a}^{-1}((0, 1])=g_{a}^{-1}((0, 1])$\nが成り立つので\n\\ref{item:p1}\nは成り立つ．\nそして\n$x\\in X$\nに対して\n$\\phi(x)=g_{p}(x)$\nとなる\n$p\\in A$\nを取れば\n$f_{p}(x)=1$\nとなるので\n\\ref{item:p2}\nも成り立つ．"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "関数族の和で写像を作るとき",
+      "prerequisites": "連続な関数族が近傍ごとに有限個へ絞れること。",
+      "explain": "各点で有限という条件と局所有限性の差。",
+      "argument_kinds": [
+        "well-defined"
+      ]
+    },
+    {
+      "id": "JP-P20",
+      "document": "2026-07-02-01",
+      "title": "有限部分被覆を取り、近傍の有限交叉で一様化する",
+      "source_title": "可分距離化可能空間における次元論",
+      "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+      "page_url": "https://dempacomm.github.io/papers/2026-07-02-01/",
+      "file": "corpus/2026-07-02-01.tex",
+      "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+      "tier": "primary",
+      "subjects": [
+        "topology-metric-geometry"
+      ],
+      "scope_kind": "statement-and-proof",
+      "functions": [
+        "choice",
+        "reduction",
+        "finish"
+      ],
+      "summary": "コンパクトな切片を含む開集合について、有限個の積近傍を選び、第一成分の近傍を交叉して一つの管状近傍を得る。",
+      "start": 495,
+      "end": 539,
+      "raw": "\\begin{lem}[The tube lemma]\\label{lem:tube}\n\n$X$\nを位相空間とし，\n$K$\nをコンパクト空間とする．\nそして\n$x\\in X$\nとし\n$U$\nは\n$X\\times K$\nの開集合とする．\nもしも\n$\\{x\\}\\times K\\subset U$\nが成り立つならば\n$x$\nの近傍\n$N$\nが存在して\n$N\\times K\\subset U$\nを満たす．\n\\end{lem}\n\\begin{proof}\n$K$\nはコンパクトで\n$U$\nは開集合なので\n$x$\nの開近傍\n$O_{1}, \\dots, O_{n}$\nと\n$K$\nの\n開集合の族\n$V_{1}, \\dots, V_{n}$\nが存在して\n以下が成り立つ．\n\\begin{align}\n\\{x\\}\\times K\\subset \\bigcup_{i=1}^{n}O_{i}\\times V_{i}\\subset U. \n\\end{align}\nここで\n$N=\\bigcap_{i=1}^{n}O_{i}$\nとすれば証明が終わる．\n\\end{proof}",
+      "excerpt_sha256": "32f83fee1bc9ea9813684d353eee82c6b37947749d4d1ae79b2c2e8c13a1dd2a",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "Xは位相空間、Kはコンパクト空間、Uは点xに対応する切片を含む積空間の開集合である。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 497,
+              "end": 510,
+              "raw": "$X$\nを位相空間とし，\n$K$\nをコンパクト空間とする．\nそして\n$x\\in X$\nとし\n$U$\nは\n$X\\times K$\nの開集合とする．\nもしも\n$\\{x\\}\\times K\\subset U$\nが成り立つならば"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "xの一つの近傍Nで、N×K全体がUに入るものを得る。",
+          "explicitness": "statement-only",
+          "excerpts": [
+            {
+              "start": 511,
+              "end": 516,
+              "raw": "$x$\nの近傍\n$N$\nが存在して\n$N\\times K\\subset U$\nを満たす．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "開集合Uを積近傍で局所的に捉え、Kのコンパクト性で有限個の積近傍へ絞る。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 519,
+              "end": 535,
+              "raw": "$K$\nはコンパクトで\n$U$\nは開集合なので\n$x$\nの開近傍\n$O_{1}, \\dots, O_{n}$\nと\n$K$\nの\n開集合の族\n$V_{1}, \\dots, V_{n}$\nが存在して\n以下が成り立つ．\n\\begin{align}\n\\{x\\}\\times K\\subset \\bigcup_{i=1}^{n}O_{i}\\times V_{i}\\subset U. \n\\end{align}"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "第一成分の近傍を有限交叉してNを定める。Nが近傍であることとN×Kの包含は本文で短く済ませる。",
+          "explicitness": "partly-implicit",
+          "excerpts": [
+            {
+              "start": 536,
+              "end": 539,
+              "raw": "ここで\n$N=\\bigcap_{i=1}^{n}O_{i}$\nとすれば証明が終わる．\n\\end{proof}"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "点ごとに異なる近傍を有限個に絞ってから共通の近傍を作る。",
+        "有限性が近傍の交叉に必要であることを、コンパクト性の出力と結びつける。"
+      ],
+      "cautions": [
+        "積位相の基本開集合を各点で選ぶ段階は省略されている。初学者向けには、V_iがKを覆うまでを書く。",
+        "Kが空のときはN=Xなどを選べる。空の有限交叉の約束をしない文書では別に扱う。"
+      ],
+      "dependencies": [],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "点ごとの積近傍を一つの近傍へまとめるとき",
+      "prerequisites": "Kのコンパクト性と積位相。",
+      "explain": "有限個のV_iがKを覆うこと、有限交叉が近傍であること。",
+      "argument_kinds": [
+        "compactness"
+      ]
+    },
+    {
+      "id": "JP-P21",
+      "document": "2026-03-26-01",
+      "title": "選択への独立性のうち、何を固定したかを区別する",
+      "source_title": "Goursat's lemma",
+      "url": "https://dempacomm.github.io/papers/2026-03-26-01/Grousat.tex",
+      "page_url": "https://dempacomm.github.io/papers/2026-03-26-01/",
+      "file": "corpus/2026-03-26-01.tex",
+      "sha256": "1906fd18dce05df0fad3effa320e36ee1dd1a0d010af9912d5d1862a3c6fd04a",
+      "tier": "primary",
+      "subjects": [
+        "algebra"
+      ],
+      "scope_kind": "construction-excerpt",
+      "functions": [
+        "well-defined",
+        "choice",
+        "goal"
+      ],
+      "summary": "商集合上の写像を選択で定め、固定したaに対するbの選び方が値に影響しないことを示す。代表元aの独立性とは区別して読む例。",
+      "start": 175,
+      "end": 195,
+      "raw": "さらに\n$\\theta_{G}\\colon \\myprojb{G}/\\mysliceb{G}{1_{B}}\n\\to \\myproja{G}/\\myslicea{G}{1_{A}}$は以下で定義される写像である:\n$[a]\\in \\myprojb{G}/\\mysliceb{G}{1_{B}}$に対して，\n$(a, b)\\in G$となる$b$を選び，\n$\\theta_G([a])=[b]$と定義する．\nこのとき$\\theta_{G}$はwell-defined であり，\nさらに同型写像である．\nよって$\\mymapl$はちゃんと定義されている．\n\\end{lem}\n\\begin{proof}\n$\\theta_G([a])=[b]$が$b$の選び方によらないことを示そう．\nもし，\n$(a, b), (a, c)\\in G$\nならば，\n$(1_A, bc^{-1})\\in G$\nなので，\n$bc^{-1}\\in \\myslicea{G}{1_{A}}$\nであるから，$[b]=[c]$であり，\n選び方によらない．\nよって$\\theta_{G}$はwell-definedである．",
+      "excerpt_sha256": "2984bce6125cd320e7bdeac9379d1d4ba37cb4773b84c831923704d9baefdf5e",
+      "phases": [
+        {
+          "role": "assumptions",
+          "commentary": "射影とスライスの商群の間で、(a,b)がGに入るようにbを選ぶ。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 175,
+              "end": 179,
+              "raw": "さらに\n$\\theta_{G}\\colon \\myprojb{G}/\\mysliceb{G}{1_{B}}\n\\to \\myproja{G}/\\myslicea{G}{1_{A}}$は以下で定義される写像である:\n$[a]\\in \\myprojb{G}/\\mysliceb{G}{1_{B}}$に対して，\n$(a, b)\\in G$となる$b$を選び，"
+            }
+          ]
+        },
+        {
+          "role": "goal",
+          "commentary": "[a]を[b]に送る写像を定義し、その選択への独立性を確認する。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 180,
+              "end": 183,
+              "raw": "$\\theta_G([a])=[b]$と定義する．\nこのとき$\\theta_{G}$はwell-defined であり，\nさらに同型写像である．\nよって$\\mymapl$はちゃんと定義されている．"
+            }
+          ]
+        },
+        {
+          "role": "argument",
+          "commentary": "同じaと組になるb,cに対して群演算を行い、bc^{-1}がスライスに入ることから[b]=[c]を得る。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 186,
+              "end": 194,
+              "raw": "$\\theta_G([a])=[b]$が$b$の選び方によらないことを示そう．\nもし，\n$(a, b), (a, c)\\in G$\nならば，\n$(1_A, bc^{-1})\\in G$\nなので，\n$bc^{-1}\\in \\myslicea{G}{1_{A}}$\nであるから，$[b]=[c]$であり，\n選び方によらない．"
+            }
+          ]
+        },
+        {
+          "role": "conclusion",
+          "commentary": "原文ではwell-definedと結ぶが、ここで直接示されたのは固定したaに対するbの独立性である。",
+          "explicitness": "explicit",
+          "excerpts": [
+            {
+              "start": 195,
+              "end": 195,
+              "raw": "よって$\\theta_{G}$はwell-definedである．"
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        "選択への独立性を示すとき、固定する対象と変える対象を先に言う。",
+        "二つの選択を比較し、その差が同値関係で消えることを具体的な式で示す。"
+      ],
+      "cautions": [
+        "商の代表元aを変えても値が変わらないことは、この段落では示していない。写像全体の定義の正当性の模範として扱わない。",
+        "直後には全単射性の説明があるが、準同型性の確認もこの抜粋には含めない。",
+        "前の定義154行ではTがBの正規部分群と書かれている一方、後では射影の正規部分群として使っており、周辺の記号条件にも不一致がある。"
+      ],
+      "dependencies": [
+        {
+          "commentary": "射影とスライスの定義。",
+          "start": 115,
+          "end": 140,
+          "raw": "\\begin{df}\n二つの集合$A, B$の直積\n$A\\times B$の部分集合$S$に対して，\n\\[\n\\myprojb{S}=\\{a\\in A\\mid \\exists b\\in B\\ (a, b)\\in S\\}\n\\]\n\\[\n\\myproja{S}=\\{b\\in B\\mid \\exists a\\in A\\ (a, b)\\in S\\}\n\\]\nと定義する．\nつまり，\n$\\myprojb{S}$は第一成分への射影で，\n$\\myproja{S}$は第二成分への射影である．\n\\begin{rmk}\nとんでもないノーテーションである．\n\\end{rmk}\nまた，$a\\in A$と$b\\in B$に対して\n\n\\[\n\\mysliceb{S}{b}=\\{a\\in A\\mid (a,b)\\in S\\}\n\\]\n\\[\n\\myslicea{S}{a}=\\{b\\in B\\mid (a, b)\\in S\\}\n\\]\nと定義する．つまり，スライスのことである．\n\\end{df}"
+        },
+        {
+          "commentary": "対応データの定義と正規部分群の記述。",
+          "start": 149,
+          "end": 174,
+          "raw": "\\begin{df}\n二つの群$A, B$について，\n\\begin{align*}\n&\\myqq{A}{B}=\\\\\n&\n\\{\\, (U, V, T, Y, \\theta)\\mid V\\in \\mysg{A}, U\\in \\mynsg{V}, Y\\in \\mysg{B}, T\\in \\mynsg{B}, \\theta:V/U\\overset{\\simeq}{\\to} Y/T\\, \\}\n\\end{align*}\nと定義する．\n\\end{df}\n\n\\begin{lem}\n群$A$と$B$について\n写像\n$\\mymapl\\colon \\mysg{A\\times B}\\to \\myqq{A}{B}$を以下のように定義する．\n$G\\in \\mysg{A\\times B}$について，\n\\[\nL(G)=(\\mysliceb{G}{1_{B}}, \\myprojb{G}, \n\\myslicea{G}{1_{A}},  \\myproja{G}, \\theta_{G})\n\\]\nと定義する．ここで，\n$\\mysliceb{G}{1_{B}}$\nは\n$\\myprojb{G}$の正規部分群，\n$\\myslicea{G}{1_{A}}$\nは\n$\\myproja{G}$の正規部分群であることに注意せよ．"
+        },
+        {
+          "commentary": "この後に全射性と単射性の議論へ進む。",
+          "start": 196,
+          "end": 206,
+          "raw": "次に$\\theta_{G}$が全単射であることを示そう．\nまず$\\myproja{G}$の定義から，\n$\\theta_{G}$が全射であることがわかる．\n単射性を示そう．\n$(a, b)\\in G$について\n$\\theta_{G}(a)=[b]=[1_{B}]$ならば，\n$b\\in \\myslicea{G}{1_{A}}$なので，$(1_A, b)\\in G$である．\nよって，$(a, b)(1_A, b)^{-1}=(a, 1_B)\\in G$だが，\nこれは$a\\in \\mysliceb{G}{1_{B}}$ということなので，\n$[a]=[1_A]$となる．よって$\\theta_{G}$のカーネルが自明なので$\\theta_{G}$は単射である．\n\\end{proof}"
+        }
+      ],
+      "reviewed_at": "2026-09-14",
+      "evidence": "context-reviewed-exposition",
+      "review_scope": "執筆エージェントが採録箇所と記載した依存先を読んで論述を整理した。数学的な正しさの認証、独立レビュー、著作者による編集注の承認ではない。",
+      "use_when": "選択への独立性の確認範囲を点検するとき",
+      "prerequisites": "群の射影・スライス・商の記号と正規性。",
+      "explain": "固定したaに対するbの独立性と、aの代表元への独立性を分ける。",
+      "argument_kinds": [
+        "well-defined"
+      ]
+    }
+  ]
+}

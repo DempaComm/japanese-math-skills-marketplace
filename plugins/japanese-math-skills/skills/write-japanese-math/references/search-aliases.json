@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "policy": "検索語全体が登録表記に一致した場合だけ展開する。本文は変更しない。検索候補の対応であり、推奨表記や仮定の同一性を認定しない。",
+  "groups": [
+    {"id":"partition-of-unity","label":"1の分割","forms":["1の分割","一の分割","単位の分割","分割の一","partition of unity","$1$の分割"],"note":"従属条件・局所有限性・和が1となる条件は原文で確認する。実例のない表記も検索の入口として含む。"},
+    {"id":"local-finiteness","label":"局所有限性","forms":["局所有限","局所有限性","locally finite","local finiteness"],"note":"点有限性と混同しない。関数族では非零集合とサポートの定義を確認する。"},
+    {"id":"well-defined","label":"well-defined","forms":["well-defined","well defined","well‐defined"],"note":"値の存在、代表元や選択への独立性など、実際に確認された範囲を読む。"}
+  ]
+}

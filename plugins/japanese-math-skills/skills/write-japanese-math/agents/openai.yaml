@@ -1,0 +1,4 @@
+interface:
+  display_name: "日本語数学文書の執筆"
+  short_description: "日本語の数学論文・解説・講義ノートを用例に基づいて執筆・推敲する"
+  default_prompt: "$write-japanese-math を使って、指定された日本語の数学文書を依頼範囲に沿って扱ってください。"

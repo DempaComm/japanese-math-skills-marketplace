@@ -1,0 +1,1474 @@
+{
+  "schema_version": 2,
+  "entries": [
+    {
+      "id": "setting",
+      "role": "対象の設定",
+      "forms": [
+        "とする",
+        "とし，"
+      ],
+      "use_when": "対象と所属先を導入する",
+      "do_not_replace_when": "存在証明が必要な選択とは区別する",
+      "composed_example": "集合 $X$ と写像 $f\\colon X\\to X$ を考える．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 643,
+          "start": 637,
+          "end": 650,
+          "match_start": 643,
+          "match_end": 644,
+          "section": "ジェネトポの基本事項",
+          "label": "item:secpre:lem:shrink",
+          "role": "definition",
+          "matched": [
+            "とする"
+          ],
+          "text": "$I$を添字集合とする．",
+          "fragment": "証明が終わる．\n\\end{proof}\n\n\n集合族の相似という概念を導入する．\n\\begin{df}\n$I$\nを添字集合とする．\n集合\n$X$\nの部分集合族\n$\\mathcal{A}=\\{A_{i}\\}_{i\\in I}$\nと\n$\\mathcal{B}=\\{B_{i}\\}_{i\\in I}$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "対象と所属先を導入する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        },
+        {
+          "document": "2023-06-21-01",
+          "title": "平方剰余の相互法則",
+          "tier": "primary",
+          "subjects": [
+            "number-theory"
+          ],
+          "url": "https://dempacomm.github.io/papers/2023-06-21-01/quadraticrecipro.tex",
+          "sha256": "7a55d8c801868847a538ecf5d484e08f55e33d92a3f0e604bd6b8f3099566f81",
+          "file": "corpus/2023-06-21-01.tex",
+          "line": 174,
+          "start": 170,
+          "end": 178,
+          "match_start": 174,
+          "match_end": 174,
+          "section": "",
+          "label": null,
+          "role": "theorem",
+          "matched": [
+            "とする"
+          ],
+          "text": "$p$を奇素数とする．",
+          "fragment": "\n今からルジャンドル記号の計算方法を説明してゆく．\nまず次のオイラーの基準が基本的である．\n\\begin{prop}\n$p$を奇素数とする．\nこのとき任意の\n$a\\in \\zz$に対して\n\\[\n\\leg{a}{p}=_p a^{\\frac{p-1}{2}}",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Expression role only, not proof verification",
+          "reviewed_at": "2026-09-14",
+          "review_note": "奇素数という対象と仮定を命題冒頭で導入する用例。"
+        }
+      ]
+    },
+    {
+      "id": "assumption",
+      "role": "仮定",
+      "forms": [
+        "仮定する",
+        "仮定しよう",
+        "と仮定"
+      ],
+      "use_when": "どの命題や証明に課す条件かを明示する",
+      "do_not_replace_when": "仮定を既に証明済みの事実に変えない",
+      "composed_example": "以下では $X$ がコンパクトであると仮定する．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-06-27-01",
+          "title": "正規空間の被覆次元",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-06-27-01/covdimdayon.tex",
+          "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a",
+          "file": "corpus/2026-06-27-01.tex",
+          "line": 1288,
+          "start": 1282,
+          "end": 1296,
+          "match_start": 1288,
+          "match_end": 1290,
+          "section": "おまけ:球面への写像の拡張問題が被覆次元を特徴付けること",
+          "label": "thm:borsukhomotopy",
+          "role": "proof",
+          "matched": [
+            "仮定する"
+          ],
+          "text": "まず最初に$\\yodim X\\le n$を仮定する．",
+          "fragment": "が存在し$F|_{A}=f$を満たす．\n\\end{thm}\n\\begin{proof}\n位相的には同じなので\n$\\yosphere{n}$と$\\yocubebd{n+1}$\nを同一視する．\nまず最初に\n$\\yodim X\\le n$\nを仮定する．\nこのとき写像$f$は\n写像$f\\colon A\\to \\yocubebd{n+1}$である．\nそして$f=(f_{1}, \\dots, f_{n+1})$\nと成分表示し\n\\[\nK_{i}=\\{\\, x\\in A\\mid f_{i}(x)=-1\\, \\}",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "どの命題や証明に課す条件かを明示する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "role": "仮定と結論の境界",
+      "forms": [
+        "このとき",
+        "ならば"
+      ],
+      "use_when": "定理の結論への移行を示す",
+      "do_not_replace_when": "量化や仮定の適用範囲を変えない",
+      "composed_example": "$X$ を有限集合とする．このとき $X$ の部分集合も有限である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 663,
+          "start": 657,
+          "end": 670,
+          "match_start": 663,
+          "match_end": 664,
+          "section": "領域不変性定理",
+          "label": "thm:maininvdomain",
+          "role": "theorem",
+          "matched": [
+            "このとき"
+          ],
+          "text": "このとき$f(U)$は$\\rr^{n}$の開集合である．",
+          "fragment": "とし\n$U$は$\\rr^{n}$\nの開集合とする．\nそして\n$f\\colon U\\to \\rr^{n}$\nを連続単射とする．\nこのとき$f(U)$\nは$\\rr^{n}$の開集合である．\n\\end{thm}\n\\begin{proof}\n任意の$p\\in U$について\n$f(p)$が$f(U)$の内点であることを証明すれば良い．\n$p$の十分小さい近傍$N$で$\\cl N$がコンパクトで\n$\\cl N \\subset U$であるものをとる．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "定理の結論への移行を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "local-notation",
+      "role": "局所記号",
+      "forms": [
+        "とおく",
+        "と置く"
+      ],
+      "use_when": "局所的な記号を導入する",
+      "do_not_replace_when": "既存の記号や存在が必要な対象との衝突を確認する",
+      "composed_example": "$K=\\ker f$ とおく．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-06-27-01",
+          "title": "正規空間の被覆次元",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-06-27-01/covdimdayon.tex",
+          "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a",
+          "file": "corpus/2026-06-27-01.tex",
+          "line": 1363,
+          "start": 1357,
+          "end": 1370,
+          "match_start": 1363,
+          "match_end": 1364,
+          "section": "おまけ:球面への写像の拡張問題が被覆次元を特徴付けること",
+          "label": "thm:borsukhomotopy",
+          "role": "proof",
+          "matched": [
+            "とおく"
+          ],
+          "text": "ここで$v=u|_{A}\\colon A\\to \\yocubebd{n+1}$とおく．",
+          "fragment": "を$u=(u_{1}, \\dots, u_{n})$\nと定義する．\nここで\n$A=\\bigcup_{i=1}^{n+1}(K_{i}\\cup L_{i})$と\n$u_{i}$の性質から$x\\in A$のとき\n$u(x)$は$\\yocubebd{n+1}$\nへの写像になる．ここで\n$v=u|_{A}\\colon A\\to \\yocubebd{n+1}$とおく．\nそして\n$h\\colon [0, 1]\\to \\rr^{n+1}$\nを\n\\[\nh(x, t)=(1-t)v(x)+tf(x)\n\\]",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "局所的な記号を導入する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "role": "式による構成",
+      "forms": [
+        "と定める",
+        "により定める",
+        "で定める",
+        "で定義する"
+      ],
+      "use_when": "入力から出力への対応を式で示す",
+      "do_not_replace_when": "定義域・値域・選択独立性を省略しない",
+      "composed_example": "$f\\colon\\mathbb R\\to\\mathbb R$ を $f(x)=x^2$ により定める．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-03-09-01",
+          "title": "族正規と写像の拡張",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-03-09-01/collnor.tex",
+          "sha256": "5f094514d30056308b3f014ae5bec164d3c7a83e728c985d661b72941640c864",
+          "file": "corpus/2026-03-09-01.tex",
+          "line": 251,
+          "start": 245,
+          "end": 261,
+          "match_start": 251,
+          "match_end": 255,
+          "section": "本文",
+          "label": "thm:saibun",
+          "role": "proof",
+          "matched": [
+            "と定める"
+          ],
+          "text": "そして$C_{\\alpha}$を超限帰納的に\\[ C_{\\alpha}=W_{\\alpha}\\cap\\left(A\\setminus \\bigcup_{\\beta<\\alpha}W_{\\beta}\\right) \\]と定める．",
+          "fragment": "$\\{W_{\\alpha}\\}_{\\alpha\\in I}$\nが存在して\n$W_{\\alpha}\\subset U_{\\alpha}$\nを任意の$\\alpha$で満たす．\nここで，$\\{W_{\\alpha}\\}_{\\alpha\\in I}$\nも局所有限であることに注意しよう．\nそして$C_{\\alpha}$を超限帰納的に\n\\[\nC_{\\alpha}=W_{\\alpha}\\cap\\left(A\\setminus \\bigcup_{\\beta<\\alpha}W_{\\beta}\\right)\n\\]\nと定める．\nすると，$W_{\\alpha}$は$F_{\\sigma}$集合であり，\n$A\\setminus \\bigcup_{\\beta<\\alpha}W_{\\beta}$は閉集合なので，それらの共通部分である$C_{\\alpha}$\nも($A$の)$F_{\\sigma}$集合である．\nよって，可算個の閉集合$C_{\\alpha, r} (r\\in \\zz_{\\ge 0})$\nを使って\n\\[",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "入力から出力への対応を式で示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "naming",
+      "role": "条件と命名",
+      "forms": [
+        "と呼ぶ",
+        "という．",
+        "と呼ばれる"
+      ],
+      "use_when": "条件を示して概念を命名する",
+      "do_not_replace_when": "伝聞や「という仮定」などを定義の例としない",
+      "composed_example": "各開被覆が有限部分被覆を持つ空間をコンパクト空間という．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-03-26-01",
+          "title": "Goursat's lemma",
+          "tier": "primary",
+          "subjects": [
+            "algebra"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-03-26-01/Grousat.tex",
+          "sha256": "1906fd18dce05df0fad3effa320e36ee1dd1a0d010af9912d5d1862a3c6fd04a",
+          "file": "corpus/2026-03-26-01.tex",
+          "line": 321,
+          "start": 315,
+          "end": 328,
+          "match_start": 321,
+          "match_end": 322,
+          "section": "作用域を持つ群",
+          "label": null,
+          "role": "definition",
+          "matched": [
+            "と呼ぶ"
+          ],
+          "text": "$G$と写像$l\\colon \\Omega\\to \\edmor(G)$の組を作用域$\\Omega$を持つ群$G$と呼ぶ．",
+          "fragment": "\n\n\\section{作用域を持つ群}\n\\begin{df}\n$G$を群とする．\n$\\Omega$を集合とする．\n$G$と写像$l\\colon \\Omega\\to \\edmor(G)$の組を\n作用域$\\Omega$を持つ群$G$と呼ぶ．\n写像$l$はほぼ省略される．\n$\\omega\\in \\Omega$による作用を\n$g^{\\omega}$と書くことにする．\n\\end{df}\n\\begin{df}\n$G$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "条件を示して概念を命名する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "notation-reading",
+      "role": "記号の読み方",
+      "forms": [
+        "で表す",
+        "を表す",
+        "と書く"
+      ],
+      "use_when": "既知の対象に使う記号を宣言する",
+      "do_not_replace_when": "定義と、その性質の証明を区別する",
+      "composed_example": "$X$ の閉包を $\\overline X$ で表す．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 139,
+          "start": 133,
+          "end": 148,
+          "match_start": 139,
+          "match_end": 142,
+          "section": "本文",
+          "label": null,
+          "role": "prose",
+          "matched": [
+            "を表す"
+          ],
+          "text": "記号$U(a, r)$で$a$を中心とする半径$r$の開球を表すとする．",
+          "fragment": "第二節の領域不変性定理の証明は\n\\cite{dempa3}\nをそのまま流用している．\n\n\\section{本文}\n\n記号\n$U(a, r)$\nで$a$を中心とする\n半径$r$の開球を表すとする．\n\\begin{thm}\\label{thm:26kinji}\n$n, k\\in \\zz_{\\ge 1}$\nとし\n$K$を\n$\\rr^{n}$\nのコンパクト部分集合とし",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "既知の対象に使う記号を宣言する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "goal",
+      "role": "証明目標",
+      "forms": [
+        "を示す",
+        "を証明する",
+        "を示そう"
+      ],
+      "use_when": "直後の議論の到達点を示す",
+      "do_not_replace_when": "予定だけを述べて実際の論証を省かない",
+      "composed_example": "次に $f$ が単射であることを示す．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-06-27-01",
+          "title": "正規空間の被覆次元",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-06-27-01/covdimdayon.tex",
+          "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a",
+          "file": "corpus/2026-06-27-01.tex",
+          "line": 1036,
+          "start": 1030,
+          "end": 1044,
+          "match_start": 1036,
+          "match_end": 1038,
+          "section": "可分距離空間",
+          "label": "thm:bundaryn-1",
+          "role": "proof",
+          "matched": [
+            "を示そう"
+          ],
+          "text": "このとき$\\yodim \\bd V\\le n-1$であることを示そう．",
+          "fragment": "かつ\n$\\cl V_{k, s}\\subset U_{k, s}$\nとなる開集合$V_{k, s}$\nであって\n$\\yodeg(\\{\\bd V\\}\\cup \\{V_{k, s}\\}_{k, s\\in \\zz_{\\ge 0}})\\le n $\nとなるものをとる．\nこのとき\n$\\yodim \\bd V\\le n-1$\nであることを示そう．\n閉集合族\n$\\{C_{1}, \\dots, C_{n}\\}$\nと開集合族\n$\\{O_{1}, \\dots, O_{n}\\}$\nは\n$C_{i}\\subset O_{i}$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "直後の議論の到達点を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "reduction",
+      "role": "目標への帰着",
+      "forms": [
+        "示せばよい",
+        "証明すればよい",
+        "十分である"
+      ],
+      "use_when": "十分条件や残る目標を特定する",
+      "do_not_replace_when": "帰着の根拠と同値性・十分性の違いを残す",
+      "composed_example": "$f$ の単射性を示すには，$\\ker f=\\{0\\}$ を示せばよい．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2024-01-13-01",
+          "title": "CW複体のパラコンパクト性",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2024-01-13-01/CWcomplex.tex",
+          "sha256": "4b063a94f6bfbb8366be88472bc2033ba2f2e11c6d2ba7def1497834853c88cd",
+          "file": "corpus/2024-01-13-01.tex",
+          "line": 647,
+          "start": 641,
+          "end": 655,
+          "match_start": 647,
+          "match_end": 649,
+          "section": "弱位相が簡単な場合",
+          "label": "thm:moritastar",
+          "role": "proof",
+          "matched": [
+            "示せばよい"
+          ],
+          "text": "よって$\\{f_{x, a}^{-1}((0, 1])\\}_{x\\in X, a\\in A}$に星型有限な細分が存在することを示せばよい．",
+          "fragment": "ここで\n被覆\n$\\{f_{x, a}^{-1}((0, 1])\\}_{x\\in X, a\\in A}$\nは\n$\\{G_{a}\\}$\nの細分となっている．\nよって\n$\\{f_{x, a}^{-1}((0, 1])\\}_{x\\in X, a\\in A}$\nに星型有限な細分が存在することを示せばよい．\n今$X$はリンデレフなので\n適当にこの開被覆から可算無限な部分族をとって\n$X$の開被覆となるようにできる．\nそれを\n$\\{U_{i}\\}_{i\\in \\zz_{\\ge 0}}$\nと書くことにしよう．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "十分条件や残る目標を特定する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "remaining",
+      "role": "残った目標",
+      "forms": [
+        "あとは",
+        "後は",
+        "残りの条件",
+        "残る"
+      ],
+      "use_when": "済んだ議論と残る議論を区別する",
+      "do_not_replace_when": "どの結論が残るか省略しない",
+      "composed_example": "あとは $f$ の全射性を示せばよい．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2024-07-21-01",
+          "title": "ユークリッド空間内の星型領域はその全体に微分同相である．",
+          "tier": "primary",
+          "subjects": [
+            "analysis"
+          ],
+          "url": "https://dempacomm.github.io/papers/2024-07-21-01/StarDiffeo.tex",
+          "sha256": "b374ae06bb5f1c2c7839b736a2c666269ac8aa37c5df54067afe1c1d9b2a7cba",
+          "file": "corpus/2024-07-21-01.tex",
+          "line": 464,
+          "start": 458,
+          "end": 470,
+          "match_start": 464,
+          "match_end": 464,
+          "section": "本文",
+          "label": "prop:kabibunn",
+          "role": "proof",
+          "matched": [
+            "残りの条件"
+          ],
+          "text": "残りの条件を確かめよう．",
+          "fragment": "\\]\nが成り立つ．\nこれをもってして\n$\\{g_{i}\\}_{i=N}^{\\infty}$\nを定義しよう．\nこのとき$g_{n}$が$f$に各点収束することはよくわかる．\n残りの条件を確かめよう．\nまず最初に二つの式\n\\[\n\\sup_{x\\in X}|F_{n}(x)-g_{n}|<\\frac{1}{4n(n+1)}\n\\]\nと\n\\[",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "前の各点収束の確認から未確認条件へ移る文脈。残りの条件の具体名は前後と合わせて読む必要がある。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "contradiction",
+      "role": "背理法",
+      "forms": [
+        "背理法",
+        "矛盾を導く"
+      ],
+      "use_when": "否定仮定を導入して矛盾を導く",
+      "do_not_replace_when": "通常の仮定をすべて背理法の表現に変えない",
+      "composed_example": "背理法で示す．$A\\cap B\\ne\\emptyset$ と仮定する．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 621,
+          "start": 615,
+          "end": 628,
+          "match_start": 621,
+          "match_end": 622,
+          "section": "領域不変性定理",
+          "label": "thm:26junbidaiji",
+          "role": "proof",
+          "matched": [
+            "背理法"
+          ],
+          "text": "背理法のために$p\\in K$は$K$の内点であるとする．",
+          "fragment": "と定義すると\nこれら二つの関数$h(b(x))$と$f(x)$は$L\\cap K$上で値が一致するのでちゃんと張り合って連続関数になる．\nこの$g$はちゃんと$f$の拡張になっている．\n\n逆に$p\\in K$が\n定理の条件を満たすとしよう．\n背理法のために$p\\in K$は$K$\nの内点であるとする．\nここで$p$を中心とする十分小さい半径を持つ\n開球$B$で$\\cl B\\subset K$となるものを考える．\nすると定理の仮定より$p$の開近傍$U$で\n$U\\subset B$\nで任意の連続関数$f\\colon K\\setminus U\\to \\mysphere{n-1}$が$K$上に拡張するものが存在する．\nここで写像",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "否定仮定を導入して矛盾を導く。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "contradiction-close",
+      "role": "矛盾による終結",
+      "forms": [
+        "矛盾する",
+        "矛盾である"
+      ],
+      "use_when": "何と両立しないのかを明記する",
+      "do_not_replace_when": "矛盾元や否定した仮定を曖昧にしない",
+      "composed_example": "これは $f$ が単射であることに矛盾する．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 5662,
+          "start": 5656,
+          "end": 5671,
+          "match_start": 5662,
+          "match_end": 5665,
+          "section": "不動点定理の証明",
+          "label": "aaa",
+          "role": "proof",
+          "matched": [
+            "矛盾する"
+          ],
+          "text": "これは$I(1)=0$を意味するが，\\eqref{aaa}に矛盾する．",
+          "fragment": "を\nもつ行列の行列式は\n$0$\nなので\n$\\det (J_{x}(f)(x))=0$\nが成り立つはずである．\nこれは\n$I(1)=0$\nを意味するが，\n\\eqref{aaa}に矛盾する．\nこれで証明が終わる．\n\\end{proof}\n\n\n\n",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "何と両立しないのかを明記する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "consequence",
+      "role": "帰結",
+      "forms": [
+        "よって",
+        "したがって",
+        "従って"
+      ],
+      "use_when": "前に得た事実から結論へ進む",
+      "do_not_replace_when": "同義の言い換えを推論に見せない",
+      "composed_example": "$A\\subseteq B$ かつ $B\\subseteq A$ である．よって $A=B$ である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 677,
+          "start": 671,
+          "end": 683,
+          "match_start": 677,
+          "match_end": 677,
+          "section": "領域不変性定理",
+          "label": "thm:maininvdomain",
+          "role": "proof",
+          "matched": [
+            "(?<!に)よって"
+          ],
+          "text": "よって特に$f(p)$は$f(U)$の内点である．",
+          "fragment": "このとき$f|_{\\cl N}$を考えると\n$f$はコンパクト集合からハウスドルフ空間への\n連続単射なので位相的埋め込みになる．\n定理\\ref{thm:26junbidaiji}より\n点$p$が境界点かどうかは$\\cl N$の内在的な位相的条件で特徴づけられる．つまり$p$は$\\cl N$の内点であるから\n$f(p)$は$f(\\cl N)$の内点になる．\nよって特に$f(p)$は$f(U)$の内点である．\n\\end{proof}\n\n\n\\begin{cor}\n$M$と$N$を同じ次元の境界つき多様体とし\n$f\\colon M\\to N$を同相写像とする．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "前に得た事実から結論へ進む。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ],
+      "patterns": [
+        "(?<!に)よって",
+        "したがって",
+        "従って"
+      ]
+    },
+    {
+      "id": "restatement",
+      "role": "同内容の展開",
+      "forms": [
+        "すなわち",
+        "つまり"
+      ],
+      "use_when": "定義の展開や同値な言い換えを行う",
+      "do_not_replace_when": "実質的な帰結には根拠も記す",
+      "composed_example": "$f(x)=y$，すなわち $x=f^{-1}(y)$ である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 4835,
+          "start": 4829,
+          "end": 4841,
+          "match_start": 4835,
+          "match_end": 4835,
+          "section": "不動点定理と同値な命題",
+          "label": "item:pm",
+          "role": "theorem",
+          "matched": [
+            "つまり"
+          ],
+          "text": "つまり共通零点が存在する．",
+          "fragment": "を満たすならば，\nある点\n$p\\in \\yocube{n}$\nが存在して\n$f_{i}(p)=0$\nが成り立つ．\nつまり共通零点が存在する．\n\\end{enumerate}\n\\end{thm}\n\\begin{proof}\\ \n[$\\ref{item:noret}\\To \\ref{item:fixedpt}$]の証明：\n不動点を持たない連続写像\n$f\\colon \\yodisc{n}\\to \\yodisc{n}$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "定義の展開や同値な言い換えを行う。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "reason",
+      "role": "理由の提示",
+      "forms": [
+        "なぜなら",
+        "からである",
+        "による"
+      ],
+      "use_when": "直前の主張の根拠を特定する",
+      "do_not_replace_when": "根拠となる定理の仮定を落とさない",
+      "composed_example": "$A$ は閉集合である．これは $f$ の連続性による．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 8243,
+          "start": 8237,
+          "end": 8251,
+          "match_start": 8243,
+          "match_end": 8245,
+          "section": "関数空間と埋め込み",
+          "label": "lem:kihonretu",
+          "role": "proof",
+          "matched": [
+            "からである"
+          ],
+          "text": "このような取り方ができるのは$(X, d)$が全有界だからである．",
+          "fragment": "を\n$X$を被覆する\n半径\n$2^{-n}$\n以下の開球\nの有限集合とする．\nこのような取り方ができるのは\n$(X, d)$\nが全有界だからである．\nすると\n$\\{\\yocovf{U}_{n}\\}_{n\\in \\zz_{\\ge0}}$\nは被覆の基本列になっている．\n\\end{proof}\n\n",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "直前の主張の根拠を特定する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "citation",
+      "role": "既知の結果の適用",
+      "forms": [
+        "定理より",
+        "補題より",
+        "命題より",
+        "を用いる",
+        "を使う"
+      ],
+      "use_when": "利用する結果とここで必要な内容を示す",
+      "do_not_replace_when": "出典を定理の内容や適用条件の代わりにしない",
+      "composed_example": "補題の不等式を $x=a$ に適用する．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-06-27-01",
+          "title": "正規空間の被覆次元",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-06-27-01/covdimdayon.tex",
+          "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a",
+          "file": "corpus/2026-06-27-01.tex",
+          "line": 1449,
+          "start": 1443,
+          "end": 1460,
+          "match_start": 1449,
+          "match_end": 1454,
+          "section": "おまけ:球面への写像の拡張問題が被覆次元を特徴付けること",
+          "label": "thm:borsukhomotopy",
+          "role": "proof",
+          "matched": [
+            "(?:定理|補題|命題).{0,100}(?:より|から|を用い|を使)"
+          ],
+          "text": "よって命題\\ref{prop:hihukudim3}から$\\yodim X\\le n$である．",
+          "fragment": "さらに\n$\\bd V_{i}\\subset g_{i}^{-1}(\\{0\\})$\nなので$g$が$\\yocubebd{n+1}$\nへの写像であることから\n$\\bigcap_{i=1}^{n+1}\\bd V_{i}=\\emptyset$\nである．\nよって\n命題\n\\ref{prop:hihukudim3}\nから\n$\\yodim X\\le n$\nである．\n\\end{proof}\n\n\n\n\n",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "利用する結果とここで必要な内容を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ],
+      "patterns": [
+        "(?:定理|補題|命題).{0,100}(?:より|から|を用い|を使)"
+      ]
+    },
+    {
+      "id": "arbitrary",
+      "role": "任意の対象",
+      "forms": [
+        "任意の",
+        "任意に"
+      ],
+      "use_when": "全称量化する対象と範囲を明示する",
+      "do_not_replace_when": "存在量化との順序を交換しない",
+      "composed_example": "任意の $x\\in X$ を取る．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 7900,
+          "start": 7894,
+          "end": 7908,
+          "match_start": 7900,
+          "match_end": 7902,
+          "section": "関数空間と埋め込み",
+          "label": "prop:smallopen",
+          "role": "proof",
+          "matched": [
+            "任意に"
+          ],
+          "text": "任意に$z\\in K$を取る．",
+          "fragment": "$g$\nを\n$\\yosupmet{d}(f, g)<2^{-3}r$\nとなる任意の\n$g\\in \\yofuncsp{X}{K}$\nとする．\n任意に\n$z\\in K$\nを取る．\nそして\n$M=\\yometoball{z}{2^{-3}r}{d}$，\nつまり\n$M$\nを\n$z$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "全称量化する対象と範囲を明示する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "existence",
+      "role": "存在と条件",
+      "forms": [
+        "存在して",
+        "存在する",
+        "が取れる"
+      ],
+      "use_when": "対象の存在と満たす性質を示す",
+      "do_not_replace_when": "対象間の依存関係を保つ",
+      "composed_example": "ある $x\\in X$ が存在して $f(x)=y$ となる．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 639,
+          "start": 633,
+          "end": 647,
+          "match_start": 639,
+          "match_end": 641,
+          "section": "領域不変性定理",
+          "label": "thm:26junbidaiji",
+          "role": "proof",
+          "matched": [
+            "存在する"
+          ],
+          "text": "すると定理の条件より連続写像$g\\colon K\\to \\mysphere{n-1}$が存在する．",
+          "fragment": "これは連続写像で$\\partial B$は$\\mysphere{n-1}$\nと同相なので\nちゃんと連続写像\n$f\\colon K\\setminus U\\to \\mysphere{n-1}$\nを得る．このとき\n$f$は$\\partial B$上で恒等写像になることに注意しよう．\nすると定理の条件より\n連続写像$g\\colon K\\to \\mysphere{n-1}$\nが存在する．\nさて$\\cl B\\subset K$であった．\nこのとき$g|_{\\cl B}\\colon \\cl B\\to \\partial B$\nを考えると\n$g|_{\\cl B}$\nは$\\cl B$から\n$\\partial B$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "対象の存在と満たす性質を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "role": "条件付き選択",
+      "forms": [
+        "を取る",
+        "をとる",
+        "を選ぶ"
+      ],
+      "use_when": "必要な条件を持つ対象を選択する",
+      "do_not_replace_when": "任意性と存在による選択を区別する",
+      "composed_example": "$f(x)=y$ を満たす $x\\in X$ を取る．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 598,
+          "start": 592,
+          "end": 606,
+          "match_start": 598,
+          "match_end": 600,
+          "section": "領域不変性定理",
+          "label": "thm:26junbidaiji",
+          "role": "proof",
+          "matched": [
+            "を取る"
+          ],
+          "text": "そして$p$が$K$の境界なので$B$の点であって$K$に属さないもの$q$を取ることができる．",
+          "fragment": "$u\\colon L\\to \\mysphere{n-1}$\nを得る．\nさて$L$と$K\\setminus U$の共通部分は$L\\cap K$\nで，この上では$u$と$f$は同じ値を取るので写像が貼り合わさって連続写像\n$h\\colon (K\\setminus U)\\cup L\\to \\mysphere{n-1}$\nを得る．\nそして$p$が$K$\nの境界なので\n$B$の点であって$K$に属さないもの$q$を取ることができる．\n任意の点$x\\in K$について\n$q$から$x\\in K$へ伸ばした直線と\n$L$との交点を$b(x)$とする．\nこのとき$b\\colon X\\to L$\nは連続写像である．\nそして$g\\colon X\\to \\mysphere{n-1}$を",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "必要な条件を持つ対象を選択する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "fix",
+      "role": "変数の固定",
+      "forms": [
+        "を固定",
+        "固定する"
+      ],
+      "use_when": "後続の議論で動かさない変数を決める",
+      "do_not_replace_when": "一様性の主張に必要な量化順序を崩さない",
+      "composed_example": "$x\\in X$ を固定する．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2023-06-20-02",
+          "title": "中心極限定理：確率論その３",
+          "tier": "primary",
+          "subjects": [
+            "probability-measure"
+          ],
+          "url": "https://dempacomm.github.io/papers/2023-06-20-02/prob_CLT.tex",
+          "sha256": "9872729a19f43c695136dee76cb7afbd0834dbb4a14bbd047e72d70d48612d6b",
+          "file": "corpus/2023-06-20-02.tex",
+          "line": 1062,
+          "start": 1056,
+          "end": 1069,
+          "match_start": 1062,
+          "match_end": 1063,
+          "section": "中心極限定理",
+          "label": "lem:elem",
+          "role": "proof",
+          "matched": [
+            "(?:p|x|n|i|r|s|t|点|元|変数).{0,70}を固定"
+          ],
+          "text": "点$x\\in \\rr$を固定する．",
+          "fragment": "\\[\n\t\\phi_{Z_n}(x)=\\left(1+\\frac{1}{2n}x^2\\cdot\\phi''(t(x, n))\\right)^n\n\t=\n\t\\left(1-\\frac{1}{2}x^2+\\frac{1}{2n}x^2(\\phi''(t(x, n))+1)\\right)^n\n\\]\nと表すことができる．\n点\n$x\\in \\rr$を固定する．\nこのとき\n$|t(x, n)|\\le x/\\sqrt{n}$であるから\n$\\lim_{n\\to \\infty}t(x, n)= 0$となる．\nすると\n$a_n=1-\\frac{1}{2n}x^2$,\n$b_n=\\frac{1}{2}x^2(\\phi''(t(x, n))+1)$と考えて",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "後続の議論で動かさない変数を決める。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ],
+      "patterns": [
+        "(?:p|x|n|i|r|s|t|点|元|変数).{0,70}を固定"
+      ],
+      "exclude_patterns": [
+        "固定する.*ホモトピー"
+      ]
+    },
+    {
+      "id": "case",
+      "role": "場合分け",
+      "forms": [
+        "の場合",
+        "場合には"
+      ],
+      "use_when": "仮定に応じた分岐を示す",
+      "do_not_replace_when": "場合が尽くされていることを確認する",
+      "composed_example": "$x=0$ の場合を先に扱う．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2021-01-28-01",
+          "title": "The Tonelli-Shanks algorithm",
+          "tier": "primary",
+          "subjects": [
+            "number-theory"
+          ],
+          "url": "https://dempacomm.github.io/papers/2021-01-28-01/TS.tex",
+          "sha256": "16614ea38f1b09667887603e8ac11c3d3e4cd7529209a5c04158e23f8eaaffdc",
+          "file": "corpus/2021-01-28-01.tex",
+          "line": 138,
+          "start": 132,
+          "end": 145,
+          "match_start": 138,
+          "match_end": 139,
+          "section": "オイラーの規準",
+          "label": "prop:Euler",
+          "role": "proof",
+          "matched": [
+            "の場合"
+          ],
+          "text": "まず最初に$\\gcd(p-1, r)=1$の場合に証明をする．",
+          "fragment": "a^{\\frac{p-1}{\\gcd(p-1, r)}}\\equiv b^{\\frac{r}{\\gcd(p-1,r)}(p-1)}\n\\equiv 1\\ \\mod p\n\\]\nが成り立ち，定理の前半が証明された．\n後半を示そう．\n\nまず最初に$\\gcd(p-1, r)=1$\nの場合に証明をする．\nこのとき\n$(p-1)/\\gcd(p-1, r)=p-1$\nなのでフェルマーの小定理から，\n任意の$a\\in \\zz$が法$p$における$r$乗剰余であることを示せば良い．\nさて今の状況で\n$r$と$p-1$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "仮定に応じた分岐を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "converse",
+      "role": "逆方向",
+      "forms": [
+        "逆に",
+        "逆も"
+      ],
+      "use_when": "逆向きの包含や含意へ移る",
+      "do_not_replace_when": "同値と逆の命題を混同しない",
+      "composed_example": "逆に $x\\in B$ を取る．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 2813,
+          "start": 2807,
+          "end": 2821,
+          "match_start": 2813,
+          "match_end": 2815,
+          "section": "帰納的次元と分解次元の一致",
+          "label": "lem:lift:kuratowski",
+          "role": "proof",
+          "matched": [
+            "逆に"
+          ],
+          "text": "逆に$x\\in U$としよう．",
+          "fragment": "である．\nこれと\n$x\\in A$\nを組み合わせると\n$x\\in U$\nが従う．\n逆に\n$x\\in U$\nとしよう．\nこのとき\n$d(x, U)=0$\nであり，\n$U$が開集合であることから\n$d(x, A\\setminus U)>0$\nである．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "逆向きの包含や含意へ移る。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "induction",
+      "role": "帰納法",
+      "forms": [
+        "帰納法",
+        "帰納的に"
+      ],
+      "use_when": "初期段階と次段階の依存を示す",
+      "do_not_replace_when": "数学的帰納法と超限帰納法を区別する",
+      "composed_example": "$n$ に関する帰納法で示す．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-03-23-01",
+          "title": "クレイン・ミルマンの定理：関数解析その0",
+          "tier": "primary",
+          "subjects": [
+            "analysis"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-03-23-01/kreinmilman.tex",
+          "sha256": "86e5e776f621d5ad69a53f9d45e2aef68b58f858ca1c6c18617d0c3afa95a4d6",
+          "file": "corpus/2026-03-23-01.tex",
+          "line": 523,
+          "start": 517,
+          "end": 529,
+          "match_start": 523,
+          "match_end": 523,
+          "section": "応用：Bernstein functions",
+          "label": "lem:ueue",
+          "role": "proof",
+          "matched": [
+            "帰納法"
+          ],
+          "text": "$n$に関する帰納法で証明する．",
+          "fragment": "上で\n$K_{n}$の各元は上から\n$a^{-n}2^{(n+1)(n/2)}$\nで抑えることができる．\n\\end{lem}\n\\begin{proof}\n$n$に関する帰納法で証明する．\nまず$n=0$のときは$K$は上から$1$で抑えられているので大丈夫である．\n$n$において上の命題が成り立つと仮定する．\n$n+1$のときを考えよう．\n$f^{(n)}$に対して$[a/2, a]$上で\n平均値の定理を用いて\n$c\\in [a/2, a]$であって",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "初期段階と次段階の依存を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "sequence",
+      "role": "証明の進行",
+      "forms": [
+        "まず",
+        "次に",
+        "最後に"
+      ],
+      "use_when": "連続する議論の段階を知らせる",
+      "do_not_replace_when": "順序語だけで各段階の目標を代用しない",
+      "composed_example": "まず $f$ の連続性を示す．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-04-21-01",
+          "title": "廉価版領域不変性定理の証明",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-04-21-01/quickproofinvariance.tex",
+          "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a",
+          "file": "corpus/2026-04-21-01.tex",
+          "line": 564,
+          "start": 558,
+          "end": 570,
+          "match_start": 564,
+          "match_end": 564,
+          "section": "領域不変性定理",
+          "label": "thm:26junbidaiji",
+          "role": "proof",
+          "matched": [
+            "まず"
+          ],
+          "text": "まず最初に$p\\in \\partial K$を仮定して定理の条件を導く．",
+          "fragment": "任意の連続写像\n$f\\colon K\\setminus U\\to \\mysphere{n-1}$\nは連続な拡張$g\\colon K\\to \\mysphere{n-1}$\nを持つようなものが存在することである．\n\\end{thm}\n\\begin{proof}\nまず最初に$p\\in \\partial K$を仮定して定理の条件を導く．\n$N$を$p$の任意の近傍とする．\nそして$B$を$p$を中心とする十分小さい半径を持つ開球で\n$K\\cap B\\subset N$\nを満たすものとする．\nこのとき$U=K\\cap B$\nが条件を満たすことを見よう．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "連続する議論の段階を知らせる。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "specialization",
+      "role": "特殊化",
+      "forms": [
+        "特に"
+      ],
+      "use_when": "より限定された帰結を述べる",
+      "do_not_replace_when": "一般化や追加仮定を隠さない",
+      "composed_example": "$f$ は微分可能である．特に $f$ は連続である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-06-27-01",
+          "title": "正規空間の被覆次元",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-06-27-01/covdimdayon.tex",
+          "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a",
+          "file": "corpus/2026-06-27-01.tex",
+          "line": 707,
+          "start": 701,
+          "end": 718,
+          "match_start": 707,
+          "match_end": 712,
+          "section": "被覆次元",
+          "label": "item:prop:bdn+1",
+          "role": "proof",
+          "matched": [
+            "特に.{0,160}(?:である|となる|成り立つ|が存在)"
+          ],
+          "text": "さて$x\\in \\bd V_{i, r(i)}$なので特に$x\\not \\in V_{i, r(i)}$である．",
+          "fragment": "というのも，$i<j$と仮定して\nもしも$r(i)=r(j)$ならば，\n$\\cl V_{i, r(i)}\\subset V_{j, r(i)}$\nなので\n$x\\not \\in \\bd V_{i}$\nとなり矛盾するからである．\nさて\n$x\\in \\bd V_{i, r(i)}$\nなので\n特に\n$x\\not \\in V_{i, r(i)}$\nである．\nここで\n$x\\in K_{r(n+2)}$\nとなる番号\n$r(n+2)$\nをとる．\n$\\{K_{r}\\}$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "より限定された帰結を述べる。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ],
+      "patterns": [
+        "特に.{0,160}(?:である|となる|成り立つ|が存在)"
+      ]
+    },
+    {
+      "id": "equivalence",
+      "role": "同値性",
+      "forms": [
+        "同値である",
+        "同値になる"
+      ],
+      "use_when": "二つの条件が相互に含意することを述べる",
+      "do_not_replace_when": "一方向しか示していない場合に使わない",
+      "composed_example": "条件 (A1) と条件 (A2) は同値である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-06-27-01",
+          "title": "正規空間の被覆次元",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-06-27-01/covdimdayon.tex",
+          "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a",
+          "file": "corpus/2026-06-27-01.tex",
+          "line": 312,
+          "start": 306,
+          "end": 318,
+          "match_start": 312,
+          "match_end": 312,
+          "section": "被覆次元",
+          "label": "lem:hihukudim",
+          "role": "theorem",
+          "matched": [
+            "同値である"
+          ],
+          "text": "このとき以下は同値である．",
+          "fragment": "$\\yodim X\\le n$の否定が成り立つときにそう書く．\n\n\n\\begin{lem}\\label{lem:hihukudim}\n$X$\nを正規空間とする．\nこのとき以下は同値である．\n\\begin{enumerate}[label=\\textup{(\\arabic*)}]\n\\item\\label{item:lem:dimn} \n$\\yodim X\\le n$\n\\item\\label{item:lem:degn+2} \n\n$X$の任意の有限開被覆",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "後続の列挙条件を導く表現。個々の同値条件は周辺原稿で確認する。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "well-defined",
+      "role": "構成の正当性",
+      "forms": [
+        "well-defined",
+        "矛盾なく",
+        "依存しない"
+      ],
+      "use_when": "代表や選択に依存しないことを示す",
+      "do_not_replace_when": "単なる存在や連続性とは区別する",
+      "composed_example": "$f([x])$ は代表元 $x$ の選び方に依存しない．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 6415,
+          "start": 6409,
+          "end": 6424,
+          "match_start": 6415,
+          "match_end": 6418,
+          "section": "有理数の順序論的特徴付けと直線の可算稠密推移性",
+          "label": "thm:sumbackforthproof",
+          "role": "proof",
+          "matched": [
+            "well-defined"
+          ],
+          "text": "列$\\{f_n\\}_{n\\in \\nn}$が写像の拡張列になっているので，この定義はwell-definedである．",
+          "fragment": "$\\{f_{n}\\}_{n\\in \\zz_{\\ge 0}}$\nを用いて，\n写像\n$F\\colon A\\to B$\nを\n$F(a_n)=f_{n}(a_n)$と定義する．\n列\n$\\{f_n\\}_{n\\in \\nn}$\nが写像の拡張列になっているので，\nこの定義はwell-definedである．\n\n\nStep 4: 写像\n$F$\nが順序同型写像になっていることを示す．\nまず最初に",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "代表や選択に依存しないことを示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "wlog",
+      "role": "一般性を失わない簡約",
+      "forms": [
+        "一般性を失わない",
+        "としてよい"
+      ],
+      "use_when": "対称性や帰着で仮定を簡約する",
+      "do_not_replace_when": "結論を保つ理由なしに強い仮定を追加しない",
+      "composed_example": "添字を交換すれば $a\\le b$ としてよい．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 2906,
+          "start": 2900,
+          "end": 2914,
+          "match_start": 2906,
+          "match_end": 2908,
+          "section": "帰納的次元と分解次元の一致",
+          "label": "thm:main:covcov",
+          "role": "proof",
+          "matched": [
+            "一般性を失わない"
+          ],
+          "text": "よって$\\yocovf{C}$は可算であるとしても一般性を失わない．",
+          "fragment": "が存在する．\nところで\n$X$\nは可分距離空間なので特に\nリンデレフ\nである．\nよって\n$\\yocovf{C}$\nは可算であるとしても一般性を失わない．\n$\\yocovf{C}=\\{U_{k}\\}_{k\\in \\zz_{\\ge 0}}$\nとおこう．\nさて\n$\\yoddim X\\le n$\nから\n$n+1$",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "対称性や帰着で仮定を簡約する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "role": "評価",
+      "forms": [
+        "不等式",
+        "評価する",
+        "評価が"
+      ],
+      "use_when": "議論を支える不等式を示す",
+      "do_not_replace_when": "正確な式を評価という言葉だけで代用しない",
+      "composed_example": "三角不等式より $d(x,z)\\le d(x,y)+d(y,z)$ である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [],
+      "evidence_note": "語句と評価列の接続は観察できるが、原文の epsilon の符号に確認を要するため模範用例として採用しない。"
+    },
+    {
+      "id": "limit",
+      "role": "極限操作",
+      "forms": [
+        "収束する",
+        "極限を",
+        "極限と"
+      ],
+      "use_when": "収束先と位相やノルムを明示する",
+      "do_not_replace_when": "極限の交換や一様性を暗黙に仮定しない",
+      "composed_example": "$n\\to\\infty$ とすると $a_n\\to a$ となる．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2024-07-21-01",
+          "title": "ユークリッド空間内の星型領域はその全体に微分同相である．",
+          "tier": "primary",
+          "subjects": [
+            "analysis"
+          ],
+          "url": "https://dempacomm.github.io/papers/2024-07-21-01/StarDiffeo.tex",
+          "sha256": "b374ae06bb5f1c2c7839b736a2c666269ac8aa37c5df54067afe1c1d9b2a7cba",
+          "file": "corpus/2024-07-21-01.tex",
+          "line": 398,
+          "start": 392,
+          "end": 405,
+          "match_start": 398,
+          "match_end": 399,
+          "section": "本文",
+          "label": "prop:kabibunn",
+          "role": "theorem",
+          "matched": [
+            "収束する"
+          ],
+          "text": "\\item $g_{n}$は$f$に各点収束する．",
+          "fragment": "任意の$n\\in \\zz_{\\ge 0}$\nと\n$x\\in X$について\n$g_{n}(x)< g_{n+1}(x)$\nが成り立つ．\n\n\\item \n$g_{n}$は$f$に各点収束する．\n\n\\item \n任意の$n\\in\\zz_{\\ge 0}$\nと任意の$x\\in M$について\n$s/2<g_{n}(x)< f(x)$\nが成り立つ．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "収束先と位相やノルムを明示する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "motivation",
+      "role": "説明の目的",
+      "forms": [
+        "この文章では",
+        "ここでは",
+        "目的"
+      ],
+      "use_when": "何を説明しどこへ進むか示す",
+      "do_not_replace_when": "私的な依頼や作業履歴を本文へ入れない",
+      "composed_example": "この節ではコンパクト性と全有界性の関係を調べる．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 5687,
+          "start": 5681,
+          "end": 5693,
+          "match_start": 5687,
+          "match_end": 5687,
+          "section": "ユークリッド空間の次元の決定",
+          "label": null,
+          "role": "prose",
+          "matched": [
+            "ここでは"
+          ],
+          "text": "ここではユークリッド空間の次元を決定する．",
+          "fragment": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n\n%\\subsection{Dimension of Euclidean spaces}\n\\subsection{ユークリッド空間の次元の決定}\nここではユークリッド空間の次元を決定する．\n\n\\begin{thm}\\label{thm:sum:jigen}\n$n\\in \\zz_{\\ge 1}$\nで\n$k\\in \\{0, \\dots, n\\}$\nとする．",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "何を説明しどこへ進むか示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "role": "例・反例",
+      "forms": [
+        "例えば",
+        "反例",
+        "例として"
+      ],
+      "use_when": "一般論を具体化する対象を示す",
+      "do_not_replace_when": "例の範囲を一般命題へ広げない",
+      "composed_example": "例えば $X=\\mathbb R$ とすると，この条件は満たされない．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 4549,
+          "start": 4543,
+          "end": 4565,
+          "match_start": 4549,
+          "match_end": 4559,
+          "section": "球面への写像の拡張問題が被覆次元を特徴付けること：可算パラコンパクト性を仮定して",
+          "label": "thm:ext:extsphere",
+          "role": "proof",
+          "matched": [
+            "例えば"
+          ],
+          "text": "例えば$x\\in K_{i}$ならば$u_{i}(x)=f_{i}(x)=-1$なので$h(x, t)$の第$i$成分が$-1$ということである．",
+          "fragment": "$u_{i}$\nの定義から\n$h(x, t)$\nは常にその成分のいずれかは絶対値が\n$1$\nである．\n例えば\n$x\\in K_{i}$\nならば\n$u_{i}(x)=f_{i}(x)=-1$\nなので\n$h(x, t)$\nの第\n$i$\n成分が\n$-1$\nということである．\nつまり\n$\\lVert h(x, t)\\lVert_{\\infty}\\neq 0$\nである．\nここで\n$\\lVert*\\rVert_{\\infty}$\nは",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "一般論を具体化する対象を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "warning",
+      "role": "注意と限定",
+      "forms": [
+        "注意しよう",
+        "注意する",
+        "ただし"
+      ],
+      "use_when": "規約や誤読しやすい点を示す",
+      "do_not_replace_when": "数学的役割のない注意を増やさない",
+      "composed_example": "ただし $n$ は正の整数とする．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-07-02-01",
+          "title": "可分距離化可能空間における次元論",
+          "tier": "primary",
+          "subjects": [
+            "topology-metric-geometry"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-07-02-01/dimtheoryblog.tex",
+          "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac",
+          "file": "corpus/2026-07-02-01.tex",
+          "line": 3032,
+          "start": 3026,
+          "end": 3038,
+          "match_start": 3032,
+          "match_end": 3032,
+          "section": "帰納的次元と分解次元の一致",
+          "label": "thm:main:covcov",
+          "role": "proof",
+          "matched": [
+            "ただし"
+          ],
+          "text": "ただし$X$の被覆であるとは限らない．",
+          "fragment": "N\\cap Q_m^{(i)}\\neq\\emptyset\n\\To N\\cap U_m\\neq\\emptyset. \n\\end{align}\nこのことから\n$\\left\\{Q_{m}^{(i)}\\right\\}_{m\\in \\zz_{\\ge 0}}$\nは局所有限な族であることが分かる．\nただし$X$の被覆であるとは限らない．\n各\n$i\\in \\{0,1,\\dots, n\\}$\nについて\n$\\yocovf{W}_{i}=\\left\\{Q_m^{(i)}\\right\\}_{m\\in \\zz_{\\ge 0}}$\nと定義する．\nこのとき",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "規約や誤読しやすい点を示す。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "role": "証明の結び",
+      "forms": [
+        "以上より",
+        "以上から",
+        "証明が完了",
+        "証明できた"
+      ],
+      "use_when": "直前の結論を元の目標へ接続する",
+      "do_not_replace_when": "定型の終了文をすべての証明へ挿入しない",
+      "composed_example": "以上より $f$ は全単射である．",
+      "example_status": "composed-not-quotation",
+      "curated_examples": [
+        {
+          "document": "2026-03-26-01",
+          "title": "Goursat's lemma",
+          "tier": "primary",
+          "subjects": [
+            "algebra"
+          ],
+          "url": "https://dempacomm.github.io/papers/2026-03-26-01/Grousat.tex",
+          "sha256": "1906fd18dce05df0fad3effa320e36ee1dd1a0d010af9912d5d1862a3c6fd04a",
+          "file": "corpus/2026-03-26-01.tex",
+          "line": 267,
+          "start": 261,
+          "end": 273,
+          "match_start": 267,
+          "match_end": 267,
+          "section": "本文",
+          "label": "thm:main0",
+          "role": "proof",
+          "matched": [
+            "以上から"
+          ],
+          "text": "以上から$\\mymapr\\circ \\mymapl=id$がわかった．",
+          "fragment": "$\nである．よって$(a, c)\\in G$となる$c$を用いて\n$\\theta_{G}([a])=[c]$である．\nこのとき$[c]=[b]$であるから$s\\in A$で$(s, b)\\in G$となるものをとると$(a, c)\\cdot (s, b)^{-1}=(as^{-1}, cb^{-1})\\in \n\\myslicea{G}{1_{A}}$である．\nつまり$a=s$となる．よって$(a, b)\\in G$である．\n以上から$\\mymapr\\circ \\mymapl=id$がわかった．\n\n次に$\\mymapl\\circ \\mymapr=id$を示そう．\n$q=(U, V, T, Y, \\theta)\\in \\myqq{A}{B}$を任意にとる．\n今から$\\mymapl\\circ \\mymapr(q)=q$を示す．\nまず$\\widetilde{G}_{\\theta}=\\{\\, (x, \\theta(x))\\in V/U\\times Y/T \\mid x\\in V/U\\, \\}$\nとし",
+          "evidence": "context-reviewed-language-example",
+          "review_scope": "Authoring agent checked the expression role in adjacent source text, not the mathematical proof or all source conventions",
+          "review_note": "直前の結論を元の目標へ接続する。原文の語調・記法をそのまま必須規則にはしない。",
+          "reviewed_at": "2026-09-14"
+        }
+      ]
+    }
+  ]
+}

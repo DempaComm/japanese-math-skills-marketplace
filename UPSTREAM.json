@@ -1,0 +1,1430 @@
+{
+  "repository": "https://github.com/DempaComm/japanese-math-skills",
+  "revision": "5b923553f84c64530a62cbe5616f6f655413ffe4",
+  "plugin": "japanese-math-skills",
+  "plugin_version": "0.1.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "a760b5332a76b868136d963c1ba1b4452ec41455",
+      "size": 39,
+      "sha256": "16aa926fa988355f1c1b13132fb74603be81bc36b41136e495a94ecba4454fb7"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "git_blob_sha1": "6b972b6cd573f28ae6b82a468066d66f09d6ef0c",
+      "size": 2522,
+      "sha256": "de84dd548fac5bb02909505fc41a836c9667907415c7830da3cf7559eb5ac0e0"
+    },
+    {
+      "path": "LICENSE.md",
+      "git_blob_sha1": "03ef26a89c9ef49349014664636a851b09ae82b5",
+      "size": 1562,
+      "sha256": "792427d4ecfa10ec7509f084aab6532e179331e7c1fe79567169462ae9c0bd47"
+    },
+    {
+      "path": "LICENSES/upstream-MIT.txt",
+      "git_blob_sha1": "b2fba918034cfce3d42ce9be6ddd498d73235421",
+      "size": 1073,
+      "sha256": "f3c924f5d1930cfe42aa0912735f22b0174da2459add8106e13337269d0811c8"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "ea3413d030b1ac8748c7b9ca95e9eca714aba679",
+      "size": 6680,
+      "sha256": "4fc1658f7a05c9b049c87b0a5c2fb2e075f7f621c9fe57a1ae9b9cab5384b62f"
+    },
+    {
+      "path": "VERSION",
+      "git_blob_sha1": "6e8bf73aa550d4c57f6f35830f1bcdc7a4a62f38",
+      "size": 6,
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+    },
+    {
+      "path": "publication/collection-policy.md",
+      "git_blob_sha1": "cf969e7d02fec5347007f32c1d809892ace36e05",
+      "size": 7039,
+      "sha256": "ad3e28395b363f9ec3b7b6a0640dbe740ee4008c68695769bf8eb174d735f3ec"
+    },
+    {
+      "path": "publication/inventory.json",
+      "git_blob_sha1": "1cdd6615be12e46fa0a4bd07f65631731631ea64",
+      "size": 951405,
+      "sha256": "540f62f2d4694bd5fae74464cda0e025bed2e2e73e7046f400b4cf58308f8e85"
+    },
+    {
+      "path": "publication/inventory.md",
+      "git_blob_sha1": "9988537ddcfe182fc70fd7e09183eb13d4c996ee",
+      "size": 51313,
+      "sha256": "1838697812999bec799c118460848e05dcc31939357219b4961e9e00d2e592ee"
+    },
+    {
+      "path": "publication/validation.md",
+      "git_blob_sha1": "540c1518cc84ed7ea5245a77583f162fabcde3e6",
+      "size": 6992,
+      "sha256": "f61d9c297bc0a8c6db7b7788d67149ac898015b3601df1082d7804b152e161c9"
+    },
+    {
+      "path": "release-manifest.json",
+      "git_blob_sha1": "55f0490dc97c19ddd78c47cb0d6f01a7e0ed7742",
+      "size": 30946,
+      "sha256": "38728c53f0b5c5d0763ff9da429df831689647f41df0c2d38a200bcf3052f332"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "git_blob_sha1": "8b3a912991cb09f688feb5e77fc445e9894a4e56",
+      "size": 3537,
+      "sha256": "26636c3514c5e06dc0641b9c31d3a75827ea002316818eed992c3ede194f61ec"
+    },
+    {
+      "path": "skills/read-japanese-math/LICENSE.md",
+      "git_blob_sha1": "7bae8219b028693e270c154e77849d707dce3522",
+      "size": 1458,
+      "sha256": "b906f527b27666e67a8c2db599199ef05966fa1f52e73ebd53e798b2ec467d51"
+    },
+    {
+      "path": "skills/read-japanese-math/SKILL.md",
+      "git_blob_sha1": "c59d375b28990aa9d36b765adf0744761910c3ae",
+      "size": 2063,
+      "sha256": "c6313809d20c78abf4aa0e6e8187ed897fa4f2d2aab5c2037e1ea8517a2559f4"
+    },
+    {
+      "path": "skills/read-japanese-math/UPSTREAM-LICENSE.txt",
+      "git_blob_sha1": "b2fba918034cfce3d42ce9be6ddd498d73235421",
+      "size": 1073,
+      "sha256": "f3c924f5d1930cfe42aa0912735f22b0174da2459add8106e13337269d0811c8"
+    },
+    {
+      "path": "skills/read-japanese-math/agents/openai.yaml",
+      "git_blob_sha1": "459cd46998c23258e5d123d4d97296b7f65dde0e",
+      "size": 341,
+      "sha256": "bfb14ce98a12e09fb0c466e5c533d4bf0afaae6e727896686d27ef136b1bfbec"
+    },
+    {
+      "path": "skills/read-japanese-math/references/protocols.md",
+      "git_blob_sha1": "3ebd3a2bda96b5b289156208ce51435cc6f59e2a",
+      "size": 3123,
+      "sha256": "86e9abe696aec664e31d18f3d2f3af21afd4b30f34acda24177b0a61cadde3ef"
+    },
+    {
+      "path": "skills/write-japanese-math/LICENSE.md",
+      "git_blob_sha1": "7bae8219b028693e270c154e77849d707dce3522",
+      "size": 1458,
+      "sha256": "b906f527b27666e67a8c2db599199ef05966fa1f52e73ebd53e798b2ec467d51"
+    },
+    {
+      "path": "skills/write-japanese-math/SKILL.md",
+      "git_blob_sha1": "653a477db2b5240e60e5b9d64468d29e984d1e14",
+      "size": 4077,
+      "sha256": "c138fe324e92799a40317a190da7f0a56197f226619b1655fb8117518dbfddb0"
+    },
+    {
+      "path": "skills/write-japanese-math/UPSTREAM-LICENSE.txt",
+      "git_blob_sha1": "b2fba918034cfce3d42ce9be6ddd498d73235421",
+      "size": 1073,
+      "sha256": "f3c924f5d1930cfe42aa0912735f22b0174da2459add8106e13337269d0811c8"
+    },
+    {
+      "path": "skills/write-japanese-math/agents/openai.yaml",
+      "git_blob_sha1": "13853ae849fdfd77cc71550c50f9410f36815286",
+      "size": 327,
+      "sha256": "31ab3fe536e14d9a0cba06a83e20fa6e4527b006e9ed45665a94c616ca136158"
+    },
+    {
+      "path": "skills/write-japanese-math/references/adaptation.md",
+      "git_blob_sha1": "1dea14ca2ce4d6bc1bcfd15b250b2363dd575d26",
+      "size": 1811,
+      "sha256": "a42443170d833570ed49947e1fd797d19939cc9584a8af7a43b43b30416a290c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/argument-guide.json",
+      "git_blob_sha1": "4046f260c446eddd991ff81d9e89a051e36315c3",
+      "size": 7791,
+      "sha256": "ec52e6f0903272abf17f4618d271f722fc6b4e1141dae7a315a03e4c35f79e99"
+    },
+    {
+      "path": "skills/write-japanese-math/references/argument-guide.md",
+      "git_blob_sha1": "d7db317d27bb3216e87be95911ac78bbfc842b6a",
+      "size": 12882,
+      "sha256": "edafba56ff5ec37d3d860b71804efd950858fc47d37f5ed4f5fa022590200754"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus-catalog.md",
+      "git_blob_sha1": "efa010db3c66c50d8575c694f4d17ad585b9bdc5",
+      "size": 25811,
+      "sha256": "8b24509c26a54d5f47928caabc1172016c803448a325fe707ec3b78c9dc1dfe5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus-counts.json",
+      "git_blob_sha1": "cdafff95214ad892d1555dd2ba3cd58a370d105a",
+      "size": 22122,
+      "sha256": "d84c027c320b7bd4d52f8953befea9f9422495ee39ca25f3ba3ef2a5f53eb589"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus-coverage.json",
+      "git_blob_sha1": "f0d682ab4c59dced93522cd8be3039322539e9fe",
+      "size": 170204,
+      "sha256": "8bc69af60479ae00db10eee2ea5806ff3db45c0ded08a8d1db017694ef19fab3"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus-examples.json",
+      "git_blob_sha1": "2e9dbbec72029b1ca1cc77084b876466988b88ed",
+      "size": 517790,
+      "sha256": "2a9bde24d774119475b354a0df105bd975c25d5634b3d49c6e6c7038fa3b4e37"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus-manifest.json",
+      "git_blob_sha1": "f1b66aa8bc9c761e2631f25915b93ef68c4f329b",
+      "size": 269118,
+      "sha256": "44589419d2a92a083dd8581e95a7193424a170d435ce2970f15bc541477372d4"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus-method.md",
+      "git_blob_sha1": "71a347c77584a5c5f432ab2ad779492b6b4eb1fb",
+      "size": 9327,
+      "sha256": "3ed52390274505c5a6e929cd795f5253ae2452755d0b2a4b9774194b9b1ab514"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-08-28-01.tex",
+      "git_blob_sha1": "b4034e5490604221ff056f1e67553b71def90350",
+      "size": 3132,
+      "sha256": "6817750e92a071435d07eda177c45d47c6e8aef87bff6fe92ce43bff3a90b0cc"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-01-01.tex",
+      "git_blob_sha1": "3d70779b2df96ae71142c358b96231e2cc19541c",
+      "size": 6442,
+      "sha256": "beb52a2d3522ec8a75aaf9752acea6dd7941b2464d8a54f9fc6a59f1eeced368"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-10-01.tex",
+      "git_blob_sha1": "953d72c7f4ee5c4c7c10d50220d41fe61da51fe6",
+      "size": 6490,
+      "sha256": "f883bc3b4d216ad79a2e7a1be56bb4102a49c9faad49548a989d9e5829411e0a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-11-01.tex",
+      "git_blob_sha1": "e7d9de803ea81f5efd7b86a1ab90a64bfa0a7c63",
+      "size": 11720,
+      "sha256": "563e5d9ba07517896c8b9dcb91ad5f7d7bdecfdac1c9dda1e7ce211224cbd844"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-12-01.tex",
+      "git_blob_sha1": "b7eeb447e11a5959917c4c99f5047157f8edd7b0",
+      "size": 15059,
+      "sha256": "bc43826f6b891428c26dd30f8250743f89d9ac57db98ec408622c9103ed3254e"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-12-02.tex",
+      "git_blob_sha1": "4bc4cec5250a0a9a54da43f52e1d95dac396f1ab",
+      "size": 8142,
+      "sha256": "0f51493da1c547ccbaebc9784bd3d1d8b4b99710996fe5d3fb0f2fd53fb690d6"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-12-03.tex",
+      "git_blob_sha1": "f8ca362b0066dc048e077792ed5203f82b8a0bd8",
+      "size": 3591,
+      "sha256": "b1543cc09d28d98f4a0efd8e4ab76b2836ecf20bbe2d44c08a6eb9bc1f54eeda"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-13-01.tex",
+      "git_blob_sha1": "88b7270fe02d75bf5b8bf3c323b767941d28a29d",
+      "size": 8296,
+      "sha256": "9750bf83ca5c32e9adb78abead96601cda9265661b432db566d35c1fadeb315f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-15-01.tex",
+      "git_blob_sha1": "1adfa9c763d55aff7a144f11496f308be606f4e7",
+      "size": 20206,
+      "sha256": "231c2f7f004093258b2d7b9432588c533e3c73d0a5d885f29783c90b166d62a4"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-09-15-02.tex",
+      "git_blob_sha1": "1fe70ce6b2fb57117e308a9c75695826e23db488",
+      "size": 3968,
+      "sha256": "f30ce7788c49b96676218bccce85b87ffa268adccad3f5f501b05fafe3ae382f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-02-01.tex",
+      "git_blob_sha1": "b0105e046edfed3203107d667ff1cc4d282b8b82",
+      "size": 6918,
+      "sha256": "d84147eb47dc8443357ca0495e344724e91d3e0879ebdb3429dd756593e75639"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-03-01.tex",
+      "git_blob_sha1": "aad878453cadb1cdf79c93b692455094cca678af",
+      "size": 4700,
+      "sha256": "937187f2573dde2236fffe24aa92ad499b11f14f65390c53906db5bef8bef151"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-13-01.tex",
+      "git_blob_sha1": "76976a6dc8f74c0043c1cd2084358889b3e80d96",
+      "size": 19780,
+      "sha256": "27e2fc742d3e29822af16579de6f4f337954fa79f99994809fd08041fbeee695"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-18-01.tex",
+      "git_blob_sha1": "a64a201af1740b4541a53620a3647b6563e5d691",
+      "size": 14423,
+      "sha256": "ea55310b55613119f28f13cb04b1b2bf162be2884f0bfec8bca33fbad9a7d2b5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-21-01.tex",
+      "git_blob_sha1": "f9cbbe9249e62e08fe04309025df18f3bd354e5c",
+      "size": 20392,
+      "sha256": "6351ef24e0875611f0f31d75083123a09620b73709db93ec19d6f471ebfdd93e"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-22-01.tex",
+      "git_blob_sha1": "0a6ff28576ca3bb2dcee454a5aa77a9c2334dd53",
+      "size": 7003,
+      "sha256": "42a34eb2ddb3922810389104348119010690cc172508f5d7fa20a30893caff9a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-24-01.tex",
+      "git_blob_sha1": "013e742a5ef80c7f9ca28a32742275c80a537aa0",
+      "size": 11723,
+      "sha256": "2a30c57ba9952f82ed9e6c28f294f62605f416ca5c879ae9ec0c0bf780e0225b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-25-01.tex",
+      "git_blob_sha1": "b06a44990263316473d3b8eadafb8ea34e2764f0",
+      "size": 18088,
+      "sha256": "e62dfbf4e48316ee89c079060fea345ffc41e29b568514e9d95aab9f0747c03f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-26-01.tex",
+      "git_blob_sha1": "7441f677107574275397aba5499598e3c88419c7",
+      "size": 27863,
+      "sha256": "dd4f56d749e33b1c0eff3dd68a5ad9b4ad3561960116a390fa882616b634b048"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-27-01.tex",
+      "git_blob_sha1": "1bad4a4f6f1dfbaf157a127f7b3203191b746081",
+      "size": 6003,
+      "sha256": "64df830f9e1b1deac9daf5719797f533a29d44740bef7ef2e1f9e63145cc8a1c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-10-28-01.tex",
+      "git_blob_sha1": "2e1634ec7db2f9b2241d6affa5a52badcb352c4a",
+      "size": 36633,
+      "sha256": "247e2e9f033b25b40783c3fc2f27ea8ee041cba653ae8e27fd036020e139510c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-11-06-01.tex",
+      "git_blob_sha1": "bd917b5d07ca942383ca7e23622f12c487ad6c42",
+      "size": 3681,
+      "sha256": "d9a90fe64ebfbd212432e1c62121d587a612523e191f5d0e6f5e7d679d9d25d0"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-11-06-02.tex",
+      "git_blob_sha1": "e8f38cf2d4eb2497c3d53fef30f8b1aa6f0b044c",
+      "size": 21792,
+      "sha256": "b08ece98b2c8aac8998a485e4ae3186bb32b4da34f8ef2182d41e420de3fbb34"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-11-14-01.tex",
+      "git_blob_sha1": "ce94e913273ceb850167fd35433fee4cc0b3c4d1",
+      "size": 6089,
+      "sha256": "3a053855feeec3ae21d71f85686504d3f2df9c143e2a96cc584bc219745eb906"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-11-25-01.tex",
+      "git_blob_sha1": "5b483a988193a337c56e740dc49469057103b839",
+      "size": 13433,
+      "sha256": "549f334c707950bf573cdb36cdbd521442f47c900d5ec82abf56e59ef6004620"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-08-01.tex",
+      "git_blob_sha1": "ce472fa49d53a9a8b907a4f2b73f9935c7043418",
+      "size": 8527,
+      "sha256": "4a73afbda6963ddec996e7ee453e714a59e2836fd64071828ad821bceb67686a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-11-01.tex",
+      "git_blob_sha1": "fd218d0d5a41ea2e9e1d91be49b18a62484b6225",
+      "size": 28649,
+      "sha256": "c55e2ebd8d1baceeb6862ee4d5876e503eed43ad7e230fc88c30085d7596ca86"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-21-01.tex",
+      "git_blob_sha1": "772389bea3f99ab0cf9b57a78fb37466051afe16",
+      "size": 16944,
+      "sha256": "e7ebd09792dfb6baeea646b84678b866b77ea3fe293cdbbe7d83c8ac9aad0e31"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-21-02.tex",
+      "git_blob_sha1": "06833a47206062d3dadc2967cd1b3996098f6841",
+      "size": 18645,
+      "sha256": "c865b00cb668e570d5944ca6dc35df541fa8cbe6e4b8a043657eaaebae29aaf4"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-21-03.tex",
+      "git_blob_sha1": "f392b7e2cb50b0cadce270d05566259cf3ede955",
+      "size": 4221,
+      "sha256": "7dd84230fd347d0ded00daf807c13a91a4b06cb10760232479b7961316cd695b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-21-04.tex",
+      "git_blob_sha1": "d0ecb33f0d999335ee5054451db80848017f0c04",
+      "size": 4270,
+      "sha256": "0d9d080b5a48363824208e068a9ad82ebf503581200b15693d536035105a8f43"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-21-05.tex",
+      "git_blob_sha1": "eb77e0a7e590fc6ea1e1e41cfb31584c9fdcd20a",
+      "size": 34593,
+      "sha256": "adc1250bbc0b80e61f27a9180604b3a87e3e86b8ab800f6f0a2bacada5156d4c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-21-06.tex",
+      "git_blob_sha1": "1b4fe59d9e5b98f424c7bad5694c5c77b98dac62",
+      "size": 24301,
+      "sha256": "8d54390c79de6097c248eef1be41cb75651b23d5a613564aaf9ac0be67a8fa37"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2015-12-23-01.tex",
+      "git_blob_sha1": "65a635cf672974ef44a19ea9e9cefbafc2b20651",
+      "size": 30947,
+      "sha256": "e3cafa8a3cee82b80328c1a0e4679520a5b38e99e3bcf1740069f4e7d646ac86"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-09-01.tex",
+      "git_blob_sha1": "b8b867158dd82e5f442139db180902c8b958b3ec",
+      "size": 10227,
+      "sha256": "01016173307c8b4cc30bd152f650aa2518bd416f96e1702fac4bff6613d584cd"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-16-01.tex",
+      "git_blob_sha1": "1b878d9d0696f7390caa2b34a0afbc338b61cdf4",
+      "size": 7734,
+      "sha256": "557bd8e28381df545c20a37c3342ed091f270891efd84f9442383e4ffa83dd99"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-17-01.tex",
+      "git_blob_sha1": "0bd282d8c79ca55cd6a490c824a1e67c0598401f",
+      "size": 10002,
+      "sha256": "27db0cd0a53d1a3a4cadb163824d6e6b8f5e009d4495f319dacd7fb58c256778"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-18-01.tex",
+      "git_blob_sha1": "f1d44e95773129cf6535ba21a7a014ea1f1a0c62",
+      "size": 19394,
+      "sha256": "3608b928211564a3085dbf410d41ce0bdcdb40c46e56a03b36903adc10cf8256"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-22-01.tex",
+      "git_blob_sha1": "a60b0f9f645cc8d0adf0da254804d48646b1e762",
+      "size": 17933,
+      "sha256": "e0d00b5fc28e59e885baab6c82460857bbbd8226f3b6ce92a8e17ee865c39039"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-22-02.tex",
+      "git_blob_sha1": "5bad857bd7894d4a160d1a24d74369e2669ca833",
+      "size": 25110,
+      "sha256": "01c666a979cdbc7d2dc61b990f5289a4910d75ecf3f1fad6fd2576ad0cc7cbb9"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-25-01.tex",
+      "git_blob_sha1": "26216d2ae210231ca39221d9356bfeefc33c7f4a",
+      "size": 6325,
+      "sha256": "a3cb77733efb8abfca2bd4943b5441d9a6ede4aacf4635e1a05be23b5ddbce84"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-25-02.tex",
+      "git_blob_sha1": "929258ff6a4e27e03c400e353e173959e39d4ea6",
+      "size": 8364,
+      "sha256": "0dcc443c56cc1a51062161cc3e3871fbb8c1fd923ba9dbfbc118576fcf4950e8"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-29-01.tex",
+      "git_blob_sha1": "0c7205a6fe76b4c074221047cf94dbe8503b7b1b",
+      "size": 13707,
+      "sha256": "59ac4f12220803291d1eef8a29203ec24a6ca1fc45fe5f21257240a556d14f91"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-01-31-01.tex",
+      "git_blob_sha1": "688cbc4fc02596d918a27cf45334469ac7b694bf",
+      "size": 35157,
+      "sha256": "95ec4111fb4af2a44b208b626285a6c8b215c2b364424bcd1e24ab897330f7a2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-04-29-01.tex",
+      "git_blob_sha1": "d4d8b0c25ed521ad790ef5c2dbdd4431969d4636",
+      "size": 8656,
+      "sha256": "843bad6f5af023938bb4ace5a8a2f7ec78100dd0933df1d7b7f98d85437bcc40"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-05-04-01.tex",
+      "git_blob_sha1": "964d15af01c6a3182430121801c00248cc2fa725",
+      "size": 9494,
+      "sha256": "2e79583301c4bfc33ff90cd592716f6dc51683f9a12e5095a85e1298d981ae57"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-05-05-01.tex",
+      "git_blob_sha1": "ce22057a8ddc5e2a1e332a437927aeb45ad384d1",
+      "size": 7009,
+      "sha256": "c6cc4cc76d13a3b6d604a580e5cbea8f1bd8313a74d0c11fdbff51ccfd2b627d"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-06-11-01.tex",
+      "git_blob_sha1": "a0fac21533f0e523be8267b0e0783adb502618de",
+      "size": 12098,
+      "sha256": "5d48a754eea8d4b4f8e234e58035fb1a4827d1977c9087657d9dca9295b0a92b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-06-12-01.tex",
+      "git_blob_sha1": "d264f60af8861bcd722c7b6f590ca54bb0564011",
+      "size": 7096,
+      "sha256": "ed739ca71d5f3f7c55d6ed738c7cc8f6631239d481a8bd04567e068d87eb218a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-06-18-01.tex",
+      "git_blob_sha1": "3f572c09f17a08dc713c3862eabbf948bc2f8339",
+      "size": 44556,
+      "sha256": "e269b594c91ad507aee6ac1dcb5185b588097e85e761d35a2ddd342654174d89"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-06-19-01.tex",
+      "git_blob_sha1": "6d03e716953c5790b4f89e4955e4176f26cad8e0",
+      "size": 13793,
+      "sha256": "5d5f5449505578f5fa024f045da2f756c8e1fc521a16b7dafe6105a6c111ec75"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-06-19-02.tex",
+      "git_blob_sha1": "a6954cdf459ab5e4ade18b8629fe5e1d5c1820f2",
+      "size": 7230,
+      "sha256": "136b4c4d37364954681b4993758599b208a6c63fa0fce613ec4f3fa710a3e8b6"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-06-23-01.tex",
+      "git_blob_sha1": "080674a20e0e3d1234ebfb54c06f7be340ddc0eb",
+      "size": 15456,
+      "sha256": "7164b3e49571f23493cc22b665471b014e6b7e3793dcd5aa546edd22b5f1a1a3"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-01-01.tex",
+      "git_blob_sha1": "b84ad9b8bf0abddd7d29ca94043b5856a38c25aa",
+      "size": 5153,
+      "sha256": "bd099d7cc78fc588ba919e4d176c86e609128b36a123b3f2e60347c3fb8012bc"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-06-02.tex",
+      "git_blob_sha1": "ea1adb3fd56a1a9c2491191d6432351dfa69c5b2",
+      "size": 10534,
+      "sha256": "3e9e25e0eb33c9647ce6bf024842cb46e10800eaf571b32134c249b188a2c115"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-07-01.tex",
+      "git_blob_sha1": "83cd3265e8f2f2286b9e70f7754f167d6afcf8da",
+      "size": 6005,
+      "sha256": "67c7d0ddfeb5106c2d5c2cf87c76e17c34b1b32813845a86f781d6a45229d315"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--0de83c9634.tex",
+      "git_blob_sha1": "f8df59ecb1405155dfc5af99ca0b4bf0b944c46a",
+      "size": 3416,
+      "sha256": "de195331bce45dec3da387c9cf38b4df4afc6e76854eaf88a797d9ba744a71dd"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--71feff1e15.tex",
+      "git_blob_sha1": "b989557181597e3b28cfca03d873ebc5e1c71083",
+      "size": 17755,
+      "sha256": "66d0b397a956e24403447cd9318c842bc993b76311c911bcdb5e13345f3802cf"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--766d38af76.tex",
+      "git_blob_sha1": "5ad19163c59f59312cb2d5b68d45ab9937d92894",
+      "size": 30659,
+      "sha256": "88814b0fd48be31d90b7b1e9fa38732e0c441d90e6d80afd7aae4a022cc742c9"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--9d830c3d6c.tex",
+      "git_blob_sha1": "c6306c69cb77ec0688906443fb7683cd29407e4c",
+      "size": 2420,
+      "sha256": "72617ea1ab2670b2a1b578f32360bec2587298f26901ac6f3a5135c69577c4d8"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--c959ca26d8.tex",
+      "git_blob_sha1": "f4c92da12c033d9ac1753f246a1d101f18bbee2e",
+      "size": 7622,
+      "sha256": "20ad81682236f0e92ce3c67640dec7cebe4fee2287e5b090baacdce13ec89d49"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--d0670c5c77.tex",
+      "git_blob_sha1": "eef95c01df73da0426dfc8ad40c17296f14e998c",
+      "size": 10335,
+      "sha256": "823b3056098e990a41e9ab651e8e06c5f87cc4867c35c6eb80d1d32dbe056d2f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--dcb4efe007.tex",
+      "git_blob_sha1": "bdb93e18021bfd7dfca55d67b257ae476a8c75e7",
+      "size": 4992,
+      "sha256": "25af698b8856d3b53b7efd84ddafe25526bc7ee3d01b902736b02e4b29283378"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--f67098301b.tex",
+      "git_blob_sha1": "0d00f53bd584238f5af546370d28af40efe24642",
+      "size": 5841,
+      "sha256": "111b8554fb06d1e80e1e31c184316d7847f07a2da7a5facc527e5c21844fb69b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-07-21-01--f8f2b9d8c1.tex",
+      "git_blob_sha1": "5b30c183429a6d45291576488f1a6c23a7c33eb8",
+      "size": 6506,
+      "sha256": "07e1eeeb51219f76527ea19a2478f26cc673832d82b515c334c1aa66b9ddd1ad"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-11-30-01.tex",
+      "git_blob_sha1": "84df3621e0015e97e42f63088c072504ff1072ff",
+      "size": 6948,
+      "sha256": "79e85aa4ee0e765dad0178b51e40516764bdcc665099192ffbb8f2923f5342d1"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-12-29-01.tex",
+      "git_blob_sha1": "8865f99cec511962cd53e0bc7730f3885765ea5f",
+      "size": 8365,
+      "sha256": "8621dee0d76b27c1e64f03450fc2d7bd9ab2207c3ec81d306e7e77e5de8a24f5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-12-30-01.tex",
+      "git_blob_sha1": "5624710602183e25ffac8c1bcffb335f92f7ddcc",
+      "size": 11901,
+      "sha256": "cb5f840459c55f22b8f98ee749e45fa3c708bc4aa5504d0462b06be954b68ee7"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2016-12-31-01.tex",
+      "git_blob_sha1": "e01afc1545222b5b391b6056eb7cee4a477ee582",
+      "size": 25314,
+      "sha256": "43b6f57e71d37af3b2997d964f89002cfcf83fa6a472b58ba5b0267f1750abbf"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-01-18-01.tex",
+      "git_blob_sha1": "5a346270a0dc4a2679e34a5a5d2e489e1741104b",
+      "size": 19467,
+      "sha256": "d5bb59c8c0d6fc3c8e36d0142a7bb5415ab07b8172308d6a764712afad89c8b2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-05-07-01.tex",
+      "git_blob_sha1": "ab896a1752591615eda549c0755f95e4887080bc",
+      "size": 9486,
+      "sha256": "f165ff227cc5e93a6b36035cd5ce7de4c7fd76bad59f616903fc41e410820e34"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-06-25-01.tex",
+      "git_blob_sha1": "43bfcd2f4c770dc855c120fedd4be572972aa64e",
+      "size": 15079,
+      "sha256": "a3956708a8eb76c305d7f3ceda369727856bdd697a125ce6d2ca1e7bb4a22a78"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-08-01-01.tex",
+      "git_blob_sha1": "0b812eadf2da2dd9c19314016948f6571012c736",
+      "size": 12292,
+      "sha256": "c141637d64582b0ab0953ee64142fefb7355f7390d985a31aa13b7b9aa0fa081"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-08-04-01.tex",
+      "git_blob_sha1": "09af5767cb92beb76256318d56adfe676d76c210",
+      "size": 9479,
+      "sha256": "97c4903d999c69c12178db980af66cf791415c244c9f52a2a591520263cdbc6f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-08-27-01.tex",
+      "git_blob_sha1": "a73c81b738bbd68d30ec82466cba6bedf365e7f9",
+      "size": 12965,
+      "sha256": "5b651d478f243509f5574a1e5fdd966bf69b2ca942ee75b8740fe7d35b99fc2a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-10-20-01.tex",
+      "git_blob_sha1": "7a044fb01b5aee4bb80c71ba72d4965f10d246c2",
+      "size": 20326,
+      "sha256": "0b4bcd2f7f5fa82e486e1f5f7526cd9cadd64e6ded92fbf06a3001f9f599dc15"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2017-11-16-01.tex",
+      "git_blob_sha1": "17850100f4e3b6aed2167983f93adc5fefcc7cb7",
+      "size": 23103,
+      "sha256": "5a2011d247da2f975514779f6c78facfd3eaa2c57239716eff421c5c8952f1d2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2018-03-29-01.tex",
+      "git_blob_sha1": "7f4a913ab4c25f020530b58db791912f4fd88705",
+      "size": 18326,
+      "sha256": "f4162be0c252f5467c3bb72f3178a39b5131ebc73a6bfb50a24cc674b7707a4b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2018-10-12-01.tex",
+      "git_blob_sha1": "4776e70d6f1e1ba66e0aa547d040889e21737279",
+      "size": 44935,
+      "sha256": "4719cb7d7d4dbb7516f577b7f4debb221cdaf99f9c9a81eacd70a67884d5aace"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2018-10-14-01.tex",
+      "git_blob_sha1": "06746bc13c2918b7aa1021efef1960747c37f4ff",
+      "size": 198634,
+      "sha256": "688e29c58e862cef465bfccc138fc3851fedfde15da91161b54c4f7ed3231183"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2018-10-14-02.tex",
+      "git_blob_sha1": "0436b0334b02b26a39e98ade8aea70f688ca7360",
+      "size": 44329,
+      "sha256": "767fb6bef18351fb682ce3f320c54561ee319bebfd0c3441eb210eca0e7ed360"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2019-11-29-01.tex",
+      "git_blob_sha1": "1a655b430264527ebdb0ecd9f45c6d50c761fa9e",
+      "size": 127378,
+      "sha256": "f406655e99f17a3c6a66de2f15ab8f88c48c1b806d62de83920eca292331141c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2020-01-30-01.tex",
+      "git_blob_sha1": "2642b74e23ae594658b329ba9a2fd98a713d2522",
+      "size": 23837,
+      "sha256": "985eb4358f248c9e186ef23303b41873ebf8d2b63ab266c4f958411e48e2d127"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2020-02-02-01.tex",
+      "git_blob_sha1": "d8e453413b002e078cb483d196b46a85cac91d4c",
+      "size": 17174,
+      "sha256": "c6f14e5dc845c72fc315207a441ed2826d2d51c55519a6151fee2acd9f3d0ea7"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2020-09-02-01.tex",
+      "git_blob_sha1": "2b125000771eb21c7d4af5628be8caed9f31fac0",
+      "size": 20836,
+      "sha256": "d027e66dd9fec3b7bc87180ca8c21698353c0e94ba9cc97e018f236a15d895b9"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2021-01-28-01.tex",
+      "git_blob_sha1": "1f5a10d54ff922cc782516435d98d0c39291f10c",
+      "size": 26573,
+      "sha256": "16614ea38f1b09667887603e8ac11c3d3e4cd7529209a5c04158e23f8eaaffdc"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2021-02-28-01.tex",
+      "git_blob_sha1": "98588f5bf86e98dddc137af8205e72f4f75be994",
+      "size": 51125,
+      "sha256": "83c5b0d42f550eb78ac0a4dd8fea12a93358fefeaabd4ee0116f20922ee5dc68"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2021-03-25-01.tex",
+      "git_blob_sha1": "d2d62a70e0375822d6494eec288002ff676f5020",
+      "size": 17086,
+      "sha256": "6fff226c274b3650f1b9525ac380747d7a2afaa57ad35b1ed2e0af09722dba49"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2021-03-25-02.tex",
+      "git_blob_sha1": "8c05d5688a6ff5e9f6516b2d8fc92d41382e6603",
+      "size": 9245,
+      "sha256": "ebd7bc7b2b2d3d064a99be4df740191850e6d689ddff9f7ee69fb6dd190c50b2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2021-05-22-01.tex",
+      "git_blob_sha1": "8869eef80a05a8263726ec1bb6ea17a032179267",
+      "size": 9740,
+      "sha256": "05bc67760c06fa155c81dbe61d2612c21efde9c12c047cbe9c7cf80cbb50a28b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-01-03-01.tex",
+      "git_blob_sha1": "bf3ed135b6925834fa057f7537d8813eafd48bac",
+      "size": 61539,
+      "sha256": "19eba9175df5bd006f2d55257bd7aea161bc45c94022b8bb205b2cabdc604716"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-01-16-01.tex",
+      "git_blob_sha1": "418a9faf8be66b459f8be405f86df9703597c7c8",
+      "size": 42397,
+      "sha256": "81aa08575bd691b59ef96f444f7173ee6f75f455f53e8f70af2f58f25c9ee6d1"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-03-12-01.tex",
+      "git_blob_sha1": "58569d3fd6748e7aa605adb074dd27526d1372a9",
+      "size": 30926,
+      "sha256": "b026c4eacc4837b952baa824e72d9cc847a69729b479b455191a6207d6153ddf"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-03-12-02.tex",
+      "git_blob_sha1": "83e2720220e7db5e1b490ab909cd0f290f973bd1",
+      "size": 14939,
+      "sha256": "43ffad718f3f68811a1fc068f70acaa0ed3af205b42a3d3883979d94d72460f1"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-03-12-03.tex",
+      "git_blob_sha1": "83860d2a088c276977c5eb6823e98094430c5e17",
+      "size": 37870,
+      "sha256": "77989ea33a37d3cf68ae5c5631118bb0fc6c3eab422c2faeee4a4827972913cd"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-03-12-04.tex",
+      "git_blob_sha1": "12b48e6f70e58b01c7b723dc454a7c4f5f7e8469",
+      "size": 11759,
+      "sha256": "fe6ef28c429e02186d7dccbb1a36e819c15f9ea8ee53796ccaa0ffca552cbee1"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-03-12-05.tex",
+      "git_blob_sha1": "2014a4d1b27937411feca582d8d156c34cb09ae4",
+      "size": 19575,
+      "sha256": "7f9f3af47ba8166ba4a9c4ecd29e5f7baca9a6652eb786fb86036905f630ebd7"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-03-13-01.tex",
+      "git_blob_sha1": "d0a075f2bbc60abace25df0f1e92b289ace17f61",
+      "size": 16325,
+      "sha256": "3e7f6b9022a580377666f7d241448f2b78aacff77050431ac2fac3099f17cd3c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-05-21-01.tex",
+      "git_blob_sha1": "798dd2b42ab410f6feb8e2bd3918c33e4f621c77",
+      "size": 74811,
+      "sha256": "f9d43466179ca362b036667251149736f62acb44823fb019ddd13f247389be84"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-09-06-01.tex",
+      "git_blob_sha1": "4b7375f3536c06a7114e90389c6cdc940bb8b481",
+      "size": 13324,
+      "sha256": "138fe23f2357ea203621cad04834d1e248b4621299637a678a7bee944d260e96"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2022-09-10-01.tex",
+      "git_blob_sha1": "841492a18a3f01eaf6d581af76f8932d126d8600",
+      "size": 26171,
+      "sha256": "3499602ba0dcefbcba7ed2f27731894c4c533939c95bbf9de7a053ef7525a32c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-06-20-01.tex",
+      "git_blob_sha1": "3940a35c7f38a8521811291f285adea13bca9b64",
+      "size": 36775,
+      "sha256": "67cefd12375b6f12c78c2e4b9a6b6bfc3d9a44dc199a6ac57e4c27b9ed9609d0"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-06-20-02.tex",
+      "git_blob_sha1": "a216714280bf71f7fb1d090e49adf50c238cf0a7",
+      "size": 48874,
+      "sha256": "9872729a19f43c695136dee76cb7afbd0834dbb4a14bbd047e72d70d48612d6b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-06-20-03.tex",
+      "git_blob_sha1": "7b555a51a47b1daecb2ae6a7dc302cdabd29465e",
+      "size": 22141,
+      "sha256": "6f40d96b543d1f9680579bc037377eeb86118191a8b7790fce4e1a995bf47653"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-06-21-01.tex",
+      "git_blob_sha1": "e5ef61a823043b35925967682f21803da7878bcb",
+      "size": 14196,
+      "sha256": "7a55d8c801868847a538ecf5d484e08f55e33d92a3f0e604bd6b8f3099566f81"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-07-02-01.tex",
+      "git_blob_sha1": "87f653f5fec40df7800c040326db1b2fe1e05f56",
+      "size": 69928,
+      "sha256": "dec707bd65cbac219d67bf1284d33e4366d090501bd14cdcde7efe3d4bb15016"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-07-08-01.tex",
+      "git_blob_sha1": "39f8720e55a35598ec331887a1c20360c35bb709",
+      "size": 16408,
+      "sha256": "7de52b7ac8f49a60990881e4b641ec6960fd21b46a0a92716b086de45418da9e"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-07-12-01.tex",
+      "git_blob_sha1": "e7a613405eeaee536ef05b3f4c7a500cfe463c63",
+      "size": 31794,
+      "sha256": "b604c63fb49deffbc9c59c4b6243c9df8133a18aae41170d94bf07bf69258851"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-01-01.tex",
+      "git_blob_sha1": "4e984df869007e966c2990a670ad4782dcd9c418",
+      "size": 12423,
+      "sha256": "bf2c79133a8dab762c6419bc25255f8b007bd4f6a6371348e3e707ec15ea6d22"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-01-02.tex",
+      "git_blob_sha1": "101accf89b35a4482c56861d10d78262d4b64807",
+      "size": 58465,
+      "sha256": "eed1ecbb55b96ff3a25ce11e1d097d828f6aaf99ee6e24b6f82583087718679d"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-17-01.tex",
+      "git_blob_sha1": "f0fc2395ae4fdf3974965d8605af7fa94e6d54ba",
+      "size": 9560,
+      "sha256": "5ac3fe98292bce5ecb9d982077f326d98817f17cf396848d7aa8288e9210f52d"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-24-01.tex",
+      "git_blob_sha1": "c8d7994f89e17958e75271202389232cecc35dca",
+      "size": 23804,
+      "sha256": "8a8a0f1bebc1b40d87d51f30bc09aa8c9272517a1ca0d0e401372075e6b9c29c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-28-01--795f12e2ce.tex",
+      "git_blob_sha1": "44385845382706d4d9f2f3af841904f7b92388d3",
+      "size": 35930,
+      "sha256": "8a6cc588bff9eb9a616d2d064eb26ba5202278cb2e6bc4d489ed89c4ac30a3e2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-28-01--96113c52c1.tex",
+      "git_blob_sha1": "96ce6bb3d84ceb3d06fcb0578fb27736d18d022e",
+      "size": 2154,
+      "sha256": "e3f1dbb46193780717e947bff06da0a2dfc5860af61e1fef9eff95501ab2ee6a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-28-01--e99e6d0dfd.tex",
+      "git_blob_sha1": "3d95ed4b4bc8b2a315002f10e61ea7c680fd2690",
+      "size": 17741,
+      "sha256": "d0605fb784071056f72447d3d37eeef19657c209bb8b425f77c5639566c2fb0a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-30-01.tex",
+      "git_blob_sha1": "16d1dd68597753720f25b3285abdf0a209b234c2",
+      "size": 16667,
+      "sha256": "5efa9b62d504ed98a38435439fc7cecf641da33b5c1889dfb36bb4167b4a20b2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-30-02.tex",
+      "git_blob_sha1": "578bf4464e2cdd4c6e734cfc46d90fba20a13f67",
+      "size": 7024,
+      "sha256": "915d1a19e8e17af5acce55c094e6135a13ddc2fdbc2f947c3545ce9c9e5da6a0"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-31-01.tex",
+      "git_blob_sha1": "71f2d455c4a62979f5fc673ff9f404dc0884bfc0",
+      "size": 4127,
+      "sha256": "c4a51b8db60c16441d3bb34305aa489bfff49cc77dcd4091334161c0f4569dee"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-31-02.tex",
+      "git_blob_sha1": "f0d0228a9cae0244aa9940011a794e919c311abd",
+      "size": 2275,
+      "sha256": "2692f60fb582edaec1bc9e22c765efe3a5e9766c3078f504f06db54445a8025e"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2023-12-31-03.tex",
+      "git_blob_sha1": "e918757e0bd2a95c14e22304f6caeb19791ffdbf",
+      "size": 1819,
+      "sha256": "1a9284a7097ad77138a3745dc0c89f35398cee67da37bd5d38cd3b67d3872026"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-01.tex",
+      "git_blob_sha1": "35fcd1603e3a647ed2974e9266cea35df6f0f968",
+      "size": 2557,
+      "sha256": "2d69c397aa4948586edf06d83f290f763fc4f33f0ab1be388e655a637d17c17e"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-02.tex",
+      "git_blob_sha1": "877b53fef493b41526081ff21fde25dcdf2f6ec9",
+      "size": 2818,
+      "sha256": "ea379e773a92e4b5a49ad9debd0b4597fa168bd1c62f1a7bbc3c766317f76154"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-03.tex",
+      "git_blob_sha1": "85aee263af3d3d86b26115b2a9c3907436373967",
+      "size": 13542,
+      "sha256": "68b71fcf921a398e80f4b2ea2079489b4913ae1f0f597564d0eb1d372256a8f0"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-04.tex",
+      "git_blob_sha1": "5b594f1a14eff1d11b9f7a53b447af32975e101d",
+      "size": 2485,
+      "sha256": "95ffef846180f0430c7ac59b1b59b036d55875d04a19ff05727d217ab181af2f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-05.tex",
+      "git_blob_sha1": "3ec703cb64dba123db80113df79b5ab97d66052c",
+      "size": 5149,
+      "sha256": "65851eaf3603c49ad9735112a85a105ff379102abc575737c8f0f1cd1b0299c9"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-06.tex",
+      "git_blob_sha1": "9c86b784883f0896a2ae7e2ff0774c87ba59ac0f",
+      "size": 5718,
+      "sha256": "512610322f5f06be657267336a862dc05c84d61f6a67cf1eb037106968958a73"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-07.tex",
+      "git_blob_sha1": "fbfdae4b65c9676e6819c8849aa2e195affb7423",
+      "size": 4389,
+      "sha256": "1ca6fe14add47aba978af02f7728da3567328c6a2b8a538edf2c85c1ab36c41c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-08.tex",
+      "git_blob_sha1": "46c5f60b0d76cc2e374307c91e69fd25f74b1de6",
+      "size": 2057,
+      "sha256": "20f62a48bd752c25e2d6df6f641395db6ad2845412e1746acd46f6ffa46a3a50"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-09.tex",
+      "git_blob_sha1": "f6e8ea5edbd37b5d71cc9efa7a05de6b842247ed",
+      "size": 4853,
+      "sha256": "44c429651e72d1c2e7d760fc331eb9c94b32f776f931df16faea0884aabc4797"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-10.tex",
+      "git_blob_sha1": "c3016c4aa224bcc35be615aec6c13ea13c43ebb3",
+      "size": 2004,
+      "sha256": "b096fbb8554ef2c1ee61bcfc23339753b646a6931625342d11f8ff89a16601d3"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-11.tex",
+      "git_blob_sha1": "656cd2feb2da3f4e398eb8401a2200ae539d54eb",
+      "size": 5758,
+      "sha256": "14241699316a61d915c256ed5d104eec4a0b7e2e0cee990d44f2b4b4812269c3"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-12.tex",
+      "git_blob_sha1": "f56e7d94aed92c74964eb739b5fb7c84f23d0eaf",
+      "size": 4066,
+      "sha256": "48b5c48fdba02ffb207a41b509694c57dc524c2fb5d1c69fcd82e8333cf148ae"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-13.tex",
+      "git_blob_sha1": "9a2e12da4a9ac876b14a57b860ed4c78bb9d5db6",
+      "size": 2557,
+      "sha256": "621274a6ded7453368eac37843a8c635169a8a6b314d8230f3b97af5c5222ec1"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-14.tex",
+      "git_blob_sha1": "58d9df6ddcb19aab1ab36a9481a4fb0bcff75ba7",
+      "size": 3688,
+      "sha256": "3d62587986afa7ff358bf83d53daf4b05d6c46b0f126ec9bd0166b48cc8503f9"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-15.tex",
+      "git_blob_sha1": "947157c80c88758418affde773a3e2efbea1c272",
+      "size": 4172,
+      "sha256": "a77a945f887604c144854cf2a2b6d5694ab6a56881da10a5477c21fbefb7c6d5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-16.tex",
+      "git_blob_sha1": "c7641432cdc26a8149049893787f0a4c31c0fcbe",
+      "size": 2149,
+      "sha256": "74adf07ef3a8d02baa3654617838b08de86e21dfafed91e72c627db109b4f655"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-17.tex",
+      "git_blob_sha1": "9488485bfa78b675db9a55586ee83e5628eaf10a",
+      "size": 2796,
+      "sha256": "02a57012a9d3509dfd0c6a41884bfb981f4ff73c9d079efc698ccec3a08a786f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-18.tex",
+      "git_blob_sha1": "f5ea19d9fc10453973d21bba17f66af45c2c19d1",
+      "size": 3218,
+      "sha256": "0c60c338220e3e814aa96170dc43de7a6137b69027ebdf403d4f2daf321b0418"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-19.tex",
+      "git_blob_sha1": "52fea343ad5800bafdd119333c2596b3f29a958b",
+      "size": 7666,
+      "sha256": "d4b858df2b03e60e001deb86b46dbc631738f352c698aeb1121f5c66fb700693"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-20.tex",
+      "git_blob_sha1": "674c547bd76fd95a9913a5aa365d521c82befb08",
+      "size": 3307,
+      "sha256": "acc63cf9070193f5a0afdeb29dffccfcbe8bba570d5c55dcad6b4bc8a4364cbe"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-21.tex",
+      "git_blob_sha1": "9e63b91c5bc22f4ac726d42f2067f1dcd0a92bce",
+      "size": 3267,
+      "sha256": "f498005b7313b3c6bcab8a00436ee821c30d6a83b26a5eb34e4ba4b3eae2f87b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-03-22.tex",
+      "git_blob_sha1": "7e4c0ca92e678ccdadbed9edcfaf9d3c2750e73a",
+      "size": 2126,
+      "sha256": "e528bec21ccb989cf2a42446bd042acbcbf5cf45b8143580f9f497fdf368dddd"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-01.tex",
+      "git_blob_sha1": "4e58107e51026abb56c1549fef3c9ff1a0b4be30",
+      "size": 2556,
+      "sha256": "d720e94003fbda2f5686cbe891acf371a10d66358cfc51dfb010ed6a40830262"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-02.tex",
+      "git_blob_sha1": "b9da743ca50b3f2a818dd21f0f2005b5a48c72e8",
+      "size": 2341,
+      "sha256": "a127a3ea9c8422ec8a1799325d979a5d1bf457c522bb07d68f98a67e8b93c8a5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-03.tex",
+      "git_blob_sha1": "c230237c20567b6a9f226aa5cadcf97a06dea5ff",
+      "size": 3166,
+      "sha256": "0b1588dbb91298b00dcda5898438791b56a4c06937073f565e3f1a2d99e148a5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-04.tex",
+      "git_blob_sha1": "0355922bbf5715afa8b9aead98771a4de009950e",
+      "size": 3311,
+      "sha256": "2389442b66fd85e927b164e38a3a5d100961b7d06eb8e78cec73045fa253dae4"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-05.tex",
+      "git_blob_sha1": "69b4e1146cb1ef0bf17ec82c8ec9858eafc3ef7f",
+      "size": 15580,
+      "sha256": "a5976b54442ec952d7764f058636375ad8eb73f2785dc2b8cafacee72c2ba69f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-06.tex",
+      "git_blob_sha1": "bc2d6dbf55f984ec98a26b54f3872b299c9c7bff",
+      "size": 1787,
+      "sha256": "3a22a1a0759b96f898c006a6ed5133a8d89a0a27e348dcfba888c559a364f005"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-07.tex",
+      "git_blob_sha1": "c2e4a25e8d51dad4677bf7072f4e8d8ea9a9c9a1",
+      "size": 5059,
+      "sha256": "5843d5fa2173b2c7cdea5f57919d7c3d9dffada06ad8d9b10520d52022b0136b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-08.tex",
+      "git_blob_sha1": "3ff106e13df044e6b0e8f658eb241128197f2dfc",
+      "size": 6332,
+      "sha256": "f5d707cbb4dc244be9e2fc32a95bc7f0f0655657e19b02ded10fd8bf2aa16b78"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-09.tex",
+      "git_blob_sha1": "e776e0e2ee6e2b5035ca80e5895854fc3bbc6ddf",
+      "size": 3640,
+      "sha256": "af34341e7e366190aba24b43319512c58557708663017e10d8a534d985ffd352"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-10.tex",
+      "git_blob_sha1": "88f85b0c6bd5470a8eef1e1f2812c88b3c630c6b",
+      "size": 2210,
+      "sha256": "de3fee9cdc28dcf10cffc499b1d235b1331a6fb8af9fbe5625291d29dbbf4221"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-11.tex",
+      "git_blob_sha1": "8fcb4e666dd9c756b683403fd9ea2c8a9cf2017f",
+      "size": 6189,
+      "sha256": "d8c1f17cf01929853ed017e5b3d38512710a435ffa53142f4638283347dac060"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-04-12.tex",
+      "git_blob_sha1": "1ce7777b1f837258083b2b752124cad16a7ba045",
+      "size": 15975,
+      "sha256": "ba4e317d18239d18e116c4659b9c2da6099e48442e5403ea463abf204ed79877"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-08-01.tex",
+      "git_blob_sha1": "0956da834af9dfb72d5376cd85a967b3d74c4fbd",
+      "size": 24403,
+      "sha256": "9d59f3e2c82fcbd40d3825b2b7fa3242fd9dd67abac316f91487f02ca17e5ed0"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-13-01.tex",
+      "git_blob_sha1": "f6ac49560181d71d267d9bac271e70f3042b4942",
+      "size": 27732,
+      "sha256": "4b063a94f6bfbb8366be88472bc2033ba2f2e11c6d2ba7def1497834853c88cd"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-20-01.tex",
+      "git_blob_sha1": "5e3c93b339627deb13e441c8217576cc03a54520",
+      "size": 4527,
+      "sha256": "7f08a06e07651570047b454ea5ce09ecd34b62b9f639d2f0bd764840914fe3e4"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-20-02.tex",
+      "git_blob_sha1": "6bd0a2c20fd3f6ff84456a587b77f2483c3a5180",
+      "size": 1779,
+      "sha256": "e80a88fd6fd8255abb7de409b46e768fac300b90ad47b1e8e74b8eed3e774e7a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-20-03.tex",
+      "git_blob_sha1": "78bb2f16e2b4cc332214b87fc798f86e1ff8d6f0",
+      "size": 2536,
+      "sha256": "cc413c1d039ee20954500286698565fcfedcd82a81eee3560f1cce98a1cf202c"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-20-04.tex",
+      "git_blob_sha1": "b33313c54ac3bf6f9b63eab59a02f88da54dc826",
+      "size": 15811,
+      "sha256": "ed146f908fb3e7b32e473d97eae936d695b02a81543907b1fdfcf05df3795dcc"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-23-01.tex",
+      "git_blob_sha1": "0f34a1a36fa2def1ee37cecaf85304a675de9707",
+      "size": 68277,
+      "sha256": "8350b3db5d9f7bb9449d7c29292428b907a2e83afd9360293f06a757e3dfff14"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-27-01.tex",
+      "git_blob_sha1": "8181752a775798742522ae4b972ffa3754553085",
+      "size": 22947,
+      "sha256": "a08e4c0ec208be753fe2e65093d49ee2c2b19d11fd8a1e00b3347ddc9a0c2644"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-01-30-01.tex",
+      "git_blob_sha1": "9c8f9dc52713757ebe2793cfeba6e96ea1ecf1e0",
+      "size": 2313,
+      "sha256": "dae87eb5206bc3068efb56fde0a316a0d79640294af8ab422a3760e254ac55f8"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-07-21-01.tex",
+      "git_blob_sha1": "7344172f5864f2ebd59b0eaa4247324d6e05e762",
+      "size": 21614,
+      "sha256": "b374ae06bb5f1c2c7839b736a2c666269ac8aa37c5df54067afe1c1d9b2a7cba"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2024-12-01-01.tex",
+      "git_blob_sha1": "d4dfe01e6a0bffa1efe8d06817c08a93d8d6ba98",
+      "size": 15890,
+      "sha256": "8197a0d12d8d8b34350a63dc7b554caf87e530851149ea808f33a699db91c2ae"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2025-12-28-01.tex",
+      "git_blob_sha1": "7a03d3c3329d5d352ffde113e5f2941cf69fbf18",
+      "size": 5682,
+      "sha256": "f5705a12e11b81f8af2a6e786d26317a03bf034c79b39e9aae9518f4a97f209f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-03-09-01.tex",
+      "git_blob_sha1": "67366c8e5d724250b8e327652279d2d4b476988b",
+      "size": 27713,
+      "sha256": "5f094514d30056308b3f014ae5bec164d3c7a83e728c985d661b72941640c864"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-03-11-01.tex",
+      "git_blob_sha1": "695c804cf39b1718eb77cf383b20970d2b72d359",
+      "size": 41985,
+      "sha256": "30a1e351c5e6e4ae6e9dccb00143a1b1ccab2e73b551ed6cd69bfbe71e0a3226"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-03-18-01.tex",
+      "git_blob_sha1": "21c31374c210ede3e1ed35aff2b3eb53e0a45dec",
+      "size": 26640,
+      "sha256": "6b8bb6c6a03cb36bf084cce2768a5ef523998c4109acb2e5da26b2d87d890f86"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-03-23-01.tex",
+      "git_blob_sha1": "f0a3e532f63b454569d4805732f7d47c8fb70080",
+      "size": 25597,
+      "sha256": "86e5e776f621d5ad69a53f9d45e2aef68b58f858ca1c6c18617d0c3afa95a4d6"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-03-26-01.tex",
+      "git_blob_sha1": "6a04c0470da409ba0e24e871332c366c57d44fee",
+      "size": 20880,
+      "sha256": "1906fd18dce05df0fad3effa320e36ee1dd1a0d010af9912d5d1862a3c6fd04a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-04-05-01.tex",
+      "git_blob_sha1": "6ef6a7478e942634f77a9fcc0ef26beba688bffa",
+      "size": 15825,
+      "sha256": "a6c83db52c4b6acd8f783733ebb9a53e3f31a978b68f80f1b7dcffc2c839fe46"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-04-15-01.tex",
+      "git_blob_sha1": "46d67ff4697561da038055a89f2ac787be8727e7",
+      "size": 51514,
+      "sha256": "627bb846c6a71af7fa7ce199f5b490bacf6b356923a3a2ea4d6f7978db59ed48"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-04-17-01.tex",
+      "git_blob_sha1": "28df992d76409d4e635780658b7abec2b18aee43",
+      "size": 29373,
+      "sha256": "000cd7c7624455316486ec71983eb7cd6e1e49622d4210517b65a0f4f16fa307"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-04-21-01.tex",
+      "git_blob_sha1": "658f81d42f98c12f2a5eeebca90d91939108a37a",
+      "size": 22673,
+      "sha256": "15016fb4a239631a34e42bd3ff9d4705a7022c03cef7fba5fb04b3b1d3873e4a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-06-09-01.tex",
+      "git_blob_sha1": "7c489425cab70b6eabfb752749fa9ad251ec0421",
+      "size": 70963,
+      "sha256": "c1d6f9fbb8b8826955123d93a7ffba5e7b703ac4d49fc50607e7a2dbc1a655f5"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-06-27-01.tex",
+      "git_blob_sha1": "cd7876fb57a57f6aadba8889446d592b29d31ac8",
+      "size": 34261,
+      "sha256": "5d17eda80f45f6441ca47e7a779fdbdd815bea5c2f812eac8051fec872096c3a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-06-28-01.tex",
+      "git_blob_sha1": "5accd06566a2c110bb4e6597cbda98f3e9ea6f15",
+      "size": 25036,
+      "sha256": "3ca2117a7cea29ea8c8c1eca8c1865ec1ec698af054cc8002e2ecbab77c6a1c3"
+    },
+    {
+      "path": "skills/write-japanese-math/references/corpus/2026-07-02-01.tex",
+      "git_blob_sha1": "45faa778a79175344ba135e2d775eb055580b692",
+      "size": 186054,
+      "sha256": "f4acaee16d0eb81ca1287379e40c53149116209e6ab12c3b38b1c36519b16bac"
+    },
+    {
+      "path": "skills/write-japanese-math/references/expression-choices.md",
+      "git_blob_sha1": "b6cb5525871d5b5b8cf98e94c705b75ca5219acf",
+      "size": 2954,
+      "sha256": "be61559e1023d50540a669fbf69fb6577c7225406b31c31cc2eeafc0a363864b"
+    },
+    {
+      "path": "skills/write-japanese-math/references/interfaces.md",
+      "git_blob_sha1": "0012e1b888cfec7ced0b58ab1b3ebae3381d737c",
+      "size": 1919,
+      "sha256": "43712280d9083189b0efd56d6fe28975f0cf3dcb0a8dd2ce8c4ded86b7708ca8"
+    },
+    {
+      "path": "skills/write-japanese-math/references/japanese-style.md",
+      "git_blob_sha1": "0866dbd1e0ff736e6c373b7932d0fc0e1d9e3425",
+      "size": 3595,
+      "sha256": "85596d327c09e94a394611c98a301e5b0e211e8ec3e80f3e4c2bc5962fcc2474"
+    },
+    {
+      "path": "skills/write-japanese-math/references/lexicon.json",
+      "git_blob_sha1": "dbeaee72b506429963bf8218eb107d61f4bb58c6",
+      "size": 73542,
+      "sha256": "fbeecbd4d9fd93526e5a249cd5cd228b217f3a1d68ca2d8f14871f1265988289"
+    },
+    {
+      "path": "skills/write-japanese-math/references/lexicon.md",
+      "git_blob_sha1": "a30fe1b8d7c34f8cb35c080b960315092ce24921",
+      "size": 26414,
+      "sha256": "4a50ccf7df5cdffe2a5cbdeeb205d59d43ead3b34ac8bce416934a01418174d7"
+    },
+    {
+      "path": "skills/write-japanese-math/references/paper-writing.md",
+      "git_blob_sha1": "39d98a757c72246af646f3f1cfbf4f7798f3ed4e",
+      "size": 5476,
+      "sha256": "c9bd75448faa5878faf611146915d272c750c0b800eb566da7e1522dec27ac6f"
+    },
+    {
+      "path": "skills/write-japanese-math/references/proof-detail.md",
+      "git_blob_sha1": "cc6e69214a93b14a09d784a287a761ff2027560e",
+      "size": 1783,
+      "sha256": "8afd202f44ae9949d71a6517bef262f73d9e72e1971de8e67c0841d9e8ebcb73"
+    },
+    {
+      "path": "skills/write-japanese-math/references/proof-passages.json",
+      "git_blob_sha1": "6fb17db76be4f7f3c61ef07ebae625f2cfa4358b",
+      "size": 151165,
+      "sha256": "1a86c79c31dc8c06aa251c1bb8369cac198a3f8f65b7f643aeaef567ad0ba5b3"
+    },
+    {
+      "path": "skills/write-japanese-math/references/proof-passages.md",
+      "git_blob_sha1": "ebe757dcde483736db8ec7d8d5c8fd5e0e604393",
+      "size": 73110,
+      "sha256": "514cffb6eb9843fad8f70b3e0479cfc8b2ef59a6644a5be14e6d5693179e2589"
+    },
+    {
+      "path": "skills/write-japanese-math/references/revision-guide.md",
+      "git_blob_sha1": "dd8d07cb969e0b458e4d2a1a1f286c72cb5a87fe",
+      "size": 3530,
+      "sha256": "9ea453116d4a869f10c4713ece9c25bd3f0b7723975cadcb6efd0d4930cdbce2"
+    },
+    {
+      "path": "skills/write-japanese-math/references/search-aliases.json",
+      "git_blob_sha1": "994cd5c1a42888d4c2d2e13244c5d94963d428fe",
+      "size": 1020,
+      "sha256": "5e4e3e88c6230ef3509f98cfeab69ac7b22955721313b7f3fad5645ad7c7cc9a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/tex.md",
+      "git_blob_sha1": "9ef1c9042a5d308e32bc95b1160628fdc05e8587",
+      "size": 2428,
+      "sha256": "d58012c06bb98bfb9557de02de3dac92d9d27ff35146c9be24d687addc8e8795"
+    },
+    {
+      "path": "skills/write-japanese-math/references/upstream-manifest.json",
+      "git_blob_sha1": "acf2caf3a1ed32e0c14061e24bbe95e70cd3532f",
+      "size": 1056,
+      "sha256": "e90e9b91f41613d9498106748565625a337f18cb0334cb5d0658b61c423c552a"
+    },
+    {
+      "path": "skills/write-japanese-math/references/workflow.md",
+      "git_blob_sha1": "852f4b135f82ed6a81621085ca888c24db67f757",
+      "size": 2614,
+      "sha256": "deb237addebb4ddf5557811137d307c567941ed14164091f2cb4e4149fe0860d"
+    },
+    {
+      "path": "skills/write-japanese-math/scripts/corpus.py",
+      "git_blob_sha1": "1617a9a5d548e9026290f4ee8a6783781a789110",
+      "size": 11303,
+      "sha256": "3fcfb67f9551c9ed1b22a5be94363d5ee63d70c757ec711beec800397b3ca9a8"
+    },
+    {
+      "path": "skills/write-japanese-math/scripts/proof_passages.py",
+      "git_blob_sha1": "c7e4e3350ef2b8980cbf154ed5d64db89f0ffec5",
+      "size": 8402,
+      "sha256": "f2b012cd7446a849f68e97a37ba3f1a01d2306fbe87d274223aa1f762bc13364"
+    },
+    {
+      "path": "skills/write-japanese-math/scripts/rebuild_corpus.py",
+      "git_blob_sha1": "e62ed88ddc658a48012237d7033145f30145a0f9",
+      "size": 5621,
+      "sha256": "7f947447af2ab834588acc38b67cd7b9edc95523ed9830e061f385999fa899ef"
+    },
+    {
+      "path": "skills/write-japanese-math/scripts/tests/test_corpus.py",
+      "git_blob_sha1": "f6a0b333a8d051b9c96a780e2a0b0e612f2a3d24",
+      "size": 4148,
+      "sha256": "a3b5011286fb4c419e471d8355e2cee8e9ddcbc25ca069ee89e43c0e8a59a546"
+    },
+    {
+      "path": "skills/write-japanese-math/scripts/tests/test_proof_passages.py",
+      "git_blob_sha1": "394a74b5af54c1ad7c0c709c5d7b11c41a64ad2f",
+      "size": 3334,
+      "sha256": "4bcf618d6bd3ba542ff9f4c13462b5e76193d15538f6a97b082db1119b966221"
+    },
+    {
+      "path": "skills/write-japanese-math/scripts/tests/test_search_aliases.py",
+      "git_blob_sha1": "22adbad6ed38ce000ced5de136b8c9add2d4cc39",
+      "size": 837,
+      "sha256": "6735537c6aba7554913a07b035acad2afe4e50a4cf7cb041e7558637ac767547"
+    },
+    {
+      "path": "viewer/build.py",
+      "git_blob_sha1": "843bb7a762651b11ee49eb8768421667c2e7bcab",
+      "size": 1021,
+      "sha256": "37a37e7dc612052e91ff7436909d0e0bc7b2e8d0183c88e24fec61254701f1d5"
+    },
+    {
+      "path": "viewer/dist/app.js",
+      "git_blob_sha1": "8d40030e649232a99d799e7a451ad6ceea70d3a5",
+      "size": 15279,
+      "sha256": "e9f8004c1b011137f3515720249860f47ff0c37fb4152d1e4001214c0587ed46"
+    },
+    {
+      "path": "viewer/dist/corpus-data.json",
+      "git_blob_sha1": "eedfd4dbd8adce93da6cb0a9b3d24896baccdc4f",
+      "size": 8987082,
+      "sha256": "09b4fe7118eafdd43c2b5c4d548044b1177866ee14f06e7d5ae7aa04c0bc398d"
+    },
+    {
+      "path": "viewer/dist/index.html",
+      "git_blob_sha1": "db3595a8cbd655f6e653624fa0f12e9d9b64b33c",
+      "size": 4639,
+      "sha256": "58b1fbf5827b0a3263dd0a503e66c6c44ebb23ec4ec7b8f6c970b16b2ac988e8"
+    },
+    {
+      "path": "viewer/dist/style.css",
+      "git_blob_sha1": "1acdde9d7ac50254889e34b151b78b278b7ca088",
+      "size": 3233,
+      "sha256": "c767cc75345bf6380998e51297b1d47576c93b327be6b0bb316efa78e0c09fef"
+    },
+    {
+      "path": "viewer/serve.py",
+      "git_blob_sha1": "b03197f57d33de0c65f23bda7db6ee8f71c5a0cb",
+      "size": 964,
+      "sha256": "f104f96b6244484c1c210678e6c61872669c7160caff8815caaf26ae28c79ebf"
+    },
+    {
+      "path": "viewer/tests/purpose-filter.cjs",
+      "git_blob_sha1": "b9dbc960a623ad4ccab822f03c32eac5a0f48dcc",
+      "size": 3336,
+      "sha256": "019893a3e74baf5a5cce15cd9100874664e6e35cd5f534a7515317c5d63a2792"
+    },
+    {
+      "path": "検索.command",
+      "git_blob_sha1": "1399df3671d84ddbea137362aa1de15969b50bda",
+      "size": 61,
+      "sha256": "1f03c110304353f5284edf8007185d26bd11d71709b0d360a70503e704f27b2e"
+    }
+  ]
+}
