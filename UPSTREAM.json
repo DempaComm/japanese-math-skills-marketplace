@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/DempaComm/japanese-math-skills",
-  "revision": "5b923553f84c64530a62cbe5616f6f655413ffe4",
+  "revision": "ae806c56fff2c8edaad307cec9e22c9ad6900baf",
   "plugin": "japanese-math-skills",
-  "plugin_version": "0.1.0",
+  "plugin_version": "0.1.1",
   "files": [
     {
       "path": ".gitignore",
@@ -30,9 +30,9 @@
     },
     {
       "path": "README.md",
-      "git_blob_sha1": "ea3413d030b1ac8748c7b9ca95e9eca714aba679",
-      "size": 6680,
-      "sha256": "4fc1658f7a05c9b049c87b0a5c2fb2e075f7f621c9fe57a1ae9b9cab5384b62f"
+      "git_blob_sha1": "ef16363c33c62103dab9998e0d422ed27692f503",
+      "size": 8065,
+      "sha256": "d3156b4131e1db0bfab56343dedf54e847746944f01115fdcef9559981b665a3"
     },
     {
       "path": "VERSION",
@@ -66,9 +66,9 @@
     },
     {
       "path": "release-manifest.json",
-      "git_blob_sha1": "55f0490dc97c19ddd78c47cb0d6f01a7e0ed7742",
+      "git_blob_sha1": "3e832db26a7812346d925059cb1a4440af79152b",
       "size": 30946,
-      "sha256": "38728c53f0b5c5d0763ff9da429df831689647f41df0c2d38a200bcf3052f332"
+      "sha256": "5c71c376fd0037ba1576fe64753f8e79af0b338411650ef63279edfccff8690e"
     },
     {
       "path": "scripts/build_release.py",

@@ -26,7 +26,7 @@ codex plugin list --marketplace dempacomm --json
 
 ## Included plugin
 
-`japanese-math-skills` version **0.1.0** installs both skills together:
+`japanese-math-skills` version **0.1.1** installs both skills together:
 
 | Skill | Purpose |
 | --- | --- |
@@ -53,7 +53,7 @@ automatically follow changes in the source repository.
 ## Source and license
 
 The source is [DempaComm/japanese-math-skills](https://github.com/DempaComm/japanese-math-skills)
-at public commit `5b923553f84c64530a62cbe5616f6f655413ffe4` (v0.1.0).
+at public commit `ae806c56fff2c8edaad307cec9e22c9ad6900baf`.
 [UPSTREAM.json](UPSTREAM.json) records the revision, Git blob identities, and
 SHA-256 hashes. All 237 imported files are preserved byte for byte; the plugin
 manifest and icon are additions. Local revision cases, chat history, and

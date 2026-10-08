@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-10-08
+
+- Sync the public source to commit `ae806c56fff2c8edaad307cec9e22c9ad6900baf`.
+- Add marketplace links, installation commands, and update instructions to the
+  bundled skill README; refresh its source-release hash.
+
 ## 0.1.0 — 2026-10-08
 
 - Initial DempaComm marketplace with Japanese writing and independent-review skills.

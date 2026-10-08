@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "japanese-math-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "日本語数学文書の執筆・改稿、明示的に委任された独立した文章レビュー、出典付き用例コーパスの検索。",
   "author": {
     "name": "DempaComm",

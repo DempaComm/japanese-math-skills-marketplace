@@ -27,7 +27,7 @@ codex plugin list --marketplace dempacomm --json
 
 ## 収録内容
 
-プラグイン `japanese-math-skills` **0.1.0** に、次の2スキルを同梱しています。
+プラグイン `japanese-math-skills` **0.1.1** に、次の2スキルを同梱しています。
 
 | スキル | 用途 |
 | --- | --- |
@@ -53,7 +53,7 @@ codex plugin add japanese-math-skills@dempacomm
 ## 出典とライセンス
 
 取得元は [DempaComm/japanese-math-skills](https://github.com/DempaComm/japanese-math-skills)
-の公開コミット `5b923553f84c64530a62cbe5616f6f655413ffe4`（v0.1.0）です。
+の公開コミット `ae806c56fff2c8edaad307cec9e22c9ad6900baf`です。
 [UPSTREAM.json](UPSTREAM.json)に取得コミット、Git blob の識別子、SHA-256を記録し、
 公開済みの237ファイルを無改変で同梱しています。プラグイン定義とアイコンを追加しました。
 

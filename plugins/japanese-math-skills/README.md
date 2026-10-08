@@ -17,7 +17,8 @@
 全文を毎回読み込まず、文脈別表現と検索スクリプトを使う。
 独立レビューは執筆者の作業履歴を渡さずに開始する必要がある。
 
-`skills/` の2フォルダを同じスキル探索ディレクトリに配置して使う。
+[DempaComm marketplace](https://github.com/DempaComm/japanese-math-skills-marketplace)
+から2スキルとコーパスをまとめて導入できます。手順は[導入](#導入)を参照してください。
 初版 **v0.1.0**。ライセンスと適用範囲は [LICENSE.md](LICENSE.md)、著作者・出典・加工内容は [ATTRIBUTION.md](ATTRIBUTION.md) を参照。
 
 コーパスは34の文章上の役割を整理し、34件の用法確認済み例と408件の自動候補を分けている。改行をまたぐ検索、分野・定理環境による絞り込み、重複除外に対応する。詳しくは [コーパスの読み方](skills/write-japanese-math/references/corpus-method.md) と [文脈別辞書](skills/write-japanese-math/references/lexicon.md) を参照。
@@ -64,9 +65,38 @@ python3 viewer/serve.py
 
 ## 導入
 
+### Codex marketplaceから導入する
+
+[DempaComm marketplace](https://github.com/DempaComm/japanese-math-skills-marketplace)
+から **Japanese Math Skills** を導入すると、2スキルと用例コーパスを一緒に使えます。
+`codex plugin` に対応する Codex CLI で、次を実行します。
+
+```sh
+codex plugin marketplace add DempaComm/japanese-math-skills-marketplace
+codex plugin add japanese-math-skills@dempacomm
+```
+
+導入後は新しいチャットを開始してください。marketplaceを登録した後は、
+対応するアプリのプラグイン一覧で **DempaComm** を選び、
+**Japanese Math Skills** をインストールすることもできます。
+詳しくは[marketplaceの導入案内](https://github.com/DempaComm/japanese-math-skills-marketplace#導入)を参照してください。
+
+更新は次のコマンドで行い、新しいチャットを開始します。
+
+```sh
+codex plugin marketplace upgrade dempacomm
+codex plugin add japanese-math-skills@dempacomm
+```
+
+marketplace版は公開コミットのスナップショットなので、このリポジトリの変更は自動反映されません。
+
+### ZIPで手動導入する
+
 ZIPを展開し、`skills/write-japanese-math` と `skills/read-japanese-math` の2フォルダを、利用環境のスキル探索ディレクトリに一緒にコピーします。レビュー用スキルが執筆基準を参照するため、2フォルダを隣接させてください。既存の同名スキルがある場合は、先に退避してから更新してください。ライセンスと出典の表示は各フォルダ内にも同梱しています。
 
-検索ツールには **Python 3.10以上**が必要です。追加PythonパッケージやTeXのインストールは不要です。閲覧にはJavaScriptが有効なブラウザを使います。展開したパッケージのルートで起動してください。
+### コーパス検索ツール
+
+検索ツールには **Python 3.10以上**が必要です。追加PythonパッケージやTeXのインストールは不要です。閲覧にはJavaScriptが有効なブラウザを使います。検索・閲覧コマンドは、このREADMEがあるパッケージのルートで実行してください。
 
 ```sh
 python3 viewer/serve.py
